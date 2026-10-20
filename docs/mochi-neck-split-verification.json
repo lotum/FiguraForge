@@ -1,0 +1,3265 @@
+{
+  "470": {
+    "project": "benchmarks/mochi-neck-split-20261018/production-470-final/Mochi-470mm-Hals-geteilt-3-Platten.3mf",
+    "project_sha256": "d862c3ab04dfa748de4c94bda9f9fe30f06b7648259c6d15ba4a90f1201557ae",
+    "height_mm": 470,
+    "construction": {
+      "height_mm": 470,
+      "source_user_file": "benchmarks/mochi-user-edition-20261018/Mochi-Richards-Anpassungen-180mm-ORIGINAL.3mf",
+      "source_user_sha256": "4197d3b9bbd3dff88fe65bacc47bc0448c0d76530c56b66d221760318df73508",
+      "original_modified": false,
+      "parts": [
+        {
+          "id": "torso",
+          "name": "Mochi · Rumpf mit Halsaufnahme",
+          "color": "#805947",
+          "color_index": 0,
+          "role": "body",
+          "dimensions_mm": [
+            232.939,
+            327.544,
+            297.167
+          ],
+          "bounds_mm": [
+            [
+              -116.469,
+              -149.111,
+              0.0
+            ],
+            [
+              116.469,
+              178.433,
+              297.167
+            ]
+          ],
+          "volume_mm3": 5306646.283,
+          "faces": 91578,
+          "watertight": true,
+          "winding_consistent": true,
+          "assembly_direction": null,
+          "connectors": [],
+          "warnings": [],
+          "filament_id": null
+        },
+        {
+          "id": "head",
+          "name": "Mochi · Kopf mit Halsaufnahme",
+          "color": "#805947",
+          "color_index": 0,
+          "role": "neck-head",
+          "dimensions_mm": [
+            231.83,
+            194.056,
+            188.0
+          ],
+          "bounds_mm": [
+            [
+              -116.023,
+              -178.433,
+              282.0
+            ],
+            [
+              115.807,
+              15.623,
+              470.0
+            ]
+          ],
+          "volume_mm3": 3146719.021,
+          "faces": 207670,
+          "watertight": true,
+          "winding_consistent": true,
+          "assembly_direction": null,
+          "connectors": [],
+          "warnings": [],
+          "filament_id": null
+        },
+        {
+          "id": "neck-key",
+          "name": "Asymmetrischer Halsverbinder",
+          "color": "#272729",
+          "color_index": 0,
+          "role": "loose-key",
+          "dimensions_mm": [
+            20.0,
+            28.0,
+            36.0
+          ],
+          "bounds_mm": [
+            [
+              -10.0,
+              -84.5,
+              264.0
+            ],
+            [
+              10.0,
+              -56.5,
+              300.0
+            ]
+          ],
+          "volume_mm3": 19170.79,
+          "faces": 60,
+          "watertight": true,
+          "winding_consistent": true,
+          "assembly_direction": null,
+          "connectors": [],
+          "warnings": [],
+          "filament_id": null
+        },
+        {
+          "id": "nose",
+          "name": "Mochi · schwarze Nase",
+          "color": "#272729",
+          "color_index": 1,
+          "role": "color-body",
+          "dimensions_mm": [
+            25.45,
+            14.843,
+            20.617
+          ],
+          "bounds_mm": [
+            [
+              -12.788,
+              -181.043,
+              327.702
+            ],
+            [
+              12.661,
+              -166.2,
+              348.319
+            ]
+          ],
+          "volume_mm3": 2129.088,
+          "faces": 7058,
+          "watertight": true,
+          "winding_consistent": true,
+          "assembly_direction": [
+            0.0027556853884266024,
+            -0.9483251935082926,
+            0.31728809236323313
+          ],
+          "connectors": [
+            {
+              "shape": "keyed",
+              "diameter_mm": 3.0,
+              "nominal_length_mm": 3,
+              "radial_clearance_mm": 0.05,
+              "position_mm": [
+                -0.055,
+                -63.56,
+                128.575
+              ],
+              "requires_calibration": true,
+              "interface": 0
+            }
+          ],
+          "warnings": [
+            "Shared color-boundary caps have no surface gap. Confirm physical fit and assembly sequence."
+          ],
+          "filament_id": null
+        },
+        {
+          "id": "eye-1",
+          "name": "Mochi · schwarzer Augeneinsatz 1",
+          "color": "#272729",
+          "color_index": 2,
+          "role": "glue-inlay",
+          "dimensions_mm": [
+            18.751,
+            6.667,
+            12.276
+          ],
+          "bounds_mm": [
+            [
+              -40.299,
+              -141.935,
+              364.664
+            ],
+            [
+              -21.548,
+              -135.268,
+              376.94
+            ]
+          ],
+          "volume_mm3": 70.466,
+          "faces": 844,
+          "watertight": true,
+          "winding_consistent": true,
+          "assembly_direction": [
+            -0.00936901902310341,
+            -0.9120650326632915,
+            -0.4099385291424237
+          ],
+          "connectors": [],
+          "warnings": [
+            "Intentional glue insert without pins. Adhesive fit and retention require a physical test.",
+            "Klebeeinsatz ohne Stift; Passung und Kleberauftrag real prüfen."
+          ],
+          "filament_id": null
+        },
+        {
+          "id": "eye-2",
+          "name": "Mochi · schwarzer Augeneinsatz 2",
+          "color": "#272729",
+          "color_index": 3,
+          "role": "glue-inlay",
+          "dimensions_mm": [
+            11.202,
+            4.5,
+            13.445
+          ],
+          "bounds_mm": [
+            [
+              -29.903,
+              -147.702,
+              352.664
+            ],
+            [
+              -18.701,
+              -143.202,
+              366.109
+            ]
+          ],
+          "volume_mm3": 258.174,
+          "faces": 1352,
+          "watertight": true,
+          "winding_consistent": true,
+          "assembly_direction": [
+            0.009462114512921211,
+            -0.9937792356119726,
+            0.11096530653960246
+          ],
+          "connectors": [],
+          "warnings": [
+            "Intentional glue insert without pins. Adhesive fit and retention require a physical test.",
+            "Klebeeinsatz ohne Stift; Passung und Kleberauftrag real prüfen."
+          ],
+          "filament_id": null
+        },
+        {
+          "id": "eye-3",
+          "name": "Mochi · schwarzer Augeneinsatz 3",
+          "color": "#272729",
+          "color_index": 4,
+          "role": "glue-inlay",
+          "dimensions_mm": [
+            11.227,
+            4.479,
+            13.396
+          ],
+          "bounds_mm": [
+            [
+              18.677,
+              -147.733,
+              352.365
+            ],
+            [
+              29.905,
+              -143.254,
+              365.76
+            ]
+          ],
+          "volume_mm3": 263.497,
+          "faces": 1232,
+          "watertight": true,
+          "winding_consistent": true,
+          "assembly_direction": [
+            -0.06336626273456052,
+            -0.9929167723963861,
+            0.10050373048299178
+          ],
+          "connectors": [],
+          "warnings": [
+            "Intentional glue insert without pins. Adhesive fit and retention require a physical test.",
+            "Klebeeinsatz ohne Stift; Passung und Kleberauftrag real prüfen."
+          ],
+          "filament_id": null
+        },
+        {
+          "id": "eye-4",
+          "name": "Mochi · schwarzer Augeneinsatz 4",
+          "color": "#272729",
+          "color_index": 5,
+          "role": "glue-inlay",
+          "dimensions_mm": [
+            19.805,
+            6.965,
+            12.333
+          ],
+          "bounds_mm": [
+            [
+              20.929,
+              -142.006,
+              364.13
+            ],
+            [
+              40.734,
+              -135.041,
+              376.463
+            ]
+          ],
+          "volume_mm3": 86.359,
+          "faces": 1172,
+          "watertight": true,
+          "winding_consistent": true,
+          "assembly_direction": [
+            0.0738146730052237,
+            -0.9461141562514134,
+            -0.31530841630030787
+          ],
+          "connectors": [],
+          "warnings": [
+            "Intentional glue insert without pins. Adhesive fit and retention require a physical test.",
+            "Klebeeinsatz ohne Stift; Passung und Kleberauftrag real prüfen."
+          ],
+          "filament_id": null
+        }
+      ],
+      "quality": {
+        "torso": {
+          "finite": true,
+          "vertices": 45785,
+          "triangles": 91578,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_mm3": 5306646.28282,
+          "dimensions_mm": [
+            232.9388,
+            327.5444,
+            297.1665
+          ],
+          "components": 1,
+          "valid": true,
+          "self_intersections": "not exhaustively certified"
+        },
+        "head": {
+          "finite": true,
+          "vertices": 103837,
+          "triangles": 207670,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_mm3": 3146719.02077,
+          "dimensions_mm": [
+            231.8304,
+            194.0558,
+            188.0
+          ],
+          "components": 1,
+          "valid": true,
+          "self_intersections": "not exhaustively certified"
+        },
+        "neck-key": {
+          "finite": true,
+          "vertices": 32,
+          "triangles": 60,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_mm3": 19170.7904,
+          "dimensions_mm": [
+            20.0,
+            28.0,
+            36.0
+          ],
+          "components": 1,
+          "valid": true,
+          "self_intersections": "not exhaustively certified"
+        },
+        "nose": {
+          "finite": true,
+          "vertices": 3531,
+          "triangles": 7058,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_mm3": 2129.08788,
+          "dimensions_mm": [
+            25.4496,
+            14.8435,
+            20.6173
+          ],
+          "components": 1,
+          "valid": true,
+          "self_intersections": "not exhaustively certified"
+        },
+        "eye-1": {
+          "finite": true,
+          "vertices": 424,
+          "triangles": 844,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_mm3": 70.46614,
+          "dimensions_mm": [
+            18.7513,
+            6.6674,
+            12.2761
+          ],
+          "components": 1,
+          "valid": true,
+          "self_intersections": "not exhaustively certified"
+        },
+        "eye-2": {
+          "finite": true,
+          "vertices": 678,
+          "triangles": 1352,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_mm3": 258.17405,
+          "dimensions_mm": [
+            11.2023,
+            4.5002,
+            13.4449
+          ],
+          "components": 1,
+          "valid": true,
+          "self_intersections": "not exhaustively certified"
+        },
+        "eye-3": {
+          "finite": true,
+          "vertices": 618,
+          "triangles": 1232,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_mm3": 263.49672,
+          "dimensions_mm": [
+            11.2274,
+            4.4787,
+            13.3955
+          ],
+          "components": 1,
+          "valid": true,
+          "self_intersections": "not exhaustively certified"
+        },
+        "eye-4": {
+          "finite": true,
+          "vertices": 588,
+          "triangles": 1172,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_mm3": 86.359,
+          "dimensions_mm": [
+            19.8047,
+            6.9646,
+            12.3327
+          ],
+          "components": 1,
+          "valid": true,
+          "self_intersections": "not exhaustively certified"
+        }
+      },
+      "plate_placements": [
+        [
+          {
+            "part_id": "torso",
+            "transform": [
+              [
+                0.9563047559630354,
+                -0.29237170472273677,
+                0.0,
+                181.35088513730494
+              ],
+              [
+                0.29237170472273677,
+                0.9563047559630354,
+                0.0,
+                157.25357995424787
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        ],
+        [
+          {
+            "part_id": "head",
+            "transform": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                175.10826175833333
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                206.40534002222222
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -282.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        ],
+        [
+          {
+            "part_id": "nose",
+            "transform": [
+              [
+                -0.0,
+                0.3172892970815632,
+                0.9483287942256565,
+                -215.2136249947397
+              ],
+              [
+                0.9999962030918119,
+                0.00261329580167186,
+                -0.0008743494798718112,
+                50.813525621018385
+              ],
+              [
+                -0.0027556853884266024,
+                0.9483251935082926,
+                -0.31728809236323313,
+                279.3774401098155
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          {
+            "part_id": "eye-1",
+            "transform": [
+              [
+                0.0,
+                0.40995652222515483,
+                -0.9121050651570004,
+                484.81581628618613
+              ],
+              [
+                0.9999561097780966,
+                -0.008545529706524913,
+                -0.003840890455372792,
+                81.15937994370849
+              ],
+              [
+                -0.00936901902310341,
+                -0.9120650326632915,
+                -0.4099385291424237,
+                28.151682342216066
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          {
+            "part_id": "eye-2",
+            "transform": [
+              [
+                0.0,
+                -0.11097027432451818,
+                -0.993823725927461,
+                471.03936267816573
+              ],
+              [
+                0.9999552331924386,
+                0.009403673900383661,
+                -0.0010500134431888715,
+                76.04364306636121
+              ],
+              [
+                0.009462114512921211,
+                -0.9937792356119726,
+                0.11096530653960246,
+                -182.42418925780817
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          {
+            "part_id": "eye-3",
+            "transform": [
+              [
+                0.0,
+                -0.10070611563555565,
+                -0.9949162167105319,
+                512.5895696269586
+              ],
+              [
+                0.9979903390048697,
+                -0.0630441223869545,
+                0.006381370182339652,
+                14.303370944968535
+              ],
+              [
+                -0.06336626273456052,
+                -0.9929167723963861,
+                0.10050373048299178,
+                -177.49600958194807
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          {
+            "part_id": "eye-4",
+            "transform": [
+              [
+                0.0,
+                0.3161709382183024,
+                -0.9487022387589051,
+                604.9032682668983
+              ],
+              [
+                0.9972719759670039,
+                0.07002814553331224,
+                0.023338054418338774,
+                20.31895898305025
+              ],
+              [
+                0.0738146730052237,
+                -0.9461141562514134,
+                -0.31530841630030787,
+                -13.963281948942598
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          {
+            "part_id": "neck-key",
+            "transform": [
+              [
+                0.0,
+                0.0,
+                1.0,
+                -167.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                190.5
+              ],
+              [
+                -1.0,
+                0.0,
+                0.0,
+                10.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        ]
+      ],
+      "project": "benchmarks/mochi-neck-split-20261018/production-470-final/Mochi-470mm-Hals-geteilt-3-Platten.3mf",
+      "project_sha256": "d862c3ab04dfa748de4c94bda9f9fe30f06b7648259c6d15ba4a90f1201557ae",
+      "merge": {
+        "plates": 3,
+        "plate2_world_offset_mm": [
+          420.0,
+          0,
+          0
+        ],
+        "appended_plate_world_offset_mm": [
+          0.0,
+          -384.0,
+          0.0
+        ],
+        "parts_per_plate": [
+          1,
+          1,
+          6
+        ],
+        "second_plate_object_overrides": {
+          "layer_height": "0.12",
+          "raft_layers": "3",
+          "support_top_z_distance": "0.12",
+          "brim_type": "outer_only"
+        },
+        "source_geometry_and_paint_unchanged": true,
+        "global_resource_ids_unique": true,
+        "slicing_verified": false
+      },
+      "head_extraction": {
+        "method": "sampled straight extraction",
+        "samples": 16,
+        "surface_points": 1800,
+        "travel_mm": 45,
+        "max_penetration_mm": 0.0,
+        "passed": true,
+        "blocked_distances_mm": [],
+        "limitation": "Discrete surface/path sampling cannot certify absence of all collisions."
+      },
+      "key_extraction": {
+        "torso": {
+          "method": "sampled straight extraction",
+          "samples": 16,
+          "surface_points": 32,
+          "travel_mm": 45,
+          "max_penetration_mm": 0.0,
+          "passed": true,
+          "blocked_distances_mm": [],
+          "limitation": "Discrete surface/path sampling cannot certify absence of all collisions."
+        },
+        "head": {
+          "method": "sampled straight extraction",
+          "samples": 16,
+          "surface_points": 32,
+          "travel_mm": 45,
+          "max_penetration_mm": 0.0,
+          "passed": true,
+          "blocked_distances_mm": [],
+          "limitation": "Discrete surface/path sampling cannot certify absence of all collisions."
+        }
+      },
+      "socket_minimum_sampled_source_wall_mm": 26.786104202270508,
+      "physical_print_verified": false,
+      "paid_api_calls": 0,
+      "printer_communication": false
+    },
+    "parts": {
+      "torso": {
+        "triangles": 91578,
+        "native_ordered_triangle_error_mm": 8.594444466325513e-06,
+        "native_paint_exact": true,
+        "watertight": true
+      },
+      "head": {
+        "triangles": 207670,
+        "native_ordered_triangle_error_mm": 4.236111081468152e-06,
+        "native_paint_exact": true,
+        "watertight": true
+      },
+      "neck-key": {
+        "triangles": 60,
+        "native_ordered_triangle_error_mm": 1.8999999973345894e-07,
+        "native_paint_exact": true,
+        "watertight": true
+      },
+      "nose": {
+        "triangles": 7058,
+        "native_ordered_triangle_error_mm": 5.167352554735771e-07,
+        "native_paint_exact": true,
+        "watertight": true
+      },
+      "eye-1": {
+        "triangles": 844,
+        "native_ordered_triangle_error_mm": 4.7917862389113e-07,
+        "native_paint_exact": true,
+        "watertight": true
+      },
+      "eye-2": {
+        "triangles": 1352,
+        "native_ordered_triangle_error_mm": 2.404755150564597e-07,
+        "native_paint_exact": true,
+        "watertight": true
+      },
+      "eye-3": {
+        "triangles": 1232,
+        "native_ordered_triangle_error_mm": 2.40879074908662e-07,
+        "native_paint_exact": true,
+        "watertight": true
+      },
+      "eye-4": {
+        "triangles": 1172,
+        "native_ordered_triangle_error_mm": 4.7348918741363377e-07,
+        "native_paint_exact": true,
+        "watertight": true
+      }
+    },
+    "plates": [
+      {
+        "plate": 1,
+        "slice": {
+          "source": "benchmarks/mochi-neck-split-20261018/production-470-final/Mochi-470mm-Hals-geteilt-3-Platten.3mf",
+          "plate_index": 1,
+          "source_sha256": "d862c3ab04dfa748de4c94bda9f9fe30f06b7648259c6d15ba4a90f1201557ae",
+          "output": "benchmarks/mochi-neck-split-20261018/production-470-final/slice-plate-1",
+          "command": [
+            "/Applications/BambuStudio.app/Contents/MacOS/BambuStudio",
+            "--normative-check=0",
+            "--slice",
+            "1",
+            "--arrange",
+            "0",
+            "--orient",
+            "0",
+            "--outputdir",
+            "benchmarks/mochi-neck-split-20261018/production-470-final/slice-plate-1",
+            "--export-3mf",
+            "sliced.3mf",
+            "benchmarks/mochi-neck-split-20261018/production-470-final/Mochi-470mm-Hals-geteilt-3-Platten.3mf"
+          ],
+          "exit_code": 0,
+          "passed": true,
+          "validity_checks_not_disabled": true,
+          "gcode_path_validation_verified": false,
+          "print_ready": false,
+          "makerworld_normative_checks_enabled": false,
+          "printer_communication": false,
+          "physical_print_verified": false,
+          "result": {
+            "error_string": "Success.",
+            "export_time": 9782,
+            "layer_height": 0.1599999964237213,
+            "plate_index": 1,
+            "prepare_time": 294,
+            "return_code": 0,
+            "sliced_plates": [
+              {
+                "feature_type_times": {
+                  "Bridge": 524.097412109375,
+                  "Brim": 2.688749313354492,
+                  "Custom": 302.8580627441406,
+                  "Flush": 7040.880859375,
+                  "Gap infill": 444.2068786621094,
+                  "Inner wall": 21402.21484375,
+                  "Internal solid infill": 7709.4833984375,
+                  "Outer wall": 27281.724609375,
+                  "Overhang wall": 820.3267211914062,
+                  "Prime tower": 21782.625,
+                  "Sparse infill": 2490.884765625,
+                  "Support": 5254.36474609375,
+                  "Support interface": 393.3660583496094,
+                  "Top surface": 250.78012084960938,
+                  "Travel": 18288.310546875,
+                  "Undefined": 18286.740234375
+                },
+                "filament_change_times": 0,
+                "filaments": [
+                  {
+                    "filament_id": "GFL99",
+                    "id": 1,
+                    "main_used_g": 302.50714111328125,
+                    "total_used_g": 398.8092956542969
+                  },
+                  {
+                    "filament_id": "GFA00",
+                    "id": 2,
+                    "main_used_g": 89.70048522949219,
+                    "total_used_g": 137.58091735839844
+                  }
+                ],
+                "generate_support_material_time": 15072,
+                "id": 1,
+                "infill_time": 13300,
+                "layer_filament_change": 0,
+                "main_predication": 84586.671875,
+                "make_perimeters_time": 11506,
+                "obj_cached_cnt": 0,
+                "objects": [
+                  {
+                    "bbox": {
+                      "depth": 298.1347351074219,
+                      "height": 297.16650390625,
+                      "width": 280.6256103515625,
+                      "x": 34.68719482421875,
+                      "y": 10.932632446289062,
+                      "z": 4.6874987447154126e-08
+                    },
+                    "id": 5,
+                    "name": "torso",
+                    "triangle_count": 91578
+                  }
+                ],
+                "sliced_time": 59472,
+                "sliced_time_with_cache": 17432,
+                "total_predication": 113737.46875,
+                "triangle_count": 91578,
+                "warning_message": ""
+              }
+            ],
+            "sparse_infill_density": 5.0,
+            "upward_compatible_machine": [
+              "Bambu Lab H2D Pro 0.4 nozzle"
+            ],
+            "wall_loops": 2
+          },
+          "gcode_sha256": "23522ba10704e470a85854884724407f023d0ad0884959c36f3b0dd047d52ebb"
+        },
+        "footprints": {
+          "source": "benchmarks/mochi-neck-split-20261018/production-470-final/slice-plate-1/plate_1.gcode",
+          "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+          "passed": true,
+          "tolerance_mm": 0.02,
+          "conflict_counts": {},
+          "examples": [],
+          "extrusion_segments": 4971751,
+          "z_groups": 1856,
+          "unsupported_arcs": 0,
+          "arc_chord_error_limit_mm": 0.005,
+          "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+          "single_object_owner_evidence": {
+            "sidecar": "benchmarks/mochi-neck-split-20261018/production-470-final/slice-plate-1/result.json",
+            "object_id": 5,
+            "name": "torso",
+            "objects": 1
+          },
+          "ignored_nonprinting_arc_commands": 29539,
+          "gcode_sha256": "23522ba10704e470a85854884724407f023d0ad0884959c36f3b0dd047d52ebb",
+          "owner_extrusion_xy_bounds_mm": {
+            "-2": [
+              241.271,
+              236.273,
+              309.894,
+              301.497
+            ],
+            "5": [
+              34.4798495,
+              10.7498495,
+              315.5331505,
+              309.2791505
+            ]
+          },
+          "globally_overlapping_owner_ids": [
+            -2,
+            5
+          ],
+          "wall_time_seconds": 33.07512308296282
+        }
+      },
+      {
+        "plate": 2,
+        "slice": {
+          "source": "benchmarks/mochi-neck-split-20261018/production-470-final/Mochi-470mm-Hals-geteilt-3-Platten.3mf",
+          "plate_index": 2,
+          "source_sha256": "d862c3ab04dfa748de4c94bda9f9fe30f06b7648259c6d15ba4a90f1201557ae",
+          "output": "benchmarks/mochi-neck-split-20261018/production-470-final/slice-plate-2",
+          "command": [
+            "/Applications/BambuStudio.app/Contents/MacOS/BambuStudio",
+            "--normative-check=0",
+            "--slice",
+            "2",
+            "--arrange",
+            "0",
+            "--orient",
+            "0",
+            "--outputdir",
+            "benchmarks/mochi-neck-split-20261018/production-470-final/slice-plate-2",
+            "--export-3mf",
+            "sliced.3mf",
+            "benchmarks/mochi-neck-split-20261018/production-470-final/Mochi-470mm-Hals-geteilt-3-Platten.3mf"
+          ],
+          "exit_code": 0,
+          "passed": true,
+          "validity_checks_not_disabled": true,
+          "gcode_path_validation_verified": false,
+          "print_ready": false,
+          "makerworld_normative_checks_enabled": false,
+          "printer_communication": false,
+          "physical_print_verified": false,
+          "result": {
+            "error_string": "Success.",
+            "export_time": 8810,
+            "layer_height": 0.1599999964237213,
+            "plate_index": 2,
+            "prepare_time": 355,
+            "return_code": 0,
+            "sliced_plates": [
+              {
+                "feature_type_times": {
+                  "Bottom surface": 63.96860885620117,
+                  "Bridge": 244.22195434570312,
+                  "Custom": 304.085693359375,
+                  "Flush": 5601.65576171875,
+                  "Gap infill": 305.6195068359375,
+                  "Inner wall": 11541.7158203125,
+                  "Internal solid infill": 7224.04052734375,
+                  "Outer wall": 16111.0322265625,
+                  "Overhang wall": 1294.159912109375,
+                  "Prime tower": 15504.171875,
+                  "Sparse infill": 3206.971923828125,
+                  "Support": 7847.908203125,
+                  "Support interface": 124.78314971923828,
+                  "Top surface": 152.43026733398438,
+                  "Travel": 16540.662109375,
+                  "Undefined": 16539.298828125
+                },
+                "filament_change_times": 0,
+                "filaments": [
+                  {
+                    "filament_id": "GFL99",
+                    "id": 1,
+                    "main_used_g": 195.75596618652344,
+                    "total_used_g": 256.7424011230469
+                  },
+                  {
+                    "filament_id": "GFA00",
+                    "id": 2,
+                    "main_used_g": 115.4015884399414,
+                    "total_used_g": 154.93878173828125
+                  }
+                ],
+                "generate_support_material_time": 13226,
+                "id": 2,
+                "infill_time": 11607,
+                "layer_filament_change": 0,
+                "main_predication": 64415.9765625,
+                "make_perimeters_time": 8981,
+                "obj_cached_cnt": 0,
+                "objects": [
+                  {
+                    "bbox": {
+                      "depth": 194.05584716796875,
+                      "height": 188.0,
+                      "width": 231.83038330078125,
+                      "x": 479.0848083496094,
+                      "y": 27.972076416015625,
+                      "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "head",
+                    "triangle_count": 207670
+                  }
+                ],
+                "sliced_time": 49530,
+                "sliced_time_with_cache": 13755,
+                "total_predication": 85850.53125,
+                "triangle_count": 207670,
+                "warning_message": ""
+              }
+            ],
+            "sparse_infill_density": 5.0,
+            "upward_compatible_machine": [
+              "Bambu Lab H2D Pro 0.4 nozzle"
+            ],
+            "wall_loops": 2
+          },
+          "gcode_sha256": "293cf075ddbe1d9af28b8e44f710db183fe231943fe33c592878eb54aead858b"
+        },
+        "footprints": {
+          "source": "benchmarks/mochi-neck-split-20261018/production-470-final/slice-plate-2/plate_2.gcode",
+          "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+          "passed": true,
+          "tolerance_mm": 0.02,
+          "conflict_counts": {},
+          "examples": [],
+          "extrusion_segments": 4045435,
+          "z_groups": 1174,
+          "unsupported_arcs": 0,
+          "arc_chord_error_limit_mm": 0.005,
+          "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+          "single_object_owner_evidence": {
+            "sidecar": "benchmarks/mochi-neck-split-20261018/production-470-final/slice-plate-2/result.json",
+            "object_id": 9,
+            "name": "head",
+            "objects": 1
+          },
+          "ignored_nonprinting_arc_commands": 35858,
+          "gcode_sha256": "293cf075ddbe1d9af28b8e44f710db183fe231943fe33c592878eb54aead858b",
+          "owner_extrusion_xy_bounds_mm": {
+            "-2": [
+              241.26,
+              236.271,
+              293.776,
+              286.705
+            ],
+            "9": [
+              44.724559,
+              24.605559,
+              296.482441,
+              222.242441
+            ]
+          },
+          "globally_overlapping_owner_ids": [],
+          "wall_time_seconds": 25.327782874926925
+        }
+      },
+      {
+        "plate": 3,
+        "slice": {
+          "source": "benchmarks/mochi-neck-split-20261018/production-470-final/Mochi-470mm-Hals-geteilt-3-Platten.3mf",
+          "plate_index": 3,
+          "source_sha256": "d862c3ab04dfa748de4c94bda9f9fe30f06b7648259c6d15ba4a90f1201557ae",
+          "output": "benchmarks/mochi-neck-split-20261018/production-470-final/slice-plate-3",
+          "command": [
+            "/Applications/BambuStudio.app/Contents/MacOS/BambuStudio",
+            "--normative-check=0",
+            "--slice",
+            "3",
+            "--arrange",
+            "0",
+            "--orient",
+            "0",
+            "--outputdir",
+            "benchmarks/mochi-neck-split-20261018/production-470-final/slice-plate-3",
+            "--export-3mf",
+            "sliced.3mf",
+            "benchmarks/mochi-neck-split-20261018/production-470-final/Mochi-470mm-Hals-geteilt-3-Platten.3mf"
+          ],
+          "exit_code": 0,
+          "passed": true,
+          "validity_checks_not_disabled": true,
+          "gcode_path_validation_verified": false,
+          "print_ready": false,
+          "makerworld_normative_checks_enabled": false,
+          "printer_communication": false,
+          "physical_print_verified": false,
+          "result": {
+            "error_string": "Success.",
+            "export_time": 550,
+            "layer_height": 0.1599999964237213,
+            "plate_index": 3,
+            "prepare_time": 255,
+            "return_code": 0,
+            "sliced_plates": [
+              {
+                "feature_type_times": {
+                  "Bottom surface": 23.233795166015625,
+                  "Bridge": 33.3641242980957,
+                  "Brim": 25.734355926513672,
+                  "Custom": 309.9630432128906,
+                  "Flush": 26.0,
+                  "Gap infill": 37.45425796508789,
+                  "Inner wall": 530.1181640625,
+                  "Internal solid infill": 283.5528259277344,
+                  "Outer wall": 604.1783447265625,
+                  "Overhang wall": 52.86329650878906,
+                  "Sparse infill": 1664.8455810546875,
+                  "Support": 227.427734375,
+                  "Support interface": 32.22045135498047,
+                  "Top surface": 45.09829330444336,
+                  "Travel": 454.57232666015625,
+                  "Undefined": 445.6063232421875
+                },
+                "filament_change_times": 0,
+                "filaments": [
+                  {
+                    "filament_id": "GFL99",
+                    "id": 3,
+                    "main_used_g": 25.953426361083984,
+                    "total_used_g": 25.953426361083984
+                  }
+                ],
+                "generate_support_material_time": 203,
+                "id": 3,
+                "infill_time": 205,
+                "layer_filament_change": 0,
+                "main_predication": 3988.453125,
+                "make_perimeters_time": 157,
+                "obj_cached_cnt": 0,
+                "objects": [
+                  {
+                    "bbox": {
+                      "depth": 28.0,
+                      "height": 20.0,
+                      "width": 36.0,
+                      "x": 97.0,
+                      "y": -278.0,
+                      "z": 0.0
+                    },
+                    "id": 13,
+                    "name": "neck-key",
+                    "triangle_count": 60
+                  },
+                  {
+                    "bbox": {
+                      "depth": 25.449752807617188,
+                      "height": 14.237887382507324,
+                      "width": 21.15678596496582,
+                      "x": 39.421607971191406,
+                      "y": -346.7248840332031,
+                      "z": -1.2536620630498874e-09
+                    },
+                    "id": 17,
+                    "name": "nose",
+                    "triangle_count": 7058
+                  },
+                  {
+                    "bbox": {
+                      "depth": 18.729551315307617,
+                      "height": 4.583826065063477,
+                      "width": 11.548022270202637,
+                      "x": 84.22599029541016,
+                      "y": -343.3647766113281,
+                      "z": -2.5317383745004918e-09
+                    },
+                    "id": 21,
+                    "name": "eye-1",
+                    "triangle_count": 844
+                  },
+                  {
+                    "bbox": {
+                      "depth": 11.179445266723633,
+                      "height": 3.810525417327881,
+                      "width": 13.258190155029297,
+                      "x": 123.37090301513672,
+                      "y": -339.5897216796875,
+                      "z": 1.3360594852684926e-09
+                    },
+                    "id": 25,
+                    "name": "eye-2",
+                    "triangle_count": 1352
+                  },
+                  {
+                    "bbox": {
+                      "depth": 11.076287269592285,
+                      "height": 3.5810325145721436,
+                      "width": 13.210761070251465,
+                      "x": 163.39462280273438,
+                      "y": -339.53814697265625,
+                      "z": 2.7139281932875292e-09
+                    },
+                    "id": 29,
+                    "name": "eye-3",
+                    "triangle_count": 1232
+                  },
+                  {
+                    "bbox": {
+                      "depth": 19.68994140625,
+                      "height": 4.30744743347168,
+                      "width": 11.949644088745117,
+                      "x": 204.02517700195312,
+                      "y": -343.844970703125,
+                      "z": 3.264160053362275e-09
+                    },
+                    "id": 33,
+                    "name": "eye-4",
+                    "triangle_count": 1172
+                  }
+                ],
+                "sliced_time": 1507,
+                "sliced_time_with_cache": 867,
+                "total_predication": 4341.4501953125,
+                "triangle_count": 11718,
+                "warning_message": ""
+              }
+            ],
+            "sparse_infill_density": 5.0,
+            "upward_compatible_machine": [
+              "Bambu Lab H2D Pro 0.4 nozzle"
+            ],
+            "wall_loops": 2
+          },
+          "gcode_sha256": "11e3127c54a471d74e9fe3d0fa67c9ac426971b2f5ff837005c77e2aa8c2fc1e"
+        },
+        "footprints": {
+          "source": "benchmarks/mochi-neck-split-20261018/production-470-final/slice-plate-3/plate_3.gcode",
+          "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+          "passed": true,
+          "tolerance_mm": 0.02,
+          "conflict_counts": {},
+          "examples": [],
+          "extrusion_segments": 100928,
+          "z_groups": 287,
+          "unsupported_arcs": 0,
+          "arc_chord_error_limit_mm": 0.005,
+          "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+          "ignored_nonprinting_arc_commands": 723,
+          "gcode_sha256": "11e3127c54a471d74e9fe3d0fa67c9ac426971b2f5ff837005c77e2aa8c2fc1e",
+          "owner_extrusion_xy_bounds_mm": {
+            "200": [
+              93.56641900000001,
+              103.154419,
+              136.433581,
+              134.093581
+            ],
+            "201": [
+              39.4329325,
+              37.2079325,
+              60.6800675,
+              62.8840675
+            ],
+            "202": [
+              81.281473,
+              37.388473,
+              98.278527,
+              61.72552700000001
+            ],
+            "203": [
+              120.494209,
+              41.287209,
+              139.541791,
+              59.677791
+            ],
+            "204": [
+              159.9713755,
+              41.2813755,
+              179.6056245,
+              59.2886245
+            ],
+            "205": [
+              200.9755135,
+              37.6675135,
+              217.9604865,
+              62.9064865
+            ]
+          },
+          "globally_overlapping_owner_ids": [],
+          "wall_time_seconds": 0.7177084579598159
+        }
+      }
+    ],
+    "native_save_reload": {
+      "1": {
+        "passed": true,
+        "parts": {
+          "torso": {
+            "triangles": 91578,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "head": {
+            "triangles": 207670,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "neck-key": {
+            "triangles": 60,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "nose": {
+            "triangles": 7058,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "eye-1": {
+            "triangles": 844,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "eye-2": {
+            "triangles": 1352,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "eye-3": {
+            "triangles": 1232,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "eye-4": {
+            "triangles": 1172,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          }
+        }
+      },
+      "2": {
+        "passed": true,
+        "parts": {
+          "torso": {
+            "triangles": 91578,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "head": {
+            "triangles": 207670,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "neck-key": {
+            "triangles": 60,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "nose": {
+            "triangles": 7058,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "eye-1": {
+            "triangles": 844,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "eye-2": {
+            "triangles": 1352,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "eye-3": {
+            "triangles": 1232,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "eye-4": {
+            "triangles": 1172,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          }
+        }
+      }
+    },
+    "conservation": {
+      "source_exterior_area_source_mm2": 53550.885693381315,
+      "preserved_exterior_area_source_mm2": 53550.88569338132,
+      "complex_painted_faces_original": 1034,
+      "complex_painted_faces_preserved": 1034,
+      "expected_socket_removed_source_mm3": 1303.5450697266026,
+      "actual_socket_removed_source_mm3": 1303.5450697265915,
+      "volume_error_mm3": -1.1141310096718371e-11,
+      "passed": true
+    },
+    "internal_containment": {
+      "torso": {
+        "points": 3068,
+        "max_outside_mm": 6.355287525622658e-14,
+        "passed": true
+      },
+      "head": {
+        "points": 3076,
+        "max_outside_mm": 6.355287525622658e-14,
+        "passed": true
+      }
+    },
+    "head_print_stability_advisory": {
+      "center_of_mass_mm": [
+        175.11,
+        135.445,
+        79.903
+      ],
+      "projected_support_margin_mm": 20.417,
+      "assumption": "Uniform solid density; infill, hardware, tolerances and real loads not modelled.",
+      "status": "advisory only"
+    },
+    "estimated_seconds": 203929.4501953125,
+    "estimated_g": 974.0248222351074,
+    "extrusion_segments": 9118114,
+    "solid_key_sliced_overrides": {
+      "name": "neck-key",
+      "brim_type": "outer_only",
+      "brim_width": "5",
+      "enable_support": "0",
+      "extruder": "3",
+      "layer_height": "0.12",
+      "raft_layers": "0",
+      "sparse_infill_density": "100%",
+      "sparse_infill_pattern": "cubic",
+      "support_top_z_distance": "0.12",
+      "wall_loops": "4"
+    },
+    "passed": true,
+    "physical_fit_verified": false,
+    "manual_gui_verified": false,
+    "full_nozzle_dynamics_verified": false,
+    "paid_api_calls": 0,
+    "printer_communication": false
+  },
+  "500": {
+    "project": "benchmarks/mochi-neck-split-20261018/production-500/Mochi-500mm-Hals-geteilt-3-Platten.3mf",
+    "project_sha256": "0a82d5945dc3813968f3575571b4a15cd3c272ecdfe5a9a5c96fb830d695f5fc",
+    "height_mm": 500.0,
+    "construction": {
+      "height_mm": 500.0,
+      "source_user_file": "benchmarks/mochi-user-edition-20261018/Mochi-Richards-Anpassungen-180mm-ORIGINAL.3mf",
+      "source_user_sha256": "4197d3b9bbd3dff88fe65bacc47bc0448c0d76530c56b66d221760318df73508",
+      "original_modified": false,
+      "parts": [
+        {
+          "id": "torso",
+          "name": "Mochi · Rumpf mit Halsaufnahme",
+          "color": "#805947",
+          "color_index": 0,
+          "role": "body",
+          "dimensions_mm": [
+            247.807,
+            348.452,
+            316.135
+          ],
+          "bounds_mm": [
+            [
+              -123.904,
+              -158.629,
+              0.0
+            ],
+            [
+              123.904,
+              189.823,
+              316.135
+            ]
+          ],
+          "volume_mm3": 6391121.708,
+          "faces": 91578,
+          "watertight": true,
+          "winding_consistent": true,
+          "assembly_direction": null,
+          "connectors": [],
+          "warnings": [],
+          "filament_id": null
+        },
+        {
+          "id": "head",
+          "name": "Mochi · Kopf mit Halsaufnahme",
+          "color": "#805947",
+          "color_index": 0,
+          "role": "neck-head",
+          "dimensions_mm": [
+            246.628,
+            206.442,
+            200.0
+          ],
+          "bounds_mm": [
+            [
+              -123.429,
+              -189.823,
+              300.0
+            ],
+            [
+              123.199,
+              16.62,
+              500.0
+            ]
+          ],
+          "volume_mm3": 3791228.045,
+          "faces": 207670,
+          "watertight": true,
+          "winding_consistent": true,
+          "assembly_direction": null,
+          "connectors": [],
+          "warnings": [],
+          "filament_id": null
+        },
+        {
+          "id": "neck-key",
+          "name": "Asymmetrischer Halsverbinder",
+          "color": "#272729",
+          "color_index": 0,
+          "role": "loose-key",
+          "dimensions_mm": [
+            20.0,
+            28.0,
+            36.0
+          ],
+          "bounds_mm": [
+            [
+              -10.0,
+              -89.0,
+              282.0
+            ],
+            [
+              10.0,
+              -61.0,
+              318.0
+            ]
+          ],
+          "volume_mm3": 19170.79,
+          "faces": 60,
+          "watertight": true,
+          "winding_consistent": true,
+          "assembly_direction": null,
+          "connectors": [],
+          "warnings": [],
+          "filament_id": null
+        },
+        {
+          "id": "nose",
+          "name": "Mochi · schwarze Nase",
+          "color": "#272729",
+          "color_index": 1,
+          "role": "color-body",
+          "dimensions_mm": [
+            27.074,
+            15.791,
+            21.933
+          ],
+          "bounds_mm": [
+            [
+              -13.605,
+              -192.599,
+              348.619
+            ],
+            [
+              13.469,
+              -176.808,
+              370.552
+            ]
+          ],
+          "volume_mm3": 2563.363,
+          "faces": 7058,
+          "watertight": true,
+          "winding_consistent": true,
+          "assembly_direction": [
+            0.0027556853884266024,
+            -0.9483251935082926,
+            0.31728809236323313
+          ],
+          "connectors": [
+            {
+              "shape": "keyed",
+              "diameter_mm": 3.0,
+              "nominal_length_mm": 3,
+              "radial_clearance_mm": 0.05,
+              "position_mm": [
+                -0.055,
+                -63.56,
+                128.575
+              ],
+              "requires_calibration": true,
+              "interface": 0
+            }
+          ],
+          "warnings": [
+            "Shared color-boundary caps have no surface gap. Confirm physical fit and assembly sequence."
+          ],
+          "filament_id": null
+        },
+        {
+          "id": "eye-1",
+          "name": "Mochi · schwarzer Augeneinsatz 1",
+          "color": "#272729",
+          "color_index": 2,
+          "role": "glue-inlay",
+          "dimensions_mm": [
+            19.948,
+            7.093,
+            13.06
+          ],
+          "bounds_mm": [
+            [
+              -42.872,
+              -150.995,
+              387.94
+            ],
+            [
+              -22.923,
+              -143.902,
+              401.0
+            ]
+          ],
+          "volume_mm3": 84.839,
+          "faces": 844,
+          "watertight": true,
+          "winding_consistent": true,
+          "assembly_direction": [
+            -0.00936901902310341,
+            -0.9120650326632915,
+            -0.4099385291424237
+          ],
+          "connectors": [],
+          "warnings": [
+            "Intentional glue insert without pins. Adhesive fit and retention require a physical test.",
+            "Klebeeinsatz ohne Stift; Passung und Kleberauftrag real prüfen."
+          ],
+          "filament_id": null
+        },
+        {
+          "id": "eye-2",
+          "name": "Mochi · schwarzer Augeneinsatz 2",
+          "color": "#272729",
+          "color_index": 3,
+          "role": "glue-inlay",
+          "dimensions_mm": [
+            11.917,
+            4.787,
+            14.303
+          ],
+          "bounds_mm": [
+            [
+              -31.812,
+              -157.13,
+              375.174
+            ],
+            [
+              -19.894,
+              -152.342,
+              389.477
+            ]
+          ],
+          "volume_mm3": 310.834,
+          "faces": 1352,
+          "watertight": true,
+          "winding_consistent": true,
+          "assembly_direction": [
+            0.009462114512921211,
+            -0.9937792356119726,
+            0.11096530653960246
+          ],
+          "connectors": [],
+          "warnings": [
+            "Intentional glue insert without pins. Adhesive fit and retention require a physical test.",
+            "Klebeeinsatz ohne Stift; Passung und Kleberauftrag real prüfen."
+          ],
+          "filament_id": null
+        },
+        {
+          "id": "eye-3",
+          "name": "Mochi · schwarzer Augeneinsatz 3",
+          "color": "#272729",
+          "color_index": 4,
+          "role": "glue-inlay",
+          "dimensions_mm": [
+            11.944,
+            4.765,
+            14.251
+          ],
+          "bounds_mm": [
+            [
+              19.869,
+              -157.162,
+              374.856
+            ],
+            [
+              31.813,
+              -152.398,
+              389.107
+            ]
+          ],
+          "volume_mm3": 317.243,
+          "faces": 1232,
+          "watertight": true,
+          "winding_consistent": true,
+          "assembly_direction": [
+            -0.06336626273456052,
+            -0.9929167723963861,
+            0.10050373048299178
+          ],
+          "connectors": [],
+          "warnings": [
+            "Intentional glue insert without pins. Adhesive fit and retention require a physical test.",
+            "Klebeeinsatz ohne Stift; Passung und Kleberauftrag real prüfen."
+          ],
+          "filament_id": null
+        },
+        {
+          "id": "eye-4",
+          "name": "Mochi · schwarzer Augeneinsatz 4",
+          "color": "#272729",
+          "color_index": 5,
+          "role": "glue-inlay",
+          "dimensions_mm": [
+            21.069,
+            7.409,
+            13.12
+          ],
+          "bounds_mm": [
+            [
+              22.265,
+              -151.07,
+              387.373
+            ],
+            [
+              43.334,
+              -143.661,
+              400.493
+            ]
+          ],
+          "volume_mm3": 103.974,
+          "faces": 1172,
+          "watertight": true,
+          "winding_consistent": true,
+          "assembly_direction": [
+            0.0738146730052237,
+            -0.9461141562514134,
+            -0.31530841630030787
+          ],
+          "connectors": [],
+          "warnings": [
+            "Intentional glue insert without pins. Adhesive fit and retention require a physical test.",
+            "Klebeeinsatz ohne Stift; Passung und Kleberauftrag real prüfen."
+          ],
+          "filament_id": null
+        }
+      ],
+      "quality": {
+        "torso": {
+          "finite": true,
+          "vertices": 45785,
+          "triangles": 91578,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_mm3": 6391121.70815,
+          "dimensions_mm": [
+            247.8072,
+            348.4515,
+            316.1346
+          ],
+          "components": 1,
+          "valid": true,
+          "self_intersections": "not exhaustively certified"
+        },
+        "head": {
+          "finite": true,
+          "vertices": 103837,
+          "triangles": 207670,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_mm3": 3791228.0455,
+          "dimensions_mm": [
+            246.6281,
+            206.4424,
+            200.0
+          ],
+          "components": 1,
+          "valid": true,
+          "self_intersections": "not exhaustively certified"
+        },
+        "neck-key": {
+          "finite": true,
+          "vertices": 32,
+          "triangles": 60,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_mm3": 19170.7904,
+          "dimensions_mm": [
+            20.0,
+            28.0,
+            36.0
+          ],
+          "components": 1,
+          "valid": true,
+          "self_intersections": "not exhaustively certified"
+        },
+        "nose": {
+          "finite": true,
+          "vertices": 3531,
+          "triangles": 7058,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_mm3": 2563.3625,
+          "dimensions_mm": [
+            27.074,
+            15.7909,
+            21.9333
+          ],
+          "components": 1,
+          "valid": true,
+          "self_intersections": "not exhaustively certified"
+        },
+        "eye-1": {
+          "finite": true,
+          "vertices": 424,
+          "triangles": 844,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_mm3": 84.83927,
+          "dimensions_mm": [
+            19.9482,
+            7.093,
+            13.0597
+          ],
+          "components": 1,
+          "valid": true,
+          "self_intersections": "not exhaustively certified"
+        },
+        "eye-2": {
+          "finite": true,
+          "vertices": 678,
+          "triangles": 1352,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_mm3": 310.83437,
+          "dimensions_mm": [
+            11.9174,
+            4.7874,
+            14.3031
+          ],
+          "components": 1,
+          "valid": true,
+          "self_intersections": "not exhaustively certified"
+        },
+        "eye-3": {
+          "finite": true,
+          "vertices": 618,
+          "triangles": 1232,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_mm3": 317.24272,
+          "dimensions_mm": [
+            11.9441,
+            4.7645,
+            14.2506
+          ],
+          "components": 1,
+          "valid": true,
+          "self_intersections": "not exhaustively certified"
+        },
+        "eye-4": {
+          "finite": true,
+          "vertices": 588,
+          "triangles": 1172,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_mm3": 103.97383,
+          "dimensions_mm": [
+            21.0689,
+            7.4091,
+            13.1198
+          ],
+          "components": 1,
+          "valid": true,
+          "self_intersections": "not exhaustively certified"
+        }
+      },
+      "plate_placements": [
+        [
+          {
+            "part_id": "torso",
+            "transform": [
+              [
+                0.9563047559630354,
+                -0.29237170472273677,
+                0.0,
+                181.75626078436696
+              ],
+              [
+                0.29237170472273677,
+                0.9563047559630354,
+                0.0,
+                157.07827654707222
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        ],
+        [
+          {
+            "part_id": "head",
+            "transform": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                175.11517208333333
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                211.60142555555555
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -300.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        ],
+        [
+          {
+            "part_id": "nose",
+            "transform": [
+              [
+                -0.0,
+                0.3172892970815632,
+                0.9483287942256565,
+                -232.14215424972303
+              ],
+              [
+                0.9999962030918119,
+                0.00261329580167186,
+                -0.0008743494798718112,
+                50.865452788317434
+              ],
+              [
+                -0.0027556853884266024,
+                0.9483251935082926,
+                -0.31728809236323313,
+                297.21004267001643
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          {
+            "part_id": "eye-1",
+            "transform": [
+              [
+                0.0,
+                0.40995652222515483,
+                -0.9121050651570004,
+                510.0168258363682
+              ],
+              [
+                0.9999561097780966,
+                -0.008545529706524913,
+                -0.003840890455372792,
+                83.14827653586009
+              ],
+              [
+                -0.00936901902310341,
+                -0.9120650326632915,
+                -0.4099385291424237,
+                29.948598236400063
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          {
+            "part_id": "eye-2",
+            "transform": [
+              [
+                0.0,
+                -0.11097027432451818,
+                -0.993823725927461,
+                492.8078326363466
+              ],
+              [
+                0.9999552331924386,
+                0.009403673900383661,
+                -0.0010500134431888715,
+                77.7060032620864
+              ],
+              [
+                0.009462114512921211,
+                -0.9937792356119726,
+                0.11096530653960246,
+                -194.06828644447677
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          {
+            "part_id": "eye-3",
+            "transform": [
+              [
+                0.0,
+                -0.10070611563555565,
+                -0.9949162167105319,
+                534.4569889648494
+              ],
+              [
+                0.9979903390048697,
+                -0.0630441223869545,
+                0.006381370182339652,
+                12.024862707413334
+              ],
+              [
+                -0.06336626273456052,
+                -0.9929167723963861,
+                0.10050373048299178,
+                -188.82554210845538
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          {
+            "part_id": "eye-4",
+            "transform": [
+              [
+                0.0,
+                0.3161709382183024,
+                -0.9487022387589051,
+                630.1098598584024
+              ],
+              [
+                0.9972719759670039,
+                0.07002814553331224,
+                0.023338054418338774,
+                18.424424450053465
+              ],
+              [
+                0.0738146730052237,
+                -0.9461141562514134,
+                -0.31530841630030787,
+                -14.854555264832538
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          {
+            "part_id": "neck-key",
+            "transform": [
+              [
+                0.0,
+                0.0,
+                1.0,
+                -185.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                195.0
+              ],
+              [
+                -1.0,
+                0.0,
+                0.0,
+                9.999999999999998
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        ]
+      ],
+      "project": "benchmarks/mochi-neck-split-20261018/production-500/Mochi-500mm-Hals-geteilt-3-Platten.3mf",
+      "project_sha256": "0a82d5945dc3813968f3575571b4a15cd3c272ecdfe5a9a5c96fb830d695f5fc",
+      "merge": {
+        "plates": 3,
+        "plate2_world_offset_mm": [
+          420.0,
+          0,
+          0
+        ],
+        "appended_plate_world_offset_mm": [
+          0.0,
+          -384.0,
+          0.0
+        ],
+        "parts_per_plate": [
+          1,
+          1,
+          6
+        ],
+        "second_plate_object_overrides": {
+          "layer_height": "0.12",
+          "raft_layers": "3",
+          "support_top_z_distance": "0.12",
+          "brim_type": "outer_only"
+        },
+        "source_geometry_and_paint_unchanged": true,
+        "global_resource_ids_unique": true,
+        "slicing_verified": false
+      },
+      "head_extraction": {
+        "method": "sampled straight extraction",
+        "samples": 16,
+        "surface_points": 1800,
+        "travel_mm": 45,
+        "max_penetration_mm": 0.0,
+        "passed": true,
+        "blocked_distances_mm": [],
+        "limitation": "Discrete surface/path sampling cannot certify absence of all collisions."
+      },
+      "key_extraction": {
+        "torso": {
+          "method": "sampled straight extraction",
+          "samples": 16,
+          "surface_points": 32,
+          "travel_mm": 45,
+          "max_penetration_mm": 0.0,
+          "passed": true,
+          "blocked_distances_mm": [],
+          "limitation": "Discrete surface/path sampling cannot certify absence of all collisions."
+        },
+        "head": {
+          "method": "sampled straight extraction",
+          "samples": 16,
+          "surface_points": 32,
+          "travel_mm": 45,
+          "max_penetration_mm": 0.0,
+          "passed": true,
+          "blocked_distances_mm": [],
+          "limitation": "Discrete surface/path sampling cannot certify absence of all collisions."
+        }
+      },
+      "socket_minimum_sampled_source_wall_mm": 28.709882736206055,
+      "physical_print_verified": false,
+      "paid_api_calls": 0,
+      "printer_communication": false
+    },
+    "parts": {
+      "torso": {
+        "triangles": 91578,
+        "native_ordered_triangle_error_mm": 1.027777779327721e-05,
+        "native_paint_exact": true,
+        "watertight": true
+      },
+      "head": {
+        "triangles": 207670,
+        "native_ordered_triangle_error_mm": 4.333333322392718e-06,
+        "native_paint_exact": true,
+        "watertight": true
+      },
+      "neck-key": {
+        "triangles": 60,
+        "native_ordered_triangle_error_mm": 1.9000000150981577e-07,
+        "native_paint_exact": true,
+        "watertight": true
+      },
+      "nose": {
+        "triangles": 7058,
+        "native_ordered_triangle_error_mm": 5.081168978904316e-07,
+        "native_paint_exact": true,
+        "watertight": true
+      },
+      "eye-1": {
+        "triangles": 844,
+        "native_ordered_triangle_error_mm": 4.628541532269992e-07,
+        "native_paint_exact": true,
+        "watertight": true
+      },
+      "eye-2": {
+        "triangles": 1352,
+        "native_ordered_triangle_error_mm": 2.3931053760861687e-07,
+        "native_paint_exact": true,
+        "watertight": true
+      },
+      "eye-3": {
+        "triangles": 1232,
+        "native_ordered_triangle_error_mm": 2.3938565618664143e-07,
+        "native_paint_exact": true,
+        "watertight": true
+      },
+      "eye-4": {
+        "triangles": 1172,
+        "native_ordered_triangle_error_mm": 4.7025721983118274e-07,
+        "native_paint_exact": true,
+        "watertight": true
+      }
+    },
+    "plates": [
+      {
+        "plate": 1,
+        "slice": {
+          "source": "benchmarks/mochi-neck-split-20261018/production-500/Mochi-500mm-Hals-geteilt-3-Platten.3mf",
+          "plate_index": 1,
+          "source_sha256": "0a82d5945dc3813968f3575571b4a15cd3c272ecdfe5a9a5c96fb830d695f5fc",
+          "output": "benchmarks/mochi-neck-split-20261018/production-500/slice-plate-1",
+          "command": [
+            "/Applications/BambuStudio.app/Contents/MacOS/BambuStudio",
+            "--normative-check=0",
+            "--slice",
+            "1",
+            "--arrange",
+            "0",
+            "--orient",
+            "0",
+            "--outputdir",
+            "benchmarks/mochi-neck-split-20261018/production-500/slice-plate-1",
+            "--export-3mf",
+            "sliced.3mf",
+            "benchmarks/mochi-neck-split-20261018/production-500/Mochi-500mm-Hals-geteilt-3-Platten.3mf"
+          ],
+          "exit_code": 0,
+          "passed": true,
+          "validity_checks_not_disabled": true,
+          "gcode_path_validation_verified": false,
+          "print_ready": false,
+          "makerworld_normative_checks_enabled": false,
+          "printer_communication": false,
+          "physical_print_verified": false,
+          "result": {
+            "error_string": "Success.",
+            "export_time": 10852,
+            "layer_height": 0.1599999964237213,
+            "plate_index": 1,
+            "prepare_time": 291,
+            "return_code": 0,
+            "sliced_plates": [
+              {
+                "feature_type_times": {
+                  "Bridge": 587.7689819335938,
+                  "Brim": 2.8109452724456787,
+                  "Custom": 302.66375732421875,
+                  "Flush": 7488.888671875,
+                  "Gap infill": 486.0313720703125,
+                  "Inner wall": 23816.984375,
+                  "Internal solid infill": 8638.4091796875,
+                  "Outer wall": 30367.779296875,
+                  "Overhang wall": 923.5999145507812,
+                  "Prime tower": 23398.626953125,
+                  "Sparse infill": 3033.65625,
+                  "Support": 7943.900390625,
+                  "Support interface": 420.5034484863281,
+                  "Top surface": 277.3680725097656,
+                  "Travel": 20519.55078125,
+                  "Undefined": 20518.177734375
+                },
+                "filament_change_times": 0,
+                "filaments": [
+                  {
+                    "filament_id": "GFL99",
+                    "id": 1,
+                    "main_used_g": 355.8533020019531,
+                    "total_used_g": 460.0411682128906
+                  },
+                  {
+                    "filament_id": "GFA00",
+                    "id": 2,
+                    "main_used_g": 110.1240005493164,
+                    "total_used_g": 161.07232666015625
+                  }
+                ],
+                "generate_support_material_time": 20809,
+                "id": 1,
+                "infill_time": 12390,
+                "layer_filament_change": 0,
+                "main_predication": 96592.34375,
+                "make_perimeters_time": 11054,
+                "obj_cached_cnt": 0,
+                "objects": [
+                  {
+                    "bbox": {
+                      "depth": 317.1646423339844,
+                      "height": 316.13458251953125,
+                      "width": 298.5378723144531,
+                      "x": 25.731063842773438,
+                      "y": 1.4176788330078125,
+                      "z": -2.597656134639692e-07
+                    },
+                    "id": 5,
+                    "name": "torso",
+                    "triangle_count": 91578
+                  }
+                ],
+                "sliced_time": 65080,
+                "sliced_time_with_cache": 18632,
+                "total_predication": 127807.1484375,
+                "triangle_count": 91578,
+                "warning_message": ""
+              }
+            ],
+            "sparse_infill_density": 5.0,
+            "upward_compatible_machine": [
+              "Bambu Lab H2D Pro 0.4 nozzle"
+            ],
+            "wall_loops": 2
+          },
+          "gcode_sha256": "0764121385f696f1f0510baf116f2eb67f345a4258499ff10155759a0d1a9699"
+        },
+        "footprints": {
+          "source": "benchmarks/mochi-neck-split-20261018/production-500/slice-plate-1/plate_1.gcode",
+          "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+          "passed": true,
+          "tolerance_mm": 0.02,
+          "conflict_counts": {},
+          "examples": [],
+          "extrusion_segments": 5617474,
+          "z_groups": 1975,
+          "unsupported_arcs": 0,
+          "arc_chord_error_limit_mm": 0.005,
+          "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+          "single_object_owner_evidence": {
+            "sidecar": "benchmarks/mochi-neck-split-20261018/production-500/slice-plate-1/result.json",
+            "object_id": 5,
+            "name": "torso",
+            "objects": 1
+          },
+          "ignored_nonprinting_arc_commands": 34082,
+          "gcode_sha256": "0764121385f696f1f0510baf116f2eb67f345a4258499ff10155759a0d1a9699",
+          "owner_extrusion_xy_bounds_mm": {
+            "-2": [
+              241.275,
+              236.271,
+              313.593,
+              304.895
+            ],
+            "5": [
+              25.533261999999997,
+              1.243262,
+              324.48073800000003,
+              318.789738
+            ]
+          },
+          "globally_overlapping_owner_ids": [
+            -2,
+            5
+          ],
+          "wall_time_seconds": 37.722812165971845
+        }
+      },
+      {
+        "plate": 2,
+        "slice": {
+          "source": "benchmarks/mochi-neck-split-20261018/production-500/Mochi-500mm-Hals-geteilt-3-Platten.3mf",
+          "plate_index": 2,
+          "source_sha256": "0a82d5945dc3813968f3575571b4a15cd3c272ecdfe5a9a5c96fb830d695f5fc",
+          "output": "benchmarks/mochi-neck-split-20261018/production-500/slice-plate-2",
+          "command": [
+            "/Applications/BambuStudio.app/Contents/MacOS/BambuStudio",
+            "--normative-check=0",
+            "--slice",
+            "2",
+            "--arrange",
+            "0",
+            "--orient",
+            "0",
+            "--outputdir",
+            "benchmarks/mochi-neck-split-20261018/production-500/slice-plate-2",
+            "--export-3mf",
+            "sliced.3mf",
+            "benchmarks/mochi-neck-split-20261018/production-500/Mochi-500mm-Hals-geteilt-3-Platten.3mf"
+          ],
+          "exit_code": 0,
+          "passed": true,
+          "validity_checks_not_disabled": true,
+          "gcode_path_validation_verified": false,
+          "print_ready": false,
+          "makerworld_normative_checks_enabled": false,
+          "printer_communication": false,
+          "physical_print_verified": false,
+          "result": {
+            "error_string": "Success.",
+            "export_time": 9807,
+            "layer_height": 0.1599999964237213,
+            "plate_index": 2,
+            "prepare_time": 353,
+            "return_code": 0,
+            "sliced_plates": [
+              {
+                "feature_type_times": {
+                  "Bottom surface": 71.62020111083984,
+                  "Bridge": 278.6717529296875,
+                  "Custom": 304.6854248046875,
+                  "Flush": 5948.86181640625,
+                  "Gap infill": 326.8438415527344,
+                  "Inner wall": 12892.517578125,
+                  "Internal solid infill": 8130.6025390625,
+                  "Outer wall": 17977.03125,
+                  "Overhang wall": 1469.37744140625,
+                  "Prime tower": 16534.640625,
+                  "Sparse infill": 4033.37939453125,
+                  "Support": 9842.083984375,
+                  "Support interface": 149.90655517578125,
+                  "Top surface": 169.83517456054688,
+                  "Travel": 18568.396484375,
+                  "Undefined": 18566.43359375
+                },
+                "filament_change_times": 0,
+                "filaments": [
+                  {
+                    "filament_id": "GFL99",
+                    "id": 1,
+                    "main_used_g": 230.2387237548828,
+                    "total_used_g": 295.4988098144531
+                  },
+                  {
+                    "filament_id": "GFA00",
+                    "id": 2,
+                    "main_used_g": 133.70358276367188,
+                    "total_used_g": 175.73651123046875
+                  }
+                ],
+                "generate_support_material_time": 15168,
+                "id": 2,
+                "infill_time": 12670,
+                "layer_filament_change": 0,
+                "main_predication": 73534.265625,
+                "make_perimeters_time": 9468,
+                "obj_cached_cnt": 0,
+                "objects": [
+                  {
+                    "bbox": {
+                      "depth": 206.44239807128906,
+                      "height": 200.0,
+                      "width": 246.62806701660156,
+                      "x": 471.68597412109375,
+                      "y": 21.77880096435547,
+                      "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "head",
+                    "triangle_count": 207670
+                  }
+                ],
+                "sliced_time": 54625,
+                "sliced_time_with_cache": 15310,
+                "total_predication": 96346.484375,
+                "triangle_count": 207670,
+                "warning_message": ""
+              }
+            ],
+            "sparse_infill_density": 5.0,
+            "upward_compatible_machine": [
+              "Bambu Lab H2D Pro 0.4 nozzle"
+            ],
+            "wall_loops": 2
+          },
+          "gcode_sha256": "8bbabd14e9e3787c4c935bae529b59a897551083d89bc1840596d07dbb14ec3e"
+        },
+        "footprints": {
+          "source": "benchmarks/mochi-neck-split-20261018/production-500/slice-plate-2/plate_2.gcode",
+          "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+          "passed": true,
+          "tolerance_mm": 0.02,
+          "conflict_counts": {},
+          "examples": [],
+          "extrusion_segments": 4593172,
+          "z_groups": 1249,
+          "unsupported_arcs": 0,
+          "arc_chord_error_limit_mm": 0.005,
+          "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+          "single_object_owner_evidence": {
+            "sidecar": "benchmarks/mochi-neck-split-20261018/production-500/slice-plate-2/result.json",
+            "object_id": 9,
+            "name": "head",
+            "objects": 1
+          },
+          "ignored_nonprinting_arc_commands": 40860,
+          "gcode_sha256": "8bbabd14e9e3787c4c935bae529b59a897551083d89bc1840596d07dbb14ec3e",
+          "owner_extrusion_xy_bounds_mm": {
+            "-2": [
+              241.271,
+              236.271,
+              295.341,
+              288.135
+            ],
+            "9": [
+              41.977934,
+              17.790934,
+              305.447066,
+              233.716066
+            ]
+          },
+          "globally_overlapping_owner_ids": [],
+          "wall_time_seconds": 28.975214042002335
+        }
+      },
+      {
+        "plate": 3,
+        "slice": {
+          "source": "benchmarks/mochi-neck-split-20261018/production-500/Mochi-500mm-Hals-geteilt-3-Platten.3mf",
+          "plate_index": 3,
+          "source_sha256": "0a82d5945dc3813968f3575571b4a15cd3c272ecdfe5a9a5c96fb830d695f5fc",
+          "output": "benchmarks/mochi-neck-split-20261018/production-500/slice-plate-3",
+          "command": [
+            "/Applications/BambuStudio.app/Contents/MacOS/BambuStudio",
+            "--normative-check=0",
+            "--slice",
+            "3",
+            "--arrange",
+            "0",
+            "--orient",
+            "0",
+            "--outputdir",
+            "benchmarks/mochi-neck-split-20261018/production-500/slice-plate-3",
+            "--export-3mf",
+            "sliced.3mf",
+            "benchmarks/mochi-neck-split-20261018/production-500/Mochi-500mm-Hals-geteilt-3-Platten.3mf"
+          ],
+          "exit_code": 0,
+          "passed": true,
+          "validity_checks_not_disabled": true,
+          "gcode_path_validation_verified": false,
+          "print_ready": false,
+          "makerworld_normative_checks_enabled": false,
+          "printer_communication": false,
+          "physical_print_verified": false,
+          "result": {
+            "error_string": "Success.",
+            "export_time": 555,
+            "layer_height": 0.1599999964237213,
+            "plate_index": 3,
+            "prepare_time": 261,
+            "return_code": 0,
+            "sliced_plates": [
+              {
+                "feature_type_times": {
+                  "Bottom surface": 23.233795166015625,
+                  "Bridge": 38.701717376708984,
+                  "Brim": 25.7502498626709,
+                  "Custom": 309.9637451171875,
+                  "Flush": 26.0,
+                  "Gap infill": 44.0541877746582,
+                  "Inner wall": 553.9762573242188,
+                  "Internal solid infill": 296.2746887207031,
+                  "Outer wall": 640.8521118164062,
+                  "Overhang wall": 61.653629302978516,
+                  "Sparse infill": 1667.732421875,
+                  "Support": 239.49903869628906,
+                  "Support interface": 38.486549377441406,
+                  "Top surface": 50.1893196105957,
+                  "Travel": 485.567626953125,
+                  "Undefined": 476.60162353515625
+                },
+                "filament_change_times": 0,
+                "filaments": [
+                  {
+                    "filament_id": "GFL99",
+                    "id": 3,
+                    "main_used_g": 26.296194076538086,
+                    "total_used_g": 26.296194076538086
+                  }
+                ],
+                "generate_support_material_time": 238,
+                "id": 3,
+                "infill_time": 242,
+                "layer_filament_change": 0,
+                "main_predication": 4139.8203125,
+                "make_perimeters_time": 194,
+                "obj_cached_cnt": 0,
+                "objects": [
+                  {
+                    "bbox": {
+                      "depth": 28.0,
+                      "height": 20.0,
+                      "width": 36.0,
+                      "x": 97.0,
+                      "y": -278.0,
+                      "z": 0.0
+                    },
+                    "id": 13,
+                    "name": "neck-key",
+                    "triangle_count": 60
+                  },
+                  {
+                    "bbox": {
+                      "depth": 27.074203491210938,
+                      "height": 15.146688461303711,
+                      "width": 22.507219314575195,
+                      "x": 38.74639129638672,
+                      "y": -347.537109375,
+                      "z": -6.518554584999947e-10
+                    },
+                    "id": 17,
+                    "name": "nose",
+                    "triangle_count": 7058
+                  },
+                  {
+                    "bbox": {
+                      "depth": 19.925050735473633,
+                      "height": 4.876410961151123,
+                      "width": 12.28512954711914,
+                      "x": 83.85743713378906,
+                      "y": -343.9625244140625,
+                      "z": -5.755613763369638e-10
+                    },
+                    "id": 21,
+                    "name": "eye-1",
+                    "triangle_count": 844
+                  },
+                  {
+                    "bbox": {
+                      "depth": 11.893016815185547,
+                      "height": 4.053750514984131,
+                      "width": 14.10445785522461,
+                      "x": 122.94776916503906,
+                      "y": -339.9465026855469,
+                      "z": 2.5079347487633186e-09
+                    },
+                    "id": 25,
+                    "name": "eye-2",
+                    "triangle_count": 1352
+                  },
+                  {
+                    "bbox": {
+                      "depth": 11.783270835876465,
+                      "height": 3.8096091747283936,
+                      "width": 14.054012298583984,
+                      "x": 162.97299194335938,
+                      "y": -339.8916320800781,
+                      "z": 2.6358031313122865e-09
+                    },
+                    "id": 29,
+                    "name": "eye-3",
+                    "triangle_count": 1232
+                  },
+                  {
+                    "bbox": {
+                      "depth": 20.946731567382812,
+                      "height": 4.582390785217285,
+                      "width": 12.712377548217773,
+                      "x": 203.64381408691406,
+                      "y": -344.4733581542969,
+                      "z": -2.6086426352378567e-09
+                    },
+                    "id": 33,
+                    "name": "eye-4",
+                    "triangle_count": 1172
+                  }
+                ],
+                "sliced_time": 1729,
+                "sliced_time_with_cache": 953,
+                "total_predication": 4492.81787109375,
+                "triangle_count": 11718,
+                "warning_message": ""
+              }
+            ],
+            "sparse_infill_density": 5.0,
+            "upward_compatible_machine": [
+              "Bambu Lab H2D Pro 0.4 nozzle"
+            ],
+            "wall_loops": 2
+          },
+          "gcode_sha256": "3567c9a822f9634a459f1a8b0653aa45ec806d43b1beafc66ef0784c34a30199"
+        },
+        "footprints": {
+          "source": "benchmarks/mochi-neck-split-20261018/production-500/slice-plate-3/plate_3.gcode",
+          "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+          "passed": true,
+          "tolerance_mm": 0.02,
+          "conflict_counts": {},
+          "examples": [],
+          "extrusion_segments": 106458,
+          "z_groups": 294,
+          "unsupported_arcs": 0,
+          "arc_chord_error_limit_mm": 0.005,
+          "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+          "ignored_nonprinting_arc_commands": 760,
+          "gcode_sha256": "3567c9a822f9634a459f1a8b0653aa45ec806d43b1beafc66ef0784c34a30199",
+          "owner_extrusion_xy_bounds_mm": {
+            "200": [
+              93.56641900000001,
+              103.154419,
+              136.433581,
+              134.093581
+            ],
+            "201": [
+              38.772891,
+              36.403891,
+              61.339109,
+              63.694109000000005
+            ],
+            "202": [
+              80.7299175,
+              36.9139175,
+              98.7880825,
+              63.04208250000001
+            ],
+            "203": [
+              120.1224205,
+              40.9064205,
+              139.96357949999998,
+              60.0525795
+            ],
+            "204": [
+              159.608719,
+              41.079719,
+              179.83028099999999,
+              59.602281000000005
+            ],
+            "205": [
+              200.750622,
+              37.529622,
+              218.510378,
+              62.790378
+            ]
+          },
+          "globally_overlapping_owner_ids": [],
+          "wall_time_seconds": 0.7731715419795364
+        }
+      }
+    ],
+    "native_save_reload": {
+      "1": {
+        "passed": true,
+        "parts": {
+          "torso": {
+            "triangles": 91578,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "head": {
+            "triangles": 207670,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "neck-key": {
+            "triangles": 60,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "nose": {
+            "triangles": 7058,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "eye-1": {
+            "triangles": 844,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "eye-2": {
+            "triangles": 1352,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "eye-3": {
+            "triangles": 1232,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "eye-4": {
+            "triangles": 1172,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          }
+        }
+      },
+      "2": {
+        "passed": true,
+        "parts": {
+          "torso": {
+            "triangles": 91578,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "head": {
+            "triangles": 207670,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "neck-key": {
+            "triangles": 60,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "nose": {
+            "triangles": 7058,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "eye-1": {
+            "triangles": 844,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "eye-2": {
+            "triangles": 1352,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "eye-3": {
+            "triangles": 1232,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          },
+          "eye-4": {
+            "triangles": 1172,
+            "paint_identical": true,
+            "max_world_error_mm": 0.0
+          }
+        }
+      }
+    },
+    "conservation": {
+      "source_exterior_area_source_mm2": 53550.885693381315,
+      "preserved_exterior_area_source_mm2": 53550.88569338132,
+      "complex_painted_faces_original": 1034,
+      "complex_painted_faces_preserved": 1034,
+      "expected_socket_removed_source_mm3": 1082.703678193801,
+      "actual_socket_removed_source_mm3": 1082.7036781937932,
+      "volume_error_mm3": -7.73070496506989e-12,
+      "passed": true
+    },
+    "internal_containment": {
+      "torso": {
+        "points": 3068,
+        "max_outside_mm": 6.512231888727155e-14,
+        "passed": true
+      },
+      "head": {
+        "points": 3076,
+        "max_outside_mm": 6.512231888727155e-14,
+        "passed": true
+      }
+    },
+    "head_print_stability_advisory": {
+      "center_of_mass_mm": [
+        175.116,
+        136.111,
+        84.955
+      ],
+      "projected_support_margin_mm": 21.72,
+      "assumption": "Uniform solid density; infill, hardware, tolerances and real loads not modelled.",
+      "status": "advisory only"
+    },
+    "estimated_seconds": 228646.45068359375,
+    "estimated_g": 1118.6450099945068,
+    "extrusion_segments": 10317104,
+    "solid_key_sliced_overrides": {
+      "name": "neck-key",
+      "brim_type": "outer_only",
+      "brim_width": "5",
+      "enable_support": "0",
+      "extruder": "3",
+      "layer_height": "0.12",
+      "raft_layers": "0",
+      "sparse_infill_density": "100%",
+      "sparse_infill_pattern": "cubic",
+      "support_top_z_distance": "0.12",
+      "wall_loops": "4"
+    },
+    "passed": true,
+    "physical_fit_verified": false,
+    "manual_gui_verified": false,
+    "full_nozzle_dynamics_verified": false,
+    "paid_api_calls": 0,
+    "printer_communication": false
+  },
+  "user_original": {
+    "path": "benchmarks/mochi-solid-production/Mochi-Braun-Beige-H2D-2-Platten.3mf",
+    "sha256": "4197d3b9bbd3dff88fe65bacc47bc0448c0d76530c56b66d221760318df73508",
+    "unchanged": true
+  },
+  "fit_probe": {
+    "plates": [
+      {
+        "slice": {
+          "source": "benchmarks/mochi-neck-split-20261018/production-470-final/fit-probe-two-plates/Mochi-Hals-Passungsprobe.3mf",
+          "plate_index": 1,
+          "source_sha256": "15e79cc053a7e4519f4f58ce73cf9dc9c9aeb452940a1f90916234039019817c",
+          "output": "benchmarks/mochi-neck-split-20261018/production-470-final/fit-probe-two-plates/slice-1",
+          "command": [
+            "/Applications/BambuStudio.app/Contents/MacOS/BambuStudio",
+            "--normative-check=0",
+            "--slice",
+            "1",
+            "--arrange",
+            "0",
+            "--orient",
+            "0",
+            "--outputdir",
+            "benchmarks/mochi-neck-split-20261018/production-470-final/fit-probe-two-plates/slice-1",
+            "--export-3mf",
+            "sliced.3mf",
+            "benchmarks/mochi-neck-split-20261018/production-470-final/fit-probe-two-plates/Mochi-Hals-Passungsprobe.3mf"
+          ],
+          "exit_code": 0,
+          "passed": true,
+          "validity_checks_not_disabled": true,
+          "gcode_path_validation_verified": false,
+          "print_ready": false,
+          "makerworld_normative_checks_enabled": false,
+          "printer_communication": false,
+          "physical_print_verified": false,
+          "result": {
+            "error_string": "Success.",
+            "export_time": 369,
+            "layer_height": 0.1599999964237213,
+            "plate_index": 1,
+            "prepare_time": 6,
+            "return_code": 0,
+            "sliced_plates": [
+              {
+                "feature_type_times": {
+                  "Bottom surface": 211.19137573242188,
+                  "Bridge": 302.4449462890625,
+                  "Brim": 105.1904525756836,
+                  "Custom": 309.12744140625,
+                  "Flush": 26.0,
+                  "Gap infill": 0.4337243437767029,
+                  "Inner wall": 847.8681030273438,
+                  "Internal solid infill": 767.8760375976562,
+                  "Outer wall": 971.8644409179688,
+                  "Sparse infill": 244.45152282714844,
+                  "Top surface": 112.19099426269531,
+                  "Travel": 415.3467102050781,
+                  "Undefined": 407.2787170410156
+                },
+                "filament_change_times": 0,
+                "filaments": [
+                  {
+                    "filament_id": "GFL99",
+                    "id": 1,
+                    "main_used_g": 33.9854736328125,
+                    "total_used_g": 33.9854736328125
+                  }
+                ],
+                "generate_support_material_time": 7,
+                "id": 1,
+                "infill_time": 41,
+                "layer_filament_change": 0,
+                "main_predication": 3952.7509765625,
+                "make_perimeters_time": 34,
+                "obj_cached_cnt": 0,
+                "objects": [
+                  {
+                    "bbox": {
+                      "depth": 50.0,
+                      "height": 21.600000381469727,
+                      "width": 70.0,
+                      "x": 50.0,
+                      "y": 70.0,
+                      "z": 9.265136213798542e-09
+                    },
+                    "id": 5,
+                    "name": "torso-probe",
+                    "triangle_count": 172
+                  },
+                  {
+                    "bbox": {
+                      "depth": 50.0,
+                      "height": 38.0,
+                      "width": 70.0,
+                      "x": 155.0,
+                      "y": 70.0,
+                      "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "kopf-probe",
+                    "triangle_count": 174
+                  }
+                ],
+                "sliced_time": 319,
+                "sliced_time_with_cache": 208,
+                "total_predication": 4305.810546875,
+                "triangle_count": 346,
+                "warning_message": ""
+              }
+            ],
+            "sparse_infill_density": 5.0,
+            "upward_compatible_machine": [
+              "Bambu Lab H2D Pro 0.4 nozzle"
+            ],
+            "wall_loops": 2
+          },
+          "gcode_sha256": "20056790540bad0ded3ceff89eb8c7786406df1b5674105ecbc9ad894889b5ab"
+        },
+        "paths": {
+          "source": "benchmarks/mochi-neck-split-20261018/production-470-final/fit-probe-two-plates/slice-1/plate_1.gcode",
+          "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+          "passed": true,
+          "tolerance_mm": 0.02,
+          "conflict_counts": {},
+          "examples": [],
+          "extrusion_segments": 26355,
+          "z_groups": 237,
+          "unsupported_arcs": 0,
+          "arc_chord_error_limit_mm": 0.005,
+          "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+          "ignored_nonprinting_arc_commands": 238,
+          "gcode_sha256": "20056790540bad0ded3ceff89eb8c7786406df1b5674105ecbc9ad894889b5ab",
+          "owner_extrusion_xy_bounds_mm": {
+            "1": [
+              45.30756,
+              65.30756000000001,
+              124.69243999999999,
+              124.69243999999999
+            ],
+            "2": [
+              150.30756,
+              65.30756000000001,
+              229.69244,
+              124.69243999999999
+            ]
+          },
+          "globally_overlapping_owner_ids": [],
+          "wall_time_seconds": 0.2936765829799697
+        }
+      },
+      {
+        "slice": {
+          "source": "benchmarks/mochi-neck-split-20261018/production-470-final/fit-probe-two-plates/Mochi-Hals-Passungsprobe.3mf",
+          "plate_index": 2,
+          "source_sha256": "15e79cc053a7e4519f4f58ce73cf9dc9c9aeb452940a1f90916234039019817c",
+          "output": "benchmarks/mochi-neck-split-20261018/production-470-final/fit-probe-two-plates/slice-2",
+          "command": [
+            "/Applications/BambuStudio.app/Contents/MacOS/BambuStudio",
+            "--normative-check=0",
+            "--slice",
+            "2",
+            "--arrange",
+            "0",
+            "--orient",
+            "0",
+            "--outputdir",
+            "benchmarks/mochi-neck-split-20261018/production-470-final/fit-probe-two-plates/slice-2",
+            "--export-3mf",
+            "sliced.3mf",
+            "benchmarks/mochi-neck-split-20261018/production-470-final/fit-probe-two-plates/Mochi-Hals-Passungsprobe.3mf"
+          ],
+          "exit_code": 0,
+          "passed": true,
+          "validity_checks_not_disabled": true,
+          "gcode_path_validation_verified": false,
+          "print_ready": false,
+          "makerworld_normative_checks_enabled": false,
+          "printer_communication": false,
+          "physical_print_verified": false,
+          "result": {
+            "error_string": "Success.",
+            "export_time": 387,
+            "layer_height": 0.1599999964237213,
+            "plate_index": 2,
+            "prepare_time": 9,
+            "return_code": 0,
+            "sliced_plates": [
+              {
+                "feature_type_times": {
+                  "Bottom surface": 23.233793258666992,
+                  "Brim": 25.81340980529785,
+                  "Custom": 310.105712890625,
+                  "Flush": 26.0,
+                  "Inner wall": 329.3900451660156,
+                  "Internal solid infill": 119.36969757080078,
+                  "Outer wall": 169.4210205078125,
+                  "Sparse infill": 1641.809326171875,
+                  "Top surface": 18.039138793945312,
+                  "Travel": 140.23391723632812,
+                  "Undefined": 131.26795959472656
+                },
+                "filament_change_times": 0,
+                "filaments": [
+                  {
+                    "filament_id": "GFL99",
+                    "id": 3,
+                    "main_used_g": 23.36444664001465,
+                    "total_used_g": 23.36444664001465
+                  }
+                ],
+                "generate_support_material_time": 9,
+                "id": 2,
+                "infill_time": 37,
+                "layer_filament_change": 0,
+                "main_predication": 2441.2529296875,
+                "make_perimeters_time": 158,
+                "obj_cached_cnt": 0,
+                "objects": [
+                  {
+                    "bbox": {
+                      "depth": 28.0,
+                      "height": 20.0,
+                      "width": 36.0,
+                      "x": 542.0,
+                      "y": 161.0,
+                      "z": 0.0
+                    },
+                    "id": 13,
+                    "name": "neck-key",
+                    "triangle_count": 60
+                  }
+                ],
+                "sliced_time": 437,
+                "sliced_time_with_cache": 200,
+                "total_predication": 2794.392578125,
+                "triangle_count": 60,
+                "warning_message": ""
+              }
+            ],
+            "sparse_infill_density": 5.0,
+            "upward_compatible_machine": [
+              "Bambu Lab H2D Pro 0.4 nozzle"
+            ],
+            "wall_loops": 2
+          },
+          "gcode_sha256": "2a96d8ed068ca3a6ae6fad496dde850cfa436c6aa7f7d6948a388ac73b0acea9"
+        },
+        "paths": {
+          "source": "benchmarks/mochi-neck-split-20261018/production-470-final/fit-probe-two-plates/slice-2/plate_2.gcode",
+          "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+          "passed": true,
+          "tolerance_mm": 0.02,
+          "conflict_counts": {},
+          "examples": [],
+          "extrusion_segments": 34589,
+          "z_groups": 166,
+          "unsupported_arcs": 0,
+          "arc_chord_error_limit_mm": 0.005,
+          "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+          "single_object_owner_evidence": {
+            "sidecar": "benchmarks/mochi-neck-split-20261018/production-470-final/fit-probe-two-plates/slice-2/result.json",
+            "object_id": 13,
+            "name": "neck-key",
+            "objects": 1
+          },
+          "ignored_nonprinting_arc_commands": 167,
+          "gcode_sha256": "2a96d8ed068ca3a6ae6fad496dde850cfa436c6aa7f7d6948a388ac73b0acea9",
+          "owner_extrusion_xy_bounds_mm": {
+            "13": [
+              118.56641900000001,
+              158.154419,
+              161.433581,
+              189.093581
+            ]
+          },
+          "globally_overlapping_owner_ids": [],
+          "wall_time_seconds": 0.33752716705203056
+        }
+      }
+    ],
+    "scope": "Exact key, sockets, materials and layer heights; not the full organic exterior seam."
+  },
+  "tests": {
+    "tests": "514",
+    "failures": "0",
+    "errors": "0",
+    "time": "53.047"
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "Buddy": {
+    "height_mm": 1000.0,
+    "quality": {
+      "finite": true,
+      "vertices": 74922,
+      "triangles": 150000,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 99747968.40193,
+      "dimensions_mm": [
+        499.62,
+        1239.7851,
+        1000.0
+      ],
+      "components": 1,
+      "valid": true,
+      "self_intersections": "not exhaustively certified"
+    },
+    "construction_readiness": {
+      "triangles": 278942,
+      "boundary_pairs": 43325,
+      "requested_tolerance_mm": 5.055555555555555,
+      "coarse_sampling_mm": 22.22222222222222,
+      "precision_note": "Boundary follows the sampled albedo at mesh resolution; small features below the coarse sampling can be missed. This is not a mathematical raster-to-curve error bound.",
+      "ready": true,
+      "mode": "auto",
+      "effective_boundary_mm": 5.055555555555555,
+      "effective_coarse_mm": 22.22222222222222,
+      "input_triangles": 150000,
+      "face_budget": 350000,
+      "seconds": 33.649,
+      "planning_attempts": [
+        {
+          "boundary_mm": 3.611111111111111,
+          "reason": "Color-boundary refinement needs 357,474 triangles in the next step (current 321,852, configured limit 350,000). Prepare a mesh/precision plan before construction; input reduction alone does not bound refinement."
+        }
+      ],
+      "assembly": {
+        "pockets": 935,
+        "blocked_directions": 16,
+        "blocked_examples": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          12,
+          14,
+          15,
+          16,
+          21
+        ],
+        "passed": false,
+        "scope": "Necessary direction test only; depth, connectors and collisions are checked during construction.",
+        "message": "16 von 935 Farbtaschen haben keine zulaessige Steckrichtung. Farbregionen muessen weiter unterteilt werden. Weniger Faces beheben diese Hinterschneidungen nicht."
+      }
+    },
+    "preparation": {
+      "original": {
+        "finite": true,
+        "vertices": 384066,
+        "triangles": 768288,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 99789289.88437,
+        "dimensions_mm": [
+          499.5048,
+          1239.7324,
+          1000.0
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "working": {
+        "finite": true,
+        "vertices": 74922,
+        "triangles": 150000,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 99747968.40193,
+        "dimensions_mm": [
+          499.62,
+          1239.7851,
+          1000.0
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "height_mm": 1000.0,
+      "samples_each_direction": 6000,
+      "geometry_distance_mm": {
+        "median": 0.039712111228192765,
+        "p99": 0.1622992505769313,
+        "max_sampled": 0.24962410467231938
+      },
+      "albedo_delta_e_2000": {
+        "median": 0.15424519066690578,
+        "p95": 1.1594438027964384,
+        "p99": 2.5631895033120893
+      },
+      "six_color_label_disagreement_fraction": 0.008833333333333334,
+      "palette": [
+        "#ECA34E",
+        "#D28736",
+        "#62360C",
+        "#0E2842",
+        "#281F18",
+        "#B48E5F"
+      ],
+      "seconds": 3.546,
+      "limitation": "Finite area-weighted samples, not exhaustive Hausdorff, texture or self-intersection certification.",
+      "method": "Blender UV seams welded + collapse",
+      "target_faces": 150000,
+      "preparation_seconds": 11.37
+    }
+  },
+  "Mochi": {
+    "height_mm": 180.0,
+    "quality": {
+      "finite": true,
+      "vertices": 74996,
+      "triangles": 150000,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 476224.43657,
+      "dimensions_mm": [
+        89.2106,
+        137.674,
+        180.0
+      ],
+      "components": 1,
+      "valid": true,
+      "self_intersections": "not exhaustively certified"
+    },
+    "construction_readiness": {
+      "triangles": 333512,
+      "boundary_pairs": 50178,
+      "requested_tolerance_mm": 0.65,
+      "coarse_sampling_mm": 4.0,
+      "precision_note": "Boundary follows the sampled albedo at mesh resolution; small features below the coarse sampling can be missed. This is not a mathematical raster-to-curve error bound.",
+      "ready": true,
+      "mode": "auto",
+      "effective_boundary_mm": 0.65,
+      "effective_coarse_mm": 4.0,
+      "input_triangles": 150000,
+      "face_budget": 350000,
+      "seconds": 24.473,
+      "planning_attempts": [],
+      "assembly": {
+        "pockets": 26,
+        "blocked_directions": 20,
+        "blocked_examples": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "passed": false,
+        "scope": "Necessary direction test only; depth, connectors and collisions are checked during construction.",
+        "message": "20 von 26 Farbtaschen haben keine zulaessige Steckrichtung. Farbregionen muessen weiter unterteilt werden. Weniger Faces beheben diese Hinterschneidungen nicht."
+      }
+    },
+    "preparation": {
+      "original": {
+        "finite": true,
+        "vertices": 1315024,
+        "triangles": 2630056,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 476496.48553,
+        "dimensions_mm": [
+          89.2545,
+          137.6793,
+          180.0
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "working": {
+        "finite": true,
+        "vertices": 74996,
+        "triangles": 150000,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 476224.43657,
+        "dimensions_mm": [
+          89.2106,
+          137.674,
+          180.0
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "height_mm": 180.0,
+      "samples_each_direction": 6000,
+      "geometry_distance_mm": {
+        "median": 0.012889102846817867,
+        "p99": 0.05801931196782301,
+        "max_sampled": 0.1074502877847859
+      },
+      "albedo_delta_e_2000": {
+        "median": 0.2643110540911218,
+        "p95": 1.7704875089014176,
+        "p99": 3.8090019985470045
+      },
+      "six_color_label_disagreement_fraction": 0.014833333333333334,
+      "palette": [
+        "#AE4207",
+        "#872F06",
+        "#F6C08B",
+        "#E59F66",
+        "#CB6F2E",
+        "#1E0D05"
+      ],
+      "seconds": 10.046,
+      "limitation": "Finite area-weighted samples, not exhaustive Hausdorff, texture or self-intersection certification.",
+      "method": "Blender UV seams welded + collapse",
+      "target_faces": 150000,
+      "preparation_seconds": 37.856
+    }
+  }
+}

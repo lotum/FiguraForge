@@ -1,0 +1,459 @@
+{
+  "source_report": "benchmarks/buddy-production/service-400941725d1f4f6dbb63e7665d6be784/geometry-report.json",
+  "assembly_connections": {
+    "total_keys": 68,
+    "total_keyed_interfaces": 32,
+    "structural_leaf_part_ids": [
+      "collar-body-a-a-a-a",
+      "collar-body-a-a-a-b",
+      "collar-body-a-a-b-a",
+      "collar-body-a-a-b-b",
+      "collar-body-a-b-a-a",
+      "collar-body-a-b-a-b-a",
+      "collar-body-a-b-a-b-b",
+      "collar-body-a-b-b-a",
+      "collar-body-a-b-b-b-a",
+      "collar-body-a-b-b-b-b",
+      "collar-body-b-a-a-a",
+      "collar-body-b-a-a-b-a",
+      "collar-body-b-a-a-b-b",
+      "collar-body-b-a-b-a",
+      "collar-body-b-a-b-b-a",
+      "collar-body-b-a-b-b-b",
+      "collar-body-b-b-a-a",
+      "collar-body-b-b-a-b",
+      "collar-body-b-b-b-a-a",
+      "collar-body-b-b-b-a-b",
+      "collar-body-b-b-b-b",
+      "collar-head-a-a",
+      "collar-head-a-b",
+      "collar-head-b-a",
+      "collar-head-b-b",
+      "tail-a",
+      "tail-b"
+    ],
+    "glue_part_ids": [
+      "left-eye",
+      "right-eye",
+      "collar-neck-1"
+    ],
+    "interfaces": [
+      {
+        "id": "anatomy-nose",
+        "system": "anatomical",
+        "keys": 2,
+        "part_or_group_ids": [
+          "nose",
+          "assembled-body"
+        ]
+      },
+      {
+        "id": "anatomy-rolled-map",
+        "system": "anatomical",
+        "keys": 2,
+        "part_or_group_ids": [
+          "rolled-map",
+          "assembled-body"
+        ]
+      },
+      {
+        "id": "anatomy-right-ear",
+        "system": "anatomical",
+        "keys": 3,
+        "part_or_group_ids": [
+          "right-ear",
+          "assembled-body"
+        ]
+      },
+      {
+        "id": "anatomy-left-ear",
+        "system": "anatomical",
+        "keys": 3,
+        "part_or_group_ids": [
+          "left-ear",
+          "assembled-body"
+        ]
+      },
+      {
+        "id": "anatomy-tail",
+        "system": "anatomical",
+        "keys": 2,
+        "part_or_group_ids": [
+          "tail",
+          "assembled-body"
+        ]
+      },
+      {
+        "id": "collar-lower-neck",
+        "system": "collar",
+        "keys": 3,
+        "part_or_group_ids": [
+          "collar-body",
+          "collar-neck-0"
+        ]
+      },
+      {
+        "id": "collar-upper-neck",
+        "system": "collar",
+        "keys": 3,
+        "part_or_group_ids": [
+          "collar-neck-0",
+          "collar-head"
+        ]
+      },
+      {
+        "id": "collar-ring-seam",
+        "system": "collar",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-left",
+          "collar-right"
+        ]
+      },
+      {
+        "id": "joint-001",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-body-a",
+          "collar-body-b"
+        ],
+        "parent": "collar-body",
+        "children": [
+          "collar-body-a",
+          "collar-body-b"
+        ]
+      },
+      {
+        "id": "joint-002",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-head-a",
+          "collar-head-b"
+        ],
+        "parent": "collar-head",
+        "children": [
+          "collar-head-a",
+          "collar-head-b"
+        ]
+      },
+      {
+        "id": "joint-003",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "tail-a",
+          "tail-b"
+        ],
+        "parent": "tail",
+        "children": [
+          "tail-a",
+          "tail-b"
+        ]
+      },
+      {
+        "id": "joint-004",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-body-a-a",
+          "collar-body-a-b"
+        ],
+        "parent": "collar-body-a",
+        "children": [
+          "collar-body-a-a",
+          "collar-body-a-b"
+        ]
+      },
+      {
+        "id": "joint-005",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-body-b-a",
+          "collar-body-b-b"
+        ],
+        "parent": "collar-body-b",
+        "children": [
+          "collar-body-b-a",
+          "collar-body-b-b"
+        ]
+      },
+      {
+        "id": "joint-006",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-head-a-a",
+          "collar-head-a-b"
+        ],
+        "parent": "collar-head-a",
+        "children": [
+          "collar-head-a-a",
+          "collar-head-a-b"
+        ]
+      },
+      {
+        "id": "joint-007",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-head-b-a",
+          "collar-head-b-b"
+        ],
+        "parent": "collar-head-b",
+        "children": [
+          "collar-head-b-a",
+          "collar-head-b-b"
+        ]
+      },
+      {
+        "id": "joint-008",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-body-a-a-a",
+          "collar-body-a-a-b"
+        ],
+        "parent": "collar-body-a-a",
+        "children": [
+          "collar-body-a-a-a",
+          "collar-body-a-a-b"
+        ]
+      },
+      {
+        "id": "joint-009",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-body-a-b-a",
+          "collar-body-a-b-b"
+        ],
+        "parent": "collar-body-a-b",
+        "children": [
+          "collar-body-a-b-a",
+          "collar-body-a-b-b"
+        ]
+      },
+      {
+        "id": "joint-010",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-body-b-a-a",
+          "collar-body-b-a-b"
+        ],
+        "parent": "collar-body-b-a",
+        "children": [
+          "collar-body-b-a-a",
+          "collar-body-b-a-b"
+        ]
+      },
+      {
+        "id": "joint-011",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-body-b-b-a",
+          "collar-body-b-b-b"
+        ],
+        "parent": "collar-body-b-b",
+        "children": [
+          "collar-body-b-b-a",
+          "collar-body-b-b-b"
+        ]
+      },
+      {
+        "id": "joint-012",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-body-a-a-a-a",
+          "collar-body-a-a-a-b"
+        ],
+        "parent": "collar-body-a-a-a",
+        "children": [
+          "collar-body-a-a-a-a",
+          "collar-body-a-a-a-b"
+        ]
+      },
+      {
+        "id": "joint-013",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-body-a-a-b-a",
+          "collar-body-a-a-b-b"
+        ],
+        "parent": "collar-body-a-a-b",
+        "children": [
+          "collar-body-a-a-b-a",
+          "collar-body-a-a-b-b"
+        ]
+      },
+      {
+        "id": "joint-014",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-body-a-b-a-a",
+          "collar-body-a-b-a-b"
+        ],
+        "parent": "collar-body-a-b-a",
+        "children": [
+          "collar-body-a-b-a-a",
+          "collar-body-a-b-a-b"
+        ]
+      },
+      {
+        "id": "joint-015",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-body-a-b-b-a",
+          "collar-body-a-b-b-b"
+        ],
+        "parent": "collar-body-a-b-b",
+        "children": [
+          "collar-body-a-b-b-a",
+          "collar-body-a-b-b-b"
+        ]
+      },
+      {
+        "id": "joint-016",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-body-b-a-a-a",
+          "collar-body-b-a-a-b"
+        ],
+        "parent": "collar-body-b-a-a",
+        "children": [
+          "collar-body-b-a-a-a",
+          "collar-body-b-a-a-b"
+        ]
+      },
+      {
+        "id": "joint-017",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-body-b-a-b-a",
+          "collar-body-b-a-b-b"
+        ],
+        "parent": "collar-body-b-a-b",
+        "children": [
+          "collar-body-b-a-b-a",
+          "collar-body-b-a-b-b"
+        ]
+      },
+      {
+        "id": "joint-018",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-body-b-b-a-a",
+          "collar-body-b-b-a-b"
+        ],
+        "parent": "collar-body-b-b-a",
+        "children": [
+          "collar-body-b-b-a-a",
+          "collar-body-b-b-a-b"
+        ]
+      },
+      {
+        "id": "joint-019",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-body-b-b-b-a",
+          "collar-body-b-b-b-b"
+        ],
+        "parent": "collar-body-b-b-b",
+        "children": [
+          "collar-body-b-b-b-a",
+          "collar-body-b-b-b-b"
+        ]
+      },
+      {
+        "id": "joint-020",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-body-a-b-a-b-a",
+          "collar-body-a-b-a-b-b"
+        ],
+        "parent": "collar-body-a-b-a-b",
+        "children": [
+          "collar-body-a-b-a-b-a",
+          "collar-body-a-b-a-b-b"
+        ]
+      },
+      {
+        "id": "joint-021",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-body-a-b-b-b-a",
+          "collar-body-a-b-b-b-b"
+        ],
+        "parent": "collar-body-a-b-b-b",
+        "children": [
+          "collar-body-a-b-b-b-a",
+          "collar-body-a-b-b-b-b"
+        ]
+      },
+      {
+        "id": "joint-022",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-body-b-a-a-b-a",
+          "collar-body-b-a-a-b-b"
+        ],
+        "parent": "collar-body-b-a-a-b",
+        "children": [
+          "collar-body-b-a-a-b-a",
+          "collar-body-b-a-a-b-b"
+        ]
+      },
+      {
+        "id": "joint-023",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-body-b-a-b-b-a",
+          "collar-body-b-a-b-b-b"
+        ],
+        "parent": "collar-body-b-a-b-b",
+        "children": [
+          "collar-body-b-a-b-b-a",
+          "collar-body-b-a-b-b-b"
+        ]
+      },
+      {
+        "id": "joint-024",
+        "system": "structural",
+        "keys": 2,
+        "part_or_group_ids": [
+          "collar-body-b-b-b-a-a",
+          "collar-body-b-b-b-a-b"
+        ],
+        "parent": "collar-body-b-b-b-a",
+        "children": [
+          "collar-body-b-b-b-a-a",
+          "collar-body-b-b-b-a-b"
+        ]
+      }
+    ],
+    "assembly_connections_metadata_safe": true,
+    "limitation": "Counts describe constructed key/socket pairs and assembly-tree interfaces; final child meshes receive no fabricated connector annotations. Physical strength and fit remain unverified.",
+    "anatomical_keys": 12,
+    "anatomical_interfaces": 5,
+    "collar_keys": 8,
+    "collar_interfaces": 3,
+    "structural_keys": 48,
+    "structural_interfaces": 24
+  }
+}

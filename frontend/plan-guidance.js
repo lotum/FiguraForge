@@ -1,0 +1,13 @@
+// Shared visual language: these are strategy labels, never filament colors.
+export const STRATEGY_COLORS=Object.freeze({body:'#728197',part:'#00B2FF',mixed:'#CFFF00'});
+export const STRATEGY_TITLES=Object.freeze({body:'Am Grundkörper',part:'Getrenntes Bauteil',mixed:'Am Grundkörper · Mixed Filament'});
+export const PLAN_HELP=Object.freeze({
+ view:{title:'Ansichten erklärt',text:'Druckweisen zeigt die geplante Fertigung in Grau, Blau und Gelbgrün. Zielfarben berechnet Mischrezepte pro Fläche aus dem gewählten Basispaar. Ohne zwei Basisfilamente bleibt die Vorschau neutral. Beide Ansichten verwenden dieselben Bereiche und ändern den gespeicherten Plan nicht.'},
+ strategy:{title:'Druckweisen erklärt',text:'Am Grundkörper bleibt die Fläche auf dem gemeinsamen Körper. Getrenntes Bauteil plant einen eigenen Einsatz oder Körper mit späterer Verbindung. Mixed Filament ist eine Farbtechnik und wechselt zwei Basisfilamente schichtweise. Die Farbtechnik ist auch auf einem getrennten Bauteil möglich, etwa einem zweifarbigen Ohr. Das Kunststoffmaterial wird dabei nicht physisch gemischt.'},
+ cut:{title:'Schnittarten erklärt',text:'Flächeneinsatz plant eine farbige Oberflächenschale mit passender Tasche, etwa an Brust oder Wange. Ganzes Bauteil plant eine vollständige abtrennbare Form, etwa Ohr oder Hand. Die spätere Konstruktion prüft Geometrie und Montage; die Auswahl ist noch kein fertiger Schnitt.'},
+ group:{title:'Bauteilgruppen erklärt',text:'Bereiche mit derselben Gruppennummer gehören zu einem gemeinsamen Bauteil und dürfen verschiedene Farben haben. Verschiedene Nummern planen getrennte Teile. Pro Bauteil gilt die konfigurierte Grenze für Basisfilamente.'},
+ basis:{title:'Basisfilamente erklärt',text:'Das Basispaar besteht aus zwei echten, materialgleichen Filamenten. Bambu Mixed Filament wechselt diese schichtweise in unterschiedlichen Anteilen. Virtuelle Mischfarben sind zusätzliche Rezepte, keine zusätzlichen Düsen. Für den H2D begrenzt FiguraForge jedes Bauteil auf zwei Basisfilamente; die ganze Figur darf weitere Farben haben.'},
+ variants:{title:'Farbvarianten erklärt',text:'Die neun Vorschauen verwenden dieselbe Kamera. Von oben nach unten wird die Zielwirkung heller bis dunkler; Bei Mixed Filament verschiebt die waagerechte Achse die Zielwirkung in Richtung Basisfilament A oder B; jede Vorschau zeigt die daraus berechneten Druckfarben. Feste Filamentzuordnungen bleiben erhalten. Ohne Basispaar werden ähnliche Farbbereiche stärker bis schwächer vereinheitlicht. Das sind lokale Heuristiken, keine Entfernung realer Beleuchtung. Ein Klick übernimmt nur den bearbeitbaren Entwurf; Speichern bleibt ein eigener Schritt.'}
+});
+
+export const isMixedRegion=region=>region?.strategy==='mixed'||region?.color_mode==='mixed';

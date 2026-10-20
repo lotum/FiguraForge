@@ -1,0 +1,723 @@
+{
+  "main_plan_hash": "f3428f18596d2c03fe9c2cbf6805c1364bc80d4d8357211166b0d1c3fb059f9f",
+  "reference_selection": "benchmarks/buddy-native/final-reference-selection.json",
+  "checker_source_sha256": "de22ed933eb60136ed03497ff18aae47774a85092df16e80c86d40fd15a5bea1",
+  "plates": [
+    {
+      "plate_id": 1,
+      "part_ids": [
+        "collar-body-b-b-a-a",
+        "collar-neck-1"
+      ],
+      "native": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/plate-01.3mf",
+      "native_sha256": "aede8c1ba729aab6fa6df599516a43869ee71ae648b70d65bd2aa883a9b8a3eb",
+      "gcode": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/slice-01/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-29",
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 268934.78125,
+      "grams": 1874.9023742675781,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "31e23c3b87e0b7b47c52c2e3d76688480a80a9ad258af6e220a2741dea3df3ce"
+    },
+    {
+      "plate_id": 2,
+      "part_ids": [
+        "collar-body-b-b-b-b"
+      ],
+      "native": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/plate-02.3mf",
+      "native_sha256": "033ba08881e8d6c8748dce9f1dc8f2eafa7c97628c6f04b4e6e9a76c7f016413",
+      "gcode": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/slice-02/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-29",
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 75049.6171875,
+      "grams": 480.74460792541504,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "276bb30b56e2f1dc20b10a5508802dd7ed35977a55fdad7d27043d189fc18715"
+    },
+    {
+      "plate_id": 3,
+      "part_ids": [
+        "collar-body-a-b-b-b-b"
+      ],
+      "native": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/plate-03.3mf",
+      "native_sha256": "01943017f51bf54677b9db7f3c9fd47ca80f819e23bba9b9984783ea5251518f",
+      "gcode": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/slice-03/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-29",
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 150034.671875,
+      "grams": 990.07568359375,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "21c90ea5e919b47c5a3d64bee30329ba883cd707aff3f3c7a348570bf7e5a3b3"
+    },
+    {
+      "plate_id": 4,
+      "part_ids": [
+        "collar-body-b-b-b-a-a"
+      ],
+      "native": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/plate-04.3mf",
+      "native_sha256": "9de3c4844a6896a4b3fdf419e9498e9bd50595190b533583569c9eaa6738c798",
+      "gcode": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/slice-04/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-29",
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 158691.859375,
+      "grams": 1064.4330596923828,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "675d56155695b4f7a9dada7bc238a290895e34e25e2c811a773f67ecaf0314fe"
+    },
+    {
+      "plate_id": 5,
+      "part_ids": [
+        "collar-body-a-b-b-b-a",
+        "tail-b"
+      ],
+      "native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-05.3mf",
+      "native_sha256": "9dc7b7d0b3b89f9b81d34ed10c18a28f35011eb5dd5d756addd22cc2cdcd1ca4",
+      "gcode": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/slice-05/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-29",
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 191024.203125,
+      "grams": 1307.8438415527344,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "94a752bcc14433328364b3997c2e5a2831171ef69ef7bb3d5acd7101566dde6f"
+    },
+    {
+      "plate_id": 6,
+      "part_ids": [
+        "collar-head-a-a"
+      ],
+      "native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-06.3mf",
+      "native_sha256": "f07a0eb1d07d3c76d110c48d737c22479dd46bdd93eba84335e858eb6aed8cfd",
+      "gcode": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/slice-06/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 158154.640625,
+      "grams": 1082.422119140625,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "4fed94ae5d3d3b8c8651d20616e626552c6f7e85d67cee80dee242940fb3c6e8"
+    },
+    {
+      "plate_id": 7,
+      "part_ids": [
+        "collar-body-a-b-a-a"
+      ],
+      "native": "benchmarks/buddy-native/verification-3f3f98a235114fb48368ae684e23aedb/plate-07.3mf",
+      "native_sha256": "56cf539cd50165d3cd64c8f5679895cccbe270ab3c829cecd55e4da08bf82b76",
+      "gcode": "benchmarks/buddy-native/verification-3f3f98a235114fb48368ae684e23aedb/slice-07/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/verification-3f3f98a235114fb48368ae684e23aedb/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 186046.609375,
+      "grams": 1335.9140625,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "cfe5af5e100a12d8374475b374e4561edd3627fc58fd9490652fb6df7ca6a978"
+    },
+    {
+      "plate_id": 8,
+      "part_ids": [
+        "collar-head-b-a"
+      ],
+      "native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-08.3mf",
+      "native_sha256": "abcc95b02eacd080577c809404d2e16ceced639f2cdbd4f5d3fd72e49523f66a",
+      "gcode": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/slice-08/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-29",
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 177327.859375,
+      "grams": 1128.8188381195068,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "85d7b910eec2dec48586ccead254a0daaa78f2a8cb4496e082cc9a5054494aa5"
+    },
+    {
+      "plate_id": 9,
+      "part_ids": [
+        "collar-head-b-b"
+      ],
+      "native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-09.3mf",
+      "native_sha256": "ec42c0cd7638acfa7cb4fcb09adbef0bb93124bd36bae4bb504576eb1aaf0338",
+      "gcode": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/slice-09/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 210508.046875,
+      "grams": 1538.3687744140625,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "2dcc7c78fd6692ef9706643c1b2dcee32e415c90e352583cb201719e70e1fcb8"
+    },
+    {
+      "plate_id": 10,
+      "part_ids": [
+        "collar-head-a-b"
+      ],
+      "native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-10.3mf",
+      "native_sha256": "11254e9bc3e6a0aca36234950ee48953e65a41e335d4a71496a1327698a97bbf",
+      "gcode": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/slice-10/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 173049.5625,
+      "grams": 1276.1221923828125,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "d4f3ca72f851df2ab831ee40bf11c86a886f94e31352426a994c7e055b44f0ec"
+    },
+    {
+      "plate_id": 11,
+      "part_ids": [
+        "collar-body-a-b-b-a"
+      ],
+      "native": "benchmarks/buddy-native/verification-014d22255b5842ac940b39333a003220/plate-11.3mf",
+      "native_sha256": "3283f1eacebafe0ae3140014e6e89a7ee65e019724598ea5007eeda8f90ca8df",
+      "gcode": "benchmarks/buddy-native/verification-014d22255b5842ac940b39333a003220/slice-11/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/verification-014d22255b5842ac940b39333a003220/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 134467.390625,
+      "grams": 975.150634765625,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "81f59ff2a8e4180e0206f44d53fe0ed8954604cfd0186a273d05a0819b99ee85"
+    },
+    {
+      "plate_id": 12,
+      "part_ids": [
+        "collar-body-a-a-a-b"
+      ],
+      "native": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/plate-12.3mf",
+      "native_sha256": "f8a5c024e6ae65cb52aa1a36347e791615b6a9c94b35774580b94fb5ad0c2b9d",
+      "gcode": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/slice-12/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-29",
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 135010.8125,
+      "grams": 846.2466354370117,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "837b631ed99e724fac40721358914a9af4c8eff33d7ba1d72bfb806f0401711f"
+    },
+    {
+      "plate_id": 13,
+      "part_ids": [
+        "collar-body-a-a-b-b"
+      ],
+      "native": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/plate-13.3mf",
+      "native_sha256": "aae0ee97d59d7428ad366176bfd9375564728124fde178813d859e1ab82a853b",
+      "gcode": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/slice-13/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-29",
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 129634.4140625,
+      "grams": 807.02783203125,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "31c6ad627b18bb5ccbc50508ea6239f82413900260a4cd46fead0384864ba0a2"
+    },
+    {
+      "plate_id": 14,
+      "part_ids": [
+        "left-ear",
+        "tail-a"
+      ],
+      "native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-14.3mf",
+      "native_sha256": "b317d45fec6174d0ee93b8f917972759cc04bc7b7354c8ff6389dfe664ac8dcc",
+      "gcode": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/slice-14/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/remaining-paths-ad058348ea1b4ba3a92f5875bb82f680/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 124442.3046875,
+      "grams": 823.9263916015625,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "ee81340a6e475e627e50624a31d4f2b6e785579a49aa5baeb44c557155fe58b2"
+    },
+    {
+      "plate_id": 15,
+      "part_ids": [
+        "right-ear"
+      ],
+      "native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-15.3mf",
+      "native_sha256": "fe4322d48cfc396a727dba676756e512565082048e1f9176fac41311d9e8cf82",
+      "gcode": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/slice-15/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/remaining-paths-ad058348ea1b4ba3a92f5875bb82f680/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 72014.9375,
+      "grams": 465.9149169921875,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "404afa9dd2668c92ca07ce3c17403d5423f269c32a980dc3bd9f62ec191a77eb"
+    },
+    {
+      "plate_id": 16,
+      "part_ids": [
+        "collar-body-a-b-a-b-a"
+      ],
+      "native": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/plate-16.3mf",
+      "native_sha256": "c88f36efdac7c037130d98033aa7a72d40cb6e3a82a87b833776d7a92d98b94f",
+      "gcode": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/slice-16/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-29",
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 187518.6875,
+      "grams": 1305.2805709838867,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "42e259fc763546a7ad41b9b9e54bd985f4bd3460be584d19726159441bcc06d0"
+    },
+    {
+      "plate_id": 17,
+      "part_ids": [
+        "collar-body-b-b-a-b"
+      ],
+      "native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-17.3mf",
+      "native_sha256": "79a32fe89d92babed51a974d06d1113b945f26dc8eec1fd87803ce1d76bea349",
+      "gcode": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/slice-17/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/remaining-paths-ad058348ea1b4ba3a92f5875bb82f680/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-29",
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 105115.2265625,
+      "grams": 772.1744384765625,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "b50f84f9c88974fd549f732c450fdace2afd6f3a423a56bfaea6f8a64dac66ce"
+    },
+    {
+      "plate_id": 18,
+      "part_ids": [
+        "collar-body-b-a-a-a"
+      ],
+      "native": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/plate-18.3mf",
+      "native_sha256": "11abd45b1627dc3b021c73771afd4081137f090aa074ec132e9760bad5fbaf2b",
+      "gcode": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/slice-18/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-29",
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 62395.45703125,
+      "grams": 432.12918281555176,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "70c51449fbec7d289fdbe55e0f8645e3cf9564d5d065b3aa059f0d1726161e85"
+    },
+    {
+      "plate_id": 19,
+      "part_ids": [
+        "collar-body-a-b-a-b-b"
+      ],
+      "native": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/plate-19.3mf",
+      "native_sha256": "bcfd09eca5971d68c6da3ead37b28428ab2dc91bbb0f60e588d8d38754584216",
+      "gcode": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/slice-19/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-29",
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 152434.015625,
+      "grams": 1040.7062072753906,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "0178c9fd42772556742dbae8f63f5d46bde59c555c46d016a2305313717044b9"
+    },
+    {
+      "plate_id": 20,
+      "part_ids": [
+        "collar-body-a-a-b-a"
+      ],
+      "native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-20.3mf",
+      "native_sha256": "9a117b39ac9f7b3c2a6ce79b4a68063742b9253f6667ae057c9991db79e64918",
+      "gcode": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/slice-20/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/remaining-paths-ad058348ea1b4ba3a92f5875bb82f680/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 74847.7578125,
+      "grams": 509.27734375,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "e1f6d8eb1eb04a1ef63b311e30477309de2e35c11a751ebb52ba58b283d8a216"
+    },
+    {
+      "plate_id": 21,
+      "part_ids": [
+        "collar-body-a-a-a-a"
+      ],
+      "native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-21.3mf",
+      "native_sha256": "f2b1d4dd71d1551e3323e3fce955255d3494b2acd203e1fc1b9dcc60066f69fb",
+      "gcode": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/slice-21/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/remaining-paths-ad058348ea1b4ba3a92f5875bb82f680/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 74738.203125,
+      "grams": 508.9122009277344,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "fd48bfb1bfbb9a6b7d7ba75ede2443c30613df45c556a22c3a186d10e57f1e17"
+    },
+    {
+      "plate_id": 22,
+      "part_ids": [
+        "collar-body-b-a-a-b-b"
+      ],
+      "native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-22.3mf",
+      "native_sha256": "6c332fc4535ce1730d0990e2b9aaa2f420733003be84a10910504de79200b55e",
+      "gcode": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/slice-22/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/remaining-paths-ad058348ea1b4ba3a92f5875bb82f680/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 80104.0078125,
+      "grams": 580.7991333007812,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "89b8246b8136e6f22de507b96af48963251afb428d1790ac8f742efbcbcc3d14"
+    },
+    {
+      "plate_id": 23,
+      "part_ids": [
+        "collar-body-b-a-b-a"
+      ],
+      "native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-23.3mf",
+      "native_sha256": "a49755093086930e74ade57f16f6bbb01ded7ea3be48245801dc0ad082714ef5",
+      "gcode": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/slice-23/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/remaining-paths-ad058348ea1b4ba3a92f5875bb82f680/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-29",
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 63881.50390625,
+      "grams": 438.32049918174744,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "e59bce913ae4c8f0c2f0e79d414d678fc3ac86e49c2b14358cac71fa0a3751ef"
+    },
+    {
+      "plate_id": 24,
+      "part_ids": [
+        "collar-neck-0"
+      ],
+      "native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-24.3mf",
+      "native_sha256": "eee54af0e631df7a8a401e31ec8ed60c3e98b55f6227317f88702a3b324400a6",
+      "gcode": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/slice-24/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/remaining-paths-ad058348ea1b4ba3a92f5875bb82f680/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 65963.1171875,
+      "grams": 463.724365234375,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "e59dd80b6556c0b8d474175b483001a0aca928aa157506b110c1e69962ffca44"
+    },
+    {
+      "plate_id": 25,
+      "part_ids": [
+        "collar-body-b-a-b-b-b"
+      ],
+      "native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-25.3mf",
+      "native_sha256": "6af88cf3e3857635187779fc6775fac5141dcb92f2b16d8a83ee29543a69a20a",
+      "gcode": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/slice-25/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/remaining-paths-ad058348ea1b4ba3a92f5875bb82f680/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 79724.2578125,
+      "grams": 568.2315673828125,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "4526188a63f8469c726cb76c99a81ade9417d96688cd7eb01cee828b54f8866e"
+    },
+    {
+      "plate_id": 26,
+      "part_ids": [
+        "collar-body-b-b-b-a-b"
+      ],
+      "native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-26.3mf",
+      "native_sha256": "be30f51374d329a7cf480b6fd9e4e6c676c6c98f5337fe0f9d172e6247d18635",
+      "gcode": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/slice-26/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/remaining-paths-ad058348ea1b4ba3a92f5875bb82f680/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 64982.58984375,
+      "grams": 470.1112365722656,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "7a1cdf0b65fc780e035d346e39cd94bfa952c3114526f9d054e4b954f2147065"
+    },
+    {
+      "plate_id": 27,
+      "part_ids": [
+        "collar-body-b-a-b-b-a"
+      ],
+      "native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-27.3mf",
+      "native_sha256": "500f0b8044ee8b908e2b66562760b62def933ea560fbd40b7eaf205ba6f76aeb",
+      "gcode": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/slice-27/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/remaining-paths-ad058348ea1b4ba3a92f5875bb82f680/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 63708.04296875,
+      "grams": 436.658203125,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "f5a7b4eba03232de2ffec23e3f9a4654979f145bf0ca57b09eee5c419a4764ca"
+    },
+    {
+      "plate_id": 28,
+      "part_ids": [
+        "collar-body-b-a-a-b-a"
+      ],
+      "native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-28.3mf",
+      "native_sha256": "f85147b8b556da90509e62bde6a237aacc0ab095d03947275cb97fb772f69bd3",
+      "gcode": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/slice-28/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/remaining-paths-ad058348ea1b4ba3a92f5875bb82f680/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-33"
+      ],
+      "seconds": 61897.54296875,
+      "grams": 420.3831787109375,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "b88fe79be09a5db58ca6c1f367fcf6903bfc6d777e9ada7a14079b9e819d405c"
+    },
+    {
+      "plate_id": 29,
+      "part_ids": [
+        "collar-left"
+      ],
+      "native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-29.3mf",
+      "native_sha256": "b18866372cf945f644414c4f58d8d1eabebb76ce68a492bc0028d7495ec74be5",
+      "gcode": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/slice-29/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/remaining-paths-ad058348ea1b4ba3a92f5875bb82f680/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-33",
+        "richard-inventory-202609-60"
+      ],
+      "seconds": 105387.8359375,
+      "grams": 597.0805358886719,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "dad3ea5ca83f6009bc6d7a526d59cfb32e868ee152a8b3df2024642185cea3f4"
+    },
+    {
+      "plate_id": 30,
+      "part_ids": [
+        "collar-right"
+      ],
+      "native": "benchmarks/buddy-native/verification-b80dbbdfbcac456980bbcb3e6eabd0b0/plate-30.3mf",
+      "native_sha256": "81b57cfbb1a8a4ed3b25db854ddc55ec90b946cc6052af22f942a03eb16b6fdc",
+      "gcode": "benchmarks/buddy-native/verification-b80dbbdfbcac456980bbcb3e6eabd0b0/slice-30/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/verification-b80dbbdfbcac456980bbcb3e6eabd0b0/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-33",
+        "richard-inventory-202609-60"
+      ],
+      "seconds": 84398.7265625,
+      "grams": 409.1279525756836,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "7c129186bfd28ea5077c0a4c2fa4cb47d67184ec93551d9751ee1758957e9640"
+    },
+    {
+      "plate_id": 31,
+      "part_ids": [
+        "rolled-map"
+      ],
+      "native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-31.3mf",
+      "native_sha256": "fab3d5ad9f4442a950f432ac150277fd10a8c94a86779474e296198ef27af14e",
+      "gcode": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/slice-31/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/remaining-paths-ad058348ea1b4ba3a92f5875bb82f680/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-31"
+      ],
+      "seconds": 25551.68359375,
+      "grams": 142.82516479492188,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "6d89e0c0a574b7023b3aa3d5b2e840faf66c1711ee94f1c6c128fcb8d8a20b22"
+    },
+    {
+      "plate_id": 32,
+      "part_ids": [
+        "left-eye"
+      ],
+      "native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-32.3mf",
+      "native_sha256": "5562b0e6e6ed67dd8deef67946d223adf6db4343a09fe28b7bd69923984bc438",
+      "gcode": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/slice-32/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/remaining-paths-ad058348ea1b4ba3a92f5875bb82f680/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-30",
+        "richard-inventory-202609-31"
+      ],
+      "seconds": 22232.30859375,
+      "grams": 87.07717227935791,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "27496b2c1f3ec46d40fff00416b552630d6af1f02529e415cd4ecf3542c2dfba"
+    },
+    {
+      "plate_id": 33,
+      "part_ids": [
+        "right-eye"
+      ],
+      "native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-33.3mf",
+      "native_sha256": "1a9237a45bcb2448ca835f71dd349224fb1b1ab0c811789adb0fdb292d7d53da",
+      "gcode": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/slice-33/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/remaining-paths-ad058348ea1b4ba3a92f5875bb82f680/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-30",
+        "richard-inventory-202609-31"
+      ],
+      "seconds": 23608.349609375,
+      "grams": 90.89773845672607,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "14894d199f21966e83988a18853416fe1ed9074087ab36396a65692861ab9812"
+    },
+    {
+      "plate_id": 34,
+      "part_ids": [
+        "nose"
+      ],
+      "native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-34.3mf",
+      "native_sha256": "f159d7f0c97d9eba29ea3c0fe8a9d4622a34e6561eff5a0579f71ae5c76ea658",
+      "gcode": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/slice-34/plate_1.gcode",
+      "full_path_proof": "benchmarks/buddy-native/remaining-paths-ad058348ea1b4ba3a92f5875bb82f680/verification.json",
+      "full_paths_passed": true,
+      "slice_passed": true,
+      "physical_filament_ids": [
+        "richard-inventory-202609-30"
+      ],
+      "seconds": 11672.5849609375,
+      "grams": 56.083099365234375,
+      "wall_loops": 2,
+      "infill_percent": 15.0,
+      "gcode_sha256": "e61b3c90a79ff9a2ed3ad24cb36951b0459271a1763e01e4645b142b3e92c384"
+    }
+  ],
+  "scope": "Actual successful slice/GCode references; final Main geometry, face paint and complete settings parity still required.",
+  "missing_extra_reports": [],
+  "main_native_parity_verified": true,
+  "physical_fit_verified": false,
+  "physical_strength_verified": false,
+  "bambu_gui_verified": false,
+  "printer_communication": false,
+  "slice_count": 34,
+  "full_path_count": 34,
+  "reference_gates_passed": true,
+  "total_hours": 1042.9315584309895,
+  "total_kg": 25.327711755514144,
+  "main_native_parity_report": "docs/buddy-main-native-parity.json",
+  "main_native_parity_report_sha256": "4bc08ea31d33c36ebc3056c2a3f316b56a35d92d714592dc78f90e30c28e0206",
+  "main_package_sha256": "3d924cc030ace7b1a2f881645fce6d5331cb7bb3646adc08f3dcaade570e947a",
+  "digital_cli_and_xml_gates_passed": true
+}

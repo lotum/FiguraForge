@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-16",
+  "bambu_version": "02.07.01.62",
+  "source": "benchmarks/mochi-eye-detail-20261016/v2-draft-218d971813354ec1a4b70c7ce9f81fb4/native-export/plate-02-H2D-regional-native.3mf",
+  "gcode": "benchmarks/nose-fit-comparison/native-supported-20261016/Mochi-V2-schwarze-Details-GUI-geprueft.gcode.3mf",
+  "gui_sliced": true,
+  "printed_by_agent": false,
+  "layer_count": 31,
+  "max_z_mm": 6.4,
+  "estimated_seconds": 565,
+  "weight_g": 0.46,
+  "physical_slots": [
+    3
+  ],
+  "support_used": true,
+  "raft_layers": 3,
+  "path_conflict_observed": false,
+  "warnings": [
+    "bed_temperature_too_high_than_filament: textured PLA 55C vs profile vitrification 45C; uncalibrated official Generic PLA starting profile"
+  ],
+  "screenshot": "screenshots/mochi-v2-black-gui-sliced-macos.jpg"
+}

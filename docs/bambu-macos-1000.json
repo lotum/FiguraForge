@@ -1,0 +1,305 @@
+{
+  "bambu_version": "02.07.01.62",
+  "method": "Bambu Studio CLI import and native 3MF export; independent trimesh comparison in world coordinates",
+  "plates": [
+    {
+      "plate": "plate-01.3mf",
+      "passed": true,
+      "objects": 3,
+      "checks": [
+        {
+          "triangles": 2058,
+          "bounds_error_mm": 2.0899999597645547e-07,
+          "relative_volume_error": 5.000915107669815e-09,
+          "watertight": true,
+          "max_vertex_error_mm": 6.697925077089023e-07,
+          "zero_area_triangles": 0
+        },
+        {
+          "triangles": 5986,
+          "bounds_error_mm": 1.0599999953342376e-06,
+          "relative_volume_error": 7.850653707410414e-09,
+          "watertight": true,
+          "max_vertex_error_mm": 1.5435698867717736e-06,
+          "zero_area_triangles": 0
+        },
+        {
+          "triangles": 7172,
+          "bounds_error_mm": 8.20000003898258e-07,
+          "relative_volume_error": 7.6252675965283e-09,
+          "watertight": true,
+          "max_vertex_error_mm": 1.4272294875027935e-06,
+          "zero_area_triangles": 0
+        }
+      ]
+    },
+    {
+      "plate": "plate-02.3mf",
+      "passed": true,
+      "objects": 1,
+      "checks": [
+        {
+          "triangles": 31668,
+          "bounds_error_mm": 4.2000000348707545e-06,
+          "relative_volume_error": 1.8555297005297194e-08,
+          "watertight": true,
+          "max_vertex_error_mm": 1.284112145692285e-05,
+          "zero_area_triangles": 0
+        }
+      ]
+    },
+    {
+      "plate": "plate-03.3mf",
+      "passed": true,
+      "objects": 1,
+      "checks": [
+        {
+          "triangles": 17462,
+          "bounds_error_mm": 6.000000013273166e-06,
+          "relative_volume_error": 3.3820043591336686e-09,
+          "watertight": true,
+          "max_vertex_error_mm": 1.282662853586684e-05,
+          "zero_area_triangles": 0
+        }
+      ]
+    },
+    {
+      "plate": "plate-04.3mf",
+      "passed": true,
+      "objects": 2,
+      "checks": [
+        {
+          "triangles": 14514,
+          "bounds_error_mm": 2.76999998050087e-06,
+          "relative_volume_error": 2.8749549600986454e-08,
+          "watertight": true,
+          "max_vertex_error_mm": 5.6980172117508254e-06,
+          "zero_area_triangles": 0
+        },
+        {
+          "triangles": 20922,
+          "bounds_error_mm": 7.600000003549212e-06,
+          "relative_volume_error": 9.918383145163247e-09,
+          "watertight": true,
+          "max_vertex_error_mm": 1.2140346028055782e-05,
+          "zero_area_triangles": 0
+        }
+      ]
+    },
+    {
+      "plate": "plate-05.3mf",
+      "passed": true,
+      "objects": 1,
+      "checks": [
+        {
+          "triangles": 21182,
+          "bounds_error_mm": 4.2000000348707545e-06,
+          "relative_volume_error": 4.120720912064367e-08,
+          "watertight": true,
+          "max_vertex_error_mm": 1.1136107936189192e-05,
+          "zero_area_triangles": 0
+        }
+      ]
+    },
+    {
+      "plate": "plate-06.3mf",
+      "passed": true,
+      "objects": 1,
+      "checks": [
+        {
+          "triangles": 32094,
+          "bounds_error_mm": 1.3000000024021574e-05,
+          "relative_volume_error": 9.651087437935419e-09,
+          "watertight": true,
+          "max_vertex_error_mm": 1.40375959743863e-05,
+          "zero_area_triangles": 0
+        }
+      ]
+    },
+    {
+      "plate": "plate-07.3mf",
+      "passed": true,
+      "objects": 1,
+      "checks": [
+        {
+          "triangles": 24880,
+          "bounds_error_mm": 7.000000010748408e-06,
+          "relative_volume_error": 5.607991734886967e-09,
+          "watertight": true,
+          "max_vertex_error_mm": 9.435941924054328e-06,
+          "zero_area_triangles": 0
+        }
+      ]
+    },
+    {
+      "plate": "plate-08.3mf",
+      "passed": true,
+      "objects": 1,
+      "checks": [
+        {
+          "triangles": 18126,
+          "bounds_error_mm": 3.6000000136482413e-06,
+          "relative_volume_error": 2.748556777744885e-08,
+          "watertight": true,
+          "max_vertex_error_mm": 7.0936098250194035e-06,
+          "zero_area_triangles": 0
+        }
+      ]
+    },
+    {
+      "plate": "plate-09.3mf",
+      "passed": true,
+      "objects": 1,
+      "checks": [
+        {
+          "triangles": 10424,
+          "bounds_error_mm": 3.039999995735343e-06,
+          "relative_volume_error": 2.9576817648574288e-08,
+          "watertight": true,
+          "max_vertex_error_mm": 6.8211802151339235e-06,
+          "zero_area_triangles": 0
+        }
+      ]
+    },
+    {
+      "plate": "plate-10.3mf",
+      "passed": true,
+      "objects": 1,
+      "checks": [
+        {
+          "triangles": 11716,
+          "bounds_error_mm": 6.400000017947605e-06,
+          "relative_volume_error": 2.6615381312482918e-08,
+          "watertight": true,
+          "max_vertex_error_mm": 8.377284755258418e-06,
+          "zero_area_triangles": 0
+        }
+      ]
+    },
+    {
+      "plate": "plate-11.3mf",
+      "passed": true,
+      "objects": 1,
+      "checks": [
+        {
+          "triangles": 16374,
+          "bounds_error_mm": 4.799999999249849e-06,
+          "relative_volume_error": 3.625755217509731e-08,
+          "watertight": true,
+          "max_vertex_error_mm": 7.762731508517747e-06,
+          "zero_area_triangles": 0
+        }
+      ]
+    },
+    {
+      "plate": "plate-12.3mf",
+      "passed": true,
+      "objects": 1,
+      "checks": [
+        {
+          "triangles": 9716,
+          "bounds_error_mm": 5.1699999801257945e-06,
+          "relative_volume_error": 2.8128363563138588e-08,
+          "watertight": true,
+          "max_vertex_error_mm": 7.453146976096598e-06,
+          "zero_area_triangles": 0
+        }
+      ]
+    },
+    {
+      "plate": "plate-13.3mf",
+      "passed": true,
+      "objects": 1,
+      "checks": [
+        {
+          "triangles": 13256,
+          "bounds_error_mm": 3.4000000255218765e-06,
+          "relative_volume_error": 3.328379262694386e-09,
+          "watertight": true,
+          "max_vertex_error_mm": 6.25739563301729e-06,
+          "zero_area_triangles": 0
+        }
+      ]
+    },
+    {
+      "plate": "plate-14.3mf",
+      "passed": true,
+      "objects": 1,
+      "checks": [
+        {
+          "triangles": 8382,
+          "bounds_error_mm": 7.619999990993165e-06,
+          "relative_volume_error": 8.686722231993831e-08,
+          "watertight": true,
+          "max_vertex_error_mm": 9.090368523860973e-06,
+          "zero_area_triangles": 0
+        }
+      ]
+    },
+    {
+      "plate": "plate-15.3mf",
+      "passed": true,
+      "objects": 1,
+      "checks": [
+        {
+          "triangles": 9322,
+          "bounds_error_mm": 7.619999990993165e-06,
+          "relative_volume_error": 3.668390443099345e-08,
+          "watertight": true,
+          "max_vertex_error_mm": 8.739067448724913e-06,
+          "zero_area_triangles": 0
+        }
+      ]
+    },
+    {
+      "plate": "plate-16.3mf",
+      "passed": true,
+      "objects": 1,
+      "checks": [
+        {
+          "triangles": 9698,
+          "bounds_error_mm": 7.619999990993165e-06,
+          "relative_volume_error": 4.1214971410130795e-08,
+          "watertight": true,
+          "max_vertex_error_mm": 9.090368523860973e-06,
+          "zero_area_triangles": 0
+        }
+      ]
+    },
+    {
+      "plate": "plate-17.3mf",
+      "passed": true,
+      "objects": 3,
+      "checks": [
+        {
+          "triangles": 22120,
+          "bounds_error_mm": 2.920000000017353e-06,
+          "relative_volume_error": 9.358641392816523e-10,
+          "watertight": true,
+          "max_vertex_error_mm": 3.858830910914841e-06,
+          "zero_area_triangles": 0
+        },
+        {
+          "triangles": 24430,
+          "bounds_error_mm": 4.939999996622646e-06,
+          "relative_volume_error": 1.890554796208275e-08,
+          "watertight": true,
+          "max_vertex_error_mm": 7.090775760892493e-06,
+          "zero_area_triangles": 0
+        },
+        {
+          "triangles": 30706,
+          "bounds_error_mm": 2.2000000114985596e-06,
+          "relative_volume_error": 3.298495641800357e-08,
+          "watertight": true,
+          "max_vertex_error_mm": 6.111101050366255e-06,
+          "zero_area_triangles": 0
+        }
+      ]
+    }
+  ],
+  "passed": true,
+  "slicing_tested": false,
+  "physical_fit_tested": false,
+  "filament_assignment_verified": false
+}

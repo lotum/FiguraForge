@@ -1,0 +1,1170 @@
+{
+  "user_original": "benchmarks/mochi-solid-production/Mochi-Braun-Beige-H2D-2-Platten.3mf",
+  "user_original_sha256": "4197d3b9bbd3dff88fe65bacc47bc0448c0d76530c56b66d221760318df73508",
+  "original_unchanged": true,
+  "archive": {
+    "project_id": "dd9d3c92b8cd4b478aaa375db11acc99",
+    "title": "Mochi · Richards Druckstand · 180 mm",
+    "archive": {
+      "source_sha256": "4197d3b9bbd3dff88fe65bacc47bc0448c0d76530c56b66d221760318df73508",
+      "height_mm": 180,
+      "parts": 6,
+      "plates": 2,
+      "preview": "saved-prints/Richards-Koerper-Vorschau.png",
+      "files": [
+        {
+          "path": "saved-prints/Mochi-Richards-180mm-korrigierte-Details.3mf",
+          "label": "180 mm · deine Farben + korrekte schwarze Details",
+          "primary": true,
+          "note": "Körperplatte und Druckeinstellungen erhalten; nur die fehlerhafte Nasengeometrie auf Platte 2 ersetzt."
+        },
+        {
+          "path": "saved-prints/Details-180mm.3mf",
+          "label": "180 mm · nur Nase und Augen",
+          "note": "Für den bereits gedruckten Körper. Fünf schwarze Teile, kein zusätzlicher Körper."
+        },
+        {
+          "path": "saved-prints/Mochi-Richards-Anpassungen-180mm-ORIGINAL.3mf",
+          "label": "Unveränderte Originaldatei sichern",
+          "note": "Original einschließlich deiner Änderungen. ACHTUNG: Platte 2 enthält die fehlerhafte Nasengeometrie; nur Platte 1 verwenden."
+        },
+        {
+          "path": "saved-prints/Mochi-320mm-zwei-Duesen-2-Platten.3mf",
+          "label": "320 mm · zwei Düsen",
+          "note": "Neue Datei; schwarze Teile passend mitvergrößert auf Platte 2. Großversion ohne „No sparse layers“. Beide Platten lokal geslicet."
+        },
+        {
+          "path": "saved-prints/Mochi-325mm-rechte-Duese-2-Platten.3mf",
+          "label": "325 mm · rechte Düse / AMS-Farbwechsel",
+          "note": "Neue Datei; schwarze Teile passend mitvergrößert auf Platte 2. Großversion ohne „No sparse layers“. Beide Platten lokal geslicet."
+        }
+      ],
+      "body_printed": true,
+      "black_printed": false,
+      "note": "Dein angepasster braun-beiger Körper ist gedruckt und als gut bestätigt. Schwarze Nase/Augen noch nicht gedruckt. Originaldatei bleibt erhalten; korrigierte und große Versionen sind zusätzliche Dateien."
+    }
+  },
+  "geometry_paint": {
+    "180": {
+      "file": "benchmarks/mochi-user-edition-20261018/fallback-korrigiert/Mochi-Richards-180mm-korrigierte-Details.3mf",
+      "sha256": "c8e3984ef20960f13e2191fad72605992467c69cc33387e1a4a34c12db86ba32",
+      "body_dimensions_mm": [
+        89.2105866,
+        136.672287,
+        180.0
+      ],
+      "maximum_z_mm": 180.0,
+      "source_body_paint_identical": true,
+      "source_face_indices_identical": true,
+      "body_unique_paint_codes": 784,
+      "global_resource_ids_unique": true,
+      "parts": {
+        "body": 296494,
+        "nose": 7058,
+        "eye-1": 844,
+        "eye-2": 1352,
+        "eye-3": 1232,
+        "eye-4": 1172
+      },
+      "filament_map": [
+        "1",
+        "2",
+        "2"
+      ],
+      "no_sparse_layers": "1"
+    },
+    "320": {
+      "file": "benchmarks/mochi-user-edition-20261018/editions-verified/Mochi-320mm-zwei-Duesen-2-Platten.3mf",
+      "sha256": "aa01a9347484b3c9c0a2aab2196e2b8dd49a13ca98c9090af1d75074260ad096",
+      "body_dimensions_mm": [
+        158.59659840019822,
+        242.9729546669704,
+        320.00000000039995
+      ],
+      "maximum_z_mm": 320.0000000002,
+      "source_body_paint_identical": true,
+      "source_face_indices_identical": true,
+      "body_unique_paint_codes": 784,
+      "global_resource_ids_unique": true,
+      "parts": {
+        "body": 296494,
+        "nose": 7058,
+        "eye-1": 844,
+        "eye-2": 1352,
+        "eye-3": 1232,
+        "eye-4": 1172
+      },
+      "filament_map": [
+        "1",
+        "2",
+        "2"
+      ],
+      "no_sparse_layers": "0"
+    },
+    "325": {
+      "file": "benchmarks/mochi-user-edition-20261018/editions-verified/Mochi-325mm-rechte-Duese-2-Platten.3mf",
+      "sha256": "115a4f1005ce976817e0708e48bed51f18aba3195bb8095d9c9002d367cb0b1c",
+      "body_dimensions_mm": [
+        161.07467025039648,
+        246.7694070839408,
+        325.0000000008
+      ],
+      "maximum_z_mm": 325.0000000004,
+      "source_body_paint_identical": true,
+      "source_face_indices_identical": true,
+      "body_unique_paint_codes": 784,
+      "global_resource_ids_unique": true,
+      "parts": {
+        "body": 296494,
+        "nose": 7058,
+        "eye-1": 844,
+        "eye-2": 1352,
+        "eye-3": 1232,
+        "eye-4": 1172
+      },
+      "filament_map": [
+        "2",
+        "2",
+        "2"
+      ],
+      "no_sparse_layers": "0"
+    }
+  },
+  "native_save_reload": {
+    "1": {
+      "parts": {
+        "body": {
+          "triangles": 296494,
+          "paint_identical": true,
+          "maximum_world_error_mm": 0.0
+        },
+        "nose": {
+          "triangles": 7058,
+          "paint_identical": true,
+          "maximum_world_error_mm": 1.0000007932831068e-07
+        },
+        "eye-1": {
+          "triangles": 844,
+          "paint_identical": true,
+          "maximum_world_error_mm": 4.0000008993956726e-07
+        },
+        "eye-2": {
+          "triangles": 1352,
+          "paint_identical": true,
+          "maximum_world_error_mm": 4.000000330961484e-10
+        },
+        "eye-3": {
+          "triangles": 1232,
+          "paint_identical": true,
+          "maximum_world_error_mm": 4.390001695497858e-10
+        },
+        "eye-4": {
+          "triangles": 1172,
+          "paint_identical": true,
+          "maximum_world_error_mm": 1.4100001166639231e-09
+        }
+      },
+      "passed": true
+    },
+    "2": {
+      "parts": {
+        "body": {
+          "triangles": 296494,
+          "paint_identical": true,
+          "maximum_world_error_mm": 0.0
+        },
+        "nose": {
+          "triangles": 7058,
+          "paint_identical": true,
+          "maximum_world_error_mm": 1.0000007932831068e-07
+        },
+        "eye-1": {
+          "triangles": 844,
+          "paint_identical": true,
+          "maximum_world_error_mm": 4.0000008993956726e-07
+        },
+        "eye-2": {
+          "triangles": 1352,
+          "paint_identical": true,
+          "maximum_world_error_mm": 4.000000330961484e-10
+        },
+        "eye-3": {
+          "triangles": 1232,
+          "paint_identical": true,
+          "maximum_world_error_mm": 4.390001695497858e-10
+        },
+        "eye-4": {
+          "triangles": 1172,
+          "paint_identical": true,
+          "maximum_world_error_mm": 1.4100001166639231e-09
+        }
+      },
+      "passed": true
+    }
+  },
+  "editions": {
+    "320": {
+      "plate_checks": [
+        {
+          "slice": {
+            "source": "benchmarks/mochi-user-edition-20261018/editions-verified/Mochi-320mm-zwei-Duesen-2-Platten.3mf",
+            "plate_index": 1,
+            "source_sha256": "aa01a9347484b3c9c0a2aab2196e2b8dd49a13ca98c9090af1d75074260ad096",
+            "output": "benchmarks/mochi-user-edition-20261018/editions-verified/slice-320-plate-1",
+            "command": [
+              "/Applications/BambuStudio.app/Contents/MacOS/BambuStudio",
+              "--normative-check=0",
+              "--slice",
+              "1",
+              "--arrange",
+              "0",
+              "--orient",
+              "0",
+              "--outputdir",
+              "benchmarks/mochi-user-edition-20261018/editions-verified/slice-320-plate-1",
+              "--export-3mf",
+              "sliced.3mf",
+              "benchmarks/mochi-user-edition-20261018/editions-verified/Mochi-320mm-zwei-Duesen-2-Platten.3mf"
+            ],
+            "exit_code": 0,
+            "passed": true,
+            "validity_checks_not_disabled": true,
+            "gcode_path_validation_verified": false,
+            "print_ready": false,
+            "makerworld_normative_checks_enabled": false,
+            "printer_communication": false,
+            "physical_print_verified": false,
+            "result": {
+              "error_string": "Success.",
+              "export_time": 11657,
+              "layer_height": 0.1599999964237213,
+              "plate_index": 1,
+              "prepare_time": 482,
+              "return_code": 0,
+              "sliced_plates": [
+                {
+                  "feature_type_times": {
+                    "Bridge": 242.76776123046875,
+                    "Brim": 1.9774125814437866,
+                    "Custom": 303.09515380859375,
+                    "Flush": 8558.4755859375,
+                    "Gap infill": 420.74261474609375,
+                    "Inner wall": 16602.103515625,
+                    "Internal solid infill": 6690.81787109375,
+                    "Outer wall": 21636.900390625,
+                    "Overhang wall": 662.00146484375,
+                    "Prime tower": 26185.703125,
+                    "Sparse infill": 2162.92236328125,
+                    "Support": 11439.2802734375,
+                    "Support interface": 184.6557159423828,
+                    "Top surface": 141.39271545410156,
+                    "Travel": 19789.966796875,
+                    "Undefined": 19788.1640625
+                  },
+                  "filament_change_times": 0,
+                  "filaments": [
+                    {
+                      "filament_id": "GFL99",
+                      "id": 1,
+                      "main_used_g": 246.4626007080078,
+                      "total_used_g": 360.37890625
+                    },
+                    {
+                      "filament_id": "GFA00",
+                      "id": 2,
+                      "main_used_g": 109.91614532470703,
+                      "total_used_g": 169.37124633789062
+                    }
+                  ],
+                  "generate_support_material_time": 23742,
+                  "id": 1,
+                  "infill_time": 16014,
+                  "layer_filament_change": 0,
+                  "main_predication": 79799.4140625,
+                  "make_perimeters_time": 13284,
+                  "obj_cached_cnt": 0,
+                  "objects": [
+                    {
+                      "bbox": {
+                        "depth": 242.97296142578125,
+                        "height": 320.0,
+                        "width": 158.5966033935547,
+                        "x": 95.70169830322266,
+                        "y": 23.51352310180664,
+                        "z": -2.00003569261753e-10
+                      },
+                      "id": 5,
+                      "name": "body",
+                      "triangle_count": 296494
+                    }
+                  ],
+                  "sliced_time": 73371,
+                  "sliced_time_with_cache": 18103,
+                  "total_predication": 114870.8828125,
+                  "triangle_count": 296494,
+                  "warning_message": ""
+                }
+              ],
+              "sparse_infill_density": 5.0,
+              "upward_compatible_machine": [
+                "Bambu Lab H2D Pro 0.4 nozzle"
+              ],
+              "wall_loops": 2
+            },
+            "gcode_sha256": "50c529f7952a13ea168a913e9f43aa01eb6e0a752ded2f927b4a156b5831b7fe"
+          },
+          "footprints": {
+            "source": "benchmarks/mochi-user-edition-20261018/editions-verified/slice-320-plate-1/plate_1.gcode",
+            "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+            "passed": true,
+            "tolerance_mm": 0.02,
+            "conflict_counts": {},
+            "examples": [],
+            "extrusion_segments": 5522827,
+            "z_groups": 1999,
+            "unsupported_arcs": 0,
+            "arc_chord_error_limit_mm": 0.005,
+            "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+            "single_object_owner_evidence": {
+              "sidecar": "benchmarks/mochi-user-edition-20261018/editions-verified/slice-320-plate-1/result.json",
+              "object_id": 5,
+              "name": "body",
+              "objects": 1
+            },
+            "ignored_nonprinting_arc_commands": 37795,
+            "gcode_sha256": "50c529f7952a13ea168a913e9f43aa01eb6e0a752ded2f927b4a156b5831b7fe",
+            "owner_extrusion_xy_bounds_mm": {
+              "-2": [
+                241.271,
+                236.271,
+                316.958,
+                307.985
+              ],
+              "5": [
+                70.412071,
+                19.019071,
+                268.71792899999997,
+                266.683929
+              ]
+            },
+            "globally_overlapping_owner_ids": [
+              -2,
+              5
+            ],
+            "wall_time_seconds": 49.200502083054744
+          }
+        },
+        {
+          "slice": {
+            "source": "benchmarks/mochi-user-edition-20261018/editions-verified/Mochi-320mm-zwei-Duesen-2-Platten.3mf",
+            "plate_index": 2,
+            "source_sha256": "aa01a9347484b3c9c0a2aab2196e2b8dd49a13ca98c9090af1d75074260ad096",
+            "output": "benchmarks/mochi-user-edition-20261018/editions-verified/slice-320-plate-2",
+            "command": [
+              "/Applications/BambuStudio.app/Contents/MacOS/BambuStudio",
+              "--normative-check=0",
+              "--slice",
+              "2",
+              "--arrange",
+              "0",
+              "--orient",
+              "0",
+              "--outputdir",
+              "benchmarks/mochi-user-edition-20261018/editions-verified/slice-320-plate-2",
+              "--export-3mf",
+              "sliced.3mf",
+              "benchmarks/mochi-user-edition-20261018/editions-verified/Mochi-320mm-zwei-Duesen-2-Platten.3mf"
+            ],
+            "exit_code": 0,
+            "passed": true,
+            "validity_checks_not_disabled": true,
+            "gcode_path_validation_verified": false,
+            "print_ready": false,
+            "makerworld_normative_checks_enabled": false,
+            "printer_communication": false,
+            "physical_print_verified": false,
+            "result": {
+              "error_string": "Success.",
+              "export_time": 421,
+              "layer_height": 0.1599999964237213,
+              "plate_index": 2,
+              "prepare_time": 361,
+              "return_code": 0,
+              "sliced_plates": [
+                {
+                  "feature_type_times": {
+                    "Bridge": 10.885024070739746,
+                    "Custom": 310.4752502441406,
+                    "Flush": 26.0,
+                    "Gap infill": 14.835677146911621,
+                    "Inner wall": 89.21018981933594,
+                    "Internal solid infill": 151.5610809326172,
+                    "Outer wall": 198.1991424560547,
+                    "Overhang wall": 24.071592330932617,
+                    "Sparse infill": 3.07307505607605,
+                    "Support": 122.9970474243164,
+                    "Support interface": 19.912471771240234,
+                    "Top surface": 15.862297058105469,
+                    "Travel": 156.85372924804688,
+                    "Undefined": 147.4187774658203
+                  },
+                  "filament_change_times": 0,
+                  "filaments": [
+                    {
+                      "filament_id": "GFL99",
+                      "id": 3,
+                      "main_used_g": 1.2527427673339844,
+                      "total_used_g": 1.2527426481246948
+                    }
+                  ],
+                  "generate_support_material_time": 105,
+                  "id": 2,
+                  "infill_time": 97,
+                  "layer_filament_change": 0,
+                  "main_predication": 781.4783935546875,
+                  "make_perimeters_time": 98,
+                  "obj_cached_cnt": 0,
+                  "objects": [
+                    {
+                      "bbox": {
+                        "depth": 17.36598014831543,
+                        "height": 14.085578918457031,
+                        "width": 16.518592834472656,
+                        "x": 475.9574890136719,
+                        "y": 46.190826416015625,
+                        "z": -1.9489903450012207
+                      },
+                      "id": 9,
+                      "name": "nose",
+                      "triangle_count": 7058
+                    },
+                    {
+                      "bbox": {
+                        "depth": 12.837210655212402,
+                        "height": 7.686324596405029,
+                        "width": 9.484597206115723,
+                        "x": 505.42529296875,
+                        "y": 47.16599655151367,
+                        "z": -1.9034194946289062
+                      },
+                      "id": 13,
+                      "name": "eye-1",
+                      "triangle_count": 844
+                    },
+                    {
+                      "bbox": {
+                        "depth": 7.665192127227783,
+                        "height": 4.132847785949707,
+                        "width": 9.437490463256836,
+                        "x": 530.3545532226562,
+                        "y": 48.30659103393555,
+                        "z": -0.8598716259002686
+                      },
+                      "id": 17,
+                      "name": "eye-2",
+                      "triangle_count": 1352
+                    },
+                    {
+                      "bbox": {
+                        "depth": 7.879279136657715,
+                        "height": 4.428725242614746,
+                        "width": 9.381043434143066,
+                        "x": 555.4451293945312,
+                        "y": 48.18767547607422,
+                        "z": -1.1831951141357422
+                      },
+                      "id": 21,
+                      "name": "eye-3",
+                      "triangle_count": 1232
+                    },
+                    {
+                      "bbox": {
+                        "depth": 13.975320816040039,
+                        "height": 8.129182815551758,
+                        "width": 9.46519660949707,
+                        "x": 580.0850830078125,
+                        "y": 46.7882080078125,
+                        "z": -2.2849018573760986
+                      },
+                      "id": 25,
+                      "name": "eye-4",
+                      "triangle_count": 1172
+                    }
+                  ],
+                  "sliced_time": 878,
+                  "sliced_time_with_cache": 557,
+                  "total_predication": 1134.5186767578125,
+                  "triangle_count": 11658,
+                  "warning_message": ""
+                }
+              ],
+              "sparse_infill_density": 5.0,
+              "upward_compatible_machine": [
+                "Bambu Lab H2D Pro 0.4 nozzle"
+              ],
+              "wall_loops": 2
+            },
+            "gcode_sha256": "fa7b430e808e31f03c04b1ec7a7bc1c3fb72c16e6b98c9b7b98e8d1374f7253b"
+          },
+          "footprints": {
+            "source": "benchmarks/mochi-user-edition-20261018/editions-verified/slice-320-plate-2/plate_2.gcode",
+            "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+            "passed": true,
+            "tolerance_mm": 0.02,
+            "conflict_counts": {},
+            "examples": [],
+            "extrusion_segments": 33856,
+            "z_groups": 85,
+            "unsupported_arcs": 0,
+            "arc_chord_error_limit_mm": 0.005,
+            "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+            "ignored_nonprinting_arc_commands": 273,
+            "gcode_sha256": "fa7b430e808e31f03c04b1ec7a7bc1c3fb72c16e6b98c9b7b98e8d1374f7253b",
+            "owner_extrusion_xy_bounds_mm": {
+              "100": [
+                56.8435885,
+                46.1525885,
+                71.30241149999999,
+                63.660411499999995
+              ],
+              "101": [
+                83.102,
+                44.959,
+                96.223,
+                62.459
+              ],
+              "102": [
+                107.906415,
+                45.578415,
+                122.394585,
+                60.076584999999994
+              ],
+              "103": [
+                131.919567,
+                44.848567,
+                148.364433,
+                59.609432999999996
+              ],
+              "104": [
+                157.918,
+                44.438,
+                171.365,
+                62.656
+              ]
+            },
+            "globally_overlapping_owner_ids": [],
+            "wall_time_seconds": 0.24243262503296137
+          }
+        }
+      ],
+      "total_predicted_seconds": 116005.40148925781,
+      "total_predicted_g": 531.0028952360153,
+      "body_filament_changes": 0,
+      "passed": true
+    },
+    "325": {
+      "plate_checks": [
+        {
+          "slice": {
+            "source": "benchmarks/mochi-user-edition-20261018/editions-verified/Mochi-325mm-rechte-Duese-2-Platten.3mf",
+            "plate_index": 1,
+            "source_sha256": "115a4f1005ce976817e0708e48bed51f18aba3195bb8095d9c9002d367cb0b1c",
+            "output": "benchmarks/mochi-user-edition-20261018/editions-verified/slice-325-plate-1",
+            "command": [
+              "/Applications/BambuStudio.app/Contents/MacOS/BambuStudio",
+              "--normative-check=0",
+              "--slice",
+              "1",
+              "--arrange",
+              "0",
+              "--orient",
+              "0",
+              "--outputdir",
+              "benchmarks/mochi-user-edition-20261018/editions-verified/slice-325-plate-1",
+              "--export-3mf",
+              "sliced.3mf",
+              "benchmarks/mochi-user-edition-20261018/editions-verified/Mochi-325mm-rechte-Duese-2-Platten.3mf"
+            ],
+            "exit_code": 0,
+            "passed": true,
+            "validity_checks_not_disabled": true,
+            "gcode_path_validation_verified": false,
+            "print_ready": false,
+            "makerworld_normative_checks_enabled": false,
+            "printer_communication": false,
+            "physical_print_verified": false,
+            "result": {
+              "error_string": "Success.",
+              "export_time": 12050,
+              "layer_height": 0.1599999964237213,
+              "plate_index": 1,
+              "prepare_time": 489,
+              "return_code": 0,
+              "sliced_plates": [
+                {
+                  "feature_type_times": {
+                    "Bridge": 258.9822692871094,
+                    "Brim": 2.1143853664398193,
+                    "Custom": 303.51092529296875,
+                    "Flush": 157482.359375,
+                    "Gap infill": 432.9830322265625,
+                    "Inner wall": 17057.7109375,
+                    "Internal solid infill": 6858.69677734375,
+                    "Outer wall": 22227.59765625,
+                    "Overhang wall": 682.98388671875,
+                    "Prime tower": 26968.849609375,
+                    "Sparse infill": 2391.415283203125,
+                    "Support": 12340.8544921875,
+                    "Support interface": 198.91278076171875,
+                    "Top surface": 145.51527404785156,
+                    "Travel": 21207.46484375,
+                    "Undefined": 21205.25
+                  },
+                  "filament_change_times": 1543,
+                  "filaments": [
+                    {
+                      "filament_id": "GFL99",
+                      "id": 1,
+                      "main_used_g": 257.6180114746094,
+                      "total_used_g": 525.6563720703125
+                    },
+                    {
+                      "filament_id": "GFA00",
+                      "id": 2,
+                      "main_used_g": 115.25782775878906,
+                      "total_used_g": 645.6126708984375
+                    }
+                  ],
+                  "generate_support_material_time": 25527,
+                  "id": 1,
+                  "infill_time": 14594,
+                  "layer_filament_change": 0,
+                  "main_predication": 80652.921875,
+                  "make_perimeters_time": 12891,
+                  "obj_cached_cnt": 0,
+                  "objects": [
+                    {
+                      "bbox": {
+                        "depth": 246.7694091796875,
+                        "height": 325.0,
+                        "width": 161.07467651367188,
+                        "x": 94.46266174316406,
+                        "y": 21.615297317504883,
+                        "z": -4.00007138523506e-10
+                      },
+                      "id": 5,
+                      "name": "body",
+                      "triangle_count": 296494
+                    }
+                  ],
+                  "sliced_time": 74627,
+                  "sliced_time_with_cache": 19050,
+                  "total_predication": 265431.40625,
+                  "triangle_count": 296494,
+                  "warning_message": ""
+                }
+              ],
+              "sparse_infill_density": 5.0,
+              "upward_compatible_machine": [
+                "Bambu Lab H2D Pro 0.4 nozzle"
+              ],
+              "wall_loops": 2
+            },
+            "gcode_sha256": "cba850aada50444f47a8ab5fa5ce7eeb6d60f759a1f7e6b22fac3d9bbf8abb1b"
+          },
+          "footprints": {
+            "source": "benchmarks/mochi-user-edition-20261018/editions-verified/slice-325-plate-1/plate_1.gcode",
+            "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+            "passed": true,
+            "tolerance_mm": 0.02,
+            "conflict_counts": {},
+            "examples": [],
+            "extrusion_segments": 5712040,
+            "z_groups": 2031,
+            "unsupported_arcs": 0,
+            "arc_chord_error_limit_mm": 0.005,
+            "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+            "single_object_owner_evidence": {
+              "sidecar": "benchmarks/mochi-user-edition-20261018/editions-verified/slice-325-plate-1/result.json",
+              "object_id": 5,
+              "name": "body",
+              "objects": 1
+            },
+            "ignored_nonprinting_arc_commands": 37626,
+            "gcode_sha256": "cba850aada50444f47a8ab5fa5ce7eeb6d60f759a1f7e6b22fac3d9bbf8abb1b",
+            "owner_extrusion_xy_bounds_mm": {
+              "-2": [
+                241.513,
+                236.509,
+                316.497,
+                309.957
+              ],
+              "5": [
+                74.215117,
+                12.537117,
+                275.648883,
+                268.601883
+              ]
+            },
+            "globally_overlapping_owner_ids": [
+              -2,
+              5
+            ],
+            "wall_time_seconds": 38.006306583061814
+          }
+        },
+        {
+          "slice": {
+            "source": "benchmarks/mochi-user-edition-20261018/editions-verified/Mochi-325mm-rechte-Duese-2-Platten.3mf",
+            "plate_index": 2,
+            "source_sha256": "115a4f1005ce976817e0708e48bed51f18aba3195bb8095d9c9002d367cb0b1c",
+            "output": "benchmarks/mochi-user-edition-20261018/editions-verified/slice-325-plate-2",
+            "command": [
+              "/Applications/BambuStudio.app/Contents/MacOS/BambuStudio",
+              "--normative-check=0",
+              "--slice",
+              "2",
+              "--arrange",
+              "0",
+              "--orient",
+              "0",
+              "--outputdir",
+              "benchmarks/mochi-user-edition-20261018/editions-verified/slice-325-plate-2",
+              "--export-3mf",
+              "sliced.3mf",
+              "benchmarks/mochi-user-edition-20261018/editions-verified/Mochi-325mm-rechte-Duese-2-Platten.3mf"
+            ],
+            "exit_code": 0,
+            "passed": true,
+            "validity_checks_not_disabled": true,
+            "gcode_path_validation_verified": false,
+            "print_ready": false,
+            "makerworld_normative_checks_enabled": false,
+            "printer_communication": false,
+            "physical_print_verified": false,
+            "result": {
+              "error_string": "Success.",
+              "export_time": 455,
+              "layer_height": 0.1599999964237213,
+              "plate_index": 2,
+              "prepare_time": 361,
+              "return_code": 0,
+              "sliced_plates": [
+                {
+                  "feature_type_times": {
+                    "Bridge": 11.892534255981445,
+                    "Custom": 310.46942138671875,
+                    "Flush": 26.0,
+                    "Gap infill": 15.710474967956543,
+                    "Inner wall": 91.47346496582031,
+                    "Internal solid infill": 150.2776336669922,
+                    "Outer wall": 209.4918670654297,
+                    "Overhang wall": 26.137470245361328,
+                    "Sparse infill": 5.521738052368164,
+                    "Support": 129.81666564941406,
+                    "Support interface": 20.064037322998047,
+                    "Top surface": 17.248781204223633,
+                    "Travel": 168.11907958984375,
+                    "Undefined": 158.69012451171875
+                  },
+                  "filament_change_times": 0,
+                  "filaments": [
+                    {
+                      "filament_id": "GFL99",
+                      "id": 3,
+                      "main_used_g": 1.292677402496338,
+                      "total_used_g": 1.292677402496338
+                    }
+                  ],
+                  "generate_support_material_time": 110,
+                  "id": 2,
+                  "infill_time": 104,
+                  "layer_filament_change": 0,
+                  "main_predication": 819.77734375,
+                  "make_perimeters_time": 106,
+                  "obj_cached_cnt": 0,
+                  "objects": [
+                    {
+                      "bbox": {
+                        "depth": 17.637319564819336,
+                        "height": 14.305665969848633,
+                        "width": 16.776695251464844,
+                        "x": 475.8310241699219,
+                        "y": 46.0551643371582,
+                        "z": -1.9794433116912842
+                      },
+                      "id": 9,
+                      "name": "nose",
+                      "triangle_count": 7058
+                    },
+                    {
+                      "bbox": {
+                        "depth": 13.037790298461914,
+                        "height": 7.806423187255859,
+                        "width": 9.632794380187988,
+                        "x": 505.3489074707031,
+                        "y": 47.065677642822266,
+                        "z": -1.933160424232483
+                      },
+                      "id": 13,
+                      "name": "eye-1",
+                      "triangle_count": 844
+                    },
+                    {
+                      "bbox": {
+                        "depth": 7.784961700439453,
+                        "height": 4.197423458099365,
+                        "width": 9.58491325378418,
+                        "x": 530.281005859375,
+                        "y": 48.246681213378906,
+                        "z": -0.8733071088790894
+                      },
+                      "id": 17,
+                      "name": "eye-2",
+                      "triangle_count": 1352
+                    },
+                    {
+                      "bbox": {
+                        "depth": 8.00239372253418,
+                        "height": 4.497924327850342,
+                        "width": 9.527623176574707,
+                        "x": 555.3718872070312,
+                        "y": 48.126216888427734,
+                        "z": -1.2016825675964355
+                      },
+                      "id": 21,
+                      "name": "eye-3",
+                      "triangle_count": 1232
+                    },
+                    {
+                      "bbox": {
+                        "depth": 14.193684577941895,
+                        "height": 8.256200790405273,
+                        "width": 9.613117218017578,
+                        "x": 580.009033203125,
+                        "y": 46.67911148071289,
+                        "z": -2.320603609085083
+                      },
+                      "id": 25,
+                      "name": "eye-4",
+                      "triangle_count": 1172
+                    }
+                  ],
+                  "sliced_time": 915,
+                  "sliced_time_with_cache": 571,
+                  "total_predication": 1172.8177490234375,
+                  "triangle_count": 11658,
+                  "warning_message": ""
+                }
+              ],
+              "sparse_infill_density": 5.0,
+              "upward_compatible_machine": [
+                "Bambu Lab H2D Pro 0.4 nozzle"
+              ],
+              "wall_loops": 2
+            },
+            "gcode_sha256": "51f818db1f495dd9c84f3cf73f8813e470bfb07752b6d391de853834690e67c0"
+          },
+          "footprints": {
+            "source": "benchmarks/mochi-user-edition-20261018/editions-verified/slice-325-plate-2/plate_2.gcode",
+            "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+            "passed": true,
+            "tolerance_mm": 0.02,
+            "conflict_counts": {},
+            "examples": [],
+            "extrusion_segments": 34629,
+            "z_groups": 86,
+            "unsupported_arcs": 0,
+            "arc_chord_error_limit_mm": 0.005,
+            "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+            "ignored_nonprinting_arc_commands": 281,
+            "gcode_sha256": "51f818db1f495dd9c84f3cf73f8813e470bfb07752b6d391de853834690e67c0",
+            "owner_extrusion_xy_bounds_mm": {
+              "100": [
+                56.762716,
+                45.871716,
+                71.453284,
+                63.803284000000005
+              ],
+              "101": [
+                83.142,
+                44.643,
+                96.355,
+                62.827
+              ],
+              "102": [
+                107.854338,
+                45.534338,
+                122.448662,
+                60.120661999999996
+              ],
+              "103": [
+                131.8436155,
+                44.7946155,
+                148.4113845,
+                59.673384500000004
+              ],
+              "104": [
+                157.862,
+                44.678,
+                170.927,
+                63.9
+              ]
+            },
+            "globally_overlapping_owner_ids": [],
+            "wall_time_seconds": 0.2458882089704275
+          }
+        }
+      ],
+      "total_predicted_seconds": 266604.22399902344,
+      "total_predicted_g": 1172.5617203712463,
+      "body_filament_changes": 1543,
+      "passed": true
+    }
+  },
+  "paid_api_calls": 0,
+  "printer_communication": false,
+  "physical_large_print_verified": false,
+  "gui_manually_verified": false,
+  "tests": {
+    "tests": 511,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 40.461,
+    "frontend_harnesses_passed": true
+  },
+  "archive_http_checks": [
+    {
+      "label": "180 mm · deine Farben + korrekte schwarze Details",
+      "status": 200,
+      "bytes": 5534811,
+      "sha256": "c8e3984ef20960f13e2191fad72605992467c69cc33387e1a4a34c12db86ba32"
+    },
+    {
+      "label": "180 mm · nur Nase und Augen",
+      "status": 200,
+      "bytes": 215456,
+      "sha256": "de51c8f0a791d6df8b9c3e5e099083ee8194d1956638e7ff7ac6feea610196c9"
+    },
+    {
+      "label": "Unveränderte Originaldatei sichern",
+      "status": 200,
+      "bytes": 10414629,
+      "sha256": "4197d3b9bbd3dff88fe65bacc47bc0448c0d76530c56b66d221760318df73508"
+    },
+    {
+      "label": "320 mm · zwei Düsen",
+      "status": 200,
+      "bytes": 5534870,
+      "sha256": "aa01a9347484b3c9c0a2aab2196e2b8dd49a13ca98c9090af1d75074260ad096"
+    },
+    {
+      "label": "325 mm · rechte Düse / AMS-Farbwechsel",
+      "status": 200,
+      "bytes": 5534894,
+      "sha256": "115a4f1005ce976817e0708e48bed51f18aba3195bb8095d9c9002d367cb0b1c"
+    }
+  ],
+  "corrected_180_black_plate": {
+    "slice": {
+      "source": "benchmarks/mochi-user-edition-20261018/fallback-korrigiert/Mochi-Richards-180mm-korrigierte-Details.3mf",
+      "plate_index": 2,
+      "source_sha256": "c8e3984ef20960f13e2191fad72605992467c69cc33387e1a4a34c12db86ba32",
+      "output": "benchmarks/mochi-user-edition-20261018/fallback-korrigiert/slice-details",
+      "command": [
+        "/Applications/BambuStudio.app/Contents/MacOS/BambuStudio",
+        "--normative-check=0",
+        "--slice",
+        "2",
+        "--arrange",
+        "0",
+        "--orient",
+        "0",
+        "--outputdir",
+        "benchmarks/mochi-user-edition-20261018/fallback-korrigiert/slice-details",
+        "--export-3mf",
+        "sliced.3mf",
+        "benchmarks/mochi-user-edition-20261018/fallback-korrigiert/Mochi-Richards-180mm-korrigierte-Details.3mf"
+      ],
+      "exit_code": 0,
+      "passed": true,
+      "validity_checks_not_disabled": true,
+      "gcode_path_validation_verified": false,
+      "print_ready": false,
+      "makerworld_normative_checks_enabled": false,
+      "printer_communication": false,
+      "physical_print_verified": false,
+      "result": {
+        "error_string": "Success.",
+        "export_time": 404,
+        "layer_height": 0.1599999964237213,
+        "plate_index": 2,
+        "prepare_time": 355,
+        "return_code": 0,
+        "sliced_plates": [
+          {
+            "feature_type_times": {
+              "Bridge": 1.0734617710113525,
+              "Custom": 310.6914367675781,
+              "Flush": 26.0,
+              "Gap infill": 4.952422618865967,
+              "Inner wall": 37.37339401245117,
+              "Internal solid infill": 43.46623229980469,
+              "Outer wall": 68.13627624511719,
+              "Overhang wall": 7.334139823913574,
+              "Sparse infill": 0.12041965126991272,
+              "Support": 68.194091796875,
+              "Support interface": 12.460454940795898,
+              "Top surface": 8.483940124511719,
+              "Travel": 71.0030517578125,
+              "Undefined": 61.35208511352539
+            },
+            "filament_change_times": 0,
+            "filaments": [
+              {
+                "filament_id": "GFL99",
+                "id": 3,
+                "main_used_g": 0.43991392850875854,
+                "total_used_g": 0.43991392850875854
+              }
+            ],
+            "generate_support_material_time": 60,
+            "id": 2,
+            "infill_time": 32,
+            "layer_filament_change": 0,
+            "main_predication": 296.5995788574219,
+            "make_perimeters_time": 62,
+            "obj_cached_cnt": 0,
+            "objects": [
+              {
+                "bbox": {
+                  "depth": 9.768362045288086,
+                  "height": 7.92313814163208,
+                  "width": 9.291704177856445,
+                  "x": 479.49853515625,
+                  "y": 49.98943328857422,
+                  "z": -1.0963070392608643
+                },
+                "id": 9,
+                "name": "nose",
+                "triangle_count": 7058
+              },
+              {
+                "bbox": {
+                  "depth": 7.220930099487305,
+                  "height": 4.323557376861572,
+                  "width": 5.3350677490234375,
+                  "x": 507.5640869140625,
+                  "y": 49.974971771240234,
+                  "z": -1.0706734657287598
+                },
+                "id": 13,
+                "name": "eye-1",
+                "triangle_count": 844
+              },
+              {
+                "bbox": {
+                  "depth": 4.311672210693359,
+                  "height": 2.3247268199920654,
+                  "width": 5.308568477630615,
+                  "x": 532.4149780273438,
+                  "y": 49.984031677246094,
+                  "z": -0.48367780447006226
+                },
+                "id": 17,
+                "name": "eye-2",
+                "triangle_count": 1352
+              },
+              {
+                "bbox": {
+                  "depth": 4.432094573974609,
+                  "height": 2.4911580085754395,
+                  "width": 5.2768731117248535,
+                  "x": 557.495849609375,
+                  "y": 49.90850067138672,
+                  "z": -0.665547251701355
+                },
+                "id": 21,
+                "name": "eye-3",
+                "triangle_count": 1232
+              },
+              {
+                "bbox": {
+                  "depth": 7.861118793487549,
+                  "height": 4.572665214538574,
+                  "width": 5.324202060699463,
+                  "x": 582.2136840820312,
+                  "y": 49.84292221069336,
+                  "z": -1.285257339477539
+                },
+                "id": 25,
+                "name": "eye-4",
+                "triangle_count": 1172
+              }
+            ],
+            "sliced_time": 666,
+            "sliced_time_with_cache": 501,
+            "total_predication": 649.6400146484375,
+            "triangle_count": 11658,
+            "warning_message": ""
+          }
+        ],
+        "sparse_infill_density": 5.0,
+        "upward_compatible_machine": [
+          "Bambu Lab H2D Pro 0.4 nozzle"
+        ],
+        "wall_loops": 2
+      },
+      "gcode_sha256": "28fde3186476cbe1c0e45393084c114ee79c26c8dd0f54569448408a882112d8"
+    },
+    "paths": {
+      "source": "benchmarks/mochi-user-edition-20261018/fallback-korrigiert/slice-details/plate_2.gcode",
+      "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+      "passed": true,
+      "tolerance_mm": 0.02,
+      "conflict_counts": {},
+      "examples": [],
+      "extrusion_segments": 12416,
+      "z_groups": 49,
+      "unsupported_arcs": 0,
+      "arc_chord_error_limit_mm": 0.005,
+      "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+      "ignored_nonprinting_arc_commands": 128,
+      "gcode_sha256": "28fde3186476cbe1c0e45393084c114ee79c26c8dd0f54569448408a882112d8",
+      "owner_extrusion_xy_bounds_mm": {
+        "100": [
+          58.511814,
+          47.442814000000006,
+          70.841186,
+          61.970186
+        ],
+        "101": [
+          84.809,
+          48.247,
+          94.037,
+          61.258
+        ],
+        "102": [
+          109.446,
+          47.229,
+          121.105,
+          58.373
+        ],
+        "103": [
+          131.7012415,
+          44.6872415,
+          147.05875849999998,
+          57.991758499999996
+        ],
+        "104": [
+          159.376,
+          47.975,
+          168.568,
+          59.759
+        ]
+      },
+      "globally_overlapping_owner_ids": [],
+      "wall_time_seconds": 0.10297070804517716
+    }
+  }
+}

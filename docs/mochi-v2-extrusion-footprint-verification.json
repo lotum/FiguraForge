@@ -1,0 +1,230 @@
+{
+  "method": "Independent G-code extrusion-footprint screening; Bambu actual start/stop ownership or exact one-object result.json evidence; feature, width, layer height and all relevant positioning/extrusion modes tracked. Distinct owner footprints expanded by line width; physical Z intervals [Z-height,Z] compared when XY bounds intersect.",
+  "not_certified": [
+    "Nozzle/carriage clearance or dynamics",
+    "Intra-object self-intersections",
+    "Thermal/material behavior",
+    "Full physical print success"
+  ],
+  "negative_control": {
+    "source": "benchmarks/mochi-v1-gui-support-conflict.gcode.3mf",
+    "gcode_sha256": "185c3564efebde378e0126529d2e7eeb68959f8c6070507a5ef3c5fdf9374039",
+    "screened_same_z": true,
+    "conflict_counts": {
+      "support-support": 3038,
+      "support-model": 30118,
+      "model-model": 20757
+    },
+    "owners_from_slice_info": {
+      "109": "body",
+      "120": "tail",
+      "131": "left-ear",
+      "142": "right-ear"
+    },
+    "known_gui_warning_sublayer": 3310,
+    "exact_gui_index_correspondence_verified": false,
+    "note": "Known problematic project is rejected; exact warning index mapping remains separate. No claim that an arbitrary sorted Z index equals the GUI index.",
+    "nearby_z_neighborhood": {
+      "requested_sorted_z_index": 3310,
+      "one_based_z_indices_checked": [
+        3285,
+        3335
+      ],
+      "z_mm": [
+        48.36,
+        49.51
+      ],
+      "physical_z_interval_conflicts": {
+        "support-model": 103,
+        "model-model": 1580
+      },
+      "benchmark": "benchmarks/mochi-local-slicer/negative-control-layer3310-neighborhood.json"
+    }
+  },
+  "final_plates": [
+    {
+      "source": "benchmarks/mochi-local-slicer/slice-3a8e77094cf64560b7b6ef170262d420/plate-01/plate_1.gcode",
+      "scope": "Straight positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+      "passed": true,
+      "tolerance_mm": 0.02,
+      "conflict_counts": {},
+      "examples": [],
+      "extrusion_segments": 1860780,
+      "z_groups": 5512,
+      "unsupported_arcs": 0,
+      "single_object_owner_evidence": {
+        "sidecar": "benchmarks/mochi-local-slicer/slice-3a8e77094cf64560b7b6ef170262d420/plate-01/result.json",
+        "object_id": 5,
+        "name": "body",
+        "objects": 1
+      },
+      "gcode_sha256": "845a85f3fbb0a6173fffff8f3dd327bc921a360be7e86b75b83717a1703e10d2",
+      "owner_extrusion_xy_bounds_mm": {
+        "-2": [
+          115.411,
+          236.494,
+          170.315,
+          288.134
+        ],
+        "5": [
+          44.016558,
+          16.899558,
+          144.366442,
+          102.80444200000001
+        ]
+      },
+      "globally_overlapping_owner_ids": []
+    },
+    {
+      "source": "benchmarks/mochi-local-slicer/slice-3a8e77094cf64560b7b6ef170262d420/plate-02/plate_1.gcode",
+      "scope": "Straight positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+      "passed": true,
+      "tolerance_mm": 0.02,
+      "conflict_counts": {},
+      "examples": [],
+      "extrusion_segments": 158303,
+      "z_groups": 1901,
+      "unsupported_arcs": 0,
+      "single_object_owner_evidence": {
+        "sidecar": "benchmarks/mochi-local-slicer/slice-3a8e77094cf64560b7b6ef170262d420/plate-02/result.json",
+        "object_id": 5,
+        "name": "right-ear",
+        "objects": 1
+      },
+      "gcode_sha256": "d02ec707d844bc305af4f5db85223416ff68ce8b3f141c56d9fd66eaaa186d88",
+      "owner_extrusion_xy_bounds_mm": {
+        "-2": [
+          120.447,
+          241.53,
+          165.279,
+          283.104
+        ],
+        "5": [
+          47.4834655,
+          23.1754655,
+          76.3585345,
+          50.9315345
+        ]
+      },
+      "globally_overlapping_owner_ids": []
+    },
+    {
+      "source": "benchmarks/mochi-local-slicer/slice-3a8e77094cf64560b7b6ef170262d420/plate-03/plate_1.gcode",
+      "scope": "Straight positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+      "passed": true,
+      "tolerance_mm": 0.02,
+      "conflict_counts": {},
+      "examples": [],
+      "extrusion_segments": 153121,
+      "z_groups": 1859,
+      "unsupported_arcs": 0,
+      "single_object_owner_evidence": {
+        "sidecar": "benchmarks/mochi-local-slicer/slice-3a8e77094cf64560b7b6ef170262d420/plate-03/result.json",
+        "object_id": 5,
+        "name": "left-ear",
+        "objects": 1
+      },
+      "gcode_sha256": "56f268d8abd5af25292e6da7ac3b5be8af9c8e6ead382ba600f3e97f3d3ee0c2",
+      "owner_extrusion_xy_bounds_mm": {
+        "-2": [
+          120.447,
+          241.53,
+          165.279,
+          283.104
+        ],
+        "5": [
+          49.86381,
+          23.42681,
+          79.22419,
+          50.957190000000004
+        ]
+      },
+      "globally_overlapping_owner_ids": []
+    },
+    {
+      "source": "benchmarks/mochi-local-slicer/slice-3a8e77094cf64560b7b6ef170262d420/plate-04/plate_1.gcode",
+      "scope": "Straight positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+      "passed": true,
+      "tolerance_mm": 0.02,
+      "conflict_counts": {},
+      "examples": [],
+      "extrusion_segments": 587053,
+      "z_groups": 3508,
+      "unsupported_arcs": 0,
+      "single_object_owner_evidence": {
+        "sidecar": "benchmarks/mochi-local-slicer/slice-3a8e77094cf64560b7b6ef170262d420/plate-04/result.json",
+        "object_id": 5,
+        "name": "tail",
+        "objects": 1
+      },
+      "gcode_sha256": "748a30fa56d5b6946026801773d33deaf2b680bd4a53beaee7e90663aaa79e29",
+      "owner_extrusion_xy_bounds_mm": {
+        "-2": [
+          117.24,
+          238.323,
+          168.486,
+          286.305
+        ],
+        "5": [
+          49.81799,
+          24.845989999999997,
+          99.58201000000001,
+          83.36501
+        ]
+      },
+      "globally_overlapping_owner_ids": []
+    },
+    {
+      "source": "benchmarks/mochi-local-slicer/slice-3a8e77094cf64560b7b6ef170262d420/plate-05/plate_1.gcode",
+      "scope": "Straight positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+      "passed": true,
+      "tolerance_mm": 0.02,
+      "conflict_counts": {},
+      "examples": [],
+      "extrusion_segments": 6891,
+      "z_groups": 31,
+      "unsupported_arcs": 0,
+      "gcode_sha256": "242311ad807a169e01e4e21576201eb9789d19d81c35baad888019859582521a",
+      "owner_extrusion_xy_bounds_mm": {
+        "1": [
+          48.310948,
+          23.219948,
+          60.685052,
+          36.521052
+        ],
+        "2": [
+          65.046,
+          22.469,
+          75.879,
+          36.266
+        ],
+        "3": [
+          82.71967,
+          20.61367,
+          96.69833,
+          33.512330000000006
+        ],
+        "4": [
+          98.040515,
+          21.385515,
+          114.407485,
+          32.913485
+        ],
+        "5": [
+          116.968,
+          21.417,
+          127.024,
+          34.831
+        ]
+      },
+      "globally_overlapping_owner_ids": []
+    }
+  ],
+  "total_segments": 2766148,
+  "physical_print_verified": false,
+  "printer_communication": false,
+  "implementation_sha256": {
+    "scripts/check_gcode_paths.py": "c0c85317d1556c631717d956d3da299b64a72ec99eb51d2da4fa5c48d6a84a34",
+    "tests/test_gcode_paths.py": "46e1a2ca1631b768983ede94791ffc4dc0c0cccb7757915df594711f823e03dc"
+  }
+}

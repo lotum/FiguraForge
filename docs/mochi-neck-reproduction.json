@@ -1,0 +1,17 @@
+{
+  "source_sha256": "4197d3b9bbd3dff88fe65bacc47bc0448c0d76530c56b66d221760318df73508",
+  "height_mm": 500,
+  "reproduced_with": "scripts/prepare_mochi_neck.py",
+  "parts": {
+    "torso": {
+      "vertices_faces_and_paint_identical": true
+    },
+    "head": {
+      "vertices_faces_and_paint_identical": true
+    },
+    "neck-key": {
+      "vertices_faces_and_paint_identical": true
+    }
+  },
+  "passed": true
+}

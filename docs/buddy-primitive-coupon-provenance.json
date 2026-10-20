@@ -1,0 +1,14 @@
+{
+  "historical_coupon_report": "docs/pip-buddy-fit-plate-verification.json",
+  "native_sha256_unchanged": "474f4abfd84fcab6b57793c46613822928b8ee9fcdf0fef25ffe3e41f5ca33d1",
+  "gcode_sha256_unchanged": "45cd31d338e6ba90337e027ca2f26d8e0bca3f76df6d5b9886df1ea73cebbead",
+  "historical_buddy_file_sha256": "e450023b4cd5a4cb7cf252ed8a848122eb63774cf51b32c64f5ba45ac2355624",
+  "reconstructed_historical_file_sha256": "e450023b4cd5a4cb7cf252ed8a848122eb63774cf51b32c64f5ba45ac2355624",
+  "historical_reconstruction_matches_recorded_hash": true,
+  "current_buddy_file_sha256": "efe66ee3a994f3335faaca6511e1b7ebe285f6c09258e896bba9a363d3e5e760",
+  "function_name": "figuraforge.geometry.buddy_collar._primitive",
+  "source_function_sha256": "36599abe3d2eb65c049a34ebcaa0a023171c54c19dbd64b2ee22c474c37896e6",
+  "source_definition": "Exact UTF-8 function source including its single final newline",
+  "source_function_exactly_unchanged": true,
+  "change_scope": "Separate annular cutters add .05 radial ring bore clearance; primitive pin/socket generation unchanged. No coupon geometry, native project or G-code regenerated/relabelled."
+}

@@ -1,0 +1,711 @@
+{
+  "main_export": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export",
+  "package_sha256": "3d924cc030ace7b1a2f881645fce6d5331cb7bb3646adc08f3dcaade570e947a",
+  "reference_selection": "benchmarks/buddy-native/final-reference-selection.json",
+  "main_plan_hash": "f3428f18596d2c03fe9c2cbf6805c1364bc80d4d8357211166b0d1c3fb059f9f",
+  "plates": [
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-01-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/plate-01.3mf",
+      "part_ids": [
+        "collar-body-b-b-a-a",
+        "collar-neck-1"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "aede8c1ba729aab6fa6df599516a43869ee71ae648b70d65bd2aa883a9b8a3eb",
+      "actual_sha256": "1a8beddd0282d4b64bf4c36230e2d2d64ab6b30040a6b6ac7de81e0cf14a55d9",
+      "parts": {
+        "collar-body-b-b-a-a": {
+          "triangles": 10696,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        },
+        "collar-neck-1": {
+          "triangles": 350,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-02-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/plate-02.3mf",
+      "part_ids": [
+        "collar-body-b-b-b-b"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "033ba08881e8d6c8748dce9f1dc8f2eafa7c97628c6f04b4e6e9a76c7f016413",
+      "actual_sha256": "9efb56d5363affd779af4574145f0971b9778d9b87bbeb1ba1163120efbbdea5",
+      "parts": {
+        "collar-body-b-b-b-b": {
+          "triangles": 10092,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-03-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/plate-03.3mf",
+      "part_ids": [
+        "collar-body-a-b-b-b-b"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "01943017f51bf54677b9db7f3c9fd47ca80f819e23bba9b9984783ea5251518f",
+      "actual_sha256": "cdf1dd4444ce43dfdc5494ec93d4472406a32efdf94cee74ad0dc65a94639554",
+      "parts": {
+        "collar-body-a-b-b-b-b": {
+          "triangles": 8528,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-04-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/plate-04.3mf",
+      "part_ids": [
+        "collar-body-b-b-b-a-a"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "9de3c4844a6896a4b3fdf419e9498e9bd50595190b533583569c9eaa6738c798",
+      "actual_sha256": "1c4616e4077e4f7fce8d3ddc882b5e89bb9f287b3bab13ea46d477a84c8c08c3",
+      "parts": {
+        "collar-body-b-b-b-a-a": {
+          "triangles": 7512,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-05-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-05.3mf",
+      "part_ids": [
+        "collar-body-a-b-b-b-a",
+        "tail-b"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "9dc7b7d0b3b89f9b81d34ed10c18a28f35011eb5dd5d756addd22cc2cdcd1ca4",
+      "actual_sha256": "cb9fe8a9da93b82ac577b1e3467297317b08cd58d84a6af35d290e403715c105",
+      "parts": {
+        "collar-body-a-b-b-b-a": {
+          "triangles": 5028,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        },
+        "tail-b": {
+          "triangles": 3738,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-06-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-06.3mf",
+      "part_ids": [
+        "collar-head-a-a"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "f07a0eb1d07d3c76d110c48d737c22479dd46bdd93eba84335e858eb6aed8cfd",
+      "actual_sha256": "e2e89e654214eabfc2a2b51764df99ab7bd52d543d83be6a32d9fd6f1514e02c",
+      "parts": {
+        "collar-head-a-a": {
+          "triangles": 6776,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-07-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-3f3f98a235114fb48368ae684e23aedb/plate-07.3mf",
+      "part_ids": [
+        "collar-body-a-b-a-a"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "56cf539cd50165d3cd64c8f5679895cccbe270ab3c829cecd55e4da08bf82b76",
+      "actual_sha256": "969cedeaa559e7a2d08aa46bb19e7a5f954e905c6c0122cbee2fe58218f38843",
+      "parts": {
+        "collar-body-a-b-a-a": {
+          "triangles": 6534,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-08-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-08.3mf",
+      "part_ids": [
+        "collar-head-b-a"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "abcc95b02eacd080577c809404d2e16ceced639f2cdbd4f5d3fd72e49523f66a",
+      "actual_sha256": "0ffc2a4656dce11b474de89d061918ce9afd9bc2568651f35e062a577bfd6050",
+      "parts": {
+        "collar-head-b-a": {
+          "triangles": 9534,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-09-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-09.3mf",
+      "part_ids": [
+        "collar-head-b-b"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "ec42c0cd7638acfa7cb4fcb09adbef0bb93124bd36bae4bb504576eb1aaf0338",
+      "actual_sha256": "5389ad0536f8fcec04af03cccb196ccfed1e58f88006c8e3169d01d61478b089",
+      "parts": {
+        "collar-head-b-b": {
+          "triangles": 5400,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-10-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-10.3mf",
+      "part_ids": [
+        "collar-head-a-b"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "11254e9bc3e6a0aca36234950ee48953e65a41e335d4a71496a1327698a97bbf",
+      "actual_sha256": "88bc3f87f43907127265df5ce8a873b94554a82d930570b5d5aabd291c2a7ef0",
+      "parts": {
+        "collar-head-a-b": {
+          "triangles": 5310,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-11-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-014d22255b5842ac940b39333a003220/plate-11.3mf",
+      "part_ids": [
+        "collar-body-a-b-b-a"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "3283f1eacebafe0ae3140014e6e89a7ee65e019724598ea5007eeda8f90ca8df",
+      "actual_sha256": "203cad126312c1d66a56ed5cb2c8b73220839bc309d68d7d532b2f6561918b8b",
+      "parts": {
+        "collar-body-a-b-b-a": {
+          "triangles": 4880,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-12-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/plate-12.3mf",
+      "part_ids": [
+        "collar-body-a-a-a-b"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "f8a5c024e6ae65cb52aa1a36347e791615b6a9c94b35774580b94fb5ad0c2b9d",
+      "actual_sha256": "01879dce4480c72257a17e6282c7cd940078731bd2cf4b977517c19cfdf84a36",
+      "parts": {
+        "collar-body-a-a-a-b": {
+          "triangles": 7178,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-13-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/plate-13.3mf",
+      "part_ids": [
+        "collar-body-a-a-b-b"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "aae0ee97d59d7428ad366176bfd9375564728124fde178813d859e1ab82a853b",
+      "actual_sha256": "10ca65352715ec25d081d02af54d10c2c25efaa048dd1c7c1e52fba8f33f7aa8",
+      "parts": {
+        "collar-body-a-a-b-b": {
+          "triangles": 7064,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-14-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-14.3mf",
+      "part_ids": [
+        "left-ear",
+        "tail-a"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "b317d45fec6174d0ee93b8f917972759cc04bc7b7354c8ff6389dfe664ac8dcc",
+      "actual_sha256": "3f95d748e95884220ae65421fc8497f2e17cf7f4007a5df2f92d97fc641347b9",
+      "parts": {
+        "left-ear": {
+          "triangles": 6304,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        },
+        "tail-a": {
+          "triangles": 6872,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-15-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-15.3mf",
+      "part_ids": [
+        "right-ear"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "fe4322d48cfc396a727dba676756e512565082048e1f9176fac41311d9e8cf82",
+      "actual_sha256": "15f74ca32ac869856133f58be6e6677d256069fa84644e740a0f5be407f1a9bc",
+      "parts": {
+        "right-ear": {
+          "triangles": 6368,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-16-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/plate-16.3mf",
+      "part_ids": [
+        "collar-body-a-b-a-b-a"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "c88f36efdac7c037130d98033aa7a72d40cb6e3a82a87b833776d7a92d98b94f",
+      "actual_sha256": "c640181ba07266b9e689f894d73106cf6cc85b5291f7bf7b3126a2e8cc1d0044",
+      "parts": {
+        "collar-body-a-b-a-b-a": {
+          "triangles": 3686,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-17-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-17.3mf",
+      "part_ids": [
+        "collar-body-b-b-a-b"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "79a32fe89d92babed51a974d06d1113b945f26dc8eec1fd87803ce1d76bea349",
+      "actual_sha256": "488db2485a347aff69335cf1f530f3b1d93b8997d1598cf18ebe165dc8043dae",
+      "parts": {
+        "collar-body-b-b-a-b": {
+          "triangles": 4670,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-18-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/plate-18.3mf",
+      "part_ids": [
+        "collar-body-b-a-a-a"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "11abd45b1627dc3b021c73771afd4081137f090aa074ec132e9760bad5fbaf2b",
+      "actual_sha256": "e2643a53efb7e7d966218107774bd5f3abdbea49021212ebac50b5a4210f6a51",
+      "parts": {
+        "collar-body-b-a-a-a": {
+          "triangles": 2996,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-19-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-2f28d7e79a074dfdb37aa2bbdd62c6ce/plate-19.3mf",
+      "part_ids": [
+        "collar-body-a-b-a-b-b"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "bcfd09eca5971d68c6da3ead37b28428ab2dc91bbb0f60e588d8d38754584216",
+      "actual_sha256": "74e9242f8a38e009b4aeafb486fb9724b17c6d9f6689d2de3c401689e5932160",
+      "parts": {
+        "collar-body-a-b-a-b-b": {
+          "triangles": 5096,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-20-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-20.3mf",
+      "part_ids": [
+        "collar-body-a-a-b-a"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "9a117b39ac9f7b3c2a6ce79b4a68063742b9253f6667ae057c9991db79e64918",
+      "actual_sha256": "7fd6196423afeaa34b3a3bf6b99e54baf46300c419d5f05b3f69f44e8c5da2fe",
+      "parts": {
+        "collar-body-a-a-b-a": {
+          "triangles": 4332,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-21-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-21.3mf",
+      "part_ids": [
+        "collar-body-a-a-a-a"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "f2b1d4dd71d1551e3323e3fce955255d3494b2acd203e1fc1b9dcc60066f69fb",
+      "actual_sha256": "483a5f96fbee57ac3fe4e7a06e7400fc95278bd2e6f7b07cec36327ed8181926",
+      "parts": {
+        "collar-body-a-a-a-a": {
+          "triangles": 4316,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-22-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-22.3mf",
+      "part_ids": [
+        "collar-body-b-a-a-b-b"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "6c332fc4535ce1730d0990e2b9aaa2f420733003be84a10910504de79200b55e",
+      "actual_sha256": "fc881558ae03886916c1e812c8b04d43ae158570d289b9dc225eea5c12cb8db6",
+      "parts": {
+        "collar-body-b-a-a-b-b": {
+          "triangles": 3564,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-23-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-23.3mf",
+      "part_ids": [
+        "collar-body-b-a-b-a"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "a49755093086930e74ade57f16f6bbb01ded7ea3be48245801dc0ad082714ef5",
+      "actual_sha256": "8c67136e911859aef9e9b121a1825d726512190e2578931f79950df8f06b4377",
+      "parts": {
+        "collar-body-b-a-b-a": {
+          "triangles": 2772,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-24-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-24.3mf",
+      "part_ids": [
+        "collar-neck-0"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "eee54af0e631df7a8a401e31ec8ed60c3e98b55f6227317f88702a3b324400a6",
+      "actual_sha256": "a7ec9346cf6335a19ce05ab50fa2990c2089cf5b96b91a2efb06b9fbf631463a",
+      "parts": {
+        "collar-neck-0": {
+          "triangles": 1360,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-25-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-25.3mf",
+      "part_ids": [
+        "collar-body-b-a-b-b-b"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "6af88cf3e3857635187779fc6775fac5141dcb92f2b16d8a83ee29543a69a20a",
+      "actual_sha256": "7b476d10596d7435d1b387bea1223672510908e685b12e745385285f5a54073a",
+      "parts": {
+        "collar-body-b-a-b-b-b": {
+          "triangles": 3448,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-26-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-26.3mf",
+      "part_ids": [
+        "collar-body-b-b-b-a-b"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "be30f51374d329a7cf480b6fd9e4e6c676c6c98f5337fe0f9d172e6247d18635",
+      "actual_sha256": "d418d47f15566d738373557a1e91b54256a8cf9f1a5753e9f53c16a614fd9cd9",
+      "parts": {
+        "collar-body-b-b-b-a-b": {
+          "triangles": 3004,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-27-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-27.3mf",
+      "part_ids": [
+        "collar-body-b-a-b-b-a"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "500f0b8044ee8b908e2b66562760b62def933ea560fbd40b7eaf205ba6f76aeb",
+      "actual_sha256": "55685baf1c43cdba338dc2b41b9b7c8d22fe97db5a67fe1beb4f10f6b36abd47",
+      "parts": {
+        "collar-body-b-a-b-b-a": {
+          "triangles": 4324,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-28-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-28.3mf",
+      "part_ids": [
+        "collar-body-b-a-a-b-a"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "f85147b8b556da90509e62bde6a237aacc0ab095d03947275cb97fb772f69bd3",
+      "actual_sha256": "8b4b25d77ab3ca9ff3d19d87840b1cbc2b4bc82366451ef45f7641c4adbed408",
+      "parts": {
+        "collar-body-b-a-a-b-a": {
+          "triangles": 4134,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-29-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-29.3mf",
+      "part_ids": [
+        "collar-left"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "b18866372cf945f644414c4f58d8d1eabebb76ce68a492bc0028d7495ec74be5",
+      "actual_sha256": "049ce1ea518cae0c126b3dbaa4aa0d077887ace842c6c83df3220b101cc52a13",
+      "parts": {
+        "collar-left": {
+          "triangles": 10566,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-30-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-b80dbbdfbcac456980bbcb3e6eabd0b0/plate-30.3mf",
+      "part_ids": [
+        "collar-right"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "81b57cfbb1a8a4ed3b25db854ddc55ec90b946cc6052af22f942a03eb16b6fdc",
+      "actual_sha256": "a46d742795f4c6a02962775c29ce1c1b1f84b18a77d9d4703504a4f2fd576489",
+      "parts": {
+        "collar-right": {
+          "triangles": 15950,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-31-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-31.3mf",
+      "part_ids": [
+        "rolled-map"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "fab3d5ad9f4442a950f432ac150277fd10a8c94a86779474e296198ef27af14e",
+      "actual_sha256": "3a765559595be54c36ace2923f0e122af7f97887e47db80226d6c4a8e5cf7255",
+      "parts": {
+        "rolled-map": {
+          "triangles": 4024,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-32-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-32.3mf",
+      "part_ids": [
+        "left-eye"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "5562b0e6e6ed67dd8deef67946d223adf6db4343a09fe28b7bd69923984bc438",
+      "actual_sha256": "14659b62e7aa31024c142a056da48350fb02366abfd3834c2211cda0f7e40bbf",
+      "parts": {
+        "left-eye": {
+          "triangles": 2792,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-33-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-33.3mf",
+      "part_ids": [
+        "right-eye"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "1a9237a45bcb2448ca835f71dd349224fb1b1ab0c811789adb0fdb292d7d53da",
+      "actual_sha256": "b13e65e6229827fcfc01615bf19d829866344b79c7936f3e5cd8ee1cfef7684a",
+      "parts": {
+        "right-eye": {
+          "triangles": 3174,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    {
+      "actual_native": "data/projects/2c9a7959d13a438fbeb5b8340d8eefd4/runs/37f366df5b7241c6b98ca1507b02788c/export/plate-34-native.3mf",
+      "reference_native": "benchmarks/buddy-native/verification-b9d9de6a388c4699882d2186299b2b13/plate-34.3mf",
+      "part_ids": [
+        "nose"
+      ],
+      "packaged_bytes_exact": true,
+      "extruder_defaults_exact": true,
+      "reference_sha256": "f159d7f0c97d9eba29ea3c0fe8a9d4622a34e6561eff5a0579f71ae5c76ea658",
+      "actual_sha256": "51709870aa3d99cd9d50a0b1906f1de41c9874a89bb6972ff34358117dc49170",
+      "parts": {
+        "nose": {
+          "triangles": 1714,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    }
+  ],
+  "scope": "Actual complete native XML vertices/faces/world transforms/per-face paint/all project settings/object+part extrusion defaults and packaged bytes; actual sliced reference GCode/full footprint proof remains separate.",
+  "physical_print_verified": false,
+  "physical_strength_verified": false,
+  "printer_communication": false,
+  "passed": true
+}

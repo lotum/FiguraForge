@@ -1,0 +1,83 @@
+{
+  "reference": "benchmarks/mochi-eye-detail-20261016/v2-draft-218d971813354ec1a4b70c7ce9f81fb4/native-isolated-9a2bdc806b284303987694cb7339da2c",
+  "actual": "data/projects/1b0e2fdd463d4f15ac64f1c7b3e8acc7/runs/1193d7be224742cd92134900f1124ece/export",
+  "plates": {
+    "1": {
+      "parts": {
+        "body": {
+          "triangles": 104070,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    "2": {
+      "parts": {
+        "right-ear": {
+          "triangles": 5254,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    "3": {
+      "parts": {
+        "left-ear": {
+          "triangles": 4968,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    "4": {
+      "parts": {
+        "tail": {
+          "triangles": 38626,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    "5": {
+      "parts": {
+        "nose": {
+          "triangles": 4328,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        },
+        "eye-1": {
+          "triangles": 576,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        },
+        "eye-2": {
+          "triangles": 368,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        },
+        "eye-3": {
+          "triangles": 352,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        },
+        "eye-4": {
+          "triangles": 752,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    }
+  },
+  "agent_review_not_physical_print": true,
+  "passed": true
+}

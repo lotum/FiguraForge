@@ -1,0 +1,47 @@
+{
+  "printer": "Bambu Lab H2D",
+  "source_file": "dragon-profile-cube-printable.3mf",
+  "gui_saved_file": "dragon-profile-cube-gui-roundtrip.3mf",
+  "gcode_file": "dragon-mixed-gui-verification.gcode",
+  "metadata_roundtrip": {
+    "mixed_settings_preserved": true,
+    "slicing_verified": false,
+    "physical_color_verified": false,
+    "scope": "Metadata comparison only; printer profile, object assignment and sliced paths need independent checks"
+  },
+  "gui_import_verified": true,
+  "gui_save_verified": true,
+  "gui_slice_verified": true,
+  "physical_print_verified": false,
+  "recipe": {
+    "slot": 4,
+    "component_slots": [
+      1,
+      2
+    ],
+    "ratio_percent": [
+      85,
+      15
+    ]
+  },
+  "sublayer_height_occurrences": {
+    "0.2": 428,
+    "0.17": 59,
+    "0.03": 59,
+    "0.4": 1
+  },
+  "tool_select_occurrences": {
+    "1001": 1,
+    "0": 60,
+    "1": 59,
+    "65535": 1,
+    "65279": 1
+  },
+  "tool_note": "0 and 1 are the printing materials; additional T values belong to the H2D machine macros, not extra mixed components.",
+  "nominal_layers": "60",
+  "file_sha256": {
+    "dragon-profile-cube-printable.3mf": "51535d98d068bb9ddda50cbccb2528727919c571c9da9bcec44dd5514f3c681e",
+    "dragon-profile-cube-gui-roundtrip.3mf": "59243669b1b606a4a54636f0ba837ad9f91ed0ef1169601567bf68bbf040f6a1",
+    "dragon-mixed-gui-verification.gcode": "327db6e23c33e639a86f535e7b00c79590275dd54ac289b3132d21dcdded0418"
+  }
+}

@@ -1,0 +1,583 @@
+{
+  "purpose": "Model-specific local geometry experiment; no approvals, regional filament assignments or native machine profile",
+  "source_project": "1b0e2fdd463d4f15ac64f1c7b3e8acc7",
+  "source_sha256": "c8b50eee6cce4bf76ca8ef17050c44694e6db0ee7d18bdd47cf48507fc065643",
+  "source_volume_mm3": 476224.43656932004,
+  "parts_volume_mm3": 476160.6914644385,
+  "quality": {
+    "body": {
+      "finite": true,
+      "vertices": 56781,
+      "triangles": 113570,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 411434.59787,
+      "dimensions_mm": [
+        89.2106,
+        86.0601,
+        179.8295
+      ],
+      "components": 1,
+      "valid": true,
+      "self_intersections": "not exhaustively certified"
+    },
+    "tail": {
+      "finite": true,
+      "vertices": 17584,
+      "triangles": 35164,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 56574.44031,
+      "dimensions_mm": [
+        55.2901,
+        53.8369,
+        54.8011
+      ],
+      "components": 1,
+      "valid": true,
+      "self_intersections": "not exhaustively certified"
+    },
+    "nose": {
+      "finite": true,
+      "vertices": 210,
+      "triangles": 416,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 83.78743,
+      "dimensions_mm": [
+        9.7247,
+        5.21,
+        7.7544
+      ],
+      "components": 1,
+      "valid": true,
+      "self_intersections": "not exhaustively certified"
+    },
+    "right-ear": {
+      "finite": true,
+      "vertices": 1710,
+      "triangles": 3416,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 4037.48376,
+      "dimensions_mm": [
+        25.1039,
+        23.9365,
+        24.8611
+      ],
+      "components": 1,
+      "valid": true,
+      "self_intersections": "not exhaustively certified"
+    },
+    "left-ear": {
+      "finite": true,
+      "vertices": 1734,
+      "triangles": 3464,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 3993.01429,
+      "dimensions_mm": [
+        24.9268,
+        23.779,
+        24.7725
+      ],
+      "components": 1,
+      "valid": true,
+      "self_intersections": "not exhaustively certified"
+    },
+    "eye-1": {
+      "finite": true,
+      "vertices": 40,
+      "triangles": 76,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 5.8261,
+      "dimensions_mm": [
+        7.4898,
+        2.6582,
+        4.4939
+      ],
+      "components": 1,
+      "valid": true,
+      "self_intersections": "not exhaustively certified"
+    },
+    "eye-2": {
+      "finite": true,
+      "vertices": 18,
+      "triangles": 32,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 14.60893,
+      "dimensions_mm": [
+        4.7545,
+        1.6027,
+        4.9748
+      ],
+      "components": 1,
+      "valid": true,
+      "self_intersections": "not exhaustively certified"
+    },
+    "eye-3": {
+      "finite": true,
+      "vertices": 32,
+      "triangles": 60,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 4.62513,
+      "dimensions_mm": [
+        6.7603,
+        2.6019,
+        5.5279
+      ],
+      "components": 1,
+      "valid": true,
+      "self_intersections": "not exhaustively certified"
+    },
+    "eye-4": {
+      "finite": true,
+      "vertices": 20,
+      "triangles": 36,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 12.30764,
+      "dimensions_mm": [
+        5.2788,
+        1.7231,
+        4.5552
+      ],
+      "components": 1,
+      "valid": true,
+      "self_intersections": "not exhaustively certified"
+    }
+  },
+  "combined_path_checks": [
+    {
+      "method": "sampled straight extraction",
+      "samples": 8,
+      "surface_points": 1800,
+      "travel_mm": 15,
+      "max_penetration_mm": 0.0,
+      "passed": true,
+      "blocked_distances_mm": [],
+      "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+      "part_id": "tail",
+      "obstacle_part_id": "body"
+    },
+    {
+      "method": "sampled straight extraction",
+      "samples": 8,
+      "surface_points": 210,
+      "travel_mm": 15,
+      "max_penetration_mm": 0.0,
+      "passed": true,
+      "blocked_distances_mm": [],
+      "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+      "part_id": "nose",
+      "obstacle_part_id": "body"
+    },
+    {
+      "method": "sampled straight extraction",
+      "samples": 8,
+      "surface_points": 1710,
+      "travel_mm": 15,
+      "max_penetration_mm": 0.0,
+      "passed": true,
+      "blocked_distances_mm": [],
+      "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+      "part_id": "right-ear",
+      "obstacle_part_id": "body"
+    },
+    {
+      "method": "sampled straight extraction",
+      "samples": 8,
+      "surface_points": 1734,
+      "travel_mm": 15,
+      "max_penetration_mm": 0.0,
+      "passed": true,
+      "blocked_distances_mm": [],
+      "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+      "part_id": "left-ear",
+      "obstacle_part_id": "body"
+    },
+    {
+      "method": "sampled straight extraction",
+      "samples": 8,
+      "surface_points": 40,
+      "travel_mm": 15,
+      "max_penetration_mm": 0.0,
+      "passed": true,
+      "blocked_distances_mm": [],
+      "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+      "part_id": "eye-1",
+      "obstacle_part_id": "body"
+    },
+    {
+      "method": "sampled straight extraction",
+      "samples": 8,
+      "surface_points": 40,
+      "travel_mm": 15,
+      "max_penetration_mm": 0.0,
+      "passed": true,
+      "blocked_distances_mm": [],
+      "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+      "part_id": "eye-1",
+      "obstacle_part_id": "eye-2"
+    },
+    {
+      "method": "sampled straight extraction",
+      "samples": 8,
+      "surface_points": 18,
+      "travel_mm": 15,
+      "max_penetration_mm": 0.0,
+      "passed": true,
+      "blocked_distances_mm": [],
+      "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+      "part_id": "eye-2",
+      "obstacle_part_id": "body"
+    },
+    {
+      "method": "sampled straight extraction",
+      "samples": 8,
+      "surface_points": 32,
+      "travel_mm": 15,
+      "max_penetration_mm": 0.0,
+      "passed": true,
+      "blocked_distances_mm": [],
+      "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+      "part_id": "eye-3",
+      "obstacle_part_id": "body"
+    },
+    {
+      "method": "sampled straight extraction",
+      "samples": 8,
+      "surface_points": 32,
+      "travel_mm": 15,
+      "max_penetration_mm": 0.0,
+      "passed": true,
+      "blocked_distances_mm": [],
+      "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+      "part_id": "eye-3",
+      "obstacle_part_id": "eye-4"
+    },
+    {
+      "method": "sampled straight extraction",
+      "samples": 8,
+      "surface_points": 20,
+      "travel_mm": 15,
+      "max_penetration_mm": 0.0,
+      "passed": true,
+      "blocked_distances_mm": [],
+      "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+      "part_id": "eye-4",
+      "obstacle_part_id": "body"
+    }
+  ],
+  "nose_report": {
+    "strategy": "shared non-planar boundary caps",
+    "source_volume_mm3": 476224.43656932004,
+    "parts_volume_mm3": 476209.5292094384,
+    "merged_islands": [],
+    "interfaces": [
+      {
+        "part_id": "color-001",
+        "interfaces": [
+          {
+            "index": 0,
+            "direction": [
+              0.008433275047091715,
+              -0.9668491817421951,
+              0.2552088157498243
+            ],
+            "area_mm2": 61.23211905243022,
+            "connectors": 1
+          }
+        ],
+        "path_check": {
+          "method": "sampled straight extraction",
+          "samples": 8,
+          "surface_points": 210,
+          "travel_mm": 9.725,
+          "max_penetration_mm": 0.0,
+          "passed": true,
+          "blocked_distances_mm": [],
+          "limitation": "Discrete surface/path sampling cannot certify absence of all collisions."
+        },
+        "thickness_proxy_mm": 1.0313385301204863
+      }
+    ],
+    "pockets": [],
+    "insertion_checks": [
+      {
+        "method": "sampled straight extraction",
+        "samples": 8,
+        "surface_points": 210,
+        "travel_mm": 9.725,
+        "max_penetration_mm": 0.0,
+        "passed": true,
+        "blocked_distances_mm": [],
+        "limitation": "Discrete surface/path sampling cannot certify absence of all collisions."
+      }
+    ],
+    "limitation": "Expert strategy. Color labels are not semantic anatomy; non-projectable loops, crossing caps and assembly sequencing may require manual intervention."
+  },
+  "ear_cuts": [
+    {
+      "strategy": "main component retained; minor cut fragments returned to core",
+      "axis": 2,
+      "position_mm": 139.56019912685662,
+      "positive": true,
+      "selected_components_before": 4,
+      "returned_fragments": 3,
+      "returned_fragment_volumes_mm3": [
+        29.874310466342763,
+        1.3784207855190072,
+        0.36997397449370223
+      ],
+      "source_volume_mm3": 419521.55608248926,
+      "parts_volume_mm3": 419521.5560824892,
+      "volume_difference_mm3": -5.820766091346741e-11,
+      "source_exterior_area_mm2": 47111.72897744576,
+      "parts_exterior_area_mm2": 47111.72897744577,
+      "exterior_components_deleted": 0,
+      "connectors_created": false,
+      "limitation": "Geometric conservation only; connectors, extraction path, physical fit and printability require separate checks."
+    },
+    {
+      "strategy": "main component retained; minor cut fragments returned to core",
+      "axis": 2,
+      "position_mm": 139.56019912685662,
+      "positive": true,
+      "selected_components_before": 5,
+      "returned_fragments": 4,
+      "returned_fragment_volumes_mm3": [
+        1.6490556542286405,
+        0.43157719245254117,
+        0.16581083840356867,
+        0.04449974887820337
+      ],
+      "source_volume_mm3": 415474.52614013426,
+      "parts_volume_mm3": 415474.52614013426,
+      "volume_difference_mm3": 0.0,
+      "source_exterior_area_mm2": 46283.42017070378,
+      "parts_exterior_area_mm2": 46283.42017070379,
+      "exterior_components_deleted": 0,
+      "connectors_created": false,
+      "limitation": "Geometric conservation only; connectors, extraction path, physical fit and printability require separate checks."
+    }
+  ],
+  "eye_inlays": {
+    "pockets": [
+      {
+        "pocket": 0,
+        "area_mm2": 5.971,
+        "direction": [
+          0.07523,
+          -0.92988,
+          -0.36008
+        ],
+        "depth_mm": 1,
+        "inlays": 1
+      },
+      {
+        "pocket": 1,
+        "area_mm2": 14.892,
+        "direction": [
+          -0.01953,
+          -0.99349,
+          0.11224
+        ],
+        "depth_mm": 1,
+        "inlays": 1
+      },
+      {
+        "pocket": 2,
+        "area_mm2": 4.741,
+        "direction": [
+          -0.0048,
+          -0.91445,
+          -0.40468
+        ],
+        "depth_mm": 1,
+        "inlays": 1
+      },
+      {
+        "pocket": 3,
+        "area_mm2": 12.506,
+        "direction": [
+          -0.03093,
+          -0.99497,
+          0.09532
+        ],
+        "depth_mm": 1,
+        "inlays": 1
+      }
+    ],
+    "merged_islands": [],
+    "insertion_checks": [
+      {
+        "method": "sampled straight extraction",
+        "samples": 8,
+        "surface_points": 40,
+        "travel_mm": 5.5,
+        "max_penetration_mm": 0.0,
+        "passed": true,
+        "blocked_distances_mm": [],
+        "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+        "part_id": "part-001"
+      },
+      {
+        "method": "sampled straight extraction",
+        "samples": 8,
+        "surface_points": 18,
+        "travel_mm": 5.5,
+        "max_penetration_mm": 0.0,
+        "passed": true,
+        "blocked_distances_mm": [],
+        "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+        "part_id": "part-002"
+      },
+      {
+        "method": "sampled straight extraction",
+        "samples": 8,
+        "surface_points": 32,
+        "travel_mm": 5.5,
+        "max_penetration_mm": 0.0,
+        "passed": true,
+        "blocked_distances_mm": [],
+        "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+        "part_id": "part-003"
+      },
+      {
+        "method": "sampled straight extraction",
+        "samples": 8,
+        "surface_points": 20,
+        "travel_mm": 5.5,
+        "max_penetration_mm": 0.0,
+        "passed": true,
+        "blocked_distances_mm": [],
+        "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+        "part_id": "part-004"
+      }
+    ],
+    "source_volume_mm3": 411471.9656742262,
+    "parts_volume_mm3": 411471.96567422623,
+    "clearance_void_mm3": 0,
+    "construction": "surface-preserving curved pockets; not planar slicing",
+    "semantic_limit": "Albedo color regions, not automatic semantic body-part recognition."
+  },
+  "physical_print_verified": false,
+  "bambu_gui_verified": false,
+  "clearance_void_mm3": 63.74510488152737,
+  "artifact_directory": "benchmarks/mochi-construction/review-40f963dee30e40fdadb95041803c31f8",
+  "sha256": {
+    "assembly.3mf": "f09e03b684cafce78f48e09a854f557546b4cd602c5d0993723a66540bbf1795",
+    "print-package.zip": "1d8975cc87137a74722a3f725705b6f3ac4c5167152942b3f33de20c6a9a7cf7",
+    "geometry-check.json": "eb8d90d73003df905c6ebe1b94f11abe4011a5d08a46463243b9d362e84ff446"
+  },
+  "fit_coupon": {
+    "directory": "benchmarks/mochi-construction/review-40f963dee30e40fdadb95041803c31f8/nose-fit",
+    "report": {
+      "purpose": "Small physical fit test; exact original nose, pin and cropped original socket",
+      "quality": {
+        "socket-coupon": {
+          "finite": true,
+          "vertices": 630,
+          "triangles": 1256,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_mm3": 1808.67028,
+          "dimensions_mm": [
+            18.0003,
+            11.0598,
+            17.0
+          ],
+          "components": 1,
+          "valid": true,
+          "self_intersections": "not exhaustively certified"
+        },
+        "nose": {
+          "finite": true,
+          "vertices": 210,
+          "triangles": 416,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "volume_mm3": 83.78743,
+          "dimensions_mm": [
+            9.7247,
+            5.21,
+            7.7544
+          ],
+          "components": 1,
+          "valid": true,
+          "self_intersections": "not exhaustively certified"
+        }
+      },
+      "checks": [
+        {
+          "method": "sampled straight extraction",
+          "samples": 8,
+          "surface_points": 210,
+          "travel_mm": 10,
+          "max_penetration_mm": 0.0,
+          "passed": true,
+          "blocked_distances_mm": [],
+          "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+          "part_id": "nose",
+          "obstacle_part_id": "socket-coupon"
+        }
+      ],
+      "plate_x_offset_mm": 25,
+      "plate_bounds_mm": {
+        "nose": [
+          [
+            31.000000000249287,
+            5.999999999504368,
+            -1.4170353779263678e-10
+          ],
+          [
+            36.209961601697714,
+            13.754446812332432,
+            9.724658798946503
+          ]
+        ],
+        "socket-coupon": [
+          [
+            41.209961600999996,
+            6.0,
+            0.0
+          ],
+          [
+            59.210235601,
+            23.0,
+            11.059836313154811
+          ]
+        ]
+      },
+      "physical_print_verified": false,
+      "native_machine_profile": false
+    },
+    "plate_sha256": "d3ba64712e8aa96809d2bf96e01f09544b1e68fe2358becbda7fbfa2670da0d7"
+  }
+}

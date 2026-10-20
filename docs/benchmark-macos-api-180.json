@@ -1,0 +1,812 @@
+{
+  "height_mm": 180.0,
+  "parts": 6,
+  "plates": 3,
+  "all_parts_valid": true,
+  "all_parts_single_component": true,
+  "packing": {
+    "passed": true,
+    "problems": [],
+    "method": "transformed bounds and conservative XY rectangles"
+  },
+  "all_3mf_checks_passed": true,
+  "timings_cumulative_seconds": {
+    "inspect": 1.34,
+    "segment": 79.818,
+    "export": 83.749
+  },
+  "cloud_calls": 0,
+  "physical_print_test": false,
+  "bambu_studio_test": false,
+  "settings": {
+    "height_mm": 180.0,
+    "up_axis": "Y",
+    "model_type": "figurine",
+    "prompt": "",
+    "identity_notes": "",
+    "image_provider": "openai",
+    "image_model": "gpt-image-2.5-sunburst",
+    "image_quality": "max",
+    "image_size": "1024x1536",
+    "image_views": [
+      "front",
+      "left",
+      "back",
+      "right"
+    ],
+    "mesh_provider": "meshy",
+    "mesh_model": "latest",
+    "review_model": "",
+    "review_effort": "high",
+    "auto_image_retries": 0,
+    "budget_eur": 100,
+    "image_call_estimate_eur": 2,
+    "mesh_call_estimate_eur": 10,
+    "review_call_estimate_eur": 0.5,
+    "construction_strategy": "inlays",
+    "palette_size": 3,
+    "palette": [],
+    "base_color": 0,
+    "boundary_tolerance_mm": 0.65,
+    "coarse_sampling_mm": 4,
+    "max_refined_faces": 350000,
+    "inlay_depth_mm": 3.2,
+    "seam_mm": 0.15,
+    "pin_radius_mm": 1.5,
+    "pin_length_mm": 4,
+    "pin_clearance_mm": 0.2,
+    "connector_shape": "round",
+    "min_region_area_mm2": 3,
+    "adaptive_small_pins": true,
+    "validate_paths": true,
+    "printer_id": "h2d-dual",
+    "build_volume_mm": [
+      300,
+      320,
+      325
+    ],
+    "plate_margin_mm": 6,
+    "part_gap_mm": 5,
+    "colors_per_plate": 1,
+    "auto_tile": true,
+    "owned_filaments_only": false,
+    "preferred_brands": [
+      "Elegoo",
+      "Bambu Lab"
+    ],
+    "direction_overrides": {}
+  },
+  "parts_summary": [
+    {
+      "id": "body",
+      "name": "Grundkoerper",
+      "color": "#895330",
+      "color_index": 0,
+      "role": "body",
+      "dimensions_mm": [
+        114.725,
+        58.181,
+        180.0
+      ],
+      "bounds_mm": [
+        [
+          -57.363,
+          -28.517,
+          0.0
+        ],
+        [
+          57.363,
+          29.664,
+          180.0
+        ]
+      ],
+      "volume_mm3": 550755.415,
+      "faces": 45152,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": null,
+      "connectors": [],
+      "warnings": [],
+      "filament_id": null
+    },
+    {
+      "id": "part-001",
+      "name": "Farbeinsatz 01",
+      "color": "#E5C189",
+      "color_index": 1,
+      "role": "inlay",
+      "dimensions_mm": [
+        29.681,
+        10.058,
+        64.891
+      ],
+      "bounds_mm": [
+        [
+          -14.932,
+          -27.698,
+          39.894
+        ],
+        [
+          14.748,
+          -17.64,
+          104.785
+        ]
+      ],
+      "volume_mm3": 4302.89,
+      "faces": 29016,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -8.229002491612326e-06,
+        -0.9999313802608449,
+        -0.011714721589740696
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 3.0,
+          "nominal_length_mm": 4.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.027,
+            -20.372,
+            76.113
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 3.0,
+          "nominal_length_mm": 4.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -6.125,
+            -17.655,
+            50.072
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [],
+      "filament_id": null
+    },
+    {
+      "id": "part-002",
+      "name": "Farbeinsatz 02",
+      "color": "#E5C189",
+      "color_index": 1,
+      "role": "inlay",
+      "dimensions_mm": [
+        21.275,
+        8.128,
+        22.785
+      ],
+      "bounds_mm": [
+        [
+          -10.545,
+          -29.664,
+          123.192
+        ],
+        [
+          10.73,
+          -21.536,
+          145.978
+        ]
+      ],
+      "volume_mm3": 1177.352,
+      "faces": 15706,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.0002683458193453265,
+        -0.9995970891551051,
+        0.028382870594113613
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 3.0,
+          "nominal_length_mm": 4.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.017,
+            -22.253,
+            129.16
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 3.0,
+          "nominal_length_mm": 4.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -3.88,
+            -21.573,
+            140.948
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [],
+      "filament_id": null
+    },
+    {
+      "id": "part-003",
+      "name": "Farbeinsatz 03",
+      "color": "#211D1A",
+      "color_index": 2,
+      "role": "inlay",
+      "dimensions_mm": [
+        4.215,
+        6.579,
+        4.242
+      ],
+      "bounds_mm": [
+        [
+          -2.075,
+          -29.608,
+          135.554
+        ],
+        [
+          2.139,
+          -23.029,
+          139.796
+        ]
+      ],
+      "volume_mm3": 50.054,
+      "faces": 2002,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.0002683458193453265,
+        -0.9995970891551051,
+        0.028382870594113613
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 1.6,
+          "nominal_length_mm": 3.2,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.03,
+            -23.048,
+            137.525
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [
+        "Small cosmetic insert uses a reduced 1.6 mm pin and 0.65 mm nominal edge allowance. Calibrate this pin diameter separately; not a structural joint."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "part-004",
+      "name": "Farbeinsatz 04",
+      "color": "#211D1A",
+      "color_index": 2,
+      "role": "inlay",
+      "dimensions_mm": [
+        3.643,
+        6.279,
+        8.312
+      ],
+      "bounds_mm": [
+        [
+          -7.346,
+          -26.806,
+          145.965
+        ],
+        [
+          -3.703,
+          -20.526,
+          154.277
+        ]
+      ],
+      "volume_mm3": 57.079,
+      "faces": 2764,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.12563459561477533,
+        -0.8851236704960855,
+        0.44807592695016435
+      ],
+      "connectors": [],
+      "warnings": [
+        "No safe pin fits this region. Retention is not guaranteed; adjust size, clearance or connection method."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "part-005",
+      "name": "Farbeinsatz 05",
+      "color": "#211D1A",
+      "color_index": 2,
+      "role": "inlay",
+      "dimensions_mm": [
+        3.567,
+        6.247,
+        8.372
+      ],
+      "bounds_mm": [
+        [
+          3.702,
+          -26.758,
+          145.967
+        ],
+        [
+          7.269,
+          -20.511,
+          154.338
+        ]
+      ],
+      "volume_mm3": 56.547,
+      "faces": 3488,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        0.12602904342194501,
+        -0.8852838891005135,
+        0.44764842891851997
+      ],
+      "connectors": [],
+      "warnings": [
+        "No safe pin fits this region. Retention is not guaranteed; adjust size, clearance or connection method."
+      ],
+      "filament_id": null
+    }
+  ],
+  "geometry_report": {
+    "construction": {
+      "pockets": [
+        {
+          "pocket": 0,
+          "area_mm2": 1394.245,
+          "direction": [
+            -1e-05,
+            -0.99993,
+            -0.01171
+          ],
+          "depth_mm": 3.2,
+          "inlays": 1
+        },
+        {
+          "pocket": 1,
+          "area_mm2": 391.795,
+          "direction": [
+            -0.00027,
+            -0.9996,
+            0.02838
+          ],
+          "depth_mm": 3.2,
+          "inlays": 2
+        },
+        {
+          "pocket": 2,
+          "area_mm2": 21.358,
+          "direction": [
+            -0.12563,
+            -0.88512,
+            0.44808
+          ],
+          "depth_mm": 3.2,
+          "inlays": 1
+        },
+        {
+          "pocket": 3,
+          "area_mm2": 21.481,
+          "direction": [
+            0.12603,
+            -0.88528,
+            0.44765
+          ],
+          "depth_mm": 3.2,
+          "inlays": 1
+        }
+      ],
+      "merged_islands": [
+        {
+          "faces": 3,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 2,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 2,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 2,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 2,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 2,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 2,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 3,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 2,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 2,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 2,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 2,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 2,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        }
+      ],
+      "insertion_checks": [
+        {
+          "method": "sampled straight extraction",
+          "samples": 8,
+          "surface_points": 1800,
+          "travel_mm": 10.2,
+          "max_penetration_mm": 0.0,
+          "passed": true,
+          "blocked_distances_mm": [],
+          "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+          "part_id": "part-001"
+        },
+        {
+          "method": "sampled straight extraction",
+          "samples": 8,
+          "surface_points": 1800,
+          "travel_mm": 10.2,
+          "max_penetration_mm": 0.0,
+          "passed": true,
+          "blocked_distances_mm": [],
+          "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+          "part_id": "part-002"
+        },
+        {
+          "method": "sampled straight extraction",
+          "samples": 8,
+          "surface_points": 1003,
+          "travel_mm": 10.2,
+          "max_penetration_mm": 0.0,
+          "passed": true,
+          "blocked_distances_mm": [],
+          "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+          "part_id": "part-003"
+        },
+        {
+          "method": "sampled straight extraction",
+          "samples": 8,
+          "surface_points": 1384,
+          "travel_mm": 10.2,
+          "max_penetration_mm": 0.0,
+          "passed": true,
+          "blocked_distances_mm": [],
+          "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+          "part_id": "part-004"
+        },
+        {
+          "method": "sampled straight extraction",
+          "samples": 8,
+          "surface_points": 1746,
+          "travel_mm": 10.2,
+          "max_penetration_mm": 0.0,
+          "passed": true,
+          "blocked_distances_mm": [],
+          "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+          "part_id": "part-005"
+        }
+      ],
+      "source_volume_mm3": 556640.3095856934,
+      "parts_volume_mm3": 556399.3359365222,
+      "clearance_void_mm3": 240.97364917118102,
+      "construction": "surface-preserving curved pockets; not planar slicing",
+      "semantic_limit": "Albedo color regions, not automatic semantic body-part recognition."
+    },
+    "refinement": {
+      "triangles": 41516,
+      "boundary_pairs": 1486,
+      "requested_tolerance_mm": 0.65,
+      "coarse_sampling_mm": 4.0,
+      "precision_note": "Boundary follows the sampled albedo at mesh resolution; small features below the coarse sampling can be missed. This is not a mathematical raster-to-curve error bound."
+    },
+    "tiling": [],
+    "quality": {
+      "body": {
+        "finite": true,
+        "vertices": 22578,
+        "triangles": 45152,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 550755.41475,
+        "dimensions_mm": [
+          114.7253,
+          58.1812,
+          180.0
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "part-001": {
+        "finite": true,
+        "vertices": 14510,
+        "triangles": 29016,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 4302.88966,
+        "dimensions_mm": [
+          29.6806,
+          10.058,
+          64.8912
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "part-002": {
+        "finite": true,
+        "vertices": 7853,
+        "triangles": 15706,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 1177.35178,
+        "dimensions_mm": [
+          21.2751,
+          8.1278,
+          22.7854
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "part-003": {
+        "finite": true,
+        "vertices": 1003,
+        "triangles": 2002,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 50.05398,
+        "dimensions_mm": [
+          4.2148,
+          6.5793,
+          4.2421
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "part-004": {
+        "finite": true,
+        "vertices": 1384,
+        "triangles": 2764,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 57.07871,
+        "dimensions_mm": [
+          3.6428,
+          6.2793,
+          8.312
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "part-005": {
+        "finite": true,
+        "vertices": 1746,
+        "triangles": 3488,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 56.54705,
+        "dimensions_mm": [
+          3.5674,
+          6.2473,
+          8.3717
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      }
+    },
+    "packing": {
+      "passed": true,
+      "problems": [],
+      "method": "transformed bounds and conservative XY rectangles"
+    },
+    "stability_advisory": {
+      "center_of_mass_mm": [
+        0.001,
+        0.074,
+        87.144
+      ],
+      "projected_support_margin_mm": 10.799,
+      "assumption": "Uniform solid density; infill, hardware, tolerances and real loads not modelled.",
+      "status": "advisory only"
+    },
+    "not_checked": [
+      "Exhaustive self-intersection detection",
+      "Physical fit/strength",
+      "Slicer support and purge zones"
+    ]
+  }
+}

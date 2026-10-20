@@ -1,0 +1,1118 @@
+{
+  "source_directory": "benchmarks/mochi-construction/anatomy-review-29eda050d52e4d26a27366ad1ee85480",
+  "geometry": {
+    "purpose": "Model-specific anatomical geometry experiment; no approvals, regional filament assignments or native machine profile",
+    "source_project": "1b0e2fdd463d4f15ac64f1c7b3e8acc7",
+    "source_sha256": "c8b50eee6cce4bf76ca8ef17050c44694e6db0ee7d18bdd47cf48507fc065643",
+    "mesh_hash": "56c3e3b339a0710a9eab9392cc657b5f4c1d7b6c7d9e37866074fd32ee089d17",
+    "plan_hash": "0bea2ce05fa191d9b9e5db8e2373c9b01e83777d4c62b82ed54b64675e4f0cdc",
+    "source_volume_mm3": 476224.43656932004,
+    "parts_volume_mm3": 476150.98593135405,
+    "quality": {
+      "body": {
+        "finite": true,
+        "vertices": 48787,
+        "triangles": 97582,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 394305.94872,
+        "dimensions_mm": [
+          89.2106,
+          74.2665,
+          179.8295
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "nose": {
+        "finite": true,
+        "vertices": 241,
+        "triangles": 478,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 121.4687,
+        "dimensions_mm": [
+          9.7284,
+          5.9543,
+          8.2831
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "right-ear": {
+        "finite": true,
+        "vertices": 3038,
+        "triangles": 6072,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 5982.06855,
+        "dimensions_mm": [
+          27.0282,
+          25.4542,
+          37.4159
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "left-ear": {
+        "finite": true,
+        "vertices": 2888,
+        "triangles": 5772,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 6184.64332,
+        "dimensions_mm": [
+          26.5353,
+          25.8722,
+          37.4991
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "tail": {
+        "finite": true,
+        "vertices": 22516,
+        "triangles": 45028,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 69519.48882,
+        "dimensions_mm": [
+          56.107,
+          74.561,
+          59.2436
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "eye-2": {
+        "finite": true,
+        "vertices": 20,
+        "triangles": 36,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 12.30764,
+        "dimensions_mm": [
+          5.2788,
+          1.7231,
+          4.5552
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "eye-1": {
+        "finite": true,
+        "vertices": 32,
+        "triangles": 60,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 4.62513,
+        "dimensions_mm": [
+          6.7603,
+          2.6019,
+          5.5279
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "eye-4": {
+        "finite": true,
+        "vertices": 40,
+        "triangles": 76,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 5.8261,
+        "dimensions_mm": [
+          7.4898,
+          2.6582,
+          4.4939
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "eye-3": {
+        "finite": true,
+        "vertices": 18,
+        "triangles": 32,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 14.60893,
+        "dimensions_mm": [
+          4.7545,
+          1.6027,
+          4.9748
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      }
+    },
+    "anatomical_proposal": {
+      "source_signature": "2449e3b7215d04bbb5c2143139245e1b92eac858de42b8fa9227d3b2353396af",
+      "whole_part_keys": [
+        "tail",
+        "right-ear",
+        "left-ear",
+        "nose"
+      ],
+      "eye_part_keys": [
+        "eye-1",
+        "eye-2",
+        "eye-3",
+        "eye-4"
+      ],
+      "seed_parameters_mm": {
+        "tail_distal_y": 25,
+        "ear_geodesic_growth": 2,
+        "nose_geodesic_domain": 2
+      },
+      "cuts": {
+        "tail": {
+          "method": "seeded face graph minimum cut on analysis-only Taubin copy",
+          "source_faces": 150000,
+          "selected_faces": 44278,
+          "appendage_seeds": 27713,
+          "core_seeds": 89887,
+          "smoothing_iterations": 30,
+          "concavity_scale": 0.06,
+          "cut_edges": 114,
+          "source_cut_length_mm": 70.01071327262005,
+          "weighted_cut_cost_mm": 5.576,
+          "original_geometry_modified": false,
+          "limitation": "Seeded geometric proposal. Not autonomous anatomical recognition; source contours, solids, assembly and physical fit require separate validation."
+        },
+        "right-ear": {
+          "method": "seeded face graph minimum cut on analysis-only Taubin copy",
+          "source_faces": 150000,
+          "selected_faces": 5385,
+          "appendage_seeds": 3822,
+          "core_seeds": 119939,
+          "smoothing_iterations": 40,
+          "concavity_scale": 0.03,
+          "cut_edges": 109,
+          "source_cut_length_mm": 114.83788382326226,
+          "weighted_cut_cost_mm": 15.319,
+          "original_geometry_modified": false,
+          "limitation": "Seeded geometric proposal. Not autonomous anatomical recognition; source contours, solids, assembly and physical fit require separate validation."
+        },
+        "left-ear": {
+          "method": "seeded face graph minimum cut on analysis-only Taubin copy",
+          "source_faces": 150000,
+          "selected_faces": 5091,
+          "appendage_seeds": 3680,
+          "core_seeds": 119939,
+          "smoothing_iterations": 10,
+          "concavity_scale": 0.08,
+          "cut_edges": 109,
+          "source_cut_length_mm": 114.01400706847194,
+          "weighted_cut_cost_mm": 27.819,
+          "original_geometry_modified": false,
+          "limitation": "Seeded geometric proposal. Not autonomous anatomical recognition; source contours, solids, assembly and physical fit require separate validation."
+        },
+        "nose": {
+          "method": "seeded face graph minimum cut on analysis-only Taubin copy",
+          "source_faces": 150000,
+          "selected_faces": 210,
+          "appendage_seeds": 152,
+          "core_seeds": 149739,
+          "smoothing_iterations": 30,
+          "concavity_scale": 0.06,
+          "cut_edges": 32,
+          "source_cut_length_mm": 30.633555284841492,
+          "weighted_cut_cost_mm": 5.964,
+          "original_geometry_modified": false,
+          "limitation": "Seeded geometric proposal. Not autonomous anatomical recognition; source contours, solids, assembly and physical fit require separate validation."
+        }
+      },
+      "original_geometry_modified": false,
+      "automatic_approval": false,
+      "limitation": "Model-bound local proposal. Anatomical boundary, texture/material assignment and print/assembly checks remain required; smoothing only affects analysis."
+    },
+    "combined_path_checks": [
+      {
+        "method": "sampled straight extraction",
+        "samples": 8,
+        "surface_points": 241,
+        "travel_mm": 30,
+        "max_penetration_mm": 0.0022,
+        "passed": true,
+        "blocked_distances_mm": [],
+        "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+        "part_id": "nose",
+        "obstacle_part_id": "body"
+      },
+      {
+        "method": "sampled straight extraction",
+        "samples": 8,
+        "surface_points": 1800,
+        "travel_mm": 30,
+        "max_penetration_mm": 0.0,
+        "passed": true,
+        "blocked_distances_mm": [],
+        "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+        "part_id": "right-ear",
+        "obstacle_part_id": "body"
+      },
+      {
+        "method": "sampled straight extraction",
+        "samples": 8,
+        "surface_points": 1800,
+        "travel_mm": 30,
+        "max_penetration_mm": 0.0,
+        "passed": true,
+        "blocked_distances_mm": [],
+        "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+        "part_id": "left-ear",
+        "obstacle_part_id": "body"
+      },
+      {
+        "method": "sampled straight extraction",
+        "samples": 8,
+        "surface_points": 1800,
+        "travel_mm": 30,
+        "max_penetration_mm": 0.0,
+        "passed": true,
+        "blocked_distances_mm": [],
+        "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+        "part_id": "tail",
+        "obstacle_part_id": "body"
+      },
+      {
+        "method": "sampled straight extraction",
+        "samples": 8,
+        "surface_points": 20,
+        "travel_mm": 30,
+        "max_penetration_mm": 0.0,
+        "passed": true,
+        "blocked_distances_mm": [],
+        "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+        "part_id": "eye-2",
+        "obstacle_part_id": "body"
+      },
+      {
+        "method": "sampled straight extraction",
+        "samples": 8,
+        "surface_points": 32,
+        "travel_mm": 30,
+        "max_penetration_mm": 0.0,
+        "passed": true,
+        "blocked_distances_mm": [],
+        "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+        "part_id": "eye-1",
+        "obstacle_part_id": "body"
+      },
+      {
+        "method": "sampled straight extraction",
+        "samples": 8,
+        "surface_points": 32,
+        "travel_mm": 30,
+        "max_penetration_mm": 0.0,
+        "passed": true,
+        "blocked_distances_mm": [],
+        "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+        "part_id": "eye-1",
+        "obstacle_part_id": "eye-2"
+      },
+      {
+        "method": "sampled straight extraction",
+        "samples": 8,
+        "surface_points": 40,
+        "travel_mm": 30,
+        "max_penetration_mm": 0.0,
+        "passed": true,
+        "blocked_distances_mm": [],
+        "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+        "part_id": "eye-4",
+        "obstacle_part_id": "body"
+      },
+      {
+        "method": "sampled straight extraction",
+        "samples": 8,
+        "surface_points": 40,
+        "travel_mm": 30,
+        "max_penetration_mm": 0.0,
+        "passed": true,
+        "blocked_distances_mm": [],
+        "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+        "part_id": "eye-4",
+        "obstacle_part_id": "eye-3"
+      },
+      {
+        "method": "sampled straight extraction",
+        "samples": 8,
+        "surface_points": 18,
+        "travel_mm": 30,
+        "max_penetration_mm": 0.0,
+        "passed": true,
+        "blocked_distances_mm": [],
+        "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+        "part_id": "eye-3",
+        "obstacle_part_id": "body"
+      }
+    ],
+    "construction_order": [
+      "nose",
+      "right-ear",
+      "left-ear",
+      "tail",
+      "eyes"
+    ],
+    "nose_report": {
+      "strategy": "shared non-planar boundary caps",
+      "source_volume_mm3": 476224.43656932004,
+      "parts_volume_mm3": 476209.0966539748,
+      "merged_islands": [],
+      "interfaces": [
+        {
+          "part_id": "nose",
+          "interfaces": [
+            {
+              "index": 0,
+              "direction": [
+                -0.024530409796099977,
+                -0.9430368825118894,
+                0.3317826053570205
+              ],
+              "area_mm2": 64.16058294215398,
+              "connectors": 1
+            }
+          ],
+          "path_check": {
+            "method": "sampled straight extraction",
+            "samples": 8,
+            "surface_points": 241,
+            "travel_mm": 9.728,
+            "max_penetration_mm": 0.0022,
+            "passed": true,
+            "blocked_distances_mm": [],
+            "limitation": "Discrete surface/path sampling cannot certify absence of all collisions."
+          },
+          "thickness_proxy_mm": 1.3235072235788192
+        }
+      ],
+      "pockets": [],
+      "insertion_checks": [
+        {
+          "method": "sampled straight extraction",
+          "samples": 8,
+          "surface_points": 241,
+          "travel_mm": 9.728,
+          "max_penetration_mm": 0.0022,
+          "passed": true,
+          "blocked_distances_mm": [],
+          "limitation": "Discrete surface/path sampling cannot certify absence of all collisions."
+        }
+      ],
+      "limitation": "Expert strategy. Color labels are not semantic anatomy; non-projectable loops, crossing caps and assembly sequencing may require manual intervention."
+    },
+    "appendage_reports": {
+      "nose": {
+        "strategy": "shared non-planar boundary caps",
+        "source_volume_mm3": 476224.43656932004,
+        "parts_volume_mm3": 476209.0966539748,
+        "merged_islands": [],
+        "interfaces": [
+          {
+            "part_id": "nose",
+            "interfaces": [
+              {
+                "index": 0,
+                "direction": [
+                  -0.024530409796099977,
+                  -0.9430368825118894,
+                  0.3317826053570205
+                ],
+                "area_mm2": 64.16058294215398,
+                "connectors": 1
+              }
+            ],
+            "path_check": {
+              "method": "sampled straight extraction",
+              "samples": 8,
+              "surface_points": 241,
+              "travel_mm": 9.728,
+              "max_penetration_mm": 0.0022,
+              "passed": true,
+              "blocked_distances_mm": [],
+              "limitation": "Discrete surface/path sampling cannot certify absence of all collisions."
+            },
+            "thickness_proxy_mm": 1.3235072235788192
+          }
+        ],
+        "pockets": [],
+        "insertion_checks": [
+          {
+            "method": "sampled straight extraction",
+            "samples": 8,
+            "surface_points": 241,
+            "travel_mm": 9.728,
+            "max_penetration_mm": 0.0022,
+            "passed": true,
+            "blocked_distances_mm": [],
+            "limitation": "Discrete surface/path sampling cannot certify absence of all collisions."
+          }
+        ],
+        "limitation": "Expert strategy. Color labels are not semantic anatomy; non-projectable loops, crossing caps and assembly sequencing may require manual intervention."
+      },
+      "right-ear": {
+        "strategy": "shared non-planar boundary caps",
+        "source_volume_mm3": 476087.6279503948,
+        "parts_volume_mm3": 476068.28476596077,
+        "merged_islands": [],
+        "interfaces": [
+          {
+            "part_id": "right-ear",
+            "interfaces": [
+              {
+                "index": 0,
+                "direction": [
+                  0.7696350136981093,
+                  0.17844834051295363,
+                  0.6130400765513493
+                ],
+                "area_mm2": 624.9066909125419,
+                "connectors": 2
+              }
+            ],
+            "path_check": {
+              "method": "sampled straight extraction",
+              "samples": 8,
+              "surface_points": 1800,
+              "travel_mm": 30,
+              "max_penetration_mm": 0.0,
+              "passed": true,
+              "blocked_distances_mm": [],
+              "limitation": "Discrete surface/path sampling cannot certify absence of all collisions."
+            },
+            "thickness_proxy_mm": 4.537274160447801
+          }
+        ],
+        "pockets": [],
+        "insertion_checks": [
+          {
+            "method": "sampled straight extraction",
+            "samples": 8,
+            "surface_points": 1800,
+            "travel_mm": 30,
+            "max_penetration_mm": 0.0,
+            "passed": true,
+            "blocked_distances_mm": [],
+            "limitation": "Discrete surface/path sampling cannot certify absence of all collisions."
+          }
+        ],
+        "limitation": "Expert strategy. Color labels are not semantic anatomy; non-projectable loops, crossing caps and assembly sequencing may require manual intervention."
+      },
+      "left-ear": {
+        "strategy": "shared non-planar boundary caps",
+        "source_volume_mm3": 470086.21621485596,
+        "parts_volume_mm3": 470067.0463095376,
+        "merged_islands": [],
+        "interfaces": [
+          {
+            "part_id": "left-ear",
+            "interfaces": [
+              {
+                "index": 0,
+                "direction": [
+                  -0.7905158524092059,
+                  0.14370546782322102,
+                  0.5953431158646716
+                ],
+                "area_mm2": 677.7282546210417,
+                "connectors": 2
+              }
+            ],
+            "path_check": {
+              "method": "sampled straight extraction",
+              "samples": 8,
+              "surface_points": 1800,
+              "travel_mm": 30,
+              "max_penetration_mm": 0.0,
+              "passed": true,
+              "blocked_distances_mm": [],
+              "limitation": "Discrete surface/path sampling cannot certify absence of all collisions."
+            },
+            "thickness_proxy_mm": 4.5436371780664535
+          }
+        ],
+        "pockets": [],
+        "insertion_checks": [
+          {
+            "method": "sampled straight extraction",
+            "samples": 8,
+            "surface_points": 1800,
+            "travel_mm": 30,
+            "max_penetration_mm": 0.0,
+            "passed": true,
+            "blocked_distances_mm": [],
+            "limitation": "Discrete surface/path sampling cannot certify absence of all collisions."
+          }
+        ],
+        "limitation": "Expert strategy. Color labels are not semantic anatomy; non-projectable loops, crossing caps and assembly sequencing may require manual intervention."
+      },
+      "tail": {
+        "strategy": "shared non-planar boundary caps",
+        "source_volume_mm3": 463882.4029864644,
+        "parts_volume_mm3": 463862.8053535961,
+        "merged_islands": [],
+        "interfaces": [
+          {
+            "part_id": "tail",
+            "interfaces": [
+              {
+                "index": 0,
+                "direction": [
+                  -0.007256255117809426,
+                  0.9461752576792326,
+                  -0.3235733742403771
+                ],
+                "area_mm2": 341.8349872110973,
+                "connectors": 2
+              }
+            ],
+            "path_check": {
+              "method": "sampled straight extraction",
+              "samples": 8,
+              "surface_points": 1800,
+              "travel_mm": 30,
+              "max_penetration_mm": 0.0,
+              "passed": true,
+              "blocked_distances_mm": [],
+              "limitation": "Discrete surface/path sampling cannot certify absence of all collisions."
+            },
+            "thickness_proxy_mm": 13.480415693936266
+          }
+        ],
+        "pockets": [],
+        "insertion_checks": [
+          {
+            "method": "sampled straight extraction",
+            "samples": 8,
+            "surface_points": 1800,
+            "travel_mm": 30,
+            "max_penetration_mm": 0.0,
+            "passed": true,
+            "blocked_distances_mm": [],
+            "limitation": "Discrete surface/path sampling cannot certify absence of all collisions."
+          }
+        ],
+        "limitation": "Expert strategy. Color labels are not semantic anatomy; non-projectable loops, crossing caps and assembly sequencing may require manual intervention."
+      }
+    },
+    "eye_inlays": {
+      "pockets": [
+        {
+          "pocket": 0,
+          "area_mm2": 12.506,
+          "direction": [
+            -0.03093,
+            -0.99497,
+            0.09532
+          ],
+          "depth_mm": 1,
+          "inlays": 1
+        },
+        {
+          "pocket": 1,
+          "area_mm2": 4.741,
+          "direction": [
+            -0.0048,
+            -0.91445,
+            -0.40468
+          ],
+          "depth_mm": 1,
+          "inlays": 1
+        },
+        {
+          "pocket": 2,
+          "area_mm2": 5.971,
+          "direction": [
+            0.07523,
+            -0.92988,
+            -0.36008
+          ],
+          "depth_mm": 1,
+          "inlays": 1
+        },
+        {
+          "pocket": 3,
+          "area_mm2": 14.892,
+          "direction": [
+            -0.01953,
+            -0.99349,
+            0.11224
+          ],
+          "depth_mm": 1,
+          "inlays": 1
+        }
+      ],
+      "merged_islands": [],
+      "insertion_checks": [
+        {
+          "method": "sampled straight extraction",
+          "samples": 8,
+          "surface_points": 20,
+          "travel_mm": 5.5,
+          "max_penetration_mm": 0.0,
+          "passed": true,
+          "blocked_distances_mm": [],
+          "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+          "part_id": "eye-2"
+        },
+        {
+          "method": "sampled straight extraction",
+          "samples": 8,
+          "surface_points": 32,
+          "travel_mm": 5.5,
+          "max_penetration_mm": 0.0,
+          "passed": true,
+          "blocked_distances_mm": [],
+          "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+          "part_id": "eye-1"
+        },
+        {
+          "method": "sampled straight extraction",
+          "samples": 8,
+          "surface_points": 40,
+          "travel_mm": 5.5,
+          "max_penetration_mm": 0.0,
+          "passed": true,
+          "blocked_distances_mm": [],
+          "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+          "part_id": "eye-4"
+        },
+        {
+          "method": "sampled straight extraction",
+          "samples": 8,
+          "surface_points": 18,
+          "travel_mm": 5.5,
+          "max_penetration_mm": 0.0,
+          "passed": true,
+          "blocked_distances_mm": [],
+          "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+          "part_id": "eye-3"
+        }
+      ],
+      "source_volume_mm3": 394343.3165316747,
+      "parts_volume_mm3": 394343.3165316747,
+      "clearance_void_mm3": 0,
+      "construction": "surface-preserving curved pockets; not planar slicing",
+      "semantic_limit": "Albedo color regions, not automatic semantic body-part recognition."
+    },
+    "warnings": [
+      "Core geometry export uses simplified display colors, not approved native mixed-filament assignments.",
+      "Eye inserts are glue-only; the exact zero-seam reference is not a calibrated physical clearance.",
+      "This anatomical nose differs from the earlier color-only nose test; earlier outputs and ongoing prints remain untouched."
+    ],
+    "physical_print_verified": false,
+    "bambu_gui_verified": false,
+    "clearance_void_mm3": 73.45063796598697,
+    "three_mf_roundtrips": {
+      "assembly.3mf": {
+        "passed": true,
+        "objects": 9,
+        "meshes": [
+          {
+            "id": "2",
+            "triangles": 97582,
+            "volume_mm3": 394305.9487233553
+          },
+          {
+            "id": "3",
+            "triangles": 478,
+            "volume_mm3": 121.46870358175568
+          },
+          {
+            "id": "4",
+            "triangles": 6072,
+            "volume_mm3": 5982.068551014313
+          },
+          {
+            "id": "5",
+            "triangles": 5772,
+            "volume_mm3": 6184.643323157538
+          },
+          {
+            "id": "6",
+            "triangles": 45028,
+            "volume_mm3": 69519.48882207258
+          },
+          {
+            "id": "7",
+            "triangles": 36,
+            "volume_mm3": 12.307636570637234
+          },
+          {
+            "id": "8",
+            "triangles": 60,
+            "volume_mm3": 4.62513431351777
+          },
+          {
+            "id": "9",
+            "triangles": 76,
+            "volume_mm3": 5.826103061688698
+          },
+          {
+            "id": "10",
+            "triangles": 32,
+            "volume_mm3": 14.60893347989843
+          }
+        ],
+        "bambu_printable_items": true,
+        "validation": "independent XML/geometry round-trip, not an official 3MF conformance certificate",
+        "bambu_studio_live_test": false
+      },
+      "eye-4.3mf": {
+        "passed": true,
+        "objects": 1,
+        "meshes": [
+          {
+            "id": "2",
+            "triangles": 76,
+            "volume_mm3": 5.826103061688698
+          }
+        ],
+        "bambu_printable_items": true,
+        "validation": "independent XML/geometry round-trip, not an official 3MF conformance certificate",
+        "bambu_studio_live_test": false
+      },
+      "eye-2.3mf": {
+        "passed": true,
+        "objects": 1,
+        "meshes": [
+          {
+            "id": "2",
+            "triangles": 36,
+            "volume_mm3": 12.307636570637234
+          }
+        ],
+        "bambu_printable_items": true,
+        "validation": "independent XML/geometry round-trip, not an official 3MF conformance certificate",
+        "bambu_studio_live_test": false
+      },
+      "eye-3.3mf": {
+        "passed": true,
+        "objects": 1,
+        "meshes": [
+          {
+            "id": "2",
+            "triangles": 32,
+            "volume_mm3": 14.60893347989843
+          }
+        ],
+        "bambu_printable_items": true,
+        "validation": "independent XML/geometry round-trip, not an official 3MF conformance certificate",
+        "bambu_studio_live_test": false
+      },
+      "tail.3mf": {
+        "passed": true,
+        "objects": 1,
+        "meshes": [
+          {
+            "id": "2",
+            "triangles": 45028,
+            "volume_mm3": 69519.48882207258
+          }
+        ],
+        "bambu_printable_items": true,
+        "validation": "independent XML/geometry round-trip, not an official 3MF conformance certificate",
+        "bambu_studio_live_test": false
+      },
+      "eye-1.3mf": {
+        "passed": true,
+        "objects": 1,
+        "meshes": [
+          {
+            "id": "2",
+            "triangles": 60,
+            "volume_mm3": 4.62513431351777
+          }
+        ],
+        "bambu_printable_items": true,
+        "validation": "independent XML/geometry round-trip, not an official 3MF conformance certificate",
+        "bambu_studio_live_test": false
+      },
+      "body.3mf": {
+        "passed": true,
+        "objects": 1,
+        "meshes": [
+          {
+            "id": "2",
+            "triangles": 97582,
+            "volume_mm3": 394305.9487233553
+          }
+        ],
+        "bambu_printable_items": true,
+        "validation": "independent XML/geometry round-trip, not an official 3MF conformance certificate",
+        "bambu_studio_live_test": false
+      },
+      "nose.3mf": {
+        "passed": true,
+        "objects": 1,
+        "meshes": [
+          {
+            "id": "2",
+            "triangles": 478,
+            "volume_mm3": 121.46870358175568
+          }
+        ],
+        "bambu_printable_items": true,
+        "validation": "independent XML/geometry round-trip, not an official 3MF conformance certificate",
+        "bambu_studio_live_test": false
+      },
+      "plate-03.3mf": {
+        "passed": true,
+        "objects": 3,
+        "meshes": [
+          {
+            "id": "2",
+            "triangles": 45028,
+            "volume_mm3": 69519.48882207258
+          },
+          {
+            "id": "3",
+            "triangles": 6072,
+            "volume_mm3": 5982.068551014313
+          },
+          {
+            "id": "4",
+            "triangles": 5772,
+            "volume_mm3": 6184.643323157538
+          }
+        ],
+        "bambu_printable_items": true,
+        "validation": "independent XML/geometry round-trip, not an official 3MF conformance certificate",
+        "bambu_studio_live_test": false
+      },
+      "plate-02.3mf": {
+        "passed": true,
+        "objects": 1,
+        "meshes": [
+          {
+            "id": "2",
+            "triangles": 97582,
+            "volume_mm3": 394305.9487233553
+          }
+        ],
+        "bambu_printable_items": true,
+        "validation": "independent XML/geometry round-trip, not an official 3MF conformance certificate",
+        "bambu_studio_live_test": false
+      },
+      "left-ear.3mf": {
+        "passed": true,
+        "objects": 1,
+        "meshes": [
+          {
+            "id": "2",
+            "triangles": 5772,
+            "volume_mm3": 6184.643323157538
+          }
+        ],
+        "bambu_printable_items": true,
+        "validation": "independent XML/geometry round-trip, not an official 3MF conformance certificate",
+        "bambu_studio_live_test": false
+      },
+      "right-ear.3mf": {
+        "passed": true,
+        "objects": 1,
+        "meshes": [
+          {
+            "id": "2",
+            "triangles": 6072,
+            "volume_mm3": 5982.068551014313
+          }
+        ],
+        "bambu_printable_items": true,
+        "validation": "independent XML/geometry round-trip, not an official 3MF conformance certificate",
+        "bambu_studio_live_test": false
+      },
+      "plate-01.3mf": {
+        "passed": true,
+        "objects": 5,
+        "meshes": [
+          {
+            "id": "2",
+            "triangles": 478,
+            "volume_mm3": 121.46870358175568
+          },
+          {
+            "id": "3",
+            "triangles": 60,
+            "volume_mm3": 4.62513431351777
+          },
+          {
+            "id": "4",
+            "triangles": 76,
+            "volume_mm3": 5.826103061688698
+          },
+          {
+            "id": "5",
+            "triangles": 36,
+            "volume_mm3": 12.307636570637234
+          },
+          {
+            "id": "6",
+            "triangles": 32,
+            "volume_mm3": 14.60893347989843
+          }
+        ],
+        "bambu_printable_items": true,
+        "validation": "independent XML/geometry round-trip, not an official 3MF conformance certificate",
+        "bambu_studio_live_test": false
+      }
+    }
+  },
+  "validation": {
+    "assembly": {
+      "passed": true,
+      "objects": 9,
+      "meshes": [
+        {
+          "id": "2",
+          "triangles": 97582,
+          "volume_mm3": 394305.9487233553
+        },
+        {
+          "id": "3",
+          "triangles": 478,
+          "volume_mm3": 121.46870358175568
+        },
+        {
+          "id": "4",
+          "triangles": 6072,
+          "volume_mm3": 5982.068551014313
+        },
+        {
+          "id": "5",
+          "triangles": 5772,
+          "volume_mm3": 6184.643323157538
+        },
+        {
+          "id": "6",
+          "triangles": 45028,
+          "volume_mm3": 69519.48882207258
+        },
+        {
+          "id": "7",
+          "triangles": 36,
+          "volume_mm3": 12.307636570637234
+        },
+        {
+          "id": "8",
+          "triangles": 60,
+          "volume_mm3": 4.62513431351777
+        },
+        {
+          "id": "9",
+          "triangles": 76,
+          "volume_mm3": 5.826103061688698
+        },
+        {
+          "id": "10",
+          "triangles": 32,
+          "volume_mm3": 14.60893347989843
+        }
+      ],
+      "bambu_printable_items": true,
+      "validation": "independent XML/geometry round-trip, not an official 3MF conformance certificate",
+      "bambu_studio_live_test": false
+    },
+    "plate-01": {
+      "passed": true,
+      "objects": 5,
+      "meshes": [
+        {
+          "id": "2",
+          "triangles": 478,
+          "volume_mm3": 121.46870358175568
+        },
+        {
+          "id": "3",
+          "triangles": 60,
+          "volume_mm3": 4.62513431351777
+        },
+        {
+          "id": "4",
+          "triangles": 76,
+          "volume_mm3": 5.826103061688698
+        },
+        {
+          "id": "5",
+          "triangles": 36,
+          "volume_mm3": 12.307636570637234
+        },
+        {
+          "id": "6",
+          "triangles": 32,
+          "volume_mm3": 14.60893347989843
+        }
+      ],
+      "bambu_printable_items": true,
+      "validation": "independent XML/geometry round-trip, not an official 3MF conformance certificate",
+      "bambu_studio_live_test": false
+    },
+    "plate-02": {
+      "passed": true,
+      "objects": 1,
+      "meshes": [
+        {
+          "id": "2",
+          "triangles": 97582,
+          "volume_mm3": 394305.9487233553
+        }
+      ],
+      "bambu_printable_items": true,
+      "validation": "independent XML/geometry round-trip, not an official 3MF conformance certificate",
+      "bambu_studio_live_test": false
+    },
+    "plate-03": {
+      "passed": true,
+      "objects": 3,
+      "meshes": [
+        {
+          "id": "2",
+          "triangles": 45028,
+          "volume_mm3": 69519.48882207258
+        },
+        {
+          "id": "3",
+          "triangles": 6072,
+          "volume_mm3": 5982.068551014313
+        },
+        {
+          "id": "4",
+          "triangles": 5772,
+          "volume_mm3": 6184.643323157538
+        }
+      ],
+      "bambu_printable_items": true,
+      "validation": "independent XML/geometry round-trip, not an official 3MF conformance certificate",
+      "bambu_studio_live_test": false
+    }
+  }
+}

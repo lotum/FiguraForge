@@ -1,0 +1,104 @@
+{
+  "height_mm": 180,
+  "regions": {
+    "left_eye": {
+      "center_mm": [
+        -11,
+        -53.5,
+        140
+      ],
+      "radius_mm": 5,
+      "scope": "geometric sphere, not a manually confirmed semantic mask",
+      "original": {
+        "faces": 2303,
+        "surface_area_mm2": 86.58114310618757,
+        "edge_mm_p50": 0.23078742110250255,
+        "edge_mm_p95": 0.5939586522066681
+      },
+      "sampled_error": {
+        "points": 1000,
+        "distance_mm_p99": 0.06481861251395038,
+        "distance_mm_max_sampled": 0.0749784520572133,
+        "albedo_delta_e_p95": 4.6743092633100165
+      },
+      "working": {
+        "faces": 126,
+        "surface_area_mm2": 87.9287699179345,
+        "edge_mm_p50": 1.4318824266740904,
+        "edge_mm_p95": 2.406136887142203
+      },
+      "flat_preview_albedo_error": {
+        "samples": 2000,
+        "delta_e_p50": 2.7865152400292112,
+        "delta_e_p95": 39.319391394297,
+        "fraction_over_delta_e_10": 0.208
+      }
+    },
+    "right_eye": {
+      "center_mm": [
+        11,
+        -53.5,
+        140
+      ],
+      "radius_mm": 5,
+      "scope": "geometric sphere, not a manually confirmed semantic mask",
+      "original": {
+        "faces": 2149,
+        "surface_area_mm2": 86.56001537357885,
+        "edge_mm_p50": 0.2519674156600102,
+        "edge_mm_p95": 0.62089388197279
+      },
+      "sampled_error": {
+        "points": 1000,
+        "distance_mm_p99": 0.0759039709299262,
+        "distance_mm_max_sampled": 0.08477280135040464,
+        "albedo_delta_e_p95": 5.8025249916142565
+      },
+      "working": {
+        "faces": 122,
+        "surface_area_mm2": 87.61437325745061,
+        "edge_mm_p50": 1.2881293818169501,
+        "edge_mm_p95": 2.408632410509458
+      },
+      "flat_preview_albedo_error": {
+        "samples": 2000,
+        "delta_e_p50": 2.559332810629101,
+        "delta_e_p95": 47.57281213180407,
+        "fraction_over_delta_e_10": 0.2245
+      }
+    },
+    "forehead_fur": {
+      "center_mm": [
+        0,
+        -48,
+        155
+      ],
+      "radius_mm": 8,
+      "scope": "geometric sphere, not a manually confirmed semantic mask",
+      "original": {
+        "faces": 2170,
+        "surface_area_mm2": 139.44441263892125,
+        "edge_mm_p50": 0.3784863492930022,
+        "edge_mm_p95": 0.7358876359965384
+      },
+      "sampled_error": {
+        "points": 1000,
+        "distance_mm_p99": 0.0556123410247698,
+        "distance_mm_max_sampled": 0.06245071916063947,
+        "albedo_delta_e_p95": 3.0772903930407467
+      },
+      "working": {
+        "faces": 142,
+        "surface_area_mm2": 135.55907382416262,
+        "edge_mm_p50": 1.7157589776956126,
+        "edge_mm_p95": 3.0991608005160454
+      },
+      "flat_preview_albedo_error": {
+        "samples": 2000,
+        "delta_e_p50": 1.192304747479696,
+        "delta_e_p95": 7.652992612765172,
+        "fraction_over_delta_e_10": 0.0355
+      }
+    }
+  }
+}

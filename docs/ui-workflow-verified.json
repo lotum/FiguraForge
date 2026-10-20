@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-16",
+  "environment": "Isolated data dir, localhost:8017; OpenAI MockTransport only",
+  "browser_observations": [
+    "Pose suggestion appeared without changing prompt",
+    "Explicit apply populated prompt",
+    "Delayed mesh suggestion failure appeared inline without reload",
+    "Face slider Home changed rating to Grob / 1000",
+    "Demo load, construction main action, exploded and populated plates, filament save and export completed without prerequisite checkbox or extra approval button"
+  ],
+  "jobs": [
+    {
+      "operation": "advise",
+      "status": "succeeded",
+      "seconds": 0.018
+    },
+    {
+      "operation": "advise",
+      "status": "failed",
+      "seconds": 2.015
+    },
+    {
+      "operation": "inspect",
+      "status": "succeeded",
+      "seconds": 1.87
+    },
+    {
+      "operation": "segment",
+      "status": "succeeded",
+      "seconds": 9.238
+    },
+    {
+      "operation": "export",
+      "status": "succeeded",
+      "seconds": 3.734
+    }
+  ],
+  "approvals": [
+    "mesh",
+    "colors"
+  ],
+  "summary": {
+    "parts": 6,
+    "plates": 3,
+    "pins": 5
+  },
+  "export_sha256_verified": true,
+  "console_errors_or_warnings": [],
+  "limitations": [
+    "Two small demo inserts have no safe pin",
+    "Astra live model access and pricing not tested",
+    "No physical printing or slicing"
+  ]
+}

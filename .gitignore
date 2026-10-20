@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.env
+.env.*
+!.env.example
+data/
+benchmarks/
+*-data/
+benchmarks/*/parts/
+benchmarks/*/print/
+benchmarks/*/failure.json
+*.log
+*.pid
+vault.key
+secrets.enc
+*.sqlite*
+.DS_Store
+# Bambu Studio CLI writes its local summary in the invocation directory.
+/result.json
+
+sharing/

@@ -1,0 +1,87 @@
+{
+  "project_id": "954cb944062d490d93d64044429a5cbb",
+  "title": "Mochi · organischer Hals · 500 mm",
+  "project_file_sha256": "0a82d5945dc3813968f3575571b4a15cd3c272ecdfe5a9a5c96fb830d695f5fc",
+  "archive": {
+    "source_sha256": "0a82d5945dc3813968f3575571b4a15cd3c272ecdfe5a9a5c96fb830d695f5fc",
+    "height_mm": 500,
+    "parts": 8,
+    "plates": 3,
+    "preview": "saved-prints/Mochi-Hals-Geometriepruefung.png",
+    "preview_kind": "comparison",
+    "preview_label": "Geometrieprüfung · Bauteil-Kennfarben",
+    "preview_description": "Vorn, seitlich und Kopf abgehoben; Kennfarben zeigen die getrennten Bauteile.",
+    "preview_note": "Hellblau = Kopf, Braun = Rumpf, Lime = loser Halsverbinder. Keine Filamentvorschau: Die 3MF erhält Richards Braun-/Beige-Bemalung.",
+    "files": [
+      {
+        "path": "saved-prints/Mochi-500mm-Hals-geteilt-3-Platten.3mf",
+        "label": "500 mm · Kopf + Rumpf + Schwarzteile",
+        "primary": true,
+        "note": "Ein natives Projekt, drei Platten. Ca. 63 h 31 min / 1,119 kg. Rumpf belegt den gemeinsamen Düsenbereich eng."
+      },
+      {
+        "path": "saved-prints/Mochi-470mm-Hals-geteilt-3-Platten.3mf",
+        "label": "470 mm · Alternative mit mehr Bauraumreserve",
+        "note": "Gleiche Verbindung und Bemalung. Drei Platten, ca. 56 h 39 min / 974 g."
+      },
+      {
+        "path": "saved-prints/Mochi-Hals-Passungsprobe.3mf",
+        "label": "Zuerst Hals-Passungsprobe drucken",
+        "note": "Zwei kleine Prüfplatten, ca. 1 h 58 min / 57,35 g. Gleicher Schlüssel, gleiche Aufnahmen, Materialien und Schichthöhen wie an beiden Großversionen."
+      },
+      {
+        "path": "saved-prints/Montage-und-Druckhinweise.md",
+        "label": "Montage und Druckhinweise",
+        "note": "Organische Halsfuge, abnehmbarer Kopf, Steckmaße, Grenzen und Bestandsfilamente."
+      },
+      {
+        "path": "saved-prints/mochi-neck-split-verification.json",
+        "label": "Technische Prüfnachweise",
+        "note": "Tatsächliche Projekt-/G-Code-Hashes, Werkzeugwege, Geometrie, Quellbemalung und native Speichertests."
+      }
+    ],
+    "body_printed": false,
+    "black_printed": false,
+    "note": "Neue Halskonstruktion: geschwungene äußere Halsfuge, breite innere Kopfauflage und separater asymmetrischer Schlüssel. Alle Platten digital geprüft. Reale Passung zuerst mit der Probe testen; frühere Mochi-Projekte bleiben erhalten.",
+    "parent_project_id": "dd9d3c92b8cd4b478aaa375db11acc99"
+  },
+  "file_sha256": {
+    "saved-prints/Mochi-500mm-Hals-geteilt-3-Platten.3mf": "0a82d5945dc3813968f3575571b4a15cd3c272ecdfe5a9a5c96fb830d695f5fc",
+    "saved-prints/Mochi-470mm-Hals-geteilt-3-Platten.3mf": "d862c3ab04dfa748de4c94bda9f9fe30f06b7648259c6d15ba4a90f1201557ae",
+    "saved-prints/Mochi-Hals-Passungsprobe.3mf": "15e79cc053a7e4519f4f58ce73cf9dc9c9aeb452940a1f90916234039019817c",
+    "saved-prints/Montage-und-Druckhinweise.md": "8ed2da722c3218999c26ee61ab38800ea696e65f02e2459b8dcfb4aff26c97db",
+    "saved-prints/mochi-neck-split-verification.json": "bbbd48d6b2625a1ba5d50e49e1e8f41f512b6c9b2d6df4520292897010deec14"
+  },
+  "http_checks": [
+    {
+      "path": "saved-prints/Mochi-500mm-Hals-geteilt-3-Platten.3mf",
+      "status": 200,
+      "bytes": 5667784,
+      "sha256": "0a82d5945dc3813968f3575571b4a15cd3c272ecdfe5a9a5c96fb830d695f5fc"
+    },
+    {
+      "path": "saved-prints/Mochi-470mm-Hals-geteilt-3-Platten.3mf",
+      "status": 200,
+      "bytes": 5667615,
+      "sha256": "d862c3ab04dfa748de4c94bda9f9fe30f06b7648259c6d15ba4a90f1201557ae"
+    },
+    {
+      "path": "saved-prints/Mochi-Hals-Passungsprobe.3mf",
+      "status": 200,
+      "bytes": 21224,
+      "sha256": "15e79cc053a7e4519f4f58ce73cf9dc9c9aeb452940a1f90916234039019817c"
+    },
+    {
+      "path": "saved-prints/Montage-und-Druckhinweise.md",
+      "status": 200,
+      "bytes": 10971,
+      "sha256": "8ed2da722c3218999c26ee61ab38800ea696e65f02e2459b8dcfb4aff26c97db"
+    },
+    {
+      "path": "saved-prints/mochi-neck-split-verification.json",
+      "status": 200,
+      "bytes": 105503,
+      "sha256": "bbbd48d6b2625a1ba5d50e49e1e8f41f512b6c9b2d6df4520292897010deec14"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "inlays": {
+    "ok": false,
+    "seconds": 51.24625712505076,
+    "error": "Color region contains an undercut along its proposed assembly axis. Reassign a boundary or split the region before export."
+  },
+  "surface_parts": {
+    "ok": false,
+    "error": "Boundary has a branching vertex; simplify the color island"
+  },
+  "explicit_material_palette_trial": {
+    "settings": {
+      "strategy": "surface_parts",
+      "palette": [
+        "#ECA34E",
+        "#62360C",
+        "#0E2842",
+        "#211D1A",
+        "#F2F1EB"
+      ],
+      "min_region_area_mm2": 100
+    },
+    "refined_triangles": 222404,
+    "ok": false,
+    "error": "Boundary has a branching vertex; simplify the color island",
+    "adopted": false
+  }
+}

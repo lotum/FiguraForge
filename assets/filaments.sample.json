@@ -1,0 +1,6 @@
+[
+ {"id":"demo-walnut","brand":"Demo","name":"Walnut / Beispiel","material":"PLA","hex":"#895330","owned":false,"allowed":true,"measured":false,"finish":"matte","source":"procedural fixture, not a retail product"},
+ {"id":"demo-sand","brand":"Demo","name":"Sand / Beispiel","material":"PLA","hex":"#E5C189","owned":false,"allowed":true,"measured":false,"finish":"matte","source":"procedural fixture, not a retail product"},
+ {"id":"demo-charcoal","brand":"Demo","name":"Charcoal / Beispiel","material":"PLA","hex":"#211D1A","owned":false,"allowed":true,"measured":false,"finish":"matte","source":"procedural fixture, not a retail product"},
+ {"id":"demo-white","brand":"Demo","name":"White / Beispiel","material":"PLA","hex":"#F2F1EB","owned":false,"allowed":true,"measured":false,"finish":"matte","source":"procedural fixture, not a retail product"}
+]

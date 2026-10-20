@@ -1,0 +1,44 @@
+[
+ {
+  "id": "h2d-dual",
+  "name": "Bambu Lab H2D / Dual-nozzle envelope",
+  "volume_mm": [
+   300,
+   320,
+   320
+  ],
+  "nozzles": 2,
+  "nozzle_diameter_mm": 0.4,
+  "margin_mm": 6,
+  "source": "https://bambulab.com/en/h2d/tech-specs",
+  "note": "Conservative shared frame from the reviewed local H2D native profile: X25–325, Y0–320, Z0–320 mm. Supports, brim and purge tower still require concrete slicer checks."
+ },
+ {
+  "id": "h2d-single",
+  "name": "Bambu Lab H2D / Single-nozzle envelope",
+  "volume_mm": [
+   325,
+   320,
+   325
+  ],
+  "nozzles": 1,
+  "nozzle_diameter_mm": 0.4,
+  "margin_mm": 6,
+  "source": "https://bambulab.com/en/h2d/tech-specs",
+  "note": "No native nozzle-offset/profile emulation. The selected Bambu profile remains authoritative."
+ },
+ {
+  "id": "custom",
+  "name": "Custom printer",
+  "volume_mm": [
+   300,
+   300,
+   300
+  ],
+  "nozzles": 2,
+  "nozzle_diameter_mm": 0.4,
+  "margin_mm": 6,
+  "source": null,
+  "note": "User-defined, not a verified printer specification."
+ }
+]

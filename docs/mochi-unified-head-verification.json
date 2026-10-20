@@ -1,0 +1,346 @@
+{
+  "status": "verified_local_head_source_for_construction",
+  "source_v2": {
+    "path": "benchmarks/mochi-eye-detail-20261016/weighted-eyes-150k.glb",
+    "sha256": "bdb9e145f308d7c9a1a6a49ba2111f1bbea658f1bfdf00f9ead2b353e50f29e7"
+  },
+  "source_original": {
+    "path": "data/projects/1b0e2fdd463d4f15ac64f1c7b3e8acc7/inputs/original-source.glb",
+    "sha256": "bdd4b23a89588c47ea18e9e731f5d1e0c9f1b82ea6b921ff1edc484339377dfd"
+  },
+  "canonical_surface": {
+    "directory": "benchmarks/mochi-unified-head/head-0d7813a1beac4d329c08cfdf61efba40",
+    "npz": "surface.npz",
+    "npz_sha256": "ddce96460bf9b673425d572b12acf84f661480c6e33347cc0c3c57824e960e82",
+    "metadata_sha256": "370be043880a554fa61d9710f4aeab02c9bbf4184be15e16a5641767f5c5f0a4",
+    "loader": "scripts/build_mochi_head.py:load_refined_surface(directory)",
+    "loader_script_sha256": "6a9b247d2dae4f6e825db2333d7a556b58edad0532d5d4440a463e51048dcf4a",
+    "coordinates": "180mm/Z-up, no normalization on NPZ load",
+    "face_ancestry": "Surface.face_tags: original V2 canonical face index per299998 newface"
+  },
+  "geometry": {
+    "v2_source": "benchmarks/mochi-eye-detail-20261016/weighted-eyes-150k.glb",
+    "v2_sha256": "bdb9e145f308d7c9a1a6a49ba2111f1bbea658f1bfdf00f9ead2b353e50f29e7",
+    "original": "data/projects/1b0e2fdd463d4f15ac64f1c7b3e8acc7/inputs/original-source.glb",
+    "original_sha256": "bdd4b23a89588c47ea18e9e731f5d1e0c9f1b82ea6b921ff1edc484339377dfd",
+    "faces": 299998,
+    "vertices": 149995,
+    "marked_v2_faces": 48001,
+    "longest_edge_threshold_mm": 0.42162883281707764,
+    "projection_vertices": 74986,
+    "accepted_projection_vertices": 74403,
+    "rejected_projection_vertices": 583,
+    "projection_movement_mm": {
+      "median": 0.014414192170521357,
+      "p95": 0.049748625844915746,
+      "p99": 0.07074486148148737,
+      "max": 0.15615420053089962
+    },
+    "body_under110_max_geometry_change_mm": 0.0,
+    "old_v2_vertices_exact": true,
+    "quality": {
+      "finite": true,
+      "vertices": 149995,
+      "triangles": 299998,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 476316.78917,
+      "dimensions_mm": [
+        89.2106,
+        137.6718,
+        180.0
+      ],
+      "components": 1,
+      "valid": true,
+      "self_intersections": "not exhaustively certified"
+    },
+    "uv_chart_corrected_corners": 16487,
+    "uv_v2_fallback_corners": 5762,
+    "uv_delta_vs_v2": {
+      "median": 9.998156037167866e-05,
+      "p95": 0.0006157965474252987,
+      "p99": 0.0015264558016867774,
+      "max": 0.019999647378167177
+    },
+    "new_cross_atlas_triangles": 0,
+    "face_ancestry_count": 299998,
+    "shape_comparison": {
+      "original_to_v2_head_mm": {
+        "median": 0.01583764772380504,
+        "p95": 0.04962595768309344,
+        "p99": 0.06647139730116355,
+        "max": 0.11594041584777283
+      },
+      "original_to_new_head_mm": {
+        "median": 0.007518050835619846,
+        "p95": 0.024894369699070995,
+        "p99": 0.03437353250699384,
+        "max": 0.0741161248869716
+      },
+      "new_to_original_head_mm": {
+        "median": 0.0076125517316284145,
+        "p95": 0.02500980483984181,
+        "p99": 0.03529167050016701,
+        "max": 0.08326982291585687
+      },
+      "paired_improved_fraction": 0.7803333333333333,
+      "paired_worsened_over_0_01mm_fraction": 0.034083333333333334
+    },
+    "seconds": 17.685228916001506,
+    "limitation": "Finite24k+12k area samples, no exhaustive self-intersection/Hausdorff certification. Rejected moves retain exact planar V2 midpoint. All old V2 vertices and lower-boundary triangles remain unchanged."
+  },
+  "regional_quality": {
+    "head": {
+      "v2": {
+        "distance_mm": {
+          "median": 0.01606284145911299,
+          "p95": 0.04883264382049948,
+          "p99": 0.06917378155654214,
+          "max": 0.09101073856310853
+        },
+        "albedo_delta_e_2000": {
+          "median": 0.30828112150516596,
+          "p95": 2.258659176592599,
+          "p99": 5.074564012943373,
+          "max": 27.805336486121156
+        }
+      },
+      "head": {
+        "distance_mm": {
+          "median": 0.0075811351586324485,
+          "p95": 0.024885608743498884,
+          "p99": 0.0362136528078599,
+          "max": 0.054104741235695517
+        },
+        "albedo_delta_e_2000": {
+          "median": 0.04218956343428755,
+          "p95": 0.828930701772809,
+          "p99": 2.887485824819483,
+          "max": 21.050607190025108
+        }
+      }
+    },
+    "cheeks": {
+      "v2": {
+        "distance_mm": {
+          "median": 0.013516479508691745,
+          "p95": 0.040960455582098806,
+          "p99": 0.05734596530753804,
+          "max": 0.08088644774522073
+        },
+        "albedo_delta_e_2000": {
+          "median": 0.35188221475459647,
+          "p95": 2.3233044336095827,
+          "p99": 4.645709286343506,
+          "max": 12.64257679667865
+        }
+      },
+      "head": {
+        "distance_mm": {
+          "median": 0.00659114803243413,
+          "p95": 0.02357077451134304,
+          "p99": 0.032886611093613634,
+          "max": 0.07133344567101711
+        },
+        "albedo_delta_e_2000": {
+          "median": 0.039454992268811856,
+          "p95": 0.9101986998573612,
+          "p99": 3.1502088238752264,
+          "max": 12.209943848692136
+        }
+      }
+    },
+    "forehead": {
+      "v2": {
+        "distance_mm": {
+          "median": 0.024300658091056658,
+          "p95": 0.060951957236105136,
+          "p99": 0.07768028971686008,
+          "max": 0.10046427035785879
+        },
+        "albedo_delta_e_2000": {
+          "median": 0.41591488715762737,
+          "p95": 2.834309928242485,
+          "p99": 5.706323229964282,
+          "max": 14.756777969724245
+        }
+      },
+      "head": {
+        "distance_mm": {
+          "median": 0.008323792766366541,
+          "p95": 0.026014905267279675,
+          "p99": 0.03636442434933329,
+          "max": 0.06308595362510792
+        },
+        "albedo_delta_e_2000": {
+          "median": 0.05026313083194485,
+          "p95": 1.0345740451109842,
+          "p99": 3.264326181262265,
+          "max": 14.62214113230059
+        }
+      }
+    },
+    "brows": {
+      "v2": {
+        "distance_mm": {
+          "median": 0.009575196935251742,
+          "p95": 0.04314661663645876,
+          "p99": 0.0667287918088557,
+          "max": 0.08889701075949928
+        },
+        "albedo_delta_e_2000": {
+          "median": 0.275629131605097,
+          "p95": 1.7644608627009282,
+          "p99": 3.2997320341354386,
+          "max": 11.320921387678062
+        }
+      },
+      "head": {
+        "distance_mm": {
+          "median": 0.003712773261773962,
+          "p95": 0.019054108974106733,
+          "p99": 0.02872307131700145,
+          "max": 0.04532781053193161
+        },
+        "albedo_delta_e_2000": {
+          "median": 0.014755379224396046,
+          "p95": 0.4257261465345868,
+          "p99": 2.2790401962546665,
+          "max": 11.332332354050566
+        }
+      }
+    },
+    "ears": {
+      "v2": {
+        "distance_mm": {
+          "median": 0.018764825539193914,
+          "p95": 0.05540144184784538,
+          "p99": 0.07269037979256693,
+          "max": 0.09878058606244836
+        },
+        "albedo_delta_e_2000": {
+          "median": 0.3698763706174302,
+          "p95": 2.4843844825033696,
+          "p99": 5.667936262284961,
+          "max": 19.812632235370835
+        }
+      },
+      "head": {
+        "distance_mm": {
+          "median": 0.008209555655671115,
+          "p95": 0.024284148489792382,
+          "p99": 0.03420905192594712,
+          "max": 0.051254019301442126
+        },
+        "albedo_delta_e_2000": {
+          "median": 0.05169506845344797,
+          "p95": 1.09099570155733,
+          "p99": 3.0786772642869114,
+          "max": 39.36360701890828
+        }
+      }
+    },
+    "eyes": {
+      "v2": {
+        "distance_mm": {
+          "median": 0.005789860571386784,
+          "p95": 0.020042188228000756,
+          "p99": 0.02121017987428305,
+          "max": 0.021584126814206597
+        },
+        "albedo_delta_e_2000": {
+          "median": 0.14483761048362298,
+          "p95": 1.5998440185665663,
+          "p99": 2.941338547033621,
+          "max": 5.131274899805569
+        }
+      },
+      "head": {
+        "distance_mm": {
+          "median": 0.0010521295103311872,
+          "p95": 0.01081926930932998,
+          "p99": 0.01686768440233547,
+          "max": 0.020619294242785725
+        },
+        "albedo_delta_e_2000": {
+          "median": 0.0017636207841735226,
+          "p95": 0.04410834877150504,
+          "p99": 0.211546198469605,
+          "max": 1.3163614100730878
+        }
+      }
+    },
+    "textures": {
+      "original_v2_decoded_pixels_exact": true,
+      "original_new_decoded_pixels_exact": true
+    }
+  },
+  "extra_topology_checks": {
+    "parent_relative_flipped_faces": 0,
+    "minimum_parent_normal_dot": 0.0006063871958592905,
+    "all150000_v2_faces_have_descendants": true,
+    "old_v2_vertices_exact": true,
+    "finite_uv": true,
+    "finite_rgb": true
+  },
+  "visual_review": {
+    "viewed": true,
+    "images": [
+      "new-smooth-textured.png",
+      "new-smooth-neutral.png",
+      "v2-neutral.png",
+      "original-neutral.png",
+      "head-three-way-comparison.png"
+    ],
+    "comparison_png_sha256": "544f76c8a8e1150aa49f33626f0cc961c64b22153a4a532ff882f9f212269c03",
+    "lighting_camera_identical": true,
+    "normal_maps_disabled": true,
+    "smooth_normals_computed_on_actual_welded_geometry": true,
+    "observation": "Cheek fur, brows, forehead and ear surface follow original more closely; finite300kbudget still does not reproduce every original2.63Mdetail.",
+    "final_comparison_png": "benchmarks/mochi-unified-head/head-0d7813a1beac4d329c08cfdf61efba40/head-three-way-albedo-comparison.png",
+    "final_comparison_png_sha256": "81ef00ed8c40b12a3b26d92b3c94ce07eeb8e19d7b313f4cc0bfa721b60dc076",
+    "pbr_channels_equalized": {
+      "roughness": 0.8,
+      "metallic": 0,
+      "specular_ior_level": 0,
+      "coat_weight": 0,
+      "transmission_weight": 0,
+      "normal_maps": false,
+      "roughness_and_specular_texture_links_disabled": true
+    },
+    "final_comparison_personally_viewed": true,
+    "earlier_comparison_limitation": "Earlier textured control retained original material-map connections; final albedo panel explicitly equalizes those shader channels. Geometry/UV/NPZ unchanged."
+  },
+  "visual_glb": {
+    "path": "benchmarks/mochi-unified-head/head-0d7813a1beac4d329c08cfdf61efba40/head-detail-y-up-smooth.glb",
+    "sha256": "e69dda74c67641deb34998acf06d4e68edc87119fe68cca92b6158a3786f8bda",
+    "canonical": false,
+    "warning": "Use NPZ for topology and ancestry. GenericGLBloader recenters by newbounds and shiftsY about0.00166mm; UVs themselves roundtrip within4.5e-8."
+  },
+  "limits": [
+    "Finite area-weighted source comparisons and orientation checks, not exhaustive self-intersection/Hausdorff certification.",
+    "583 candidate vertex projections rejected to preserve orientation.",
+    "5762 cornerUVs deliberately retain V2 chart interpolation instead of unsafe cross-atlas mapping; sparse albedo outliers remain near color boundaries.",
+    "This verifies source quality only; six-part construction, actual native slicer/footprint checks and physical print approval are separate."
+  ],
+  "paid_api_calls": false,
+  "printer_communication": false,
+  "project_db_modified": false,
+  "original_sources_overwritten": false,
+  "tracked_reproduction": {
+    "script": "scripts/build_mochi_head.py",
+    "reproduced_npz": "benchmarks/mochi-unified-head/head-5c208a531b83464aa120525661766885/surface.npz",
+    "reproduced_npz_sha256": "ddce96460bf9b673425d572b12acf84f661480c6e33347cc0c3c57824e960e82",
+    "all_canonical_arrays_exact": {
+      "vertices": true,
+      "faces": true,
+      "corner_uv": true,
+      "corner_rgb": true,
+      "material_ids": true,
+      "face_ancestry": true
+    },
+    "npz_bytes_exact": true
+  }
+}

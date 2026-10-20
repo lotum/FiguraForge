@@ -1,0 +1,128 @@
+{
+  "tested_at": "2026-10-16",
+  "method": "Installed Bambu Studio 02.07.01.62 CLI local slicing; --normative-check=0 disables only MakerWorld publication checks; geometry/G-code validity checks enabled. GUI independently checked black detail plate.",
+  "passed": true,
+  "plates": [
+    {
+      "plate": "plate-01-native.3mf",
+      "source_sha256": "45b59b77f7e47fdb21fdc145ca6f15ad101d6daa8d30317671685d72d938747f",
+      "native_slicer_exit": 0,
+      "gcode_sha256": "845a85f3fbb0a6173fffff8f3dd327bc921a360be7e86b75b83717a1703e10d2",
+      "estimated_seconds": 56194.48828125,
+      "total_weight_g": 184.61449432373047,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 75.18631744384766,
+          "total_used_g": 144.90560913085938
+        },
+        {
+          "filament_id": "GFA00",
+          "id": 2,
+          "main_used_g": 4.441641807556152,
+          "total_used_g": 39.708885192871094
+        }
+      ],
+      "warning_message": "",
+      "output": "benchmarks/mochi-local-slicer/slice-3a8e77094cf64560b7b6ef170262d420/plate-01"
+    },
+    {
+      "plate": "plate-02-native.3mf",
+      "source_sha256": "55834b3da704acd512c2d429b31d8d01159fbb0fbdc7cba479eccc4145dca50d",
+      "native_slicer_exit": 0,
+      "gcode_sha256": "d02ec707d844bc305af4f5db85223416ff68ce8b3f141c56d9fd66eaaa186d88",
+      "estimated_seconds": 13246.7763671875,
+      "total_weight_g": 36.67788887023926,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 3.512925863265991,
+          "total_used_g": 22.729389190673828
+        },
+        {
+          "filament_id": "GFA00",
+          "id": 2,
+          "main_used_g": 1.034788727760315,
+          "total_used_g": 13.94849967956543
+        }
+      ],
+      "warning_message": "",
+      "output": "benchmarks/mochi-local-slicer/slice-3a8e77094cf64560b7b6ef170262d420/plate-02"
+    },
+    {
+      "plate": "plate-03-native.3mf",
+      "source_sha256": "a14594a0c642c7aa946f9ee8652e467d1bd4851f478ca3fcd88e67dd86bfeb5e",
+      "native_slicer_exit": 0,
+      "gcode_sha256": "56f268d8abd5af25292e6da7ac3b5be8af9c8e6ead382ba600f3e97f3d3ee0c2",
+      "estimated_seconds": 13026.6806640625,
+      "total_weight_g": 36.47268104553223,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 3.498891830444336,
+          "total_used_g": 22.611242294311523
+        },
+        {
+          "filament_id": "GFA00",
+          "id": 2,
+          "main_used_g": 1.02193021774292,
+          "total_used_g": 13.861438751220703
+        }
+      ],
+      "warning_message": "",
+      "output": "benchmarks/mochi-local-slicer/slice-3a8e77094cf64560b7b6ef170262d420/plate-03"
+    },
+    {
+      "plate": "plate-04-native.3mf",
+      "source_sha256": "029734350ab22396ecc5adbfd2e08e16efb24fb05eb18f421d393395fc58630e",
+      "native_slicer_exit": 0,
+      "gcode_sha256": "748a30fa56d5b6946026801773d33deaf2b680bd4a53beaee7e90663aaa79e29",
+      "estimated_seconds": 32162.0625,
+      "total_weight_g": 79.09852409362793,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 15.292193412780762,
+          "total_used_g": 52.71038055419922
+        },
+        {
+          "filament_id": "GFA00",
+          "id": 2,
+          "main_used_g": 2.6806640625,
+          "total_used_g": 26.38814353942871
+        }
+      ],
+      "warning_message": "",
+      "output": "benchmarks/mochi-local-slicer/slice-3a8e77094cf64560b7b6ef170262d420/plate-04"
+    },
+    {
+      "plate": "plate-05-native.3mf",
+      "source_sha256": "defcaa1a144a4ca5b74c71ee5137740f1bd4bc6a92ba8b07d0cd863a2af09526",
+      "native_slicer_exit": 0,
+      "gcode_sha256": "242311ad807a169e01e4e21576201eb9789d19d81c35baad888019859582521a",
+      "estimated_seconds": 566.5993041992188,
+      "total_weight_g": 0.4635089933872223,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 3,
+          "main_used_g": 0.4635089933872223,
+          "total_used_g": 0.4635089933872223
+        }
+      ],
+      "warning_message": "",
+      "output": "benchmarks/mochi-local-slicer/slice-3a8e77094cf64560b7b6ef170262d420/plate-05"
+    }
+  ],
+  "total_estimated_seconds": 115196.60711669922,
+  "total_weight_g": 337.3270973265171,
+  "printed_by_agent": false,
+  "physical_fit_scope": "Only user nose comparison accepted .05mm radial; complete figurine and Mixed color not physically verified.",
+  "gcode_path_validation_verified": false,
+  "print_ready": false,
+  "negative_control_cli_detected_conflict": false
+}

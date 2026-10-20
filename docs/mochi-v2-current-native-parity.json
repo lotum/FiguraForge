@@ -1,0 +1,93 @@
+{
+  "reference_export": "data/projects/1b0e2fdd463d4f15ac64f1c7b3e8acc7/runs/1193d7be224742cd92134900f1124ece/export",
+  "current_export": "data/projects/1b0e2fdd463d4f15ac64f1c7b3e8acc7/runs/fe198e03f321491d99af56a50994001c/export",
+  "reason": "updated montage instructions; native geometry/paint/process must remain identical",
+  "plates": {
+    "plate-01-native.3mf": {
+      "reference_sha256": "a037b2853265c5afe0436e66f162df8bc1d026b2ae3637e49701822b257b211a",
+      "actual_sha256": "4f5c007deeb19eed7f292048f18dfc726d561fbb801fedfcd765d4a4f1f61771",
+      "parts": {
+        "body": {
+          "triangles": 104070,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    "plate-02-native.3mf": {
+      "reference_sha256": "b1b8aeeee2af88d9a4d92bdaad6e87a1883c67930078291b9ce06d54258c9b35",
+      "actual_sha256": "e2530e5c15d49174712cfcb8535f19d1608b9c103e97ba150df71ce13ce43e19",
+      "parts": {
+        "right-ear": {
+          "triangles": 5254,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    "plate-03-native.3mf": {
+      "reference_sha256": "1def8f3389d6744854d116f2ae1fd0cfd8bdcb1ea6335c18c04fdd79bbbb34bc",
+      "actual_sha256": "19e23571f4ad6f6b0d7b7164650428bda947cea4cef3cbf3ac08b6a2f3785884",
+      "parts": {
+        "left-ear": {
+          "triangles": 4968,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    "plate-04-native.3mf": {
+      "reference_sha256": "2683ce4aabf48c7d3c41ee65c636b91a4bfc9edb7fcfcb871aa0e52120fef98d",
+      "actual_sha256": "fa94c146e2c01b56a43d060af1b36a31a4fc0869fb65b0111ade3ca0d6e9f37a",
+      "parts": {
+        "tail": {
+          "triangles": 38626,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    },
+    "plate-05-native.3mf": {
+      "reference_sha256": "28cc04478bd47338efc1637ce402f81a36a73b4d8d3c0b0eac5399fde30c1fd5",
+      "actual_sha256": "d99211c40f5a124d489352cb252582b1ae3f80cd5f50ee1f33dcc7327819502b",
+      "parts": {
+        "nose": {
+          "triangles": 4328,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        },
+        "eye-1": {
+          "triangles": 576,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        },
+        "eye-2": {
+          "triangles": 368,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        },
+        "eye-3": {
+          "triangles": 352,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        },
+        "eye-4": {
+          "triangles": 752,
+          "paint_identical": true,
+          "maximum_world_vertex_error_mm": 0.0
+        }
+      },
+      "complete_project_settings_identical": true,
+      "passed": true
+    }
+  },
+  "passed": true
+}

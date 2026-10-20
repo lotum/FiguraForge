@@ -1,0 +1,384 @@
+{
+  "variant": "Mochi · ein Körper + ausschließlich schwarze Details",
+  "height_mm": 180,
+  "parts": [
+    {
+      "id": "body",
+      "name": "Mochi · ganzer Körper",
+      "color": "#B3531C",
+      "color_index": 0,
+      "role": "body",
+      "dimensions_mm": [
+        89.211,
+        136.672,
+        180.0
+      ],
+      "bounds_mm": [
+        [
+          -44.605,
+          -67.838,
+          0.0
+        ],
+        [
+          44.605,
+          68.834,
+          180.0
+        ]
+      ],
+      "volume_mm3": 476150.414,
+      "faces": 296494,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": null,
+      "connectors": [],
+      "warnings": [],
+      "filament_id": null
+    },
+    {
+      "id": "nose",
+      "name": "Mochi · schwarze Nase",
+      "color": "#272729",
+      "color_index": 1,
+      "role": "color-body",
+      "dimensions_mm": [
+        9.747,
+        5.685,
+        7.896
+      ],
+      "bounds_mm": [
+        [
+          -4.898,
+          -68.838,
+          125.503
+        ],
+        [
+          4.849,
+          -63.153,
+          133.399
+        ]
+      ],
+      "volume_mm3": 119.596,
+      "faces": 7058,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        0.0027556853884266024,
+        -0.9483251935082926,
+        0.31728809236323313
+      ],
+      "connectors": [
+        {
+          "shape": "keyed",
+          "diameter_mm": 3.0,
+          "nominal_length_mm": 3,
+          "radial_clearance_mm": 0.05,
+          "position_mm": [
+            -0.055,
+            -63.56,
+            128.575
+          ],
+          "requires_calibration": true,
+          "interface": 0
+        }
+      ],
+      "warnings": [
+        "Shared color-boundary caps have no surface gap. Confirm physical fit and assembly sequence."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "eye-1",
+      "name": "Mochi · schwarzer Augeneinsatz 1",
+      "color": "#272729",
+      "color_index": 2,
+      "role": "glue-inlay",
+      "dimensions_mm": [
+        7.181,
+        2.553,
+        4.701
+      ],
+      "bounds_mm": [
+        [
+          -15.434,
+          -53.86,
+          139.658
+        ],
+        [
+          -8.252,
+          -51.307,
+          144.36
+        ]
+      ],
+      "volume_mm3": 3.958,
+      "faces": 844,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.00936901902310341,
+        -0.9120650326632915,
+        -0.4099385291424237
+      ],
+      "connectors": [],
+      "warnings": [
+        "Intentional glue insert without pins. Adhesive fit and retention require a physical test.",
+        "Klebeeinsatz ohne Stift; Passung und Kleberauftrag real prüfen."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "eye-2",
+      "name": "Mochi · schwarzer Augeneinsatz 2",
+      "color": "#272729",
+      "color_index": 3,
+      "role": "glue-inlay",
+      "dimensions_mm": [
+        4.29,
+        1.723,
+        5.149
+      ],
+      "bounds_mm": [
+        [
+          -11.452,
+          -56.069,
+          135.063
+        ],
+        [
+          -7.162,
+          -54.345,
+          140.212
+        ]
+      ],
+      "volume_mm3": 14.502,
+      "faces": 1352,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        0.009462114512921211,
+        -0.9937792356119726,
+        0.11096530653960246
+      ],
+      "connectors": [],
+      "warnings": [
+        "Intentional glue insert without pins. Adhesive fit and retention require a physical test.",
+        "Klebeeinsatz ohne Stift; Passung und Kleberauftrag real prüfen."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "eye-3",
+      "name": "Mochi · schwarzer Augeneinsatz 3",
+      "color": "#272729",
+      "color_index": 4,
+      "role": "glue-inlay",
+      "dimensions_mm": [
+        4.3,
+        1.715,
+        5.13
+      ],
+      "bounds_mm": [
+        [
+          7.153,
+          -56.08,
+          134.948
+        ],
+        [
+          11.453,
+          -54.365,
+          140.078
+        ]
+      ],
+      "volume_mm3": 14.801,
+      "faces": 1232,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.06336626273456052,
+        -0.9929167723963861,
+        0.10050373048299178
+      ],
+      "connectors": [],
+      "warnings": [
+        "Intentional glue insert without pins. Adhesive fit and retention require a physical test.",
+        "Klebeeinsatz ohne Stift; Passung und Kleberauftrag real prüfen."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "eye-4",
+      "name": "Mochi · schwarzer Augeneinsatz 4",
+      "color": "#272729",
+      "color_index": 5,
+      "role": "glue-inlay",
+      "dimensions_mm": [
+        7.585,
+        2.667,
+        4.723
+      ],
+      "bounds_mm": [
+        [
+          8.015,
+          -53.887,
+          139.454
+        ],
+        [
+          15.6,
+          -51.22,
+          144.177
+        ]
+      ],
+      "volume_mm3": 4.851,
+      "faces": 1172,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        0.0738146730052237,
+        -0.9461141562514134,
+        -0.31530841630030787
+      ],
+      "connectors": [],
+      "warnings": [
+        "Intentional glue insert without pins. Adhesive fit and retention require a physical test.",
+        "Klebeeinsatz ohne Stift; Passung und Kleberauftrag real prüfen."
+      ],
+      "filament_id": null
+    }
+  ],
+  "body_one_closed_component": true,
+  "body_includes": [
+    "torso",
+    "legs",
+    "head",
+    "ears",
+    "tail"
+  ],
+  "radial_clearance_mm": 0.05,
+  "head_report": "docs/mochi-unified-head-verification.json",
+  "head_report_sha256": "95e938f6c0b53a55a13e57455f6d1f1a38ebb88596a122db9416614fa4080fd1",
+  "build_report": "benchmarks/mochi-unified-production/build-83f51796f58841c7be1371687fbe528c/verification.json",
+  "native_template": "benchmarks/mochi-single-body-native/profiles-2002d7b80b124e06b01a26d07ff67585/mochi-single-body-20values-profile-only.3mf",
+  "native_template_sha256": "d8e27dfcbfad53f973bcabfb1882c994bce84fe9fc50a283ebf3fe63391a0648",
+  "plan_sha256": "8503265872f3c56e3dd169d9e8df955714e83bb2de54c5d1e7bef9c45055f234",
+  "recipe_count": 20,
+  "used_recipe_count": 20,
+  "recipe_percentages": [
+    0,
+    10,
+    15,
+    19,
+    24,
+    29,
+    34,
+    38,
+    43,
+    48,
+    52,
+    57,
+    62,
+    66,
+    71,
+    76,
+    81,
+    85,
+    90,
+    100
+  ],
+  "preview_export_recipe_parity": true,
+  "physical_slots_per_part": {
+    "body": [
+      1,
+      2
+    ],
+    "nose": [
+      3
+    ],
+    "eye-1": [
+      3
+    ],
+    "eye-2": [
+      3
+    ],
+    "eye-3": [
+      3
+    ],
+    "eye-4": [
+      3
+    ]
+  },
+  "plates": [
+    {
+      "native": "benchmarks/mochi-unified-production/build-83f51796f58841c7be1371687fbe528c/Mochi-Koerper-20-Farben-H2D.3mf",
+      "native_sha256": "660c9784ca95c8214d32811a6762511eec9e84aff56d4b26ba0556ff7cac188a",
+      "gcode": "benchmarks/mochi-unified-slicer/slice-a76eb5512dce4f31a64d934b7783119d/plate-01/plate_1.gcode",
+      "gcode_sha256": "174fbf28ff4d391e75944b81225ee6c0ff235828a7391e73bd6a07a7a05ce157",
+      "slice_passed": true,
+      "full_paths_passed": true,
+      "common_h2d_xy_bounds_passed": true,
+      "requested_settings_preserved_after_slice": true,
+      "process": {
+        "sparse_infill_pattern": "lightning",
+        "sparse_infill_density": "5%",
+        "wall_loops": "2",
+        "layer_height": "0.16",
+        "enable_support": "1",
+        "support_type": "tree(auto)",
+        "raft_layers": "0"
+      },
+      "seconds": 117950.46875,
+      "grams": 329.2892303466797,
+      "actual_filament_ids": [
+        1,
+        2
+      ],
+      "extrusion_segments": 4257398,
+      "printing_arcs": null
+    },
+    {
+      "native": "benchmarks/mochi-unified-production/build-83f51796f58841c7be1371687fbe528c/Mochi-Schwarze-Details-H2D.3mf",
+      "native_sha256": "b804457b8b2eff32cbe7c53f2204715d0455ee3d0630d32c569c2b1fd3fbe84c",
+      "gcode": "benchmarks/mochi-unified-slicer/slice-a76eb5512dce4f31a64d934b7783119d/plate-02/plate_1.gcode",
+      "gcode_sha256": "7e60918916d22467305918c68d3345f53477266262cadd1bbd62b0ae5ea14b9f",
+      "slice_passed": true,
+      "full_paths_passed": true,
+      "common_h2d_xy_bounds_passed": true,
+      "requested_settings_preserved_after_slice": true,
+      "process": {
+        "sparse_infill_pattern": "lightning",
+        "sparse_infill_density": "5%",
+        "wall_loops": "2",
+        "layer_height": "0.12",
+        "enable_support": "1",
+        "support_type": "tree(auto)",
+        "raft_layers": "3"
+      },
+      "seconds": 647.50244140625,
+      "grams": 0.44024837017059326,
+      "actual_filament_ids": [
+        3
+      ],
+      "extrusion_segments": 15543,
+      "printing_arcs": null
+    }
+  ],
+  "slice_report": "benchmarks/mochi-unified-slicer/slice-a76eb5512dce4f31a64d934b7783119d/verification.json",
+  "path_report": "benchmarks/mochi-unified-slicer/full-paths-a76eb551.json",
+  "path_checker_sha256": "de22ed933eb60136ed03497ff18aae47774a85092df16e80c86d40fd15a5bea1",
+  "physical_color_verified": false,
+  "physical_fit_verified": false,
+  "bambu_gui_verified": false,
+  "printer_communication": false,
+  "paid_api_calls": 0,
+  "old_project_modified": false,
+  "python_tests": {
+    "passed": 507,
+    "seconds": 55.38,
+    "junit": "docs/test-results-mochi-unified-final.xml"
+  },
+  "frontend_harnesses_passed": true,
+  "scope": "Actual native files sliced with geometry checks; all positive-extrusion G1/G17 I/J arcs independently checked across owners and against common XY envelope. Finite assembly and shape sampling, not physical certification.",
+  "total_hours": 32.94388088650174,
+  "total_grams": 329.7294787168503,
+  "digital_gates_passed": true,
+  "package": "benchmarks/mochi-unified-production/build-83f51796f58841c7be1371687fbe528c/Mochi-H2D-Importpaket.zip",
+  "package_sha256": "aa2af823e82b3717d70a39d4083f696428a53659eab273e1abab7534aeb331ee",
+  "packaged_native_bytes_verified": true
+}

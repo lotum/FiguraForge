@@ -1,0 +1,428 @@
+{
+  "checks": [
+    {
+      "source": "benchmarks/pip-native-slicer/corrected/slice-12a565d4fcf5474f9d4cc8a3cc23c3de/plate-01/plate_1.gcode",
+      "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+      "passed": true,
+      "tolerance_mm": 0.02,
+      "conflict_counts": {},
+      "examples": [],
+      "extrusion_segments": 1157990,
+      "z_groups": 546,
+      "unsupported_arcs": 0,
+      "arc_chord_error_limit_mm": 0.005,
+      "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+      "single_object_owner_evidence": {
+        "sidecar": "benchmarks/pip-native-slicer/corrected/slice-12a565d4fcf5474f9d4cc8a3cc23c3de/plate-01/result.json",
+        "object_id": 5,
+        "name": "body-front",
+        "objects": 1
+      },
+      "ignored_nonprinting_arc_commands": 9926,
+      "arc_commands": 169528,
+      "maximum_arc_chord_error_bound_mm": 0.00499999698997401,
+      "maximum_arc_radius_mismatch_mm": 0.002063038516223026,
+      "extrusion_arcs": 169528,
+      "arc_generated_segments": 898515,
+      "gcode_sha256": "79c5b815026cc476df69f4bb64331fa71e2110a7c2c50300f5b07b71f86c76ab",
+      "owner_extrusion_xy_bounds_mm": {
+        "-2": [
+          226.2656521061675,
+          241.2700070209789,
+          270.7018702616447,
+          284.40188169911227
+        ],
+        "5": [
+          32.681352000000004,
+          6.369352,
+          150.71887023447445,
+          94.0834004555879
+        ]
+      },
+      "globally_overlapping_owner_ids": [],
+      "wall_time_seconds": 7.231790957972407
+    },
+    {
+      "source": "benchmarks/pip-native-slicer/corrected/slice-12a565d4fcf5474f9d4cc8a3cc23c3de/plate-02/plate_1.gcode",
+      "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+      "passed": true,
+      "tolerance_mm": 0.02,
+      "conflict_counts": {},
+      "examples": [],
+      "extrusion_segments": 427868,
+      "z_groups": 128,
+      "unsupported_arcs": 0,
+      "arc_chord_error_limit_mm": 0.005,
+      "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+      "single_object_owner_evidence": {
+        "sidecar": "benchmarks/pip-native-slicer/corrected/slice-12a565d4fcf5474f9d4cc8a3cc23c3de/plate-02/result.json",
+        "object_id": 5,
+        "name": "jaw",
+        "objects": 1
+      },
+      "ignored_nonprinting_arc_commands": 3557,
+      "arc_commands": 61569,
+      "maximum_arc_chord_error_bound_mm": 0.004999943276296187,
+      "maximum_arc_radius_mismatch_mm": 0.0020322685424940534,
+      "extrusion_arcs": 61569,
+      "arc_generated_segments": 303551,
+      "gcode_sha256": "fb7a5102fa194e830895495f798e254f2dc0c9747177fee698671c59bda97aa3",
+      "owner_extrusion_xy_bounds_mm": {
+        "-2": [
+          232.6699184997954,
+          247.6651851007368,
+          264.2980815002046,
+          278.00157444321366
+        ],
+        "5": [
+          32.993013912570724,
+          5.668013912570722,
+          107.60518479238311,
+          100.90178008589803
+        ]
+      },
+      "globally_overlapping_owner_ids": [],
+      "wall_time_seconds": 2.830832749954425
+    },
+    {
+      "source": "benchmarks/pip-native-slicer/corrected/slice-12a565d4fcf5474f9d4cc8a3cc23c3de/plate-03/plate_1.gcode",
+      "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+      "passed": true,
+      "tolerance_mm": 0.02,
+      "conflict_counts": {},
+      "examples": [],
+      "extrusion_segments": 19492,
+      "z_groups": 29,
+      "unsupported_arcs": 0,
+      "arc_chord_error_limit_mm": 0.005,
+      "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+      "single_object_owner_evidence": {
+        "sidecar": "benchmarks/pip-native-slicer/corrected/slice-12a565d4fcf5474f9d4cc8a3cc23c3de/plate-03/result.json",
+        "object_id": 5,
+        "name": "floor-cream",
+        "objects": 1
+      },
+      "ignored_nonprinting_arc_commands": 343,
+      "arc_commands": 2395,
+      "maximum_arc_chord_error_bound_mm": 0.004999135495165285,
+      "maximum_arc_radius_mismatch_mm": 0.0017764620163593925,
+      "extrusion_arcs": 2395,
+      "arc_generated_segments": 11855,
+      "gcode_sha256": "61c255d7c8f502bd49716606c51f9f255bc965da62200240d5d84c01734e779a",
+      "owner_extrusion_xy_bounds_mm": {
+        "5": [
+          28.440407500000003,
+          4.6574075,
+          52.75722449782872,
+          32.60815155783732
+        ]
+      },
+      "globally_overlapping_owner_ids": [],
+      "wall_time_seconds": 0.1524984579300508
+    },
+    {
+      "source": "benchmarks/pip-native-slicer/corrected/slice-12a565d4fcf5474f9d4cc8a3cc23c3de/plate-04/plate_1.gcode",
+      "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+      "passed": true,
+      "tolerance_mm": 0.02,
+      "conflict_counts": {},
+      "examples": [],
+      "extrusion_segments": 82500,
+      "z_groups": 194,
+      "unsupported_arcs": 0,
+      "arc_chord_error_limit_mm": 0.005,
+      "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+      "single_object_owner_evidence": {
+        "sidecar": "benchmarks/pip-native-slicer/corrected/slice-12a565d4fcf5474f9d4cc8a3cc23c3de/plate-04/result.json",
+        "object_id": 5,
+        "name": "tail-cream",
+        "objects": 1
+      },
+      "ignored_nonprinting_arc_commands": 1624,
+      "arc_commands": 13692,
+      "maximum_arc_chord_error_bound_mm": 0.004999832055392585,
+      "maximum_arc_radius_mismatch_mm": 0.001887533215429782,
+      "extrusion_arcs": 13692,
+      "arc_generated_segments": 45745,
+      "gcode_sha256": "e55c126c52201bfb5a75f005dde4c807dc480fd5d05eb20fd85fd4c91df596fa",
+      "owner_extrusion_xy_bounds_mm": {
+        "5": [
+          33.37047136767417,
+          7.922471367674172,
+          136.67852863232582,
+          39.84352863232583
+        ]
+      },
+      "globally_overlapping_owner_ids": [],
+      "wall_time_seconds": 0.6960185829084367
+    },
+    {
+      "source": "benchmarks/pip-native-slicer/corrected/slice-12a565d4fcf5474f9d4cc8a3cc23c3de/plate-05/plate_1.gcode",
+      "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+      "passed": true,
+      "tolerance_mm": 0.02,
+      "conflict_counts": {},
+      "examples": [],
+      "extrusion_segments": 68919,
+      "z_groups": 60,
+      "unsupported_arcs": 0,
+      "arc_chord_error_limit_mm": 0.005,
+      "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+      "single_object_owner_evidence": {
+        "sidecar": "benchmarks/pip-native-slicer/corrected/slice-12a565d4fcf5474f9d4cc8a3cc23c3de/plate-05/result.json",
+        "object_id": 5,
+        "name": "left-iris",
+        "objects": 1
+      },
+      "ignored_nonprinting_arc_commands": 817,
+      "arc_commands": 9112,
+      "maximum_arc_chord_error_bound_mm": 0.004999911175941645,
+      "maximum_arc_radius_mismatch_mm": 0.001616978561647775,
+      "extrusion_arcs": 9112,
+      "arc_generated_segments": 40351,
+      "gcode_sha256": "194d547b55f0fd826b2490130b1e9f0a247ceb8bf3937fd602a54c0554993d2f",
+      "owner_extrusion_xy_bounds_mm": {
+        "-2": [
+          233.5918775952007,
+          248.5858584684853,
+          266.3161224047993,
+          278.7520342919725
+        ],
+        "5": [
+          30.791692438433735,
+          7.935311500000001,
+          65.3046885,
+          44.85697322009083
+        ]
+      },
+      "globally_overlapping_owner_ids": [],
+      "wall_time_seconds": 0.5178703750716522
+    },
+    {
+      "source": "benchmarks/pip-native-slicer/corrected/slice-12a565d4fcf5474f9d4cc8a3cc23c3de/plate-06/plate_1.gcode",
+      "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+      "passed": true,
+      "tolerance_mm": 0.02,
+      "conflict_counts": {},
+      "examples": [],
+      "extrusion_segments": 9556,
+      "z_groups": 18,
+      "unsupported_arcs": 0,
+      "arc_chord_error_limit_mm": 0.005,
+      "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+      "single_object_owner_evidence": {
+        "sidecar": "benchmarks/pip-native-slicer/corrected/slice-12a565d4fcf5474f9d4cc8a3cc23c3de/plate-06/result.json",
+        "object_id": 5,
+        "name": "left-pupil",
+        "objects": 1
+      },
+      "ignored_nonprinting_arc_commands": 151,
+      "arc_commands": 1221,
+      "maximum_arc_chord_error_bound_mm": 0.0049987730267486,
+      "maximum_arc_radius_mismatch_mm": 0.0018735404278671375,
+      "extrusion_arcs": 1221,
+      "arc_generated_segments": 6882,
+      "gcode_sha256": "0ec238a8c789e4f9fc068827341e0354736ccd5cb497d0580b3234bfaee67d55",
+      "owner_extrusion_xy_bounds_mm": {
+        "-2": [
+          234.49862801571618,
+          249.49926492385754,
+          265.40937198428384,
+          277.842
+        ],
+        "5": [
+          31.008803045651447,
+          6.415059874631,
+          52.59839848041683,
+          25.77484418479357
+        ]
+      },
+      "globally_overlapping_owner_ids": [],
+      "wall_time_seconds": 0.07423341704998165
+    },
+    {
+      "source": "benchmarks/pip-native-slicer/corrected/slice-12a565d4fcf5474f9d4cc8a3cc23c3de/plate-07/plate_1.gcode",
+      "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+      "passed": true,
+      "tolerance_mm": 0.02,
+      "conflict_counts": {},
+      "examples": [],
+      "extrusion_segments": 68628,
+      "z_groups": 65,
+      "unsupported_arcs": 0,
+      "arc_chord_error_limit_mm": 0.005,
+      "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+      "single_object_owner_evidence": {
+        "sidecar": "benchmarks/pip-native-slicer/corrected/slice-12a565d4fcf5474f9d4cc8a3cc23c3de/plate-07/result.json",
+        "object_id": 5,
+        "name": "right-iris",
+        "objects": 1
+      },
+      "ignored_nonprinting_arc_commands": 828,
+      "arc_commands": 8985,
+      "maximum_arc_chord_error_bound_mm": 0.004999851786389167,
+      "maximum_arc_radius_mismatch_mm": 0.0018024540112848153,
+      "extrusion_arcs": 8985,
+      "arc_generated_segments": 39359,
+      "gcode_sha256": "33df7ea3fe5b5de3b83f9f0fd85f3a1382a7a7cc4990ffda8773bcfa5fb6ff48",
+      "owner_extrusion_xy_bounds_mm": {
+        "-2": [
+          233.5918775952007,
+          248.5858584684853,
+          266.3161224047993,
+          278.7520342919725
+        ],
+        "5": [
+          33.22585239453995,
+          7.926376798655728,
+          67.37964992376618,
+          39.10414760546005
+        ]
+      },
+      "globally_overlapping_owner_ids": [],
+      "wall_time_seconds": 0.5156950419768691
+    },
+    {
+      "source": "benchmarks/pip-native-slicer/corrected/slice-12a565d4fcf5474f9d4cc8a3cc23c3de/plate-08/plate_1.gcode",
+      "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+      "passed": true,
+      "tolerance_mm": 0.02,
+      "conflict_counts": {},
+      "examples": [],
+      "extrusion_segments": 11654,
+      "z_groups": 20,
+      "unsupported_arcs": 0,
+      "arc_chord_error_limit_mm": 0.005,
+      "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+      "single_object_owner_evidence": {
+        "sidecar": "benchmarks/pip-native-slicer/corrected/slice-12a565d4fcf5474f9d4cc8a3cc23c3de/plate-08/result.json",
+        "object_id": 5,
+        "name": "right-pupil",
+        "objects": 1
+      },
+      "ignored_nonprinting_arc_commands": 219,
+      "arc_commands": 1368,
+      "maximum_arc_chord_error_bound_mm": 0.00499861491081313,
+      "maximum_arc_radius_mismatch_mm": 0.0015593867030878616,
+      "extrusion_arcs": 1368,
+      "arc_generated_segments": 7352,
+      "gcode_sha256": "f58d1b4fe20a735431be5d5703bb26ef4b65c63a00829ca140110e38cf464337",
+      "owner_extrusion_xy_bounds_mm": {
+        "-2": [
+          234.0468103051721,
+          249.043,
+          265.86118969482794,
+          278.2920480066843
+        ],
+        "5": [
+          31.4704193021394,
+          6.058877890691845,
+          51.04537512997917,
+          25.25746
+        ]
+      },
+      "globally_overlapping_owner_ids": [],
+      "wall_time_seconds": 0.0946207910310477
+    },
+    {
+      "source": "benchmarks/pip-native-slicer/corrected/slice-12a565d4fcf5474f9d4cc8a3cc23c3de/plate-09/plate_1.gcode",
+      "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+      "passed": true,
+      "tolerance_mm": 0.02,
+      "conflict_counts": {},
+      "examples": [],
+      "extrusion_segments": 2169549,
+      "z_groups": 1980,
+      "unsupported_arcs": 0,
+      "arc_chord_error_limit_mm": 0.005,
+      "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+      "single_object_owner_evidence": {
+        "sidecar": "benchmarks/pip-native-slicer/corrected/slice-12a565d4fcf5474f9d4cc8a3cc23c3de/plate-09/result.json",
+        "object_id": 5,
+        "name": "body-rear",
+        "objects": 1
+      },
+      "ignored_nonprinting_arc_commands": 24881,
+      "arc_commands": 331297,
+      "maximum_arc_chord_error_bound_mm": 0.004999970915501303,
+      "maximum_arc_radius_mismatch_mm": 0.0019611928599352346,
+      "extrusion_arcs": 331297,
+      "arc_generated_segments": 1462462,
+      "gcode_sha256": "29b49bc097f78d916828189ed4e103ecc3d8523776159c5cece8b761fbdf51b4",
+      "owner_extrusion_xy_bounds_mm": {
+        "-2": [
+          226.27225502528006,
+          241.27299911219023,
+          281.65574497472,
+          293.52434748524166
+        ],
+        "5": [
+          32.91111,
+          5.93811,
+          205.04789,
+          112.8528435700617
+        ]
+      },
+      "globally_overlapping_owner_ids": [],
+      "wall_time_seconds": 16.0186832920881
+    },
+    {
+      "source": "benchmarks/pip-native-slicer/corrected/slice-12a565d4fcf5474f9d4cc8a3cc23c3de/plate-10/plate_1.gcode",
+      "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+      "passed": true,
+      "tolerance_mm": 0.02,
+      "conflict_counts": {},
+      "examples": [],
+      "extrusion_segments": 1655368,
+      "z_groups": 1194,
+      "unsupported_arcs": 0,
+      "arc_chord_error_limit_mm": 0.005,
+      "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+      "single_object_owner_evidence": {
+        "sidecar": "benchmarks/pip-native-slicer/corrected/slice-12a565d4fcf5474f9d4cc8a3cc23c3de/plate-10/result.json",
+        "object_id": 5,
+        "name": "head-upper",
+        "objects": 1
+      },
+      "ignored_nonprinting_arc_commands": 14090,
+      "arc_commands": 244243,
+      "maximum_arc_chord_error_bound_mm": 0.004999940835235134,
+      "maximum_arc_radius_mismatch_mm": 0.0019611928599352346,
+      "extrusion_arcs": 244243,
+      "arc_generated_segments": 1213714,
+      "gcode_sha256": "b501b94ceb012d4ca34084d4b7662689e54ac7ca3265fb78b3e32e9c14d0b8e6",
+      "owner_extrusion_xy_bounds_mm": {
+        "-2": [
+          229.48532924961194,
+          244.475,
+          278.44267075038806,
+          290.3066641575739
+        ],
+        "5": [
+          32.801629999999996,
+          7.79963,
+          121.46637,
+          100.28936999999999
+        ]
+      },
+      "globally_overlapping_owner_ids": [],
+      "wall_time_seconds": 17.139877291978337
+    }
+  ],
+  "summary": {
+    "all_ten_passed": true,
+    "total_extrusion_segments": 5671524,
+    "printing_arc_commands": 843410,
+    "arc_generated_chords": 4029786,
+    "maximum_geometric_error_bound_mm": 0.00499999698997401,
+    "maximum_endpoint_radius_rounding_mm": 0.002063038516223026,
+    "total_check_wall_time_seconds": 45.272120957961306,
+    "global_owner_xy_bounds_disjoint_for_each_plate": true,
+    "physical_print_verified": false,
+    "nozzle_clearance_or_dynamics_certified": false
+  },
+  "implementation_sha256": {
+    "scripts/check_gcode_paths.py": "c2b21d59c13dc3d6bf44697d2a02ff0a8721e280f97490a0703c962a5e5ffb56",
+    "tests/test_gcode_paths.py": "9706914ae72f41a08de72836bbfc7ac2cd5e5870a9a14ff2d26e1fbbfcca0156"
+  }
+}

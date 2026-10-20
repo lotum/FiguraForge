@@ -1,0 +1,258 @@
+{
+  "project_id": "876726734385498d945775650737df38",
+  "main_export_job": "6d0006dece3e44bda76bcd1e9ff9a810",
+  "plan_hash": "c5169cc25f9a419c22dcd33535801fcdf732a5e9baf1c1444650baa40250a0ea",
+  "source_folder": "data/projects/876726734385498d945775650737df38/runs/6d0006dece3e44bda76bcd1e9ff9a810/export",
+  "slice_folder": "benchmarks/pip-main-native-slicer/slice-a6d2ffe20f484edc87c428230c6180dc",
+  "plates": [
+    {
+      "plate": "plate-01-native.3mf",
+      "native_sha256": "4915f012e897a62d61f9921b4aca025a56fe80be3dd92211913145482c114828",
+      "gcode_sha256": "083be5a0771050a130b28d4e01d8728b2cf8df3a7b5234ecc96780330b53d81d",
+      "slice_exit_code": 0,
+      "slice_return_code": 0,
+      "predicted_seconds": 19753.58984375,
+      "predicted_total_g": 91.70075035095215,
+      "predicted_main_g": 55.26318836212158,
+      "filaments": [
+        {
+          "filament_id": "GFA01",
+          "id": 1,
+          "main_used_g": 41.59958267211914,
+          "total_used_g": 65.74639129638672
+        },
+        {
+          "filament_id": "GFA00",
+          "id": 3,
+          "main_used_g": 13.663605690002441,
+          "total_used_g": 25.95435905456543
+        }
+      ],
+      "gcode": "benchmarks/pip-main-native-slicer/slice-a6d2ffe20f484edc87c428230c6180dc/plate-01/plate_1.gcode"
+    },
+    {
+      "plate": "plate-02-native.3mf",
+      "native_sha256": "02c5b2cf490d1ac200497a2f4389c94dd80f7729c916269a12a7dae3c5976bb8",
+      "gcode_sha256": "1c463dbc8903105efa2da61d7c28d05e3b46c5ca0046676b078a4082c52a3413",
+      "slice_exit_code": 0,
+      "slice_return_code": 0,
+      "predicted_seconds": 8903.94921875,
+      "predicted_total_g": 39.00650882720947,
+      "predicted_main_g": 29.844465255737305,
+      "filaments": [
+        {
+          "filament_id": "GFA01",
+          "id": 1,
+          "main_used_g": 8.83182144165039,
+          "total_used_g": 12.270760536193848
+        },
+        {
+          "filament_id": "GFA00",
+          "id": 3,
+          "main_used_g": 21.012643814086914,
+          "total_used_g": 26.735748291015625
+        }
+      ],
+      "gcode": "benchmarks/pip-main-native-slicer/slice-a6d2ffe20f484edc87c428230c6180dc/plate-02/plate_1.gcode"
+    },
+    {
+      "plate": "plate-03-native.3mf",
+      "native_sha256": "7552ac2ce12e1d334856cfb9f4f81d9ce825bb3cb62b8dd47c14e5990ff7ee9e",
+      "gcode_sha256": "61c255d7c8f502bd49716606c51f9f255bc965da62200240d5d84c01734e779a",
+      "slice_exit_code": 0,
+      "slice_return_code": 0,
+      "predicted_seconds": 651.1371459960938,
+      "predicted_total_g": 0.760319173336029,
+      "predicted_main_g": 0.760319173336029,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 3,
+          "main_used_g": 0.760319173336029,
+          "total_used_g": 0.760319173336029
+        }
+      ],
+      "gcode": "benchmarks/pip-main-native-slicer/slice-a6d2ffe20f484edc87c428230c6180dc/plate-03/plate_1.gcode"
+    },
+    {
+      "plate": "plate-04-native.3mf",
+      "native_sha256": "fc39cc427e5d57fe58b0d6764c36d8af0b13d732da0a369b4bb3f59bc223c156",
+      "gcode_sha256": "e55c126c52201bfb5a75f005dde4c807dc480fd5d05eb20fd85fd4c91df596fa",
+      "slice_exit_code": 0,
+      "slice_return_code": 0,
+      "predicted_seconds": 1930.0972900390625,
+      "predicted_total_g": 3.6289165019989014,
+      "predicted_main_g": 3.6289169788360596,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 3,
+          "main_used_g": 3.6289169788360596,
+          "total_used_g": 3.6289165019989014
+        }
+      ],
+      "gcode": "benchmarks/pip-main-native-slicer/slice-a6d2ffe20f484edc87c428230c6180dc/plate-04/plate_1.gcode"
+    },
+    {
+      "plate": "plate-05-native.3mf",
+      "native_sha256": "a2358ac62d5605886757f6f243b0d115eee5b51c68ad289fd06559c0eafe751d",
+      "gcode_sha256": "96b5a6b973c7e441116a62f137ca9c6fc980ee8de5554b6279d1abcad87f88d0",
+      "slice_exit_code": 0,
+      "slice_return_code": 0,
+      "predicted_seconds": 2687.49169921875,
+      "predicted_total_g": 9.259758234024048,
+      "predicted_main_g": 4.176862359046936,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 2,
+          "main_used_g": 1.1617785692214966,
+          "total_used_g": 3.763216257095337
+        },
+        {
+          "filament_id": "GFA00",
+          "id": 3,
+          "main_used_g": 3.0150837898254395,
+          "total_used_g": 5.496541976928711
+        }
+      ],
+      "gcode": "benchmarks/pip-main-native-slicer/slice-a6d2ffe20f484edc87c428230c6180dc/plate-05/plate_1.gcode"
+    },
+    {
+      "plate": "plate-06-native.3mf",
+      "native_sha256": "3b9edf3e4ded24ace1cf3202c1d1c16050bc18e6337bfdc725460e9f86f92b63",
+      "gcode_sha256": "0ec238a8c789e4f9fc068827341e0354736ccd5cb497d0580b3234bfaee67d55",
+      "slice_exit_code": 0,
+      "slice_return_code": 0,
+      "predicted_seconds": 694.416748046875,
+      "predicted_total_g": 1.1256290972232819,
+      "predicted_main_g": 0.3617041567340493,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 3,
+          "main_used_g": 0.008373276330530643,
+          "total_used_g": 0.16350343823432922
+        },
+        {
+          "filament_id": "GFL99",
+          "id": 4,
+          "main_used_g": 0.3533308804035187,
+          "total_used_g": 0.9621256589889526
+        }
+      ],
+      "gcode": "benchmarks/pip-main-native-slicer/slice-a6d2ffe20f484edc87c428230c6180dc/plate-06/plate_1.gcode"
+    },
+    {
+      "plate": "plate-07-native.3mf",
+      "native_sha256": "377ef9e56e6ead09d8ae7856772e74b2b24b606a45d67e85b77d2fe34914313c",
+      "gcode_sha256": "33df7ea3fe5b5de3b83f9f0fd85f3a1382a7a7cc4990ffda8773bcfa5fb6ff48",
+      "slice_exit_code": 0,
+      "slice_return_code": 0,
+      "predicted_seconds": 2718.0,
+      "predicted_total_g": 9.18998098373413,
+      "predicted_main_g": 4.077284932136536,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 2,
+          "main_used_g": 1.1268130540847778,
+          "total_used_g": 4.396276950836182
+        },
+        {
+          "filament_id": "GFA00",
+          "id": 3,
+          "main_used_g": 2.950471878051758,
+          "total_used_g": 4.793704032897949
+        }
+      ],
+      "gcode": "benchmarks/pip-main-native-slicer/slice-a6d2ffe20f484edc87c428230c6180dc/plate-07/plate_1.gcode"
+    },
+    {
+      "plate": "plate-08-native.3mf",
+      "native_sha256": "4d5c58fcbd405f070deda21c44461cc258318d3de8e5e9188fe28bfff2aed920",
+      "gcode_sha256": "f58d1b4fe20a735431be5d5703bb26ef4b65c63a00829ca140110e38cf464337",
+      "slice_exit_code": 0,
+      "slice_return_code": 0,
+      "predicted_seconds": 882.9539794921875,
+      "predicted_total_g": 1.7636532187461853,
+      "predicted_main_g": 0.4071472305804491,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 3,
+          "main_used_g": 0.029471667483448982,
+          "total_used_g": 0.4172970652580261
+        },
+        {
+          "filament_id": "GFL99",
+          "id": 4,
+          "main_used_g": 0.3776755630970001,
+          "total_used_g": 1.3463561534881592
+        }
+      ],
+      "gcode": "benchmarks/pip-main-native-slicer/slice-a6d2ffe20f484edc87c428230c6180dc/plate-08/plate_1.gcode"
+    },
+    {
+      "plate": "plate-09-native.3mf",
+      "native_sha256": "22d5aa27fcc43255aa3445b603bf36349f1b37f4689486eae83729677ffa8a67",
+      "gcode_sha256": "b150fce15eca9a636011ae4b9e9fdc2644ace3c05318fae7ca7465dec3a39966",
+      "slice_exit_code": 0,
+      "slice_return_code": 0,
+      "predicted_seconds": 53076.61328125,
+      "predicted_total_g": 202.0143280029297,
+      "predicted_main_g": 111.97993278503418,
+      "filaments": [
+        {
+          "filament_id": "GFA01",
+          "id": 1,
+          "main_used_g": 97.80253601074219,
+          "total_used_g": 147.6566162109375
+        },
+        {
+          "filament_id": "GFL99",
+          "id": 2,
+          "main_used_g": 14.177396774291992,
+          "total_used_g": 54.35771179199219
+        }
+      ],
+      "gcode": "benchmarks/pip-main-native-slicer/slice-a6d2ffe20f484edc87c428230c6180dc/plate-09/plate_1.gcode"
+    },
+    {
+      "plate": "plate-10-native.3mf",
+      "native_sha256": "2411bb4724e4bc6d72f9c6ffe4b8ab57ae248a1078fa41e5ae4fbcdd33cde5df",
+      "gcode_sha256": "472b2abb7d93fdea84fe787909dff96138a5725b43b16021094bb48a974de538",
+      "slice_exit_code": 0,
+      "slice_return_code": 0,
+      "predicted_seconds": 36324.59765625,
+      "predicted_total_g": 146.56158065795898,
+      "predicted_main_g": 89.37548828125,
+      "filaments": [
+        {
+          "filament_id": "GFA01",
+          "id": 1,
+          "main_used_g": 76.72811889648438,
+          "total_used_g": 106.62577819824219
+        },
+        {
+          "filament_id": "GFL99",
+          "id": 2,
+          "main_used_g": 12.647369384765625,
+          "total_used_g": 39.9358024597168
+        }
+      ],
+      "gcode": "benchmarks/pip-main-native-slicer/slice-a6d2ffe20f484edc87c428230c6180dc/plate-10/plate_1.gcode"
+    }
+  ],
+  "slice_passed": true,
+  "all_native_and_gcode_sha256_verified": true,
+  "predicted_total_seconds": 127622.84686279297,
+  "predicted_total_hours": 35.45079079522027,
+  "predicted_total_g": 505.01142504811287,
+  "predicted_main_g": 299.8753095148131,
+  "predicted_additional_g": 205.13611553329974,
+  "normative_publication_check_disabled": true,
+  "geometry_gcode_validity_checks_active": true,
+  "printer_communication": false,
+  "physical_print_verified": false
+}

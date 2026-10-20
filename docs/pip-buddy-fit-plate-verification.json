@@ -1,0 +1,299 @@
+{
+  "created": "2026-10-16",
+  "purpose": "Optional next user physical comparison only; no printer send",
+  "native_project": "benchmarks/connector-fit-pip-buddy/fit-ce7f19c742784154aef094d803f90fbd/Pip-Buddy-Passung-Beige-H2D.3mf",
+  "native_sha256": "474f4abfd84fcab6b57793c46613822928b8ee9fcdf0fef25ffe3e41f5ca33d1",
+  "specifications": {
+    "A": {
+      "purpose": "Buddy collar main",
+      "radius_mm": 6.0,
+      "length_mm": 10.0,
+      "shape": "keyed"
+    },
+    "B": {
+      "purpose": "Buddy collar small",
+      "radius_mm": 2.0,
+      "length_mm": 6.0,
+      "shape": "keyed"
+    },
+    "C": {
+      "purpose": "Pip pupil",
+      "radius_mm": 0.9,
+      "length_mm": 1.5,
+      "shape": "round"
+    },
+    "D": {
+      "purpose": "Pip iris",
+      "radius_mm": 1.2,
+      "length_mm": 2.5,
+      "shape": "round"
+    }
+  },
+  "radial_clearance_mm": 0.05,
+  "tip_clearance_mm": 0.35,
+  "pin_tip_scale": 0.85,
+  "geometry_quality": {
+    "A-pin": {
+      "finite": true,
+      "vertices": 46,
+      "triangles": 88,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 2141.55218,
+      "dimensions_mm": [
+        20.0,
+        24.0,
+        12.0
+      ],
+      "components": 1,
+      "valid": true,
+      "self_intersections": "not exhaustively certified"
+    },
+    "A-socket": {
+      "finite": true,
+      "vertices": 46,
+      "triangles": 88,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 4483.16514,
+      "dimensions_mm": [
+        20.0,
+        24.0,
+        12.75
+      ],
+      "components": 1,
+      "valid": true,
+      "self_intersections": "not exhaustively certified"
+    },
+    "B-pin": {
+      "finite": true,
+      "vertices": 106,
+      "triangles": 208,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 1041.29379,
+      "dimensions_mm": [
+        20.0,
+        24.0,
+        8.0
+      ],
+      "components": 1,
+      "valid": true,
+      "self_intersections": "not exhaustively certified"
+    },
+    "B-socket": {
+      "finite": true,
+      "vertices": 106,
+      "triangles": 208,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 3908.73815,
+      "dimensions_mm": [
+        20.0,
+        24.0,
+        8.75
+      ],
+      "components": 1,
+      "valid": true,
+      "self_intersections": "not exhaustively certified"
+    },
+    "C-pin": {
+      "finite": true,
+      "vertices": 140,
+      "triangles": 276,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 965.06631,
+      "dimensions_mm": [
+        20.0,
+        24.0,
+        3.5
+      ],
+      "components": 1,
+      "valid": true,
+      "self_intersections": "not exhaustively certified"
+    },
+    "C-socket": {
+      "finite": true,
+      "vertices": 140,
+      "triangles": 276,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 1844.60255,
+      "dimensions_mm": [
+        20.0,
+        24.0,
+        4.25
+      ],
+      "components": 1,
+      "valid": true,
+      "self_intersections": "not exhaustively certified"
+    },
+    "D-pin": {
+      "finite": true,
+      "vertices": 132,
+      "triangles": 260,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 972.29303,
+      "dimensions_mm": [
+        20.0,
+        24.0,
+        4.5
+      ],
+      "components": 1,
+      "valid": true,
+      "self_intersections": "not exhaustively certified"
+    },
+    "D-socket": {
+      "finite": true,
+      "vertices": 132,
+      "triangles": 260,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 2316.75694,
+      "dimensions_mm": [
+        20.0,
+        24.0,
+        5.25
+      ],
+      "components": 1,
+      "valid": true,
+      "self_intersections": "not exhaustively certified"
+    }
+  },
+  "packing": {
+    "passed": true,
+    "problems": [],
+    "method": "transformed bounds and conservative XY rectangles"
+  },
+  "above_bed_downward_area_mm2": 0.0,
+  "profile": {
+    "native_slot": 2,
+    "actual_hex": "#F7E6DE",
+    "profile_name": "#31 Bambu PLA Basic Beige 10201(Dragon_Hands_Mirrored_Pair.3mf)",
+    "nozzle_diameter": [
+      "0.4",
+      "0.4"
+    ],
+    "layer_height_mm": 0.12,
+    "initial_layer_height_mm": 0.2,
+    "support": false,
+    "raft": false,
+    "brim": false,
+    "actual_spool": "Bambu PLA Basic Beige31; physical stock loading is user action"
+  },
+  "slice": {
+    "exit_code": 0,
+    "estimated_seconds": 3286.278564453125,
+    "total_weight_g": 12.505881309509277,
+    "filaments": [
+      {
+        "filament_id": "GFA00",
+        "id": 2,
+        "main_used_g": 12.505881309509277,
+        "total_used_g": 12.505881309509277
+      }
+    ],
+    "warning_message": "",
+    "gcode_sha256": "45cd31d338e6ba90337e027ca2f26d8e0bca3f76df6d5b9886df1ea73cebbead",
+    "gcode": "benchmarks/connector-fit-pip-buddy/fit-ce7f19c742784154aef094d803f90fbd/slicing/slice-2134173486ce4c33ad91aed8a7ce2a62/plate-01/plate_1.gcode"
+  },
+  "path_screening": {
+    "source": "benchmarks/connector-fit-pip-buddy/fit-ce7f19c742784154aef094d803f90fbd/slicing/slice-2134173486ce4c33ad91aed8a7ce2a62/plate-01/plate_1.gcode",
+    "scope": "Straight positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+    "passed": true,
+    "tolerance_mm": 0.02,
+    "conflict_counts": {},
+    "examples": [],
+    "extrusion_segments": 34306,
+    "z_groups": 106,
+    "unsupported_arcs": 0,
+    "gcode_sha256": "45cd31d338e6ba90337e027ca2f26d8e0bca3f76df6d5b9886df1ea73cebbead",
+    "owner_extrusion_xy_bounds_mm": {
+      "1": [
+        34.957100000000004,
+        12.9571,
+        55.042899999999996,
+        37.042899999999996
+      ],
+      "2": [
+        68.875394,
+        12.875394,
+        89.124606,
+        37.124606
+      ],
+      "3": [
+        34.879964,
+        48.879964,
+        55.120036,
+        73.12003600000001
+      ],
+      "4": [
+        68.92840899999999,
+        48.928409,
+        89.07159100000001,
+        73.07159100000001
+      ],
+      "5": [
+        34.957100000000004,
+        84.9571,
+        55.042899999999996,
+        109.0429
+      ],
+      "6": [
+        68.9571,
+        84.9571,
+        89.0429,
+        109.0429
+      ],
+      "7": [
+        34.957100000000004,
+        120.9571,
+        55.042899999999996,
+        145.0429
+      ],
+      "8": [
+        68.93782399999999,
+        120.93782399999999,
+        89.06217600000001,
+        145.062176
+      ]
+    },
+    "globally_overlapping_owner_ids": []
+  },
+  "physical_fit_verified": false,
+  "print_sent": false,
+  "thumbnail_warning": "CLI-generated preview thumbnail is green despite verified sole slot2 Beige extrusion; thumbnail is not material-assignment evidence. Use profile/G-code and source-bound top geometry drawing.",
+  "script_sha256": "bbd494660c0e2dc1954e116c139c0dd36c8794048d3d356586c62adc4d84cbac",
+  "status": "Current corrected-kernel comparison, digital checks passed, physically untested",
+  "representative_of_buddy_kernel": true,
+  "previous_run": {
+    "path": "benchmarks/connector-fit-pip-buddy/fit-b5dedbd6f3304ac5b6b001de7240199e",
+    "status": "Withdrawn as representative of pre-fix Buddy kernel; retained unchanged. Current run newly source-bound to corrected kernel.",
+    "native_sha256": "9de40d1fd09c2f2888f2e8ba0ce7b9927e52b4d2f2452e408da9b8619ec24467"
+  },
+  "source_code_sha256": {
+    "backend/figuraforge/geometry/connectors.py": "930bc682e31935ac4ee71a6b117bbc85ac6010f7496b720991d36a1c62640d20",
+    "backend/figuraforge/geometry/buddy_collar.py": "e450023b4cd5a4cb7cf252ed8a848122eb63774cf51b32c64f5ba45ac2355624",
+    "backend/figuraforge/services/pip_pipeline.py": "2f405523a673c155855573875215d96d51af7ed06cb261c5016c00ed256a01fb"
+  },
+  "buddy_taper_contract": "Corrected _primitive reaches nominal profile at actual root, then constant 2mm Boolean overlap; confirmed kernel cross-section regression. Prior production primitive tapered through overlap and was too loose.",
+  "top_drawing_reused_only_after_exact_npz_vertex_and_face_equality_for_all_eight_parts": true
+}

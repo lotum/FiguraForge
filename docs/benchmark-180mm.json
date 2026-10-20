@@ -1,0 +1,748 @@
+{
+  "height_mm": 180.0,
+  "parts_before_tiling": 6,
+  "final_parts": 6,
+  "plates": 3,
+  "all_parts_watertight": true,
+  "components_per_part": {
+    "body": 1,
+    "part-001": 1,
+    "part-002": 1,
+    "part-003": 1,
+    "part-004": 1,
+    "part-005": 1
+  },
+  "packing": {
+    "passed": true,
+    "problems": [],
+    "method": "transformed bounds and conservative XY rectangles"
+  },
+  "timings_cumulative_seconds": {
+    "import": 0.097,
+    "refinement": 0.955,
+    "organic_construction": 7.285,
+    "structural_tiling": 7.285,
+    "packing": 8.039,
+    "export": 12.607
+  },
+  "refinement": {
+    "triangles": 41516,
+    "boundary_pairs": 1486,
+    "requested_tolerance_mm": 0.65,
+    "coarse_sampling_mm": 4,
+    "precision_note": "Boundary follows the sampled albedo at mesh resolution; small features below the coarse sampling can be missed. This is not a mathematical raster-to-curve error bound."
+  },
+  "construction": {
+    "pockets": [
+      {
+        "pocket": 0,
+        "area_mm2": 1394.245,
+        "direction": [
+          -1e-05,
+          -0.99993,
+          -0.01171
+        ],
+        "depth_mm": 3.2,
+        "inlays": 1
+      },
+      {
+        "pocket": 1,
+        "area_mm2": 391.795,
+        "direction": [
+          -0.00027,
+          -0.9996,
+          0.02838
+        ],
+        "depth_mm": 3.2,
+        "inlays": 2
+      },
+      {
+        "pocket": 2,
+        "area_mm2": 21.358,
+        "direction": [
+          -0.12563,
+          -0.88512,
+          0.44808
+        ],
+        "depth_mm": 3.2,
+        "inlays": 1
+      },
+      {
+        "pocket": 3,
+        "area_mm2": 21.481,
+        "direction": [
+          0.12603,
+          -0.88528,
+          0.44765
+        ],
+        "depth_mm": 3.2,
+        "inlays": 1
+      }
+    ],
+    "merged_islands": [
+      {
+        "faces": 3,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 2,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 2,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 2,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 2,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 2,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 2,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 3,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 2,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 2,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 2,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 2,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 2,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      },
+      {
+        "faces": 1,
+        "old_color": 0,
+        "new_color": 1,
+        "reason": "island below minimum printable area"
+      }
+    ],
+    "insertion_checks": [
+      {
+        "method": "sampled straight extraction",
+        "samples": 8,
+        "surface_points": 1800,
+        "travel_mm": 10.2,
+        "max_penetration_mm": 0.0,
+        "passed": true,
+        "blocked_distances_mm": [],
+        "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+        "part_id": "part-001"
+      },
+      {
+        "method": "sampled straight extraction",
+        "samples": 8,
+        "surface_points": 1800,
+        "travel_mm": 10.2,
+        "max_penetration_mm": 0.0,
+        "passed": true,
+        "blocked_distances_mm": [],
+        "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+        "part_id": "part-002"
+      },
+      {
+        "method": "sampled straight extraction",
+        "samples": 8,
+        "surface_points": 1003,
+        "travel_mm": 10.2,
+        "max_penetration_mm": 0.0,
+        "passed": true,
+        "blocked_distances_mm": [],
+        "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+        "part_id": "part-003"
+      },
+      {
+        "method": "sampled straight extraction",
+        "samples": 8,
+        "surface_points": 1384,
+        "travel_mm": 10.2,
+        "max_penetration_mm": 0.0,
+        "passed": true,
+        "blocked_distances_mm": [],
+        "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+        "part_id": "part-004"
+      },
+      {
+        "method": "sampled straight extraction",
+        "samples": 8,
+        "surface_points": 1744,
+        "travel_mm": 10.2,
+        "max_penetration_mm": 0.0,
+        "passed": true,
+        "blocked_distances_mm": [],
+        "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+        "part_id": "part-005"
+      }
+    ],
+    "source_volume_mm3": 556640.3095856934,
+    "parts_volume_mm3": 556399.3359365222,
+    "clearance_void_mm3": 240.97364917118102,
+    "construction": "surface-preserving curved pockets; not planar slicing",
+    "semantic_limit": "Albedo color regions, not automatic semantic body-part recognition."
+  },
+  "tiling": [],
+  "parts": [
+    {
+      "id": "body",
+      "name": "Grundkoerper",
+      "color": "#895330",
+      "color_index": 0,
+      "role": "body",
+      "dimensions_mm": [
+        114.725,
+        58.181,
+        180.0
+      ],
+      "bounds_mm": [
+        [
+          -57.363,
+          -28.517,
+          0.0
+        ],
+        [
+          57.363,
+          29.664,
+          180.0
+        ]
+      ],
+      "volume_mm3": 550755.415,
+      "faces": 45152,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": null,
+      "connectors": [],
+      "warnings": [],
+      "filament_id": null
+    },
+    {
+      "id": "part-001",
+      "name": "Farbeinsatz 01",
+      "color": "#E5C189",
+      "color_index": 1,
+      "role": "inlay",
+      "dimensions_mm": [
+        29.681,
+        10.058,
+        64.891
+      ],
+      "bounds_mm": [
+        [
+          -14.932,
+          -27.698,
+          39.894
+        ],
+        [
+          14.748,
+          -17.64,
+          104.785
+        ]
+      ],
+      "volume_mm3": 4302.89,
+      "faces": 29016,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -8.229002491612326e-06,
+        -0.9999313802608449,
+        -0.011714721589740696
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 3.0,
+          "nominal_length_mm": 4,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.027,
+            -20.372,
+            76.113
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 3.0,
+          "nominal_length_mm": 4,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -6.125,
+            -17.655,
+            50.072
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [],
+      "filament_id": null
+    },
+    {
+      "id": "part-002",
+      "name": "Farbeinsatz 02",
+      "color": "#E5C189",
+      "color_index": 1,
+      "role": "inlay",
+      "dimensions_mm": [
+        21.275,
+        8.128,
+        22.785
+      ],
+      "bounds_mm": [
+        [
+          -10.545,
+          -29.664,
+          123.192
+        ],
+        [
+          10.73,
+          -21.536,
+          145.978
+        ]
+      ],
+      "volume_mm3": 1177.352,
+      "faces": 15706,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.0002683458193453265,
+        -0.9995970891551051,
+        0.028382870594113613
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 3.0,
+          "nominal_length_mm": 4,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.017,
+            -22.253,
+            129.16
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 3.0,
+          "nominal_length_mm": 4,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -3.88,
+            -21.573,
+            140.948
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [],
+      "filament_id": null
+    },
+    {
+      "id": "part-003",
+      "name": "Farbeinsatz 03",
+      "color": "#211D1A",
+      "color_index": 2,
+      "role": "inlay",
+      "dimensions_mm": [
+        4.215,
+        6.579,
+        4.242
+      ],
+      "bounds_mm": [
+        [
+          -2.075,
+          -29.608,
+          135.554
+        ],
+        [
+          2.139,
+          -23.029,
+          139.796
+        ]
+      ],
+      "volume_mm3": 50.054,
+      "faces": 2002,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.0002683458193453265,
+        -0.9995970891551051,
+        0.028382870594113613
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 1.6,
+          "nominal_length_mm": 3.2,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.03,
+            -23.048,
+            137.525
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [
+        "Small cosmetic insert uses a reduced 1.6 mm pin and 0.65 mm nominal edge allowance. Calibrate this pin diameter separately; not a structural joint."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "part-004",
+      "name": "Farbeinsatz 04",
+      "color": "#211D1A",
+      "color_index": 2,
+      "role": "inlay",
+      "dimensions_mm": [
+        3.643,
+        6.279,
+        8.312
+      ],
+      "bounds_mm": [
+        [
+          -7.346,
+          -26.806,
+          145.965
+        ],
+        [
+          -3.703,
+          -20.526,
+          154.277
+        ]
+      ],
+      "volume_mm3": 57.079,
+      "faces": 2764,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.12563459561477533,
+        -0.8851236704960855,
+        0.44807592695016435
+      ],
+      "connectors": [],
+      "warnings": [
+        "No safe pin fits this region. Retention is not guaranteed; adjust size, clearance or connection method."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "part-005",
+      "name": "Farbeinsatz 05",
+      "color": "#211D1A",
+      "color_index": 2,
+      "role": "inlay",
+      "dimensions_mm": [
+        3.567,
+        6.247,
+        8.372
+      ],
+      "bounds_mm": [
+        [
+          3.702,
+          -26.758,
+          145.967
+        ],
+        [
+          7.269,
+          -20.511,
+          154.338
+        ]
+      ],
+      "volume_mm3": 56.547,
+      "faces": 3484,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        0.12602904342194504,
+        -0.8852838891005136,
+        0.44764842891852
+      ],
+      "connectors": [],
+      "warnings": [
+        "No safe pin fits this region. Retention is not guaranteed; adjust size, clearance or connection method."
+      ],
+      "filament_id": null
+    }
+  ],
+  "export": {
+    "bundle": "print-package.zip",
+    "files": [
+      "MONTAGE.md",
+      "SHA256.json",
+      "assembly.3mf",
+      "assembly.glb",
+      "body.3mf",
+      "manifest.json",
+      "part-001.3mf",
+      "part-002.3mf",
+      "part-003.3mf",
+      "part-004.3mf",
+      "part-005.3mf",
+      "plate-01.3mf",
+      "plate-02.3mf",
+      "plate-03.3mf",
+      "print-package.zip",
+      "validation.json"
+    ],
+    "plates": 3,
+    "parts": 6,
+    "validation": {
+      "assembly": {
+        "passed": true,
+        "objects": 6,
+        "meshes": [
+          {
+            "id": "2",
+            "triangles": 45152,
+            "volume_mm3": 550755.4147549925
+          },
+          {
+            "id": "3",
+            "triangles": 29016,
+            "volume_mm3": 4302.889660015581
+          },
+          {
+            "id": "4",
+            "triangles": 15706,
+            "volume_mm3": 1177.3517789476753
+          },
+          {
+            "id": "5",
+            "triangles": 2002,
+            "volume_mm3": 50.05398144372234
+          },
+          {
+            "id": "6",
+            "triangles": 2764,
+            "volume_mm3": 57.07871353401973
+          },
+          {
+            "id": "7",
+            "triangles": 3484,
+            "volume_mm3": 56.54705119474928
+          }
+        ],
+        "validation": "independent XML/geometry round-trip, not an official 3MF conformance certificate",
+        "bambu_studio_live_test": false
+      },
+      "plate-01": {
+        "passed": true,
+        "objects": 3,
+        "meshes": [
+          {
+            "id": "2",
+            "triangles": 3484,
+            "volume_mm3": 56.54705119474928
+          },
+          {
+            "id": "3",
+            "triangles": 2764,
+            "volume_mm3": 57.07871353401973
+          },
+          {
+            "id": "4",
+            "triangles": 2002,
+            "volume_mm3": 50.05398144372234
+          }
+        ],
+        "validation": "independent XML/geometry round-trip, not an official 3MF conformance certificate",
+        "bambu_studio_live_test": false
+      },
+      "plate-02": {
+        "passed": true,
+        "objects": 1,
+        "meshes": [
+          {
+            "id": "2",
+            "triangles": 45152,
+            "volume_mm3": 550755.4147549925
+          }
+        ],
+        "validation": "independent XML/geometry round-trip, not an official 3MF conformance certificate",
+        "bambu_studio_live_test": false
+      },
+      "plate-03": {
+        "passed": true,
+        "objects": 2,
+        "meshes": [
+          {
+            "id": "2",
+            "triangles": 29016,
+            "volume_mm3": 4302.889660015581
+          },
+          {
+            "id": "3",
+            "triangles": 15706,
+            "volume_mm3": 1177.3517789476753
+          }
+        ],
+        "validation": "independent XML/geometry round-trip, not an official 3MF conformance certificate",
+        "bambu_studio_live_test": false
+      }
+    }
+  },
+  "physical_print_test": false,
+  "budget_notice": "No external API call; zero cloud cost for this procedural fixture."
+}

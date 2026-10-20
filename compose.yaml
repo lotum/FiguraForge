@@ -1,0 +1,23 @@
+services:
+  figuraforge:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      FORGE_API_TOKEN: ${FORGE_API_TOKEN:?Set FORGE_API_TOKEN in .env before using Docker}
+      FORGE_DATA_DIR: /data
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      MESHY_API_KEY: ${MESHY_API_KEY:-}
+      TRIPO_API_KEY: ${TRIPO_API_KEY:-}
+      FORGE_LOCAL_GATEWAY: ${FORGE_LOCAL_GATEWAY:-}
+      LOCAL_API_KEY: ${LOCAL_API_KEY:-}
+    volumes:
+      - figuraforge-data:/data
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+volumes:
+  figuraforge-data:

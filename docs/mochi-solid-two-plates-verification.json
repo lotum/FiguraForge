@@ -1,0 +1,795 @@
+{
+  "source": "benchmarks/mochi-unified-production/build-83f51796f58841c7be1371687fbe528c",
+  "source_files_sha256": {
+    "benchmarks/mochi-unified-production/build-83f51796f58841c7be1371687fbe528c/Mochi-Schwarze-Details-H2D.3mf": "b804457b8b2eff32cbe7c53f2204715d0455ee3d0630d32c569c2b1fd3fbe84c",
+    "benchmarks/mochi-unified-production/build-83f51796f58841c7be1371687fbe528c/Mochi-Koerper-20-Farben-H2D.3mf": "660c9784ca95c8214d32811a6762511eec9e84aff56d4b26ba0556ff7cac188a",
+    "benchmarks/mochi-unified-production/build-83f51796f58841c7be1371687fbe528c/parts/body.npz": "02157f2c185c1bf9e7315b86812c41f158c8e6ceef58d1ccc137481eb73ae3b6",
+    "benchmarks/mochi-unified-production/build-83f51796f58841c7be1371687fbe528c/parts/nose.npz": "a8385a1090ae735c9d79252a8e887e333c2b41ccfde7a3782d9cc405f0e36df2",
+    "benchmarks/mochi-unified-production/build-83f51796f58841c7be1371687fbe528c/parts/eye-1.npz": "9a1ac024f1473ed0fa6834369e32ee2f35dc7fabf1dae336e61c7a8941963340",
+    "benchmarks/mochi-unified-production/build-83f51796f58841c7be1371687fbe528c/parts/eye-2.npz": "9f50cb2f71d5402202a3d110fd4d6e7360c82756e9de8cba953618055461ffbe",
+    "benchmarks/mochi-unified-production/build-83f51796f58841c7be1371687fbe528c/parts/eye-3.npz": "306c95a0eb4b980aca919ecd8aeffeb802a3f5ac25a3e6daedc7da3d8ff5e587",
+    "benchmarks/mochi-unified-production/build-83f51796f58841c7be1371687fbe528c/parts/eye-4.npz": "3a6697a6fffa7a1fba5d0bf08f9255e574af94bce213adf12e3b163c396e8549"
+  },
+  "source_preserved": true,
+  "parts": [
+    {
+      "id": "body",
+      "name": "Mochi · ganzer Körper",
+      "color": "#B3531C",
+      "color_index": 0,
+      "role": "body",
+      "dimensions_mm": [
+        89.211,
+        136.672,
+        180.0
+      ],
+      "bounds_mm": [
+        [
+          -44.605,
+          -67.838,
+          0.0
+        ],
+        [
+          44.605,
+          68.834,
+          180.0
+        ]
+      ],
+      "volume_mm3": 476150.414,
+      "faces": 296494,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": null,
+      "connectors": [],
+      "warnings": [],
+      "filament_id": null
+    },
+    {
+      "id": "nose",
+      "name": "Mochi · schwarze Nase",
+      "color": "#272729",
+      "color_index": 1,
+      "role": "color-body",
+      "dimensions_mm": [
+        9.747,
+        5.685,
+        7.896
+      ],
+      "bounds_mm": [
+        [
+          -4.898,
+          -68.838,
+          125.503
+        ],
+        [
+          4.849,
+          -63.153,
+          133.399
+        ]
+      ],
+      "volume_mm3": 119.596,
+      "faces": 7058,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        0.0027556853884266024,
+        -0.9483251935082926,
+        0.31728809236323313
+      ],
+      "connectors": [
+        {
+          "shape": "keyed",
+          "diameter_mm": 3.0,
+          "nominal_length_mm": 3,
+          "radial_clearance_mm": 0.05,
+          "position_mm": [
+            -0.055,
+            -63.56,
+            128.575
+          ],
+          "requires_calibration": true,
+          "interface": 0
+        }
+      ],
+      "warnings": [
+        "Shared color-boundary caps have no surface gap. Confirm physical fit and assembly sequence."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "eye-1",
+      "name": "Mochi · schwarzer Augeneinsatz 1",
+      "color": "#272729",
+      "color_index": 2,
+      "role": "glue-inlay",
+      "dimensions_mm": [
+        7.181,
+        2.553,
+        4.701
+      ],
+      "bounds_mm": [
+        [
+          -15.434,
+          -53.86,
+          139.658
+        ],
+        [
+          -8.252,
+          -51.307,
+          144.36
+        ]
+      ],
+      "volume_mm3": 3.958,
+      "faces": 844,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.00936901902310341,
+        -0.9120650326632915,
+        -0.4099385291424237
+      ],
+      "connectors": [],
+      "warnings": [
+        "Intentional glue insert without pins. Adhesive fit and retention require a physical test.",
+        "Klebeeinsatz ohne Stift; Passung und Kleberauftrag real prüfen."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "eye-2",
+      "name": "Mochi · schwarzer Augeneinsatz 2",
+      "color": "#272729",
+      "color_index": 3,
+      "role": "glue-inlay",
+      "dimensions_mm": [
+        4.29,
+        1.723,
+        5.149
+      ],
+      "bounds_mm": [
+        [
+          -11.452,
+          -56.069,
+          135.063
+        ],
+        [
+          -7.162,
+          -54.345,
+          140.212
+        ]
+      ],
+      "volume_mm3": 14.502,
+      "faces": 1352,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        0.009462114512921211,
+        -0.9937792356119726,
+        0.11096530653960246
+      ],
+      "connectors": [],
+      "warnings": [
+        "Intentional glue insert without pins. Adhesive fit and retention require a physical test.",
+        "Klebeeinsatz ohne Stift; Passung und Kleberauftrag real prüfen."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "eye-3",
+      "name": "Mochi · schwarzer Augeneinsatz 3",
+      "color": "#272729",
+      "color_index": 4,
+      "role": "glue-inlay",
+      "dimensions_mm": [
+        4.3,
+        1.715,
+        5.13
+      ],
+      "bounds_mm": [
+        [
+          7.153,
+          -56.08,
+          134.948
+        ],
+        [
+          11.453,
+          -54.365,
+          140.078
+        ]
+      ],
+      "volume_mm3": 14.801,
+      "faces": 1232,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.06336626273456052,
+        -0.9929167723963861,
+        0.10050373048299178
+      ],
+      "connectors": [],
+      "warnings": [
+        "Intentional glue insert without pins. Adhesive fit and retention require a physical test.",
+        "Klebeeinsatz ohne Stift; Passung und Kleberauftrag real prüfen."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "eye-4",
+      "name": "Mochi · schwarzer Augeneinsatz 4",
+      "color": "#272729",
+      "color_index": 5,
+      "role": "glue-inlay",
+      "dimensions_mm": [
+        7.585,
+        2.667,
+        4.723
+      ],
+      "bounds_mm": [
+        [
+          8.015,
+          -53.887,
+          139.454
+        ],
+        [
+          15.6,
+          -51.22,
+          144.177
+        ]
+      ],
+      "volume_mm3": 4.851,
+      "faces": 1172,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        0.0738146730052237,
+        -0.9461141562514134,
+        -0.31530841630030787
+      ],
+      "connectors": [],
+      "warnings": [
+        "Intentional glue insert without pins. Adhesive fit and retention require a physical test.",
+        "Klebeeinsatz ohne Stift; Passung und Kleberauftrag real prüfen."
+      ],
+      "filament_id": null
+    }
+  ],
+  "colors": {
+    "body": {
+      "faces": 296494,
+      "slot_face_counts": {
+        "1": 223769,
+        "2": 72725
+      },
+      "exterior_faces": 292410
+    },
+    "nose": {
+      "faces": 7058,
+      "slot_face_counts": {
+        "3": 7058
+      },
+      "exterior_faces": 0
+    },
+    "eye-1": {
+      "faces": 844,
+      "slot_face_counts": {
+        "3": 844
+      },
+      "exterior_faces": 0
+    },
+    "eye-2": {
+      "faces": 1352,
+      "slot_face_counts": {
+        "3": 1352
+      },
+      "exterior_faces": 0
+    },
+    "eye-3": {
+      "faces": 1232,
+      "slot_face_counts": {
+        "3": 1232
+      },
+      "exterior_faces": 0
+    },
+    "eye-4": {
+      "faces": 1172,
+      "slot_face_counts": {
+        "3": 1172
+      },
+      "exterior_faces": 0
+    }
+  },
+  "merge": {
+    "plates": 2,
+    "plate2_world_offset_mm": [
+      420.0,
+      0,
+      0
+    ],
+    "parts_per_plate": [
+      1,
+      5
+    ],
+    "second_plate_object_overrides": {
+      "layer_height": "0.12",
+      "raft_layers": "3",
+      "support_top_z_distance": "0.12",
+      "brim_type": "outer_only"
+    },
+    "source_mesh_payloads_unchanged": true,
+    "slicing_verified": false
+  },
+  "project": "benchmarks/mochi-solid-production/Mochi-Braun-Beige-H2D-2-Platten.3mf",
+  "project_sha256": "cdd2b8c9b623efb779751942d536a7bf92d56b044cc24529bc95048f794c1f1f",
+  "paid_api_calls": 0,
+  "printer_communication": false,
+  "physical_print_verified": false,
+  "geometry_parity": {
+    "body": {
+      "triangles": 296494,
+      "geometry_identical": true,
+      "maximum_world_vertex_error_mm": 0.0
+    },
+    "nose": {
+      "triangles": 7058,
+      "geometry_identical": true,
+      "maximum_world_vertex_error_mm": 5.684341886080802e-14
+    },
+    "eye-1": {
+      "triangles": 844,
+      "geometry_identical": true,
+      "maximum_world_vertex_error_mm": 7.105427357601002e-14
+    },
+    "eye-2": {
+      "triangles": 1352,
+      "geometry_identical": true,
+      "maximum_world_vertex_error_mm": 5.684341886080802e-14
+    },
+    "eye-3": {
+      "triangles": 1232,
+      "geometry_identical": true,
+      "maximum_world_vertex_error_mm": 1.1368683772161603e-13
+    },
+    "eye-4": {
+      "triangles": 1172,
+      "geometry_identical": true,
+      "maximum_world_vertex_error_mm": 8.526512829121202e-14
+    }
+  },
+  "sliced_roundtrip": {
+    "1": {
+      "parts": {
+        "body": {
+          "paint_identical": true,
+          "face_indices_identical": true,
+          "world_vertex_error_mm": 0.0
+        }
+      },
+      "settings_differences": {
+        "filament_prime_volume": {
+          "input": [
+            "45",
+            "30",
+            "45"
+          ],
+          "sliced": [
+            "45",
+            "45",
+            "45"
+          ]
+        }
+      }
+    },
+    "2": {
+      "parts": {
+        "nose": {
+          "paint_identical": true,
+          "face_indices_identical": true,
+          "world_vertex_error_mm": 1.0000007932831068e-07
+        },
+        "eye-1": {
+          "paint_identical": true,
+          "face_indices_identical": true,
+          "world_vertex_error_mm": 4.0000008993956726e-07
+        },
+        "eye-2": {
+          "paint_identical": true,
+          "face_indices_identical": true,
+          "world_vertex_error_mm": 0.0
+        },
+        "eye-3": {
+          "paint_identical": true,
+          "face_indices_identical": true,
+          "world_vertex_error_mm": 0.0
+        },
+        "eye-4": {
+          "paint_identical": true,
+          "face_indices_identical": true,
+          "world_vertex_error_mm": 0.0
+        }
+      },
+      "settings_differences": {
+        "filament_prime_volume": {
+          "input": [
+            "45",
+            "30",
+            "45"
+          ],
+          "sliced": [
+            "45",
+            "45",
+            "45"
+          ]
+        }
+      }
+    }
+  },
+  "plate_checks": [
+    {
+      "plate": 1,
+      "slicer": {
+        "source": "benchmarks/mochi-solid-production/build-f27e2b682e094abeac68fb0cb90c36e9/Mochi-Braun-Beige-H2D-2-Platten-v2.3mf",
+        "plate_index": 1,
+        "source_sha256": "cdd2b8c9b623efb779751942d536a7bf92d56b044cc24529bc95048f794c1f1f",
+        "output": "benchmarks/mochi-solid-production/build-f27e2b682e094abeac68fb0cb90c36e9/slice-plate-1-v2",
+        "command": [
+          "/Applications/BambuStudio.app/Contents/MacOS/BambuStudio",
+          "--normative-check=0",
+          "--slice",
+          "1",
+          "--arrange",
+          "0",
+          "--orient",
+          "0",
+          "--outputdir",
+          "benchmarks/mochi-solid-production/build-f27e2b682e094abeac68fb0cb90c36e9/slice-plate-1-v2",
+          "--export-3mf",
+          "sliced.3mf",
+          "benchmarks/mochi-solid-production/build-f27e2b682e094abeac68fb0cb90c36e9/Mochi-Braun-Beige-H2D-2-Platten-v2.3mf"
+        ],
+        "exit_code": 0,
+        "passed": true,
+        "validity_checks_not_disabled": true,
+        "gcode_path_validation_verified": false,
+        "print_ready": false,
+        "makerworld_normative_checks_enabled": false,
+        "printer_communication": false,
+        "physical_print_verified": false,
+        "result": {
+          "error_string": "Success.",
+          "export_time": 6352,
+          "layer_height": 0.1599999964237213,
+          "plate_index": 1,
+          "prepare_time": 509,
+          "return_code": 0,
+          "sliced_plates": [
+            {
+              "feature_type_times": {
+                "Bottom surface": 8.378311157226562,
+                "Bridge": 76.64114379882812,
+                "Brim": 11.064009666442871,
+                "Custom": 299.30084228515625,
+                "Flush": 4926.44384765625,
+                "Gap infill": 211.07408142089844,
+                "Inner wall": 6050.4609375,
+                "Internal solid infill": 2383.279296875,
+                "Outer wall": 8133.72412109375,
+                "Overhang wall": 197.91839599609375,
+                "Prime tower": 13874.4404296875,
+                "Sparse infill": 476.2662048339844,
+                "Support": 2501.061767578125,
+                "Support interface": 37.07723617553711,
+                "Top surface": 40.14752960205078,
+                "Travel": 8726.8662109375,
+                "Undefined": 8725.892578125
+              },
+              "filament_change_times": 0,
+              "filaments": [
+                {
+                  "filament_id": "GFL99",
+                  "id": 1,
+                  "main_used_g": 73.49436950683594,
+                  "total_used_g": 132.11160278320312
+                },
+                {
+                  "filament_id": "GFA00",
+                  "id": 2,
+                  "main_used_g": 30.5513973236084,
+                  "total_used_g": 63.9969367980957
+                }
+              ],
+              "generate_support_material_time": 6601,
+              "id": 1,
+              "infill_time": 5931,
+              "layer_filament_change": 0,
+              "main_predication": 28795.935546875,
+              "make_perimeters_time": 6705,
+              "obj_cached_cnt": 0,
+              "objects": [
+                {
+                  "bbox": {
+                    "depth": 136.6722869873047,
+                    "height": 180.0,
+                    "width": 89.21057891845703,
+                    "x": 130.39471435546875,
+                    "y": 91.66385650634766,
+                    "z": 0.0
+                  },
+                  "id": 5,
+                  "name": "body",
+                  "triangle_count": 296494
+                }
+              ],
+              "sliced_time": 27560,
+              "sliced_time_with_cache": 6873,
+              "total_predication": 47925.1171875,
+              "triangle_count": 296494,
+              "warning_message": ""
+            }
+          ],
+          "sparse_infill_density": 5.0,
+          "upward_compatible_machine": [
+            "Bambu Lab H2D Pro 0.4 nozzle"
+          ],
+          "wall_loops": 2
+        },
+        "gcode_sha256": "ad63bfff6aee719f90d4d97ab424a948f0d57d539ceffc2e713776462b63e9ab"
+      },
+      "footprints": {
+        "source": "benchmarks/mochi-solid-production/build-f27e2b682e094abeac68fb0cb90c36e9/slice-plate-1-v2/plate_1.gcode",
+        "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+        "passed": true,
+        "tolerance_mm": 0.02,
+        "conflict_counts": {},
+        "examples": [],
+        "extrusion_segments": 3015320,
+        "z_groups": 1124,
+        "unsupported_arcs": 0,
+        "arc_chord_error_limit_mm": 0.005,
+        "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+        "single_object_owner_evidence": {
+          "sidecar": "benchmarks/mochi-solid-production/build-f27e2b682e094abeac68fb0cb90c36e9/slice-plate-1-v2/result.json",
+          "object_id": 5,
+          "name": "body",
+          "objects": 1
+        },
+        "ignored_nonprinting_arc_commands": 17395,
+        "arc_commands": 475938,
+        "maximum_arc_chord_error_bound_mm": 0.004999997418229018,
+        "maximum_arc_radius_mismatch_mm": 0.0022450145984971304,
+        "extrusion_arcs": 475938,
+        "arc_generated_segments": 1752535,
+        "gcode_sha256": "ad63bfff6aee719f90d4d97ab424a948f0d57d539ceffc2e713776462b63e9ab",
+        "owner_extrusion_xy_bounds_mm": {
+          "-2": [
+            226.26222552865147,
+            241.27451518015332,
+            278.6357744713485,
+            291.57173669065264
+          ],
+          "5": [
+            126.37686065870099,
+            88.334464,
+            235.8781150576318,
+            228.536536
+          ]
+        },
+        "globally_overlapping_owner_ids": [],
+        "wall_time_seconds": 22.207480333046988
+      }
+    },
+    {
+      "plate": 2,
+      "slicer": {
+        "source": "benchmarks/mochi-solid-production/build-f27e2b682e094abeac68fb0cb90c36e9/Mochi-Braun-Beige-H2D-2-Platten-v2.3mf",
+        "plate_index": 2,
+        "source_sha256": "cdd2b8c9b623efb779751942d536a7bf92d56b044cc24529bc95048f794c1f1f",
+        "output": "benchmarks/mochi-solid-production/build-f27e2b682e094abeac68fb0cb90c36e9/slice-plate-2-v2",
+        "command": [
+          "/Applications/BambuStudio.app/Contents/MacOS/BambuStudio",
+          "--normative-check=0",
+          "--slice",
+          "2",
+          "--arrange",
+          "0",
+          "--orient",
+          "0",
+          "--outputdir",
+          "benchmarks/mochi-solid-production/build-f27e2b682e094abeac68fb0cb90c36e9/slice-plate-2-v2",
+          "--export-3mf",
+          "sliced.3mf",
+          "benchmarks/mochi-solid-production/build-f27e2b682e094abeac68fb0cb90c36e9/Mochi-Braun-Beige-H2D-2-Platten-v2.3mf"
+        ],
+        "exit_code": 0,
+        "passed": true,
+        "validity_checks_not_disabled": true,
+        "gcode_path_validation_verified": false,
+        "print_ready": false,
+        "makerworld_normative_checks_enabled": false,
+        "printer_communication": false,
+        "physical_print_verified": false,
+        "result": {
+          "error_string": "Success.",
+          "export_time": 407,
+          "layer_height": 0.1599999964237213,
+          "plate_index": 2,
+          "prepare_time": 368,
+          "return_code": 0,
+          "sliced_plates": [
+            {
+              "feature_type_times": {
+                "Bridge": 1.0788277387619019,
+                "Custom": 307.6722106933594,
+                "Flush": 30.0,
+                "Gap infill": 5.504261016845703,
+                "Inner wall": 37.29423522949219,
+                "Internal solid infill": 43.2833366394043,
+                "Outer wall": 67.52806091308594,
+                "Overhang wall": 7.518788814544678,
+                "Sparse infill": 0.3799697160720825,
+                "Support": 64.03083801269531,
+                "Support interface": 12.437300682067871,
+                "Top surface": 8.490331649780273,
+                "Travel": 72.55937957763672,
+                "Undefined": 62.908409118652344
+              },
+              "filament_change_times": 0,
+              "filaments": [
+                {
+                  "filament_id": "GFL99",
+                  "id": 3,
+                  "main_used_g": 0.4391099810600281,
+                  "total_used_g": 0.4391099810600281
+                }
+              ],
+              "generate_support_material_time": 59,
+              "id": 2,
+              "infill_time": 33,
+              "layer_filament_change": 0,
+              "main_predication": 290.14129638671875,
+              "make_perimeters_time": 61,
+              "obj_cached_cnt": 0,
+              "objects": [
+                {
+                  "bbox": {
+                    "depth": 9.768362045288086,
+                    "height": 7.92313814163208,
+                    "width": 9.291704177856445,
+                    "x": 479.49853515625,
+                    "y": 49.98943328857422,
+                    "z": -1.0963070392608643
+                  },
+                  "id": 9,
+                  "name": "nose",
+                  "triangle_count": 7058
+                },
+                {
+                  "bbox": {
+                    "depth": 7.220930099487305,
+                    "height": 4.323557376861572,
+                    "width": 5.3350677490234375,
+                    "x": 507.5640869140625,
+                    "y": 49.974971771240234,
+                    "z": -1.0706734657287598
+                  },
+                  "id": 13,
+                  "name": "eye-1",
+                  "triangle_count": 844
+                },
+                {
+                  "bbox": {
+                    "depth": 4.311672210693359,
+                    "height": 2.3247268199920654,
+                    "width": 5.308568477630615,
+                    "x": 532.4149780273438,
+                    "y": 49.984031677246094,
+                    "z": -0.48367780447006226
+                  },
+                  "id": 17,
+                  "name": "eye-2",
+                  "triangle_count": 1352
+                },
+                {
+                  "bbox": {
+                    "depth": 4.432094573974609,
+                    "height": 2.4911580085754395,
+                    "width": 5.2768731117248535,
+                    "x": 557.495849609375,
+                    "y": 49.90850067138672,
+                    "z": -0.665547251701355
+                  },
+                  "id": 21,
+                  "name": "eye-3",
+                  "triangle_count": 1232
+                },
+                {
+                  "bbox": {
+                    "depth": 7.861118793487549,
+                    "height": 4.572665214538574,
+                    "width": 5.324202060699463,
+                    "x": 582.2136840820312,
+                    "y": 49.84292221069336,
+                    "z": -1.285257339477539
+                  },
+                  "id": 25,
+                  "name": "eye-4",
+                  "triangle_count": 1172
+                }
+              ],
+              "sliced_time": 604,
+              "sliced_time_with_cache": 437,
+              "total_predication": 648.1318359375,
+              "triangle_count": 11658,
+              "warning_message": ""
+            }
+          ],
+          "sparse_infill_density": 5.0,
+          "upward_compatible_machine": [
+            "Bambu Lab H2D Pro 0.4 nozzle"
+          ],
+          "wall_loops": 2
+        },
+        "gcode_sha256": "36da3ffa6e82998b786788b85fae4f87b3ceb9ca825ae84a80a95db35b4ba356"
+      },
+      "footprints": {
+        "source": "benchmarks/mochi-solid-production/build-f27e2b682e094abeac68fb0cb90c36e9/slice-plate-2-v2/plate_2.gcode",
+        "scope": "Planar linear and G17 I/J arc positive-extrusion footprints across different owners with overlapping physical Z intervals [Z-LAYER_HEIGHT,Z]; not full nozzle/dynamic/physical collision certification",
+        "passed": true,
+        "tolerance_mm": 0.02,
+        "conflict_counts": {},
+        "examples": [],
+        "extrusion_segments": 15606,
+        "z_groups": 49,
+        "unsupported_arcs": 0,
+        "arc_chord_error_limit_mm": 0.005,
+        "arc_footprint_inflation": "Each arc chord gets twice its conservative geometric error added to LINE_WIDTH",
+        "ignored_nonprinting_arc_commands": 135,
+        "arc_commands": 2504,
+        "maximum_arc_chord_error_bound_mm": 0.004999548467984275,
+        "maximum_arc_radius_mismatch_mm": 0.0017333722608861568,
+        "extrusion_arcs": 2504,
+        "arc_generated_segments": 9163,
+        "gcode_sha256": "36da3ffa6e82998b786788b85fae4f87b3ceb9ca825ae84a80a95db35b4ba356",
+        "owner_extrusion_xy_bounds_mm": {
+          "100": [
+            58.52301866272304,
+            47.45323136218353,
+            70.82004786681918,
+            61.97398959080574
+          ],
+          "101": [
+            84.80970667155418,
+            48.24236841789023,
+            94.04163158210977,
+            61.26263158210977
+          ],
+          "102": [
+            109.4361006635956,
+            47.2001205,
+            121.1338795,
+            58.4018795
+          ],
+          "103": [
+            131.7012455,
+            44.687245499999996,
+            147.0587545,
+            57.9917545
+          ],
+          "104": [
+            159.36975583105652,
+            47.97000216396678,
+            168.54748470694017,
+            59.76502042682993
+          ]
+        },
+        "globally_overlapping_owner_ids": [],
+        "wall_time_seconds": 0.2159481249982491
+      }
+    }
+  ],
+  "actual_slice_verified": true,
+  "full_footprints_passed": true,
+  "total_extrusion_segments": 3030926,
+  "gui_verified": false,
+  "user_reports_mixed_body_looks_good": true,
+  "black_parts_physically_printed": false
+}

@@ -1,0 +1,4685 @@
+{
+  "height_mm": 1000.0,
+  "parts": 22,
+  "plates": 17,
+  "all_parts_valid": true,
+  "all_parts_single_component": true,
+  "packing": {
+    "passed": true,
+    "problems": [],
+    "method": "transformed bounds and conservative XY rectangles"
+  },
+  "all_3mf_checks_passed": true,
+  "timings_cumulative_seconds": {
+    "inspect": 2.102,
+    "segment": 69.407,
+    "export": 87.9
+  },
+  "cloud_calls": 0,
+  "physical_print_test": false,
+  "bambu_studio_test": false,
+  "settings": {
+    "height_mm": 1000.0,
+    "up_axis": "Y",
+    "model_type": "figurine",
+    "prompt": "",
+    "identity_notes": "",
+    "image_provider": "openai",
+    "image_model": "gpt-image-2.5-sunburst",
+    "image_quality": "max",
+    "image_size": "1024x1536",
+    "image_views": [
+      "front",
+      "left",
+      "back",
+      "right"
+    ],
+    "mesh_provider": "meshy",
+    "mesh_model": "latest",
+    "review_model": "",
+    "review_effort": "high",
+    "auto_image_retries": 0,
+    "budget_eur": 100,
+    "image_call_estimate_eur": 2,
+    "mesh_call_estimate_eur": 10,
+    "review_call_estimate_eur": 0.5,
+    "construction_strategy": "inlays",
+    "palette_size": 3,
+    "palette": [],
+    "base_color": 0,
+    "boundary_tolerance_mm": 2,
+    "coarse_sampling_mm": 8,
+    "max_refined_faces": 500000,
+    "inlay_depth_mm": 5,
+    "seam_mm": 0.15,
+    "pin_radius_mm": 2.5,
+    "pin_length_mm": 7,
+    "pin_clearance_mm": 0.2,
+    "connector_shape": "round",
+    "min_region_area_mm2": 3,
+    "validate_paths": true,
+    "printer_id": "h2d-dual",
+    "build_volume_mm": [
+      300,
+      320,
+      325
+    ],
+    "plate_margin_mm": 6,
+    "part_gap_mm": 5,
+    "colors_per_plate": 1,
+    "auto_tile": true,
+    "owned_filaments_only": false,
+    "preferred_brands": [
+      "Elegoo",
+      "Bambu Lab"
+    ],
+    "direction_overrides": {}
+  },
+  "parts_summary": [
+    {
+      "id": "part-002",
+      "name": "Farbeinsatz 02",
+      "color": "#E5C189",
+      "color_index": 1,
+      "role": "inlay",
+      "dimensions_mm": [
+        120.369,
+        19.666,
+        127.59
+      ],
+      "bounds_mm": [
+        [
+          -60.078,
+          -164.801,
+          684.074
+        ],
+        [
+          60.29,
+          -145.136,
+          811.664
+        ]
+      ],
+      "volume_mm3": 56696.063,
+      "faces": 22120,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.0001870703725443749,
+        -0.9995931822891156,
+        0.028520780595816555
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 5.0,
+          "nominal_length_mm": 7.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.195,
+            -151.639,
+            718.618
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 5.0,
+          "nominal_length_mm": 7.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            28.461,
+            -145.196,
+            792.709
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [],
+      "filament_id": null
+    },
+    {
+      "id": "part-003",
+      "name": "Farbeinsatz 03",
+      "color": "#211D1A",
+      "color_index": 2,
+      "role": "inlay",
+      "dimensions_mm": [
+        25.588,
+        12.998,
+        24.569
+      ],
+      "bounds_mm": [
+        [
+          -12.213,
+          -164.524,
+          752.754
+        ],
+        [
+          13.375,
+          -151.526,
+          777.323
+        ]
+      ],
+      "volume_mm3": 2566.661,
+      "faces": 2058,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.0001870703725443749,
+        -0.9995931822891156,
+        0.028520780595816555
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 5.0,
+          "nominal_length_mm": 7.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.035,
+            -151.587,
+            764.778
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [],
+      "filament_id": null
+    },
+    {
+      "id": "part-004",
+      "name": "Farbeinsatz 04",
+      "color": "#211D1A",
+      "color_index": 2,
+      "role": "inlay",
+      "dimensions_mm": [
+        20.752,
+        26.843,
+        42.056
+      ],
+      "bounds_mm": [
+        [
+          -42.251,
+          -149.195,
+          815.489
+        ],
+        [
+          -21.498,
+          -122.351,
+          857.545
+        ]
+      ],
+      "volume_mm3": 3451.439,
+      "faces": 5986,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.1258106045461308,
+        -0.8853132895244797,
+        0.44765172978006224
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 5.0,
+          "nominal_length_mm": 7.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -30.173,
+            -129.728,
+            832.75
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 5.0,
+          "nominal_length_mm": 7.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -27.159,
+            -123.338,
+            845.013
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [],
+      "filament_id": null
+    },
+    {
+      "id": "part-005",
+      "name": "Farbeinsatz 05",
+      "color": "#211D1A",
+      "color_index": 2,
+      "role": "inlay",
+      "dimensions_mm": [
+        20.052,
+        26.773,
+        42.518
+      ],
+      "bounds_mm": [
+        [
+          21.497,
+          -149.015,
+          815.292
+        ],
+        [
+          41.55,
+          -122.243,
+          857.81
+        ]
+      ],
+      "volume_mm3": 3414.271,
+      "faces": 7184,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        0.12595799274023062,
+        -0.8853081109784336,
+        0.4476205231003708
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 5.0,
+          "nominal_length_mm": 7.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            30.617,
+            -131.303,
+            829.562
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 5.0,
+          "nominal_length_mm": 7.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            27.272,
+            -123.23,
+            845.138
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [],
+      "filament_id": null
+    },
+    {
+      "id": "part-001-a",
+      "name": "Farbeinsatz 01 / A",
+      "color": "#E5C189",
+      "color_index": 1,
+      "role": "inlay",
+      "dimensions_mm": [
+        142.557,
+        37.208,
+        138.071
+      ],
+      "bounds_mm": [
+        [
+          -71.279,
+          -152.531,
+          220.142
+        ],
+        [
+          71.279,
+          -115.324,
+          358.213
+        ]
+      ],
+      "volume_mm3": 77534.455,
+      "faces": 24430,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 5.0,
+          "nominal_length_mm": 7.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.002,
+            -141.139,
+            423.246
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 5.0,
+          "nominal_length_mm": 7.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -40.142,
+            -122.92,
+            269.04
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Cross-section too thin for an additional structural joint. The piece needs separate retention on the core."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "part-001-b",
+      "name": "Farbeinsatz 01 / B",
+      "color": "#E5C189",
+      "color_index": 1,
+      "role": "inlay",
+      "dimensions_mm": [
+        167.071,
+        41.492,
+        225.274
+      ],
+      "bounds_mm": [
+        [
+          -83.641,
+          -153.88,
+          358.213
+        ],
+        [
+          83.429,
+          -112.387,
+          583.487
+        ]
+      ],
+      "volume_mm3": 131498.829,
+      "faces": 30706,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 5.0,
+          "nominal_length_mm": 7.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.002,
+            -141.139,
+            423.246
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 5.0,
+          "nominal_length_mm": 7.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -40.142,
+            -122.92,
+            269.04
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Cross-section too thin for an additional structural joint. The piece needs separate retention on the core."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "body-a-a-a",
+      "name": "Grundkoerper / A / A / A",
+      "color": "#895330",
+      "color_index": 0,
+      "role": "body",
+      "dimensions_mm": [
+        260.213,
+        288.686,
+        256.3
+      ],
+      "bounds_mm": [
+        [
+          -219.718,
+          -148.124,
+          0.0
+        ],
+        [
+          40.495,
+          140.562,
+          256.3
+        ]
+      ],
+      "volume_mm3": 10220923.975,
+      "faces": 32094,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.001,
+            0.545,
+            635.0
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            7.961,
+            402.801
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            -66.299,
+            122.803
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            119.35,
+            262.802
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -84.536,
+            -4.641,
+            256.3
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -7.444,
+            102.013,
+            256.3
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -7.444,
+            -86.071,
+            256.3
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "body-a-b-a",
+      "name": "Grundkoerper / A / B / A",
+      "color": "#895330",
+      "color_index": 0,
+      "role": "body",
+      "dimensions_mm": [
+        194.223,
+        285.35,
+        250.6
+      ],
+      "bounds_mm": [
+        [
+          25.495,
+          -148.124,
+          0.0
+        ],
+        [
+          219.718,
+          137.226,
+          250.6
+        ]
+      ],
+      "volume_mm3": 8546751.894,
+      "faces": 24864,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.001,
+            0.545,
+            635.0
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            7.961,
+            402.801
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            -66.299,
+            122.803
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            119.35,
+            262.802
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            110.599,
+            -5.439,
+            250.6
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            52.201,
+            98.57,
+            250.6
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            52.201,
+            -84.849,
+            250.6
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "body-b-a-b",
+      "name": "Grundkoerper / B / A / B",
+      "color": "#895330",
+      "color_index": 0,
+      "role": "body",
+      "dimensions_mm": [
+        312.76,
+        265.523,
+        144.4
+      ],
+      "bounds_mm": [
+        [
+          -247.123,
+          -132.795,
+          855.6
+        ],
+        [
+          65.637,
+          132.728,
+          1000.0
+        ]
+      ],
+      "volume_mm3": 4574717.52,
+      "faces": 20922,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.001,
+            0.545,
+            635.0
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            80.637,
+            0.114,
+            769.324
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            80.637,
+            -111.928,
+            665.06
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            80.637,
+            111.861,
+            665.06
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -50.635,
+            0.393,
+            870.6
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -196.396,
+            62.746,
+            870.6
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -159.991,
+            -62.813,
+            870.6
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "body-b-b-a",
+      "name": "Grundkoerper / B / B / A",
+      "color": "#895330",
+      "color_index": 0,
+      "role": "body",
+      "dimensions_mm": [
+        207.851,
+        312.785,
+        250.6
+      ],
+      "bounds_mm": [
+        [
+          65.637,
+          -156.426,
+          620.0
+        ],
+        [
+          273.489,
+          156.359,
+          870.6
+        ]
+      ],
+      "volume_mm3": 6883327.255,
+      "faces": 21182,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.001,
+            0.545,
+            635.0
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            80.637,
+            0.114,
+            769.324
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            80.637,
+            -111.928,
+            665.06
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            80.637,
+            111.861,
+            665.06
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            144.515,
+            4.774,
+            870.6
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            92.833,
+            -83.951,
+            870.6
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            92.833,
+            83.883,
+            870.6
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "body-b-b-b",
+      "name": "Grundkoerper / B / B / B",
+      "color": "#895330",
+      "color_index": 0,
+      "role": "body",
+      "dimensions_mm": [
+        181.485,
+        244.432,
+        144.4
+      ],
+      "bounds_mm": [
+        [
+          65.637,
+          -122.25,
+          855.6
+        ],
+        [
+          247.123,
+          122.182,
+          1000.0
+        ]
+      ],
+      "volume_mm3": 2778662.592,
+      "faces": 13256,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.001,
+            0.545,
+            635.0
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            80.637,
+            0.114,
+            769.324
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            80.637,
+            -111.928,
+            665.06
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            80.637,
+            111.861,
+            665.06
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            144.515,
+            4.774,
+            870.6
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            92.833,
+            -83.951,
+            870.6
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            92.833,
+            83.883,
+            870.6
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "body-a-b-b-a",
+      "name": "Grundkoerper / A / B / B / A",
+      "color": "#895330",
+      "color_index": 0,
+      "role": "body",
+      "dimensions_mm": [
+        278.86,
+        311.025,
+        161.072
+      ],
+      "bounds_mm": [
+        [
+          25.495,
+          -147.551,
+          235.6
+        ],
+        [
+          304.354,
+          163.474,
+          396.672
+        ]
+      ],
+      "volume_mm3": 6771680.67,
+      "faces": 17446,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.001,
+            0.545,
+            635.0
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            7.961,
+            402.801
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            -66.299,
+            122.803
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            119.35,
+            262.802
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            110.599,
+            -5.439,
+            250.6
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            52.201,
+            98.57,
+            250.6
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            52.201,
+            -84.849,
+            250.6
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            131.621,
+            5.511,
+            396.672
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            264.086,
+            44.862,
+            396.672
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            65.75,
+            118.664,
+            396.672
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "body-a-b-b-b",
+      "name": "Grundkoerper / A / B / B / B",
+      "color": "#895330",
+      "color_index": 0,
+      "role": "body",
+      "dimensions_mm": [
+        293.187,
+        311.439,
+        238.328
+      ],
+      "bounds_mm": [
+        [
+          25.495,
+          -147.759,
+          381.672
+        ],
+        [
+          318.681,
+          163.68,
+          620.0
+        ]
+      ],
+      "volume_mm3": 13546754.045,
+      "faces": 31668,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.001,
+            0.545,
+            635.0
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            7.961,
+            402.801
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            -66.299,
+            122.803
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            119.35,
+            262.802
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            110.599,
+            -5.439,
+            250.6
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            52.201,
+            98.57,
+            250.6
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            52.201,
+            -84.849,
+            250.6
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            131.621,
+            5.511,
+            396.672
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            264.086,
+            44.862,
+            396.672
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            65.75,
+            118.664,
+            396.672
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "body-b-a-a-a",
+      "name": "Grundkoerper / B / A / A / A",
+      "color": "#895330",
+      "color_index": 0,
+      "role": "body",
+      "dimensions_mm": [
+        149.568,
+        245.661,
+        250.6
+      ],
+      "bounds_mm": [
+        [
+          -273.489,
+          -122.864,
+          620.0
+        ],
+        [
+          -123.921,
+          122.797,
+          870.6
+        ]
+      ],
+      "volume_mm3": 2433212.984,
+      "faces": 14514,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.001,
+            0.545,
+            635.0
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            80.637,
+            0.114,
+            769.324
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            80.637,
+            -111.928,
+            665.06
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            80.637,
+            111.861,
+            665.06
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -50.635,
+            0.393,
+            870.6
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -196.396,
+            62.746,
+            870.6
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -159.991,
+            -62.813,
+            870.6
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -123.921,
+            0.884,
+            737.8
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -123.921,
+            -86.756,
+            820.75
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -123.921,
+            -86.756,
+            654.85
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "body-a-a-b-a-a",
+      "name": "Grundkoerper / A / A / B / A / A",
+      "color": "#895330",
+      "color_index": 0,
+      "role": "body",
+      "dimensions_mm": [
+        147.172,
+        195.738,
+        164.606
+      ],
+      "bounds_mm": [
+        [
+          -307.325,
+          -92.439,
+          241.3
+        ],
+        [
+          -160.154,
+          103.299,
+          405.906
+        ]
+      ],
+      "volume_mm3": 1453277.668,
+      "faces": 9322,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.001,
+            0.545,
+            635.0
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            7.961,
+            402.801
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            -66.299,
+            122.803
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            119.35,
+            262.802
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -84.536,
+            -4.641,
+            256.3
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -7.444,
+            102.013,
+            256.3
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -7.444,
+            -86.071,
+            256.3
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -98.621,
+            5.473,
+            405.906
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -260.312,
+            -66.834,
+            405.906
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -220.511,
+            82.756,
+            405.906
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -160.154,
+            -1.012,
+            316.103
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -160.154,
+            72.923,
+            366.806
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -160.154,
+            -62.044,
+            366.806
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "body-a-a-b-b-a",
+      "name": "Grundkoerper / A / A / B / B / A",
+      "color": "#895330",
+      "color_index": 0,
+      "role": "body",
+      "dimensions_mm": [
+        165.854,
+        208.791,
+        229.094
+      ],
+      "bounds_mm": [
+        [
+          -318.681,
+          -98.935,
+          390.906
+        ],
+        [
+          -152.827,
+          109.856,
+          620.0
+        ]
+      ],
+      "volume_mm3": 5188767.838,
+      "faces": 16374,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.001,
+            0.545,
+            635.0
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            7.961,
+            402.801
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            -66.299,
+            122.803
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            119.35,
+            262.802
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -84.536,
+            -4.641,
+            256.3
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -7.444,
+            102.013,
+            256.3
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -7.444,
+            -86.071,
+            256.3
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -98.621,
+            5.473,
+            405.906
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -260.312,
+            -66.834,
+            405.906
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -220.511,
+            82.756,
+            405.906
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -152.827,
+            5.251,
+            486.374
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -152.827,
+            53.635,
+            585.963
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -152.827,
+            77.722,
+            424.943
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "body-b-a-a-b-a",
+      "name": "Grundkoerper / B / A / A / B / A",
+      "color": "#895330",
+      "color_index": 0,
+      "role": "body",
+      "dimensions_mm": [
+        219.558,
+        177.269,
+        250.6
+      ],
+      "bounds_mm": [
+        [
+          -138.921,
+          -159.804,
+          620.0
+        ],
+        [
+          80.637,
+          17.465,
+          870.6
+        ]
+      ],
+      "volume_mm3": 6945088.149,
+      "faces": 18134,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.001,
+            0.545,
+            635.0
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            80.637,
+            0.114,
+            769.324
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            80.637,
+            -111.928,
+            665.06
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            80.637,
+            111.861,
+            665.06
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -50.635,
+            0.393,
+            870.6
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -196.396,
+            62.746,
+            870.6
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -159.991,
+            -62.813,
+            870.6
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -123.921,
+            0.884,
+            737.8
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -123.921,
+            -86.756,
+            820.75
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -123.921,
+            -86.756,
+            654.85
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -29.666,
+            17.465,
+            759.7
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -107.628,
+            17.465,
+            655.187
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            36.926,
+            17.465,
+            655.187
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "body-b-a-a-b-b",
+      "name": "Grundkoerper / B / A / A / B / B",
+      "color": "#895330",
+      "color_index": 0,
+      "role": "body",
+      "dimensions_mm": [
+        219.558,
+        162.269,
+        250.6
+      ],
+      "bounds_mm": [
+        [
+          -138.921,
+          2.465,
+          620.0
+        ],
+        [
+          80.637,
+          164.734,
+          870.6
+        ]
+      ],
+      "volume_mm3": 6767022.985,
+      "faces": 10432,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.001,
+            0.545,
+            635.0
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            80.637,
+            0.114,
+            769.324
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            80.637,
+            -111.928,
+            665.06
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            80.637,
+            111.861,
+            665.06
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -50.635,
+            0.393,
+            870.6
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -196.396,
+            62.746,
+            870.6
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -159.991,
+            -62.813,
+            870.6
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -123.921,
+            0.884,
+            737.8
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -123.921,
+            -86.756,
+            820.75
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -123.921,
+            -86.756,
+            654.85
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -29.666,
+            17.465,
+            759.7
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -107.628,
+            17.465,
+            655.187
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            36.926,
+            17.465,
+            655.187
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "body-a-a-b-a-b-a",
+      "name": "Grundkoerper / A / A / B / A / B / A",
+      "color": "#895330",
+      "color_index": 0,
+      "role": "body",
+      "dimensions_mm": [
+        200.648,
+        159.249,
+        149.606
+      ],
+      "bounds_mm": [
+        [
+          -175.154,
+          -148.831,
+          241.3
+        ],
+        [
+          25.495,
+          10.418,
+          390.906
+        ]
+      ],
+      "volume_mm3": 3652035.814,
+      "faces": 9696,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.001,
+            0.545,
+            635.0
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            7.961,
+            402.801
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            -66.299,
+            122.803
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            119.35,
+            262.802
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -84.536,
+            -4.641,
+            256.3
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -7.444,
+            102.013,
+            256.3
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -7.444,
+            -86.071,
+            256.3
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -98.621,
+            5.473,
+            405.906
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -260.312,
+            -66.834,
+            405.906
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -220.511,
+            82.756,
+            405.906
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -160.154,
+            -1.012,
+            316.103
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -160.154,
+            72.923,
+            366.806
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -160.154,
+            -62.044,
+            366.806
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -45.91,
+            10.418,
+            319.923
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -144.673,
+            10.418,
+            265.401
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -144.673,
+            10.418,
+            366.806
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "body-a-a-b-a-b-b",
+      "name": "Grundkoerper / A / A / B / A / B / B",
+      "color": "#895330",
+      "color_index": 0,
+      "role": "body",
+      "dimensions_mm": [
+        215.648,
+        169.335,
+        164.606
+      ],
+      "bounds_mm": [
+        [
+          -175.154,
+          -4.582,
+          241.3
+        ],
+        [
+          40.495,
+          164.753,
+          405.906
+        ]
+      ],
+      "volume_mm3": 4293267.748,
+      "faces": 8380,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.001,
+            0.545,
+            635.0
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            7.961,
+            402.801
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            -66.299,
+            122.803
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            119.35,
+            262.802
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -84.536,
+            -4.641,
+            256.3
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -7.444,
+            102.013,
+            256.3
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -7.444,
+            -86.071,
+            256.3
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -98.621,
+            5.473,
+            405.906
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -260.312,
+            -66.834,
+            405.906
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -220.511,
+            82.756,
+            405.906
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -160.154,
+            -1.012,
+            316.103
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -160.154,
+            72.923,
+            366.806
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -160.154,
+            -62.044,
+            366.806
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -45.91,
+            10.418,
+            319.923
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -144.673,
+            10.418,
+            265.401
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -144.673,
+            10.418,
+            366.806
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "body-a-a-b-b-b-a",
+      "name": "Grundkoerper / A / A / B / B / B / A",
+      "color": "#895330",
+      "color_index": 0,
+      "role": "body",
+      "dimensions_mm": [
+        208.322,
+        171.841,
+        244.094
+      ],
+      "bounds_mm": [
+        [
+          -167.827,
+          -148.88,
+          390.906
+        ],
+        [
+          40.495,
+          22.961,
+          635.0
+        ]
+      ],
+      "volume_mm3": 5644150.487,
+      "faces": 11716,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.001,
+            0.545,
+            635.0
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            7.961,
+            402.801
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            -66.299,
+            122.803
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            119.35,
+            262.802
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -84.536,
+            -4.641,
+            256.3
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -7.444,
+            102.013,
+            256.3
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -7.444,
+            -86.071,
+            256.3
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -98.621,
+            5.473,
+            405.906
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -260.312,
+            -66.834,
+            405.906
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -220.511,
+            82.756,
+            405.906
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -152.827,
+            5.251,
+            486.374
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -152.827,
+            53.635,
+            585.963
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -152.827,
+            77.722,
+            424.943
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -67.245,
+            22.961,
+            527.468
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -137.858,
+            22.961,
+            424.943
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -1.244,
+            22.961,
+            424.943
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly."
+      ],
+      "filament_id": null
+    },
+    {
+      "id": "body-a-a-b-b-b-b",
+      "name": "Grundkoerper / A / A / B / B / B / B",
+      "color": "#895330",
+      "color_index": 0,
+      "role": "body",
+      "dimensions_mm": [
+        208.322,
+        156.841,
+        229.094
+      ],
+      "bounds_mm": [
+        [
+          -167.827,
+          7.961,
+          390.906
+        ],
+        [
+          40.495,
+          164.801,
+          620.0
+        ]
+      ],
+      "volume_mm3": 5451893.672,
+      "faces": 9716,
+      "watertight": true,
+      "winding_consistent": true,
+      "assembly_direction": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "connectors": [
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            0.001,
+            0.545,
+            635.0
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            7.961,
+            402.801
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            -66.299,
+            122.803
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            40.495,
+            119.35,
+            262.802
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -84.536,
+            -4.641,
+            256.3
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -7.444,
+            102.013,
+            256.3
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -7.444,
+            -86.071,
+            256.3
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -98.621,
+            5.473,
+            405.906
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -260.312,
+            -66.834,
+            405.906
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -220.511,
+            82.756,
+            405.906
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -152.827,
+            5.251,
+            486.374
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -152.827,
+            53.635,
+            585.963
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -152.827,
+            77.722,
+            424.943
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -67.245,
+            22.961,
+            527.468
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -137.858,
+            22.961,
+            424.943
+          ],
+          "requires_calibration": true
+        },
+        {
+          "shape": "round",
+          "diameter_mm": 12.0,
+          "nominal_length_mm": 15.0,
+          "radial_clearance_mm": 0.2,
+          "position_mm": [
+            -1.244,
+            22.961,
+            424.943
+          ],
+          "requires_calibration": true
+        }
+      ],
+      "warnings": [
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly.",
+        "Structural subdivision requires assembly review; existing connector metadata refers to the parent assembly."
+      ],
+      "filament_id": null
+    }
+  ],
+  "geometry_report": {
+    "construction": {
+      "pockets": [
+        {
+          "pocket": 0,
+          "area_mm2": 43031.985,
+          "direction": [
+            -2e-05,
+            -0.99993,
+            -0.01169
+          ],
+          "depth_mm": 5.0,
+          "inlays": 1
+        },
+        {
+          "pocket": 1,
+          "area_mm2": 12100.423,
+          "direction": [
+            -0.00019,
+            -0.99959,
+            0.02852
+          ],
+          "depth_mm": 5.0,
+          "inlays": 2
+        },
+        {
+          "pocket": 2,
+          "area_mm2": 666.67,
+          "direction": [
+            -0.12581,
+            -0.88531,
+            0.44765
+          ],
+          "depth_mm": 5.0,
+          "inlays": 1
+        },
+        {
+          "pocket": 3,
+          "area_mm2": 659.288,
+          "direction": [
+            0.12596,
+            -0.88531,
+            0.44762
+          ],
+          "depth_mm": 5.0,
+          "inlays": 1
+        }
+      ],
+      "merged_islands": [
+        {
+          "faces": 3,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 2,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 2,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 2,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 2,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 2,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 2,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 3,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 2,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 2,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 2,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 2,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 2,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 0,
+          "new_color": 1,
+          "reason": "island below minimum printable area"
+        },
+        {
+          "faces": 1,
+          "old_color": 1,
+          "new_color": 0,
+          "reason": "island below minimum printable area"
+        }
+      ],
+      "insertion_checks": [
+        {
+          "method": "sampled straight extraction",
+          "samples": 8,
+          "surface_points": 1800,
+          "travel_mm": 15.0,
+          "max_penetration_mm": 0.0,
+          "passed": true,
+          "blocked_distances_mm": [],
+          "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+          "part_id": "part-001"
+        },
+        {
+          "method": "sampled straight extraction",
+          "samples": 8,
+          "surface_points": 1800,
+          "travel_mm": 15.0,
+          "max_penetration_mm": 0.0,
+          "passed": true,
+          "blocked_distances_mm": [],
+          "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+          "part_id": "part-002"
+        },
+        {
+          "method": "sampled straight extraction",
+          "samples": 8,
+          "surface_points": 1031,
+          "travel_mm": 15.0,
+          "max_penetration_mm": 0.0,
+          "passed": true,
+          "blocked_distances_mm": [],
+          "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+          "part_id": "part-003"
+        },
+        {
+          "method": "sampled straight extraction",
+          "samples": 8,
+          "surface_points": 1800,
+          "travel_mm": 15.0,
+          "max_penetration_mm": 0.0,
+          "passed": true,
+          "blocked_distances_mm": [],
+          "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+          "part_id": "part-004"
+        },
+        {
+          "method": "sampled straight extraction",
+          "samples": 8,
+          "surface_points": 1800,
+          "travel_mm": 15.0,
+          "max_penetration_mm": 0.0,
+          "passed": true,
+          "blocked_distances_mm": [],
+          "limitation": "Discrete surface/path sampling cannot certify absence of all collisions.",
+          "part_id": "part-005"
+        }
+      ],
+      "source_volume_mm3": 95445869.27052355,
+      "parts_volume_mm3": 95443743.76187727,
+      "clearance_void_mm3": 2125.5086462795734,
+      "construction": "surface-preserving curved pockets; not planar slicing",
+      "semantic_limit": "Albedo color regions, not automatic semantic body-part recognition."
+    },
+    "refinement": {
+      "triangles": 223280,
+      "boundary_pairs": 2067,
+      "requested_tolerance_mm": 2.0,
+      "coarse_sampling_mm": 8.0,
+      "precision_note": "Boundary follows the sampled albedo at mesh resolution; small features below the coarse sampling can be missed. This is not a mathematical raster-to-curve error bound."
+    },
+    "tiling": [
+      {
+        "parent": "body",
+        "axis": "Z",
+        "position_mm": 620.000137,
+        "connectors": [
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              0.001,
+              0.545,
+              635.0
+            ],
+            "requires_calibration": true
+          }
+        ],
+        "reason": "part exceeds printer envelope; extra structural seam, not a replacement for the organic color boundary"
+      },
+      {
+        "parent": "part-001",
+        "axis": "Z",
+        "position_mm": 358.21321960468543,
+        "connectors": [],
+        "reason": "part exceeds printer envelope; extra structural seam, not a replacement for the organic color boundary"
+      },
+      {
+        "parent": "body-a",
+        "axis": "X",
+        "position_mm": 25.494642494505502,
+        "connectors": [
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              40.495,
+              7.961,
+              402.801
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              40.495,
+              -66.299,
+              122.803
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              40.495,
+              119.35,
+              262.802
+            ],
+            "requires_calibration": true
+          }
+        ],
+        "reason": "part exceeds printer envelope; extra structural seam, not a replacement for the organic color boundary"
+      },
+      {
+        "parent": "body-b",
+        "axis": "X",
+        "position_mm": 65.63737852339096,
+        "connectors": [
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              80.637,
+              0.114,
+              769.324
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              80.637,
+              -111.928,
+              665.06
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              80.637,
+              111.861,
+              665.06
+            ],
+            "requires_calibration": true
+          }
+        ],
+        "reason": "part exceeds printer envelope; extra structural seam, not a replacement for the organic color boundary"
+      },
+      {
+        "parent": "body-a-a",
+        "axis": "Z",
+        "position_mm": 241.30018906,
+        "connectors": [
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -84.536,
+              -4.641,
+              256.3
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -7.444,
+              102.013,
+              256.3
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -7.444,
+              -86.071,
+              256.3
+            ],
+            "requires_calibration": true
+          }
+        ],
+        "reason": "part exceeds printer envelope; extra structural seam, not a replacement for the organic color boundary"
+      },
+      {
+        "parent": "body-a-b",
+        "axis": "Z",
+        "position_mm": 235.60018906,
+        "connectors": [
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              110.599,
+              -5.439,
+              250.6
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              52.201,
+              98.57,
+              250.6
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              52.201,
+              -84.849,
+              250.6
+            ],
+            "requires_calibration": true
+          }
+        ],
+        "reason": "part exceeds printer envelope; extra structural seam, not a replacement for the organic color boundary"
+      },
+      {
+        "parent": "body-b-a",
+        "axis": "Z",
+        "position_mm": 855.60018906,
+        "connectors": [
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -50.635,
+              0.393,
+              870.6
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -196.396,
+              62.746,
+              870.6
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -159.991,
+              -62.813,
+              870.6
+            ],
+            "requires_calibration": true
+          }
+        ],
+        "reason": "part exceeds printer envelope; extra structural seam, not a replacement for the organic color boundary"
+      },
+      {
+        "parent": "body-b-b",
+        "axis": "Z",
+        "position_mm": 855.60018906,
+        "connectors": [
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              144.515,
+              4.774,
+              870.6
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              92.833,
+              -83.951,
+              870.6
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              92.833,
+              83.883,
+              870.6
+            ],
+            "requires_calibration": true
+          }
+        ],
+        "reason": "part exceeds printer envelope; extra structural seam, not a replacement for the organic color boundary"
+      },
+      {
+        "parent": "body-a-a-b",
+        "axis": "Z",
+        "position_mm": 390.9063062772,
+        "connectors": [
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -98.621,
+              5.473,
+              405.906
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -260.312,
+              -66.834,
+              405.906
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -220.511,
+              82.756,
+              405.906
+            ],
+            "requires_calibration": true
+          }
+        ],
+        "reason": "part exceeds printer envelope; extra structural seam, not a replacement for the organic color boundary"
+      },
+      {
+        "parent": "body-a-b-b",
+        "axis": "Z",
+        "position_mm": 381.6723062772,
+        "connectors": [
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              131.621,
+              5.511,
+              396.672
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              264.086,
+              44.862,
+              396.672
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              65.75,
+              118.664,
+              396.672
+            ],
+            "requires_calibration": true
+          }
+        ],
+        "reason": "part exceeds printer envelope; extra structural seam, not a replacement for the organic color boundary"
+      },
+      {
+        "parent": "body-b-a-a",
+        "axis": "X",
+        "position_mm": -138.9205330965381,
+        "connectors": [
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -123.921,
+              0.884,
+              737.8
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -123.921,
+              -86.756,
+              820.75
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -123.921,
+              -86.756,
+              654.85
+            ],
+            "requires_calibration": true
+          }
+        ],
+        "reason": "part exceeds printer envelope; extra structural seam, not a replacement for the organic color boundary"
+      },
+      {
+        "parent": "body-a-a-b-a",
+        "axis": "X",
+        "position_mm": -175.1535550890405,
+        "connectors": [
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -160.154,
+              -1.012,
+              316.103
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -160.154,
+              72.923,
+              366.806
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -160.154,
+              -62.044,
+              366.806
+            ],
+            "requires_calibration": true
+          }
+        ],
+        "reason": "part exceeds printer envelope; extra structural seam, not a replacement for the organic color boundary"
+      },
+      {
+        "parent": "body-a-a-b-b",
+        "axis": "X",
+        "position_mm": -167.8272779874725,
+        "connectors": [
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -152.827,
+              5.251,
+              486.374
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -152.827,
+              53.635,
+              585.963
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -152.827,
+              77.722,
+              424.943
+            ],
+            "requires_calibration": true
+          }
+        ],
+        "reason": "part exceeds printer envelope; extra structural seam, not a replacement for the organic color boundary"
+      },
+      {
+        "parent": "body-b-a-a-b",
+        "axis": "Y",
+        "position_mm": 2.4654374364598417,
+        "connectors": [
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -29.666,
+              17.465,
+              759.7
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -107.628,
+              17.465,
+              655.187
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              36.926,
+              17.465,
+              655.187
+            ],
+            "requires_calibration": true
+          }
+        ],
+        "reason": "part exceeds printer envelope; extra structural seam, not a replacement for the organic color boundary"
+      },
+      {
+        "parent": "body-a-a-b-a-b",
+        "axis": "Y",
+        "position_mm": -4.582268855580067,
+        "connectors": [
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -45.91,
+              10.418,
+              319.923
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -144.673,
+              10.418,
+              265.401
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -144.673,
+              10.418,
+              366.806
+            ],
+            "requires_calibration": true
+          }
+        ],
+        "reason": "part exceeds printer envelope; extra structural seam, not a replacement for the organic color boundary"
+      },
+      {
+        "parent": "body-a-a-b-b-b",
+        "axis": "Y",
+        "position_mm": 7.9607892864412095,
+        "connectors": [
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -67.245,
+              22.961,
+              527.468
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -137.858,
+              22.961,
+              424.943
+            ],
+            "requires_calibration": true
+          },
+          {
+            "shape": "round",
+            "diameter_mm": 12.0,
+            "nominal_length_mm": 15.0,
+            "radial_clearance_mm": 0.2,
+            "position_mm": [
+              -1.244,
+              22.961,
+              424.943
+            ],
+            "requires_calibration": true
+          }
+        ],
+        "reason": "part exceeds printer envelope; extra structural seam, not a replacement for the organic color boundary"
+      }
+    ],
+    "quality": {
+      "part-002": {
+        "finite": true,
+        "vertices": 11060,
+        "triangles": 22120,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 56696.06253,
+        "dimensions_mm": [
+          120.3689,
+          19.6656,
+          127.59
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "part-003": {
+        "finite": true,
+        "vertices": 1031,
+        "triangles": 2058,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 2566.6609,
+        "dimensions_mm": [
+          25.5881,
+          12.9982,
+          24.5686
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "part-004": {
+        "finite": true,
+        "vertices": 2995,
+        "triangles": 5986,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 3451.43916,
+        "dimensions_mm": [
+          20.7525,
+          26.8435,
+          42.0556
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "part-005": {
+        "finite": true,
+        "vertices": 3594,
+        "triangles": 7184,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 3414.27095,
+        "dimensions_mm": [
+          20.0524,
+          26.7727,
+          42.5185
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "part-001-a": {
+        "finite": true,
+        "vertices": 12217,
+        "triangles": 24430,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 77534.45509,
+        "dimensions_mm": [
+          142.5572,
+          37.2079,
+          138.0715
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "part-001-b": {
+        "finite": true,
+        "vertices": 15355,
+        "triangles": 30706,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 131498.82904,
+        "dimensions_mm": [
+          167.0706,
+          41.4925,
+          225.2742
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "body-a-a-a": {
+        "finite": true,
+        "vertices": 16049,
+        "triangles": 32094,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 10220923.97475,
+        "dimensions_mm": [
+          260.2128,
+          288.6859,
+          256.3002
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "body-a-b-a": {
+        "finite": true,
+        "vertices": 12434,
+        "triangles": 24864,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 8546751.89369,
+        "dimensions_mm": [
+          194.2235,
+          285.3497,
+          250.6002
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "body-b-a-b": {
+        "finite": true,
+        "vertices": 10463,
+        "triangles": 20922,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 4574717.52022,
+        "dimensions_mm": [
+          312.7602,
+          265.5231,
+          144.3998
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "body-b-b-a": {
+        "finite": true,
+        "vertices": 10593,
+        "triangles": 21182,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 6883327.25468,
+        "dimensions_mm": [
+          207.8511,
+          312.7852,
+          250.6001
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "body-b-b-b": {
+        "finite": true,
+        "vertices": 6630,
+        "triangles": 13256,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 2778662.59161,
+        "dimensions_mm": [
+          181.4855,
+          244.4318,
+          144.3998
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "body-a-b-b-a": {
+        "finite": true,
+        "vertices": 8725,
+        "triangles": 17446,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 6771680.67024,
+        "dimensions_mm": [
+          278.8595,
+          311.0248,
+          161.0721
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "body-a-b-b-b": {
+        "finite": true,
+        "vertices": 15836,
+        "triangles": 31668,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 13546754.0453,
+        "dimensions_mm": [
+          293.1867,
+          311.4392,
+          238.3278
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "body-b-a-a-a": {
+        "finite": true,
+        "vertices": 7259,
+        "triangles": 14514,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 2433212.98415,
+        "dimensions_mm": [
+          149.568,
+          245.6607,
+          250.6001
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "body-a-a-b-a-a": {
+        "finite": true,
+        "vertices": 4663,
+        "triangles": 9322,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 1453277.6677,
+        "dimensions_mm": [
+          147.1717,
+          195.7377,
+          164.6061
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "body-a-a-b-b-a": {
+        "finite": true,
+        "vertices": 8189,
+        "triangles": 16374,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 5188767.83762,
+        "dimensions_mm": [
+          165.854,
+          208.7912,
+          229.0938
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "body-b-a-a-b-a": {
+        "finite": true,
+        "vertices": 9069,
+        "triangles": 18134,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 6945088.14935,
+        "dimensions_mm": [
+          219.5579,
+          177.269,
+          250.6001
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "body-b-a-a-b-b": {
+        "finite": true,
+        "vertices": 5218,
+        "triangles": 10432,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 6767022.98485,
+        "dimensions_mm": [
+          219.5579,
+          162.2687,
+          250.6001
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "body-a-a-b-a-b-a": {
+        "finite": true,
+        "vertices": 4850,
+        "triangles": 9696,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 3652035.8143,
+        "dimensions_mm": [
+          200.6482,
+          159.2487,
+          149.6061
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "body-a-a-b-a-b-b": {
+        "finite": true,
+        "vertices": 4192,
+        "triangles": 8380,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 4293267.74815,
+        "dimensions_mm": [
+          215.6482,
+          169.3352,
+          164.6061
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "body-a-a-b-b-b-a": {
+        "finite": true,
+        "vertices": 5860,
+        "triangles": 11716,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 5644150.48718,
+        "dimensions_mm": [
+          208.3219,
+          171.841,
+          244.0938
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      },
+      "body-a-a-b-b-b-b": {
+        "finite": true,
+        "vertices": 4860,
+        "triangles": 9716,
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 5451893.67157,
+        "dimensions_mm": [
+          208.3219,
+          156.8407,
+          229.0938
+        ],
+        "components": 1,
+        "valid": true,
+        "self_intersections": "not exhaustively certified"
+      }
+    },
+    "packing": {
+      "passed": true,
+      "problems": [],
+      "method": "transformed bounds and conservative XY rectangles"
+    },
+    "stability_advisory": {
+      "center_of_mass_mm": [
+        0.003,
+        0.414,
+        484.132
+      ],
+      "projected_support_margin_mm": 62.739,
+      "assumption": "Uniform solid density; infill, hardware, tolerances and real loads not modelled.",
+      "status": "advisory only"
+    },
+    "not_checked": [
+      "Exhaustive self-intersection detection",
+      "Physical fit/strength",
+      "Slicer support and purge zones"
+    ]
+  }
+}

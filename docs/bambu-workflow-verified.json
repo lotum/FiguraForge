@@ -1,0 +1,83 @@
+{
+  "tested_at_utc": "2026-10-16T09:50:57.433416+00:00",
+  "bambu_version": "02.07.01.62",
+  "method": "Bambu Studio CLI import and native 3MF export; independent trimesh comparison in world coordinates",
+  "plates": [
+    {
+      "plate": "plate-01.3mf",
+      "sha256": "94f849a800d7c5d6a7816d7529ac16a50698f8b378a3da0f64bdc7c282ab3174",
+      "passed": true,
+      "objects": 3,
+      "checks": [
+        {
+          "triangles": 2002,
+          "bounds_error_mm": 1.6279750969516726e-07,
+          "relative_volume_error": 4.890115957040331e-09,
+          "watertight": true,
+          "max_vertex_error_mm": 2.0223000892899493e-07,
+          "zero_area_triangles": 0
+        },
+        {
+          "triangles": 2764,
+          "bounds_error_mm": 2.2015554890231215e-07,
+          "relative_volume_error": 5.9368500630961475e-09,
+          "watertight": true,
+          "max_vertex_error_mm": 2.49015656488444e-07,
+          "zero_area_triangles": 0
+        },
+        {
+          "triangles": 3488,
+          "bounds_error_mm": 1.4518827651244237e-07,
+          "relative_volume_error": 2.1450633322638645e-09,
+          "watertight": true,
+          "max_vertex_error_mm": 2.5499725074712326e-07,
+          "zero_area_triangles": 0
+        }
+      ]
+    },
+    {
+      "plate": "plate-02.3mf",
+      "sha256": "f6223cd74fdbc1d48c30ace239f53695d1cf59fd187e577c47f99809a2e8421a",
+      "passed": true,
+      "objects": 1,
+      "checks": [
+        {
+          "triangles": 45152,
+          "bounds_error_mm": 8.000000022434506e-07,
+          "relative_volume_error": 2.6858406815632945e-09,
+          "watertight": true,
+          "max_vertex_error_mm": 4.169494117216236e-06,
+          "zero_area_triangles": 0
+        }
+      ]
+    },
+    {
+      "plate": "plate-03.3mf",
+      "sha256": "c8ad8aeae90cf1e8de4f017afce7745a2f1c23c3a495537b605e89c685849933",
+      "passed": true,
+      "objects": 2,
+      "checks": [
+        {
+          "triangles": 15706,
+          "bounds_error_mm": 5.200000003924288e-07,
+          "relative_volume_error": 1.8380267832930708e-08,
+          "watertight": true,
+          "max_vertex_error_mm": 8.150098138767562e-07,
+          "zero_area_triangles": 0
+        },
+        {
+          "triangles": 29016,
+          "bounds_error_mm": 2.459999990378492e-06,
+          "relative_volume_error": 1.8997504360238272e-09,
+          "watertight": true,
+          "max_vertex_error_mm": 3.1802195216546858e-06,
+          "zero_area_triangles": 0
+        }
+      ]
+    }
+  ],
+  "passed": true,
+  "slicing_tested": false,
+  "physical_fit_tested": false,
+  "filament_assignment_verified": false
+}

@@ -1,0 +1,28 @@
+{
+  "project": "Journey / Buddy – Referenzpruefung",
+  "provider": "meshy",
+  "source_sha256": "862c23c8a906c0061ff3103dcfe7007ec7f536412b76f67cab1fef1d42edf804",
+  "height_mm": 1000.0,
+  "quality": {
+    "finite": true,
+    "vertices": 384066,
+    "triangles": 768288,
+    "watertight": true,
+    "winding_consistent": true,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_mm3": 99789289.88437,
+    "dimensions_mm": [
+      499.5048,
+      1239.7324,
+      1000.0
+    ],
+    "components": 1,
+    "valid": true,
+    "self_intersections": "not exhaustively certified"
+  },
+  "warnings": [
+    "Texture sampling assumes standard UV0/base color. Texture transforms and custom samplers require baking before import."
+  ],
+  "mesh_approved": false
+}

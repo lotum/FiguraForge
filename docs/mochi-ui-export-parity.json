@@ -1,0 +1,119 @@
+{
+  "project": "1b0e2fdd463d4f15ac64f1c7b3e8acc7",
+  "segments_hash": "1246699fffc3b0b25dadca1c560290fad45418789a15da3b63bb6baa50f4a009",
+  "export_hash": "a6ae14ef1144b4b2c9f566c6f93db7d6b35bff25b9de7e62c7915b859e565df7",
+  "parts": {
+    "body": {
+      "exact_arrays_equal": true
+    },
+    "nose": {
+      "exact_arrays_equal": true
+    },
+    "right-ear": {
+      "exact_arrays_equal": true
+    },
+    "left-ear": {
+      "exact_arrays_equal": true
+    },
+    "tail": {
+      "exact_arrays_equal": true
+    },
+    "eye-1": {
+      "exact_arrays_equal": true
+    },
+    "eye-2": {
+      "exact_arrays_equal": true
+    },
+    "eye-3": {
+      "exact_arrays_equal": true
+    },
+    "eye-4": {
+      "exact_arrays_equal": true
+    }
+  },
+  "plates": {
+    "1": {
+      "per_face_native_painting_identical": true,
+      "compared_faces": {
+        "body": 97582,
+        "tail": 45028,
+        "left-ear": 5772,
+        "right-ear": 6072
+      },
+      "material_and_process_setting_differences": {},
+      "ui_settings": {
+        "layer_height": "0.2",
+        "raft_layers": "0",
+        "brim_type": "auto_brim",
+        "support_filament": "0",
+        "support_interface_filament": "0"
+      }
+    },
+    "2": {
+      "per_face_native_painting_identical": true,
+      "compared_faces": {
+        "eye-4": 76,
+        "eye-3": 32,
+        "eye-2": 36,
+        "eye-1": 60,
+        "nose": 478
+      },
+      "material_and_process_setting_differences": {},
+      "ui_settings": {
+        "layer_height": "0.2",
+        "raft_layers": "3",
+        "brim_type": "outer_only",
+        "support_filament": "0",
+        "support_interface_filament": "0"
+      }
+    }
+  },
+  "gui_slicing_verified": false,
+  "normal_parts_preview_to_native_export": {
+    "body": {
+      "exterior_faces_compared": 94986,
+      "hidden_gray_faces": 2596,
+      "max_rgb_error": 2.9685450542160652e-08
+    },
+    "nose": {
+      "exterior_faces_compared": 210,
+      "hidden_gray_faces": 268,
+      "max_rgb_error": 5.785156687032611e-09
+    },
+    "right-ear": {
+      "exterior_faces_compared": 5385,
+      "hidden_gray_faces": 687,
+      "max_rgb_error": 2.9685450542160652e-08
+    },
+    "left-ear": {
+      "exterior_faces_compared": 5091,
+      "hidden_gray_faces": 681,
+      "max_rgb_error": 2.9685450542160652e-08
+    },
+    "tail": {
+      "exterior_faces_compared": 44278,
+      "hidden_gray_faces": 750,
+      "max_rgb_error": 2.9685450542160652e-08
+    },
+    "eye-1": {
+      "exterior_faces_compared": 14,
+      "hidden_gray_faces": 46,
+      "max_rgb_error": 5.785156687032611e-09
+    },
+    "eye-2": {
+      "exterior_faces_compared": 9,
+      "hidden_gray_faces": 27,
+      "max_rgb_error": 5.785156687032611e-09
+    },
+    "eye-3": {
+      "exterior_faces_compared": 8,
+      "hidden_gray_faces": 24,
+      "max_rgb_error": 5.785156687032611e-09
+    },
+    "eye-4": {
+      "exterior_faces_compared": 19,
+      "hidden_gray_faces": 57,
+      "max_rgb_error": 5.785156687032611e-09
+    }
+  }
+}

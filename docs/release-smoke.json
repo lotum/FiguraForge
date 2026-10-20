@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "server_started_from_extracted_archive": true,
+    "/": true,
+    "/app.js": true,
+    "/viewer.js": true,
+    "/style.css": true,
+    "/openapi.json": true,
+    "/docs": true,
+    "demo_glb_import_in_disposable_worker": true
+  },
+  "all_passed": true,
+  "dependency_installation": "Reused already installed tested packages; no fresh pip install",
+  "cloud_calls": 0,
+  "bambu_studio_test": false,
+  "platform": "Linux x86_64",
+  "startup": "python scripts/run.py --port 8766 from extracted archive"
+}

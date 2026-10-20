@@ -1,0 +1,61 @@
+{
+  "original": {
+    "finite": true,
+    "vertices": 384066,
+    "triangles": 768288,
+    "watertight": true,
+    "winding_consistent": true,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_mm3": 99789289.88437,
+    "dimensions_mm": [
+      499.5048,
+      1239.7324,
+      1000.0
+    ],
+    "components": 1,
+    "valid": true,
+    "self_intersections": "not exhaustively certified"
+  },
+  "working": {
+    "finite": true,
+    "vertices": 74922,
+    "triangles": 150000,
+    "watertight": true,
+    "winding_consistent": true,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_mm3": 99747968.40193,
+    "dimensions_mm": [
+      499.62,
+      1239.7851,
+      1000.0
+    ],
+    "components": 1,
+    "valid": true,
+    "self_intersections": "not exhaustively certified"
+  },
+  "height_mm": 1000.0,
+  "samples_each_direction": 6000,
+  "geometry_distance_mm": {
+    "median": 0.039712111228192765,
+    "p99": 0.1622992505769313,
+    "max_sampled": 0.24962410467231938
+  },
+  "albedo_delta_e_2000": {
+    "median": 0.15424519066690578,
+    "p95": 1.1594438027964384,
+    "p99": 2.5631895033120893
+  },
+  "six_color_label_disagreement_fraction": 0.008833333333333334,
+  "palette": [
+    "#ECA34E",
+    "#D28736",
+    "#62360C",
+    "#0E2842",
+    "#281F18",
+    "#B48E5F"
+  ],
+  "seconds": 4.481,
+  "limitation": "Finite area-weighted samples, not exhaustive Hausdorff, texture or self-intersection certification."
+}

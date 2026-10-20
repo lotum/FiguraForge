@@ -1,0 +1,37 @@
+{
+  "file": "benchmarks/native-19-recipe-stripes-20261016/h2d-19-colors-gui-verification.gcode",
+  "sha256": "71b94a9b9bea4fee24adf604ea992f9020514b52d7b85cc4f73dfbcfcc64a6be",
+  "bytes": 783306,
+  "gui_slicing_verified": true,
+  "physical_print_verified": false,
+  "base_layer_height_mm": 0.2,
+  "base_layer_count": 10,
+  "preview_sublayer_steps": 163,
+  "total_time_seconds": 2014,
+  "filament_g": 5.01,
+  "extrusion_layer_height_comment_counts": {
+    "0.02": 18,
+    "0.03": 18,
+    "0.04": 18,
+    "0.05": 18,
+    "0.06": 18,
+    "0.07": 18,
+    "0.08": 18,
+    "0.09": 18,
+    "0.1": 18,
+    "0.11": 18,
+    "0.12": 18,
+    "0.13": 18,
+    "0.14": 18,
+    "0.15": 18,
+    "0.16": 18,
+    "0.17": 18,
+    "0.18": 18,
+    "0.2": 79
+  },
+  "physical_tool_selections": {
+    "0": 11,
+    "1": 10
+  },
+  "note": "GUI export; height comments include repeats and tower, not a physical count."
+}

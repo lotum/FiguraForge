@@ -1,0 +1,105 @@
+{
+  "slicer_return_code": 0,
+  "slicer_error_string": "Success.",
+  "filaments": [
+    {
+      "filament_id": "GFA00",
+      "id": 2,
+      "main_used_g": 4.9467854499816895,
+      "total_used_g": 4.9467854499816895
+    }
+  ],
+  "estimated_seconds": 2194.839599609375,
+  "feature_type_times": {
+    "Bottom surface": 38.065975189208984,
+    "Bridge": 15.519427299499512,
+    "Custom": 298.2862854003906,
+    "Flush": 30.0,
+    "Gap infill": 13.519132614135742,
+    "Inner wall": 215.88653564453125,
+    "Internal solid infill": 431.3320007324219,
+    "Outer wall": 385.724365234375,
+    "Overhang wall": 8.992504119873047,
+    "Sparse infill": 52.327117919921875,
+    "Support": 225.8123779296875,
+    "Support interface": 67.32733154296875,
+    "Top surface": 26.315807342529297,
+    "Travel": 395.3524169921875,
+    "Undefined": 385.7374267578125
+  },
+  "objects": [
+    {
+      "name": "A005-nose",
+      "support_extrusion_moves": 2060,
+      "support_interface_moves": 121,
+      "first_model_extrusion_z_mm": 1.02,
+      "support_min_z_mm": 0.2,
+      "support_moves_below_first_model_layer_inside_nose_bbox": 524,
+      "support_inside_xy_extrusion_mm": 15.0524,
+      "nose_specific_support_evidence": true
+    },
+    {
+      "name": "B010-nose",
+      "support_extrusion_moves": 2060,
+      "support_interface_moves": 121,
+      "first_model_extrusion_z_mm": 1.02,
+      "support_min_z_mm": 0.2,
+      "support_moves_below_first_model_layer_inside_nose_bbox": 524,
+      "support_inside_xy_extrusion_mm": 15.0524,
+      "nose_specific_support_evidence": true
+    },
+    {
+      "name": "C015-nose",
+      "support_extrusion_moves": 2060,
+      "support_interface_moves": 121,
+      "first_model_extrusion_z_mm": 1.02,
+      "support_min_z_mm": 0.2,
+      "support_moves_below_first_model_layer_inside_nose_bbox": 524,
+      "support_inside_xy_extrusion_mm": 15.0524,
+      "nose_specific_support_evidence": true
+    },
+    {
+      "name": "D020-nose",
+      "support_extrusion_moves": 2060,
+      "support_interface_moves": 121,
+      "first_model_extrusion_z_mm": 1.02,
+      "support_min_z_mm": 0.2,
+      "support_moves_below_first_model_layer_inside_nose_bbox": 524,
+      "support_inside_xy_extrusion_mm": 15.0524,
+      "nose_specific_support_evidence": true
+    }
+  ],
+  "sent_to_printer": false,
+  "physical_adhesion_verified": false,
+  "all_four_noses_have_support_below_model": true,
+  "scope": "Actual GUI-exported nose comparison G-code; digital support proof, physical fit pending Richard test.",
+  "physical_feedback": {
+    "date": "2026-10-16",
+    "source": "Richard, direct user message",
+    "accepted_radial_clearance_mm": 0.05,
+    "diametral_clearance_mm": 0.1,
+    "results": [
+      {
+        "probe": 1,
+        "radial_mm": 0.05,
+        "result": "holds after pressing in; slight remaining rotational play; accepted for larger connectors"
+      },
+      {
+        "probe": 2,
+        "radial_mm": 0.1,
+        "result": "falls out; slightly too loose"
+      },
+      {
+        "probe": 3,
+        "radial_mm": 0.15,
+        "result": "too loose"
+      },
+      {
+        "probe": 4,
+        "radial_mm": 0.2,
+        "result": "too loose"
+      }
+    ],
+    "scope": "Qualitative result for tested PLA/keyed nose pair. No physical assembly or material-color proof for whole characters."
+  }
+}

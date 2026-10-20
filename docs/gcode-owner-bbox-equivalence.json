@@ -1,0 +1,24 @@
+{
+  "optimization": "Conservative symmetric NumPy width-expanded segment-AABB to other-owner-union-AABB before Shapely; separate STRtree per owner. Original row indices, geometric policy, tolerances and total parsed segment counts unchanged.",
+  "equivalence_tests": {
+    "frozen_old_implementation": "tests/test_gcode_paths.py::original_all_owner_tree_screen",
+    "all_hits_and_distances_equal": true,
+    "mixed_widths_z_heights_features_and_owners": "240 deterministic records at four current-Z settings plus index-preserving far-segment rejection",
+    "tests_passed": 25,
+    "seconds": 0.43
+  },
+  "real_negative_control": {
+    "old_report": "benchmarks/mochi-local-slicer/negative-control-layer3310-neighborhood.json",
+    "new_report": "benchmarks/mochi-local-slicer/negative-control-owner-bbox-final.json",
+    "gcode_sha256": "185c3564efebde378e0126529d2e7eeb68959f8c6070507a5ef3c5fdf9374039",
+    "same_counts": {
+      "support-model": 103,
+      "model-model": 1580
+    },
+    "new_wall_time_seconds": 25.203870499972254,
+    "all_extrusion_segments_read": 2751554
+  },
+  "implementation_sha256": "de22ed933eb60136ed03497ff18aae47774a85092df16e80c86d40fd15a5bea1",
+  "test_sha256": "6e77c7ec2ab6a160d980920dd509e9c714d0ae2ca338337efaf770cd9fcba048",
+  "earlier_reports_keep_their_original_implementation_sha": true
+}

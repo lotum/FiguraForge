@@ -1,0 +1,23 @@
+{
+  "optimization": "Separate STRtree per owner; other-owner broadphase only; collision/geometry/tolerance policy unchanged",
+  "equivalence_tests": {
+    "frozen_old_implementation": "tests/test_gcode_paths.py::original_all_owner_tree_screen",
+    "mixed_widths_z_heights_features_and_owners": "240 deterministic records at four current-Z settings, all collision identities/counts/distances identical",
+    "tests_passed": 24,
+    "seconds": 0.34
+  },
+  "real_negative_control": {
+    "old_report": "benchmarks/mochi-local-slicer/negative-control-layer3310-neighborhood.json",
+    "new_report": "benchmarks/mochi-local-slicer/negative-control-owner-tree-optimized.json",
+    "gcode_sha256": "185c3564efebde378e0126529d2e7eeb68959f8c6070507a5ef3c5fdf9374039",
+    "same_counts": {
+      "support-model": 103,
+      "model-model": 1580
+    },
+    "new_wall_time_seconds": 22.96927245799452,
+    "all_extrusion_segments_read": 2751554
+  },
+  "implementation_sha256": "650f2fa608ece1f9e93c29394be552f2284447b3243f83c592d637770218df9a",
+  "test_sha256": "143fb21d0b3f5bb274089de7f7fac3c2072a786f2b9e8fef32cb9a9ef004d6f6",
+  "earlier_reports_keep_their_original_implementation_sha": true
+}
