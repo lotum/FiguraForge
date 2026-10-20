@@ -1,0 +1,20 @@
+{
+  "repository": "https://github.com/lotum/FiguraForge",
+  "visibility": "public",
+  "release": "https://github.com/lotum/FiguraForge/releases/tag/share-2026-10-20",
+  "public_3mf_files": 60,
+  "public_zip_bytes": 45102239,
+  "public_zip_sha256": "64437b5cca381ad30607585988b19c91d549e76093b8588acdf879fb52bce256",
+  "github_asset_digest_matches": true,
+  "local_tests": {
+    "passed": 514,
+    "seconds": 46.42,
+    "warnings_as_errors": true
+  },
+  "github_linux_success_run": "https://github.com/lotum/FiguraForge/actions/runs/39433049592",
+  "historical_archive": "local only; user explicitly declined publication",
+  "secrets_scan_findings": 0,
+  "invalid_archive_findings": 0,
+  "paid_api_calls": 0,
+  "printer_send": false
+}

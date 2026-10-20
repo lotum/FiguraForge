@@ -19,7 +19,7 @@ Dann http://127.0.0.1:8000 öffnen. Python 3.12 oder 3.13 empfohlen. Für option
 [Downloadpakete im GitHub-Release](https://github.com/lotum/FiguraForge/releases/tag/share-2026-10-20).
 
 - **FiguraForge-3MF-Druckfassungen.zip**: geprüfte native Druckfassungen für Mochi, Pip und Buddy, Größenvarianten und Passungsproben. Mit Dateiliste, SHA256 und Hinweisen.
-- Ein vollständiges historisches 3MF-Archiv einschließlich fehlgeschlagener Versuche ist zusätzlich lokal vorbereitet. Der öffentliche Upload dieses Vollarchivs ist noch nicht freigegeben.
+- Das historische 3MF-Vollarchiv bleibt auf ausdrücklichen Nutzerwunsch lokal und ist nicht Bestandteil dieses Releases.
 - Die 3MF-Dateien sind Bambu-Studio-Projekte/Geometrien; die ZIPs starten keinen Druck.
 - Buddy ist ein großer Entwicklungsstand mit ca. 25,3 kg prognostiziertem Materialverbrauch: **keine Druckempfehlung**. Mochis kleiner Körper wurde vom Nutzer gedruckt; der neue Halsverbinder ist physisch noch nicht geprüft.
 - Bestehende öffentliche digitale Prüfberichte sind historische Nachweise. Ihre lokalen `data/`-/`benchmarks/`-Pfade sind ohne zusätzliche Arbeitsdaten nicht reproduzierbar.
