@@ -8,6 +8,7 @@ or physics. Arc chord error is bounded and added conservatively to footprints.
 from __future__ import annotations
 import argparse,hashlib,json,re,struct,tempfile,zipfile,math,time
 from pathlib import Path
+from contextlib import ExitStack
 import numpy as np
 from shapely.geometry import LineString,box
 from shapely.strtree import STRtree
@@ -178,21 +179,20 @@ def check(path,max_examples=25,*,z_indices=None):
             if len(objects)==1:
                 single_object_id=int(objects[0]['id']);report['single_object_owner_evidence']={'sidecar':str(sidecar.resolve()),'object_id':single_object_id,'name':objects[0].get('name'),'objects':1}
 
-        if path.suffix=='.3mf':
-            archive=zipfile.ZipFile(path);members=[n for n in archive.namelist() if n.endswith('.gcode')]
-            if len(members)!=1:raise ValueError('Expected exactly one embedded G-code')
-            stream=archive.open(members[0]);report['embedded_gcode']=members[0]
-        else:archive=None;stream=path.open('rb')
-        def textlines():
-            for raw in stream:
-                digest.update(raw)
-                yield raw.decode('utf-8',errors='strict')
-        with binary.open('wb') as out:
-            for row in parse(textlines(),single_object_id=single_object_id,stats=report):
-                if row[6]<0 and row[7]!=2:raise ValueError(f'Unassigned extrusion at line {row[8]}; require explicit object markers or verified one-object slicer sidecar')
-                out.write(PACK.pack(*row));report['extrusion_segments']+=1
-        stream.close()
-        if archive:archive.close()
+        with ExitStack() as inputs:
+            if path.suffix=='.3mf':
+                archive=inputs.enter_context(zipfile.ZipFile(path));members=[n for n in archive.namelist() if n.endswith('.gcode')]
+                if len(members)!=1:raise ValueError('Expected exactly one embedded G-code')
+                stream=inputs.enter_context(archive.open(members[0]));report['embedded_gcode']=members[0]
+            else:stream=inputs.enter_context(path.open('rb'))
+            def textlines():
+                for raw in stream:
+                    digest.update(raw)
+                    yield raw.decode('utf-8',errors='strict')
+            with binary.open('wb') as out:
+                for row in parse(textlines(),single_object_id=single_object_id,stats=report):
+                    if row[6]<0 and row[7]!=2:raise ValueError(f'Unassigned extrusion at line {row[8]}; require explicit object markers or verified one-object slicer sidecar')
+                    out.write(PACK.pack(*row));report['extrusion_segments']+=1
         report['gcode_sha256']=digest.hexdigest()
         if not report['extrusion_segments']:raise ValueError('No labeled extrusions; unsupported input')
         data=np.memmap(binary,dtype=FIELDS,mode='r');order=np.argsort(data['z'],kind='stable');sorted_z=data['z'][order];maxheight=float(data['height'].max())

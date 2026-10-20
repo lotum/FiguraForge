@@ -7,5 +7,11 @@
   "frontend_harnesses": "both passed",
   "paid_calls": 0,
   "printer_send": false,
-  "publication": "source snapshot; no local database, secrets or original git history"
+  "publication": "source snapshot; no local database, secrets or original git history",
+  "public_copy_tests": {
+    "passed": 509,
+    "skipped": 5,
+    "seconds": 35.57,
+    "skip_reason": "Optional original character source meshes intentionally absent from source checkout; see release for 3MF deliverables."
+  }
 }
